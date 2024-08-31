@@ -1,0 +1,4964 @@
+[
+    {
+        "Key": "ALWAYSGETMYMARK",
+        "Name": "Always Get My Mark",
+        "Description": "Please see page 39 of the No Disintegrations Sourcebook for details.",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "ALWAYSGETMYMARKBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    "",
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "ALWAYSGETMYMARKCHANGESKILL1",
+                    "ALWAYSGETMYMARKDESTINY",
+                    "ALWAYSGETMYMARKINCREASEEFFECT1",
+                    "ALWAYSGETMYMARKCHANGESKILL2"
+                ],
+                "Directions": [
+                    {
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "ALWAYSGETMYMARKREDUCEDIFFICULTY",
+                    "ALWAYSGETMYMARKTAKEDOWN",
+                    "ALWAYSGETMYMARKINCREASERANGE",
+                    "ALWAYSGETMYMARKINCREASEEFFECT2"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "BOUNT"
+    },
+    {
+        "Key": "COUNTERESPIONAGE",
+        "Name": "Counterespionage",
+        "Description": "[H4]Counterespionage[h4]\nPlease see page 34 of the Cyphers and Masks Sourcebook for details.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "COUNTERESPBASE"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "COUNTERESPBOOST",
+                    "COUNTERESPSKILL1",
+                    "COUNTERESPREDUCESETBACK",
+                    "COUNTERESPSKILL2"
+                ],
+                "Directions": [
+                    {
+                        "Up": true
+                    },
+                    {
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "COUNTERESPDESTINY",
+                    "COUNTERESPREDUCESETBACK",
+                    "COUNTERESPBOOST",
+                    "COUNTERESPTURNAGENT"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "SPY"
+    },
+    {
+        "Key": "DEADLYREP",
+        "Name": "Deadly Reputation",
+        "Description": "Please see page 34 of the Kinghts of Fate Sourcebook for details.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "DEADLYREPBASE"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "DEADLYREPDURATION",
+                    "DEADLYREPASSOCIATION",
+                    "DEADLYREPADDSETBACK",
+                    "DEADLYREPDURATION"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "DEADLYREPINCREASEEFFECT",
+                    "DEADLYREPADDSETBACK",
+                    "DEADLYREPDESTINY",
+                    "DEADLYREPDURATION"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "WAR"
+    },
+    {
+        "Key": "DIPLOMATICSOL",
+        "Name": "Diplomatic Solution",
+        "Description": "[H4]Diplomat Signature Ability: Diplomatic Solution[h4]\n    Please see page 38 of the Desperate Allies Sourcebook for details.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Desperate Allies"
+        },
+        "Sources": "",
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "DIPLOMATICSOLUTIONBASE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "CHANGESKILL1DS",
+                    "REDUCESETBACKDS",
+                    "BOOSTALLIESDS",
+                    "CHANGESKILL2DS"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "ACTIVATIONDS",
+                    "REDUCEDIFFICULTYDS",
+                    "DESTINYDS",
+                    "BOOSTALLIESDS"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            false,
+            true
+        ],
+        "Career": "DIPLOMAT"
+    },
+    {
+        "Key": "FATDUEL",
+        "Name": "Fated Duel",
+        "Description": "[H4]Fated Duel[h4]\n  Please see page 35 of the Keeping the Peace sourcebook for details.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Keeping the Peace"
+        },
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "FATDUELBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "FATDUELREDUCEDIFF",
+                    "FATDUELINSPIRE",
+                    "FATDUELDURATION",
+                    "FATDUELSTANDFIRM"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "FATDUELSTANDFIRM",
+                    "FATDUELDURATION",
+                    "FATDUELINSPIRE",
+                    "FATDUELBALANCE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "GUARD"
+    },
+    {
+        "Key": "INSIGHTREVEL",
+        "Name": "Insightful Revelation",
+        "Description": "[H4]Colonist Signature Ability: Insightful Revelation[h4]\n    See page 36 of the Far Horizons Sourcebook for details.",
+        "Source": {
+            "_Page": "36",
+            "__text": "Far Horizons"
+        },
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "INSIGHTFULBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "INSIGHTFULSETBACK",
+                    "INSIGHTFULDESTINY",
+                    "INSIGHTFULREDDIFF",
+                    "INSIGHTFULADDSKILL"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "INSIGHTFULADDBOOST",
+                    "INSIGHTFULSETBACK",
+                    "INSIGHTFULINCEFF",
+                    "INSIGHTFULDURATION"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            false,
+            true
+        ],
+        "Career": "COLO"
+    },
+    {
+        "Key": "INVENTIVECREATION",
+        "Name": "Inventive Creation",
+        "Description": "[H4]Technician Signature Ability: Inventive Creation[h4]\n    Please see page 39 of the Special Modifications Sourcebook for details.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Special Modifications"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "INVENTIVECREATIONBASIC"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    "",
+                    {
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "INVENTIVECREATIONSETBACK",
+                    "INVENTIVECREATIONRARITY",
+                    "INVENTIVECREATIONSETBACK",
+                    "INVENTIVECREATIONRARITY"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "INVENTIVECREATIONDIFF",
+                    "INVENTIVECREATIONRARITY",
+                    "INVENTIVECREATIONDESTINY",
+                    "INVENTIVECREATIONSCALE"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "TECHNICIAN"
+    },
+    {
+        "Key": "LOS",
+        "Name": "Last One Standing",
+        "Description": "[H4]Hired Gun Signature Ability: Last One Standing[h4]\n    Please see page 36 of the Dangerous Covenants Sourcebook for details.",
+        "Source": {
+            "_Page": "36",
+            "__text": "Dangerous Covenants"
+        },
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "LOSBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "LOSREDUCESETBACK",
+                    "LOSADDBOOST",
+                    "LOSREDUCESETBACK",
+                    "LOSADDBOOST"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "LOSREDUCEDIFF",
+                    "LOSINCREASEEFFECT",
+                    "LOSINCREASEEFFECT",
+                    "LOSDEST"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "HIREDGUN"
+    },
+    {
+        "Key": "MUCHTOLEARN",
+        "Name": "Much to Learn",
+        "Description": "Please see page 34 of the Disciples of Harmony Sourcebook for details.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Disciples of Harmony"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "MUCHTOLEARNBASIC"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "MUCHTOLEARNINCREASENUMBER",
+                    "MUCHTOLEARNREDUCEDIFFICULTY",
+                    "MUCHTOLEARNDESTINY",
+                    "MUCHTOLEARNINCREASENUMBER"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "MUCHTOLEARNCHANGESKILL1",
+                    "MUCHTOLEARNCHANGESKILL2",
+                    "MUCHTOLEARNIMPROVE",
+                    "MUCHTOLEARNSUPREME"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "CONSULAR"
+    },
+    {
+        "Key": "MYCITY",
+        "Name": "My City",
+        "Description": "Please see page 34 of the Endless Vigil Sourcebook for details.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "MYCITYBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    "",
+                    "",
+                    {
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "MYCITYBOOSTSKILL1",
+                    "MYCITYREDUCEDIFFICULTY",
+                    "MYCITYCOVERUPGRADE",
+                    "MYCITYBOOSTSKILL2"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "MYCITYCHANGESKILL1",
+                    "MYCITYDESTINY",
+                    "MYCITYDOWNGRADE",
+                    "MYCITYCHANGESKILL2"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "SENTINEL"
+    },
+    {
+        "Key": "NARROWESCAPE",
+        "Name": "Narrow Escape",
+        "Description": "[H4]Smuggler Signature Ability: Narrow Escape[h4]\n    Please see page 37 of the Fly Casual Sourcebook for details.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Fly Casual"
+        },
+        "Sources": "",
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "NARROWESCAPEBASE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "REDUCESBNE",
+                    "INCREASEEFFNE",
+                    "ADDBOOSTNE",
+                    "CHANGESCALENE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "REDUCEDIFFNE",
+                    "INCREASEEFFNE",
+                    "CHANGESKILLNE",
+                    "DESTINYNE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "SMUG"
+    },
+    {
+        "Key": "PEERLESSINTERCEP",
+        "Name": "Peerless Interception",
+        "Description": "[H4]Peerless Interception[h4]\nPlease see page 47 of the Collapse of the Republic Sourcebook for details.",
+        "Source": {
+            "_Page": "47",
+            "__text": "Collapse of the Republic"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "PEERLESSINTERCEPBASE"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "PEERLESSINTERCEPDESTINY",
+                    "PEERLESSINTERCEPINCREASEDUR",
+                    "PEERLESSINTERCEPINCREASEDUR",
+                    "PEERLESSINTERCEPCRITCOUNT"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "PEERLESSINTERCEPREDUCESTR",
+                    "PEERLESSINTERCEPACTIVATEQUAL",
+                    "PEERLESSINTERCEPEFFORTCOUNT",
+                    "PEERLESSINTERCEPINCFREQU"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            false,
+            true
+        ],
+        "Career": "JEDI"
+    },
+    {
+        "Key": "PROPHECY",
+        "Name": "Prophecy",
+        "Description": "[H4]Mystic Signature Ability: Prophecy[h4]\n    Please see page 37 of the Unlimited Power Sourcebook for details.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Unlimited Power"
+        },
+        "Sources": "",
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "PROPHECYBASE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "PROPHECYREDUCESETBACK",
+                    "PROPHECYFLOWOFUNIVERSE",
+                    "PROPHECYSHAREDREV",
+                    "PROPHECYREDUCESETBACK"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "PROPHECYRECUR",
+                    "PROPHECYREDUCEDIFF",
+                    "PROPHECYDOOM",
+                    "PROPHECYDESTINY"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "MYSTIC"
+    },
+    {
+        "Key": "ROUSOR",
+        "Name": "Rousing Oratory",
+        "Description": "Please see page 38 of the Lead by Example Sourcebook for details.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "ROUSORBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "ROUSORCHANGESKILL",
+                    "ROUSORREDUCESETBACK",
+                    "ROUSORRECOVERSTRAIN",
+                    "ROUSORCHANGESKILL2"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "ROUSORBOOSTALLIES",
+                    "ROUSORREDUCEDIFF",
+                    "ROUSORTURNINGPOINT",
+                    "ROUSORDESTINY"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "COMMANDER"
+    },
+    {
+        "Key": "SUDDENDISC",
+        "Name": "Sudden Discovery",
+        "Description": "[H4]Explorer Signature Ability: Sudden Discovery[h4]\n    Please see page 34 of the Enter the Unknown Sourcebook for details.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Enter the Unknown"
+        },
+        "MatchingNodes": [
+            true,
+            true,
+            false,
+            false
+        ],
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "SUDDISCBASIC"
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": false
+                    },
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    }
+                ]
+            },
+            {
+                "Index": "1",
+                "Abilities": [
+                    "SUDDISCADDBOOST",
+                    "SUDDISCREDUCESETBACK",
+                    "SUDDISCREDUCESETBACK",
+                    "SUDDISCCHANGESKILL"
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ],
+                "Directions": [
+                    {
+                        "Down": true,
+                        "Up": true
+                    },
+                    {
+                        "Down": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    },
+                    {
+                        "Down": true,
+                        "Up": true
+                    }
+                ]
+            },
+            {
+                "Index": "2",
+                "Abilities": [
+                    "SUDDISCADDBOOST",
+                    "SUDDISCREDUCEDIFF",
+                    "SUDDISCFREQ",
+                    "SUDDISCDEST"
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    },
+                    {
+                        "Up": true
+                    }
+                ]
+            }
+        ],
+        "Career": "EXPLORER"
+    },
+    {
+        "Key": "BIGGERTHEYARE",
+        "Name": "The Bigger They Are...",
+        "Description": "Please see page 38 of the Forged in Battle Sourcebook for details.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Forged in Battle"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "BIGGERTHEYAREBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "BIGGERTHEYARESILHOUETTE",
+                    "BIGGERTHEYARESKILL1",
+                    "BIGGERTHEYAREDURATION",
+                    "BIGGERTHEYARESKILL2"
+                ],
+                "Directions": [
+                    {
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Up": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "BIGGERTHEYARESALVO",
+                    "BIGGERTHEYAREDESTINY",
+                    "BIGGERTHEYAREDIFFICULTY",
+                    "BIGGERTHEYARESILHOUETTE"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    },
+                    {
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "SOLDIER"
+    },
+    {
+        "Key": "HARDERTHEYFALL",
+        "Name": "The Harder They Fall",
+        "Description": "See page 34 of the Fully Operational Sourcebook for details.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Fully Operational"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "HARDERTHEYFALLBASE"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "HARDERTHEYFALINCNUMBERL",
+                    "HARDERTHEYFALLCHANGESKILL",
+                    "HARDERTHEYFALINCNUMBERL",
+                    "HARDERTHEYFALLIGNOREDEF"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "HARDERTHEYFALLIGNOREDEF",
+                    "HARDERTHEYFALLDESTINY",
+                    "HARDERTHEYFALLREDUCEDIFF",
+                    "HARDERTHEYFALLFREQ"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    },
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "ENGINEER"
+    },
+    {
+        "Key": "THISONEISMINE",
+        "Name": "This One is Mine",
+        "Description": "[H4]Ace Signature Ability: This One is Mine[h4]\n    Please see page 36 of the Stay on Target Sourcebook for details.",
+        "Source": {
+            "_Page": "36",
+            "__text": "Stay on Target"
+        },
+        "Sources": "",
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "THISONEISMINEBASE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "THISONEISMINESIL",
+                    "THISONEISMINEDUR",
+                    "THISONEISMINEDUR",
+                    "THISONEISMINEEVA"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "THISONEISMINESIL",
+                    "THISONEISMINEFREQ",
+                    "THISONEISMINEDEST",
+                    "THISONEISMINEEVA"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "THEACE"
+    },
+    {
+        "Key": "UNEXPECTEDDEMISE",
+        "Name": "Unexpected Demise",
+        "Description": "Please see page 34 of the Savage Spirits Sourcebook for details.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Savage Spirits"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNEXPECTEDDEMISEBASIC"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNEXPECTEDDEMISESETBACK",
+                    "UNEXPECTEDDEMISEDURATION",
+                    "UNEXPECTEDDEMISESETBACK",
+                    "UNEXPECTEDDEMISEDIFFICULTY"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNEXPECTEDDEMISEDURATION",
+                    "UNEXPECTEDDEMISEDESTINY",
+                    "UNEXPECTEDDEMISEDURATION",
+                    "UNEXPECTEDDEMISESKILL"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            true,
+            false
+        ],
+        "Career": "SEEKER"
+    },
+    {
+        "Key": "UNMATCHEDAUTH",
+        "Name": "Unmatched Authority",
+        "Description": "Please see page 40 of the Lead by Example Sourcebook for details.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Lead by Example"
+        },
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHAUTHBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHAUTHDURATION",
+                    "UNMATCHAUTHFIRMRESOLVE",
+                    "UNMATCHAUTHDURATION",
+                    "UNMATCHAUTHMASSCOMBAT"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHAUTHDESTINY",
+                    "UNMATCHAUTHENDURANCE",
+                    "UNMATCHAUTHINCREASEEFFECT",
+                    "UNMATCHAUTHINCREASEEFFECT2"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            true,
+            false
+        ],
+        "Career": "COMMANDER"
+    },
+    {
+        "Key": "UNMATCHEDCALIBRATION",
+        "Name": "Unmatched Calibration",
+        "Description": "[H4]Technician Signature Ability: Unmatched Calibration[h4]\n    Please see page 40 of the Special Modifications Sourcebook for details.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Special Modifications"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDCALIBRATIONBASIC"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDCALIBRATIONSETBACK",
+                    "UNMATCHEDCALIBRATIONNUMBER",
+                    "UNMATCHEDCALIBRATIONFREQUENCY",
+                    "UNMATCHEDCALIBRATIONNUMBER"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDCALIBRATIONDESTINY",
+                    "UNMATCHEDCALIBRATIONRISK",
+                    "UNMATCHEDCALIBRATIONOPTIMIZE",
+                    "UNMATCHEDCALIBRATIONACUMEN"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    },
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "TECHNICIAN"
+    },
+    {
+        "Key": "UNMATCHEDCOURAGE",
+        "Name": "Unmatched Courage",
+        "Description": "Please see page 39 of the Forged in Battle Sourcebook for details.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Forged in Battle"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDCOURAGEBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDCOURAGEEFFECT",
+                    "UNMATCHEDCOURAGEDURATION",
+                    "UNMATCHEDCOURAGESURVIVOR",
+                    "UNMATCHEDCOURAGEDURATION"
+                ],
+                "Directions": [
+                    {
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDCOURAGETHROUGH",
+                    "UNMATCHEDCOURAGEFINISH",
+                    "UNMATCHEDCOURAGESURVIVOR",
+                    "UNMATCHEDCOURAGETOUGH"
+                ],
+                "Directions": [
+                    {
+                        "Up": true
+                    },
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "SOLDIER"
+    },
+    {
+        "Key": "UNMATCHEDDESTINY",
+        "Name": "Unmatched Destiny",
+        "Description": "[H4]Mystic Signature Ability: Unmatched Destiny[h4]\n    Please see page 38 of the Unlimited Power Sourcebook for details.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Unlimited Power"
+        },
+        "Sources": "",
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEDDESTINYBASE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEDDESTINYINCREASENUMBER",
+                    "UNMATCHEDDESTINYDESTINY",
+                    "UNMATCHEDDESTINYINCREASENUMBER",
+                    "UNMATCHEDDESTINYSHAREDDESTINY"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEDDESTINYFREQUENCY",
+                    "UNMATCHEDDESTINYINCREASENUMBER",
+                    "UNMATCHEDDESTINYUNLEASHEDPOWER",
+                    "UNMATCHEDDESTINYFREQUENCY"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "MYSTIC"
+    },
+    {
+        "Key": "UNMATCHEDDEVASTATION",
+        "Name": "Unmatched Devastation",
+        "Description": "Please see page 41 of the No Disintegrations Sourcebook for details.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDDEVASTATIONBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDDEVASTATIONINCREASENUMBER",
+                    "UNMATCHEDDEVASTATIONDRAWANDFIRE",
+                    "UNMATCHEDDEVASTATIONTARGETPRIORITY",
+                    "UNMATCHEDDEVASTATIONREMOVESETBACK"
+                ],
+                "Directions": [
+                    {
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDDEVASTATIONINCREASENUMBER",
+                    "UNMATCHEDDEVASTATIONREMOVESETBACK",
+                    "UNMATCHEDDEVASTATIONIMPROVEMOBILITY",
+                    "UNMATCHEDDEVASTATIONINCREASENUMBER"
+                ],
+                "Directions": [
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    },
+                    {
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "BOUNT"
+    },
+    {
+        "Key": "UNMATCHEXPERT",
+        "Name": "Unmatched Expertise",
+        "Description": "[H4]Colonist Signature Ability: Unmatched Expertise[h4]\n    See page 37 of the Far Horizons Sourcebook for details.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Far Horizons"
+        },
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEXPERT"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEXPERTREDSETBK",
+                    "UNMATCHEXPERTACT",
+                    "UNMATCHEXPERTACT2",
+                    "UNMATCHEXPERTREDSETBK"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEXPERTREDDIFF",
+                    "UNMATCHEXPERTSUPRED",
+                    "UNMATCHEXPDESTINY",
+                    "UNMATCHEXPERTREDDIFF2"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "COLO"
+    },
+    {
+        "Key": "UNMATCHEDFEROCITY",
+        "Name": "Unmatched Ferocity",
+        "Description": "Please see page 35 of the Kinghts of Fate Sourcebook for details.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDFEROCITYBASE"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    "",
+                    "",
+                    {
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDFEROCITYREDUCESTRAIN",
+                    "UNMATCHEDFEROCITYSKILL1",
+                    "UNMATCHEDFEROCITYSKILL2",
+                    "UNMATCHEDFEROCITYREDUCESTRAIN"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true
+                    },
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDFEROCITYDESTINY",
+                    "UNMATCHEDFEROCITYCHANGETARGET",
+                    "UNMATCHEDFEROCITYREDUCECONFLICT",
+                    "UNMATCHEDFEROCITYREDUCESTRAIN"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            false,
+            true
+        ],
+        "Career": "WAR"
+    },
+    {
+        "Key": "UNMATCHEDFORTUNE",
+        "Name": "Unmatched Fortune",
+        "Description": "[H4]Smuggler Signature Ability: Unmatched Fortune[h4]\n    Please see page 39 of the Fly Casual Sourcebook for details.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Fly Casual"
+        },
+        "Sources": "",
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHFORTUNEBASE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "FREQUENCYUF",
+                    "INCREASENUMBERUF",
+                    "SHAREDLUCKUF",
+                    "INCREASENUMBERUF"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "DESTINYUF",
+                    "INCREASEEFFECTUF",
+                    "INCREASERANGEUF",
+                    "FREQUENCYUF"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "SMUG"
+    },
+    {
+        "Key": "UNMATCHHERO",
+        "Name": "Unmatched Heroism",
+        "Description": "[H4]Unmatched Heroism[h4]\n  Please see page 37 of the Keeping the Peace sourcebook for details.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Keeping the Peace"
+        },
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHHEROBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHHERODURATION",
+                    "UNMATCHHEROENDURANCE",
+                    "UNMATCHHERODESTINY",
+                    "UNMATCHHERODURATION"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHHEROFREQUENCY",
+                    "INCREASERANGEUF",
+                    "UNMATCHHERODURATION",
+                    "UNMATCHHEROENDURANCE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            true,
+            false,
+            false
+        ],
+        "Career": "GUARD"
+    },
+    {
+        "Key": "UNMATCHEDINGEN",
+        "Name": "Unmatched Ingenuity",
+        "Description": "See page 35 of the Fully Operational Sourcebook for details.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Fully Operational"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDINGENBASE"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDINGENADDBOOST",
+                    "UNMATCHEDINGENDURATION",
+                    "UNMATCHEDINGENADDBOOST",
+                    "UNMATCHEDINGENDURATION"
+                ],
+                "Directions": [
+                    {
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDINGENQUALITY",
+                    "UNMATCHEDINGENDESTINY",
+                    "UNMATCHEDINGENREDUCEDIFF",
+                    "UNMATCHEDINGENQUALITY2"
+                ],
+                "Directions": [
+                    {
+                        "Up": true
+                    },
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "ENGINEER"
+    },
+    {
+        "Key": "UNINS",
+        "Name": "Unmatched Insight",
+        "Description": "[H4]Diplomat Signature Ability: Unmatched Insight[h4]\n    Please see page 40 of the Desperate Allies Sourcebook for details.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Desperate Allies"
+        },
+        "Sources": "",
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEDINSIGHTBASE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "DISCERNMOTIVESUI",
+                    "INCREASENUMBERUI",
+                    "INCREASENUMBERUI",
+                    "FREQUENCYUI"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "LEVERAGEUI",
+                    "DESTINYUI",
+                    "LEVERAGEUI",
+                    "SECRETUI"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            true,
+            false,
+            false
+        ],
+        "Career": "DIPLOMAT"
+    },
+    {
+        "Key": "UNMOB",
+        "Name": "Unmatched Mobility",
+        "Description": "[H4]Explorer Signature Ability: Unmatched Mobility[h4]\n    Please see page 35 of the Enter the Unknown Sourcebook for details.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Enter the Unknown"
+        },
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMOBBASIC"
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": false
+                    },
+                    {
+                        "Down": true
+                    }
+                ]
+            },
+            {
+                "Index": "1",
+                "Abilities": [
+                    "UNMOBDUR",
+                    "UNMOBFREEMAN",
+                    "UNMOBFREEMAN",
+                    "UNMOBMDEF"
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ],
+                "Directions": [
+                    {
+                        "Down": true,
+                        "Up": true
+                    },
+                    {
+                        "Up": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    },
+                    {
+                        "Down": true,
+                        "Up": true
+                    }
+                ]
+            },
+            {
+                "Index": "2",
+                "Abilities": [
+                    "UNMOBDUR",
+                    "UNMOBDUR",
+                    "UNMOBDEST",
+                    "UNMOBRDEF"
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ]
+            }
+        ],
+        "Career": "EXPLORER"
+    },
+    {
+        "Key": "UNMATCHEDNEGOTIATIONS",
+        "Name": "Unmatched Negotiations",
+        "Description": "Please see page 35 of the Disciples of Harmony Sourcebook for details.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Disciples of Harmony"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDNEGOTIATIONBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    "",
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDNEGOTIATIONDURATION",
+                    "UNMATCHEDNEGOTIATIONINCREASEEFFECT",
+                    "UNMATCHEDNEGOTIATIONDURATION",
+                    "UNMATCHEDNEGOTIATIONDESTINY"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDNEGOTIATIONREMOVESETBACK",
+                    "UNMATCHEDNEGOTIATIONDURATION",
+                    "UNMATCHEDNEGOTIATIONINCREASERANGE",
+                    "UNMATCHEDNEGOTIATIONADDTRIUMPH"
+                ],
+                "Directions": [
+                    {
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            false,
+            true
+        ],
+        "Career": "CONSULAR"
+    },
+    {
+        "Key": "UNPROT",
+        "Name": "Unmatched Protection",
+        "Description": "[H4]Hired Gun Signature Ability: Unmatched Protection[h4]\n    Please see page 37 of the Dangerous Covenants Sourcebook for details.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Dangerous Covenants"
+        },
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNPROTBASIC"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNPROTDURATION",
+                    "UNPROTDURATION",
+                    "UNPROTSOAK",
+                    "UNPROTALLY"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNPROTDURATION",
+                    "UNPROTDEST",
+                    "UNPROTADDRED",
+                    "UNPROTADDRED"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "HIREDGUN"
+    },
+    {
+        "Key": "UNMATCHEDPURSUIT",
+        "Name": "Unmatched Pursuit",
+        "Description": "Please see page 35 of the Savage Spirits Sourcebook for details.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Savage Spirits"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDPURSUITBASIC"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDPURSUITDURATION",
+                    "UNMATCHEDPURSUITRANGE",
+                    "UNMATCHEDPURSUITENDURANCE",
+                    "UNMATCHEDPURSUITDESTINY"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDPURSUITMANEUVER",
+                    "UNMATCHEDPURSUITENDURANCE",
+                    "UNMATCHEDPURSUITFREQUENCY",
+                    "UNMATCHEDPURSUITDURATION"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            false,
+            true,
+            true,
+            false
+        ],
+        "Career": "SEEKER"
+    },
+    {
+        "Key": "UNMATCHEDSURV",
+        "Name": "Unmatched Survivability",
+        "Description": "[H4]Ace Signature Ability: Unmatched Survivability[h4]\n    Please see page 37 of the Stay on Target Sourcebook for details.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Stay on Target"
+        },
+        "Sources": "",
+        "AbilityRows": [
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEDSURVBASE"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": false,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEDSURVSIL",
+                    "UNMATCHEDSURVFREQ",
+                    "UNMATCHEDSURVDUR",
+                    "UNMATCHEDSURVDUR"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": false,
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": false,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Index": "0",
+                "Abilities": [
+                    "UNMATCHEDSURVSIL",
+                    "UNMATCHEDSURVDEST",
+                    "UNMATCHEDSURVDURA",
+                    "UNMATCHEDSURVREINF"
+                ],
+                "Directions": [
+                    {
+                        "Left": false,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": false,
+                        "Down": false
+                    },
+                    {
+                        "Left": true,
+                        "Right": false,
+                        "Up": true,
+                        "Down": false
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            true,
+            false,
+            false
+        ],
+        "Career": "THEACE"
+    },
+    {
+        "Key": "UNMATCHEDTEAMWORK",
+        "Name": "Unmatched Teamwork",
+        "Description": "[H4]Unmatched Teamwork[h4]\nPlease see page 46 of the Collapse of the Republic Sourcebook for details.",
+        "Source": {
+            "_Page": "46",
+            "__text": "Collapse of the Republic"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDTEAMBASE"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    "",
+                    {
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDTEAMINCREASESUCADV",
+                    "UNMATCHEDTEAMINCREASESUC",
+                    "UNMATCHEDTEAMREMSETBACK",
+                    "UNMATCHEDTEAMINCREASERANGE"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDTEAMINCREASETRI",
+                    "UNMATCHEDTEAMDESTINY",
+                    "UNMATCHEDTEAMINCREASERANGE",
+                    "UNMATCHEDTEAMCAMARADERIE"
+                ],
+                "Directions": [
+                    {
+                        "Up": true
+                    },
+                    {
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            true,
+            false
+        ],
+        "Career": "CLONE"
+    },
+    {
+        "Key": "UNMATCHEDTRADECRAFT",
+        "Name": "Unmatched Tradecraft",
+        "Description": "[H4]Unmatched Tradecraft[h4]\nPlease see page 35 of the Cyphers and Masks Sourcebook for details.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDTRADEBASE"
+                ],
+                "Directions": [
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    "",
+                    {
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDTRADEINCREASEEFFECT1",
+                    "UNMATCHEDTRADEINCREASENUMBER",
+                    "UNMATCHEDTRADESKILL1",
+                    "UNMATCHEDTRADESKILL2"
+                ],
+                "Directions": [
+                    {
+                        "Up": true,
+                        "Down": true
+                    },
+                    {
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDTRADEINCREASEEFFECT2",
+                    "UNMATCHEDTRADEDESTINY",
+                    "FREQUENCY",
+                    "UNMATCHEDTRADEINCREASENUMBER"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            false,
+            false,
+            true
+        ],
+        "Career": "SPY"
+    },
+    {
+        "Key": "UNMATCHEDVIGILANCE",
+        "Name": "Unmatched Vigilance",
+        "Description": "Please see page 35 of the Endless Vigil Sourcebook for details.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Endless Vigil"
+        },
+        "AbilityRows": [
+            {
+                "Abilities": [
+                    "UNMATCHEDVIGILANCEBASIC"
+                ],
+                "Directions": [
+                    "",
+                    {
+                        "Down": true
+                    },
+                    {
+                        "Down": true
+                    },
+                    ""
+                ],
+                "AbilitySpan": [
+                    "4"
+                ],
+                "Costs": [
+                    "30"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDVIGILANCEALWAYSALERT",
+                    "UNMATCHEDVIGILANCEGROUPVIGILANCE",
+                    "UNMATCHEDVIGILANCEGROUPPREPARATION",
+                    "UNMATCHEDVIGILANCEDURATION"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Down": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    },
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Down": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "10",
+                    "10",
+                    "10",
+                    "10"
+                ]
+            },
+            {
+                "Abilities": [
+                    "UNMATCHEDVIGILANCEDURATION",
+                    "UNMATCHEDVIGILANCECOMBATPREPARATION",
+                    "UNMATCHEDVIGILANCECOMBATREADINESS",
+                    "UNMATCHEDVIGILANCEDESTINY"
+                ],
+                "Directions": [
+                    {
+                        "Right": true,
+                        "Up": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Right": true
+                    },
+                    {
+                        "Left": true,
+                        "Up": true
+                    }
+                ],
+                "AbilitySpan": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                ],
+                "Costs": [
+                    "15",
+                    "15",
+                    "15",
+                    "15"
+                ]
+            }
+        ],
+        "MatchingNodes": [
+            true,
+            true,
+            false,
+            false
+        ],
+        "Career": "SENTINEL"
+    }
+]

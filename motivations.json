@@ -1,0 +1,653 @@
+[
+  {
+    "Key": "AMB",
+    "Name": "Ambition",
+    "Description": "",
+    "SpecificMotivations": {
+      "Key": [
+        "AMBFRIEND",
+        "AMBLOVE",
+        "AMBFREE",
+        "AMBFAME",
+        "AMBGREED",
+        "AMBSTATUS",
+        "AMBEXPER",
+        "AMBWAND",
+        "AMBPOWER",
+        "AMBRELIGION",
+        "AMBREVENGE",
+        "AMBWEALTH",
+        "AMBJEDI",
+        "AMBSURVIVAL",
+        "AMBGLORY",
+        "AMBSITH",
+        "AMBENLIGHT",
+        "AMBDISC"
+      ]
+    },
+    "Source": [
+      "Edge of the Empire Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ]
+  },
+  {
+    "Key": "CAUSE",
+    "Name": "Cause",
+    "Description": "",
+    "SpecificMotivations": {
+      "Key": [
+        "CAURELIGION",
+        "CAUWEAK",
+        "CAUNONHUM",
+        "CAUPOLITICS",
+        "CAUOVER",
+        "CAUCRIME",
+        "CAUEMANC",
+        "CAUDROID",
+        "CAUCAPITAL",
+        "CAUEMPIRE",
+        "CAUFREEDOM",
+        "CAURESTJEDI",
+        "CAUPEACE",
+        "CAUJUSTICE",
+        "CAUSTOPREB",
+        "CAUEQUAL",
+        "CAUHELPLESS",
+        "CAUFREEENT",
+        "CAUOVEREMP",
+        "CAUKNOW"
+      ]
+    },
+    "Source": [
+      "Edge of the Empire Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ]
+  },
+  {
+    "Key": "REL",
+    "Name": "Relationship",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "SpecificMotivations": {
+      "Key": [
+        "RELORIGIN",
+        "RELPET",
+        "RELFRIEND",
+        "RELCOMRADES",
+        "RELSIB",
+        "RELMENTOR",
+        "RELPARENTS",
+        "RELFAMILY",
+        "RELDROID",
+        "RELNEMESIS"
+      ]
+    }
+  },
+  {
+    "Key": "CONFLICT",
+    "Name": "Conflict",
+    "Description": "",
+    "SpecificMotivations": {
+      "Key": [
+        "CONFLICT1",
+        "CONFLICT2",
+        "CONFLICT3",
+        "CONFLICT4",
+        "CONFLICT5",
+        "CONFLICT6",
+        "CONFLICT7",
+        "CONFLICT8",
+        "CONFLICT9",
+        "CONFLICT10",
+        "CONFLICT11",
+        "CONFLICT12",
+        "CONFLICT13",
+        "CONFLICT14"
+      ]
+    },
+    "Source": [
+      "Dangerous Covenants",
+      "Stay on Target"
+    ]
+  },
+  {
+    "Key": "CREATION",
+    "Name": "Creations",
+    "Description": "",
+    "Source": "Far Horizons",
+    "SpecificMotivations": {
+      "Key": [
+        "CREATIONSM1",
+        "CREATIONSM2",
+        "CREATIONSM3",
+        "CREATIONSM4",
+        "CREATIONSM5",
+        "CREATIONSM6",
+        "CREATIONSM7",
+        "CREATIONSM8"
+      ]
+    }
+  },
+  {
+    "Key": "DISCOVERY",
+    "Name": "Discovery",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "SpecificMotivations": {
+      "Key": [
+        "DISCOVERYSM1",
+        "DISCOVERYSM2",
+        "DISCOVERYSM3",
+        "DISCOVERYSM4",
+        "DISCOVERYSM5",
+        "DISCOVERYSM6",
+        "DISCOVERYSM7",
+        "DISCOVERYSM8",
+        "DISCOVERYSM9",
+        "DISCOVERYSM10"
+      ]
+    }
+  },
+  {
+    "Key": "REWARD",
+    "Name": "Reward",
+    "Description": "",
+    "Source": "Fly Casual",
+    "SpecificMotivations": {
+      "Key": [
+        "REWARDSM1",
+        "REWARDSM2",
+        "REWARDSM3",
+        "REWARDSM4",
+        "REWARDSM5",
+        "REWARDSM6",
+        "REWARDSM7",
+        "REWARDSM8",
+        "REWARDSM9",
+        "REWARDSM10"
+      ]
+    }
+  },
+  {
+    "Key": "QUEST",
+    "Name": "Quest",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "SpecificMotivations": {
+      "Key": [
+        "QUEREDEM",
+        "QUEGLORY",
+        "QUEVENG",
+        "QUEINFLU",
+        "QUERESCUE",
+        "QUEJEDI",
+        "QUEFREEDOM",
+        "QUETREAS",
+        "QUETHRILL",
+        "QUEPURPOSE",
+        "QUERICHES",
+        "QUESITH"
+      ]
+    }
+  },
+  {
+    "Key": "BELIEF",
+    "Name": "Belief",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "SpecificMotivations": {
+      "Key": [
+        "BELREPUBLIC",
+        "BELHONOR",
+        "BELFREEENT",
+        "BELTHEJEDI",
+        "BELJUSTICE",
+        "BELSPRIGHTS",
+        "BELPEACE",
+        "BELRELPHIL",
+        "BELLIBERTY",
+        "BELFREE",
+        "BELORDER",
+        "BELPROGRESS",
+        "BELFORCE",
+        "BELCRIME"
+      ]
+    }
+  },
+  {
+    "Key": "CONNECT",
+    "Name": "Connections",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "SpecificMotivations": {
+      "Key": [
+        "CONPOLITICAL",
+        "CONFAMILY",
+        "CONMILITARY",
+        "CONINTEL",
+        "CONFRIENDS",
+        "CONUNDERWORLD",
+        "CONECON",
+        "CONRIVAL",
+        "CONNOONE",
+        "CONRESCUE",
+        "CONEMPIRE",
+        "CONLOVE"
+      ]
+    }
+  },
+  {
+    "Key": "CREED",
+    "Name": "Creed",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "SpecificMotivations": {
+      "Key": [
+        "CREEDSM1",
+        "CREEDSM2",
+        "CREEDSM3",
+        "CREEDSM4",
+        "CREEDSM5",
+        "CREEDSM6",
+        "CREEDSM7",
+        "CREEDSM8",
+        "CREEDSM9",
+        "CREEDSM10"
+      ]
+    }
+  },
+  {
+    "Key": "FAITH",
+    "Name": "Faith",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "SpecificMotivations": {
+      "Key": [
+        "FAINAT",
+        "FAIGOODPEOP",
+        "FAIFRIENDFAM",
+        "FAICOSMICFOR",
+        "FAISCIENCE",
+        "FAIJEDICODE",
+        "FAIIMPRULE",
+        "FAIREBELLION",
+        "FAIRELCODE",
+        "FAINOTHING"
+      ]
+    }
+  },
+  {
+    "Key": "OATH",
+    "Name": "Oath",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "SpecificMotivations": {
+      "Key": [
+        "OATHJUSTICE",
+        "OATHLEGACY",
+        "OATHLIFE",
+        "OATHREPUB",
+        "OATHBALANCE",
+        "OATHLOVE",
+        "OATHHOME",
+        "OATHDEPART",
+        "OATHSPECIES",
+        "OATHWARD"
+      ]
+    }
+  },
+  {
+    "Key": "INNOV",
+    "Name": "Innovation",
+    "Description": "",
+    "Source": {
+      "_Page": "36",
+      "__text": "Special Modifications"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "INNOVFAB",
+        "INNOVINV",
+        "INNOVMOD",
+        "INNOVIMP",
+        "INNOVWASTE",
+        "INNOVTECHFASC",
+        "INNOVTECHBUS",
+        "INNOVTECHHIST",
+        "INNOVTECHNECESS",
+        "INNOVTECHRIVAL"
+      ]
+    }
+  },
+  {
+    "Key": "LOCOSSUS",
+    "Name": "Location: Ossus",
+    "Description": "",
+    "Source": {
+      "_Page": "114",
+      "__text": "Nexus of Power"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "LOCOSSUSARCH",
+        "LOCOSSUSPLUND"
+      ]
+    }
+  },
+  {
+    "Key": "LOCLOTH",
+    "Name": "Location: Lothal",
+    "Description": "",
+    "Source": {
+      "_Page": "114",
+      "__text": "Nexus of Power"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "LOCLOTHUPPOV",
+        "LOCLOTHREV",
+        "LOCLOTHWARPROF"
+      ]
+    }
+  },
+  {
+    "Key": "LOCNABOO",
+    "Name": "Location: Naboo",
+    "Description": "",
+    "Source": {
+      "_Page": "114",
+      "__text": "Nexus of Power"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "LOCNABOOENVOY",
+        "LOCNABOOPOET",
+        "LOCNABOOGUNG"
+      ]
+    }
+  },
+  {
+    "Key": "LOCDEV",
+    "Name": "Location: Devaron",
+    "Description": "",
+    "Source": {
+      "_Page": "114",
+      "__text": "Nexus of Power"
+    },
+    "SpecificMotivations": {
+      "Key": "LOCDEVMAT"
+    }
+  },
+  {
+    "Key": "LOCIKTO",
+    "Name": "Location: Iktotch",
+    "Description": "",
+    "Source": {
+      "_Page": "114",
+      "__text": "Nexus of Power"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "LOCIKTOVIS",
+        "LOCIKTOEXILE",
+        "LOCIKTOCOLLAB"
+      ]
+    }
+  },
+  {
+    "Key": "LOCAURA",
+    "Name": "Location: Auratera",
+    "Description": "",
+    "Source": {
+      "_Page": "114",
+      "__text": "Nexus of Power"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "LOCAURAISO",
+        "LOCAURASTUD"
+      ]
+    }
+  },
+  {
+    "Key": "LOCBARD",
+    "Name": "Location: Bardotta",
+    "Description": "",
+    "Source": {
+      "_Page": "114",
+      "__text": "Nexus of Power"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "LOCBARDPRES",
+        "LOCBARDMEND",
+        "LOCBARDFRANG"
+      ]
+    }
+  },
+  {
+    "Key": "LOCALEEN",
+    "Name": "Location: Aleen",
+    "Description": "",
+    "Source": {
+      "_Page": "114",
+      "__text": "Nexus of Power"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "LOCALEENENAM",
+        "LOCALEENFOLL"
+      ]
+    }
+  },
+  {
+    "Key": "LOCWEIK",
+    "Name": "Location: Weik",
+    "Description": "",
+    "Source": {
+      "_Page": "114",
+      "__text": "Nexus of Power"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "LOCWEIKFORREV",
+        "LOCWEIKCAST",
+        "LOCWEIKWIDE"
+      ]
+    }
+  },
+  {
+    "Key": "DRIVE",
+    "Name": "Drive",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "DRIVEGUILT",
+        "DRIVEMISSION",
+        "DRIVEALLCOSTS",
+        "DRIVECOMMAND",
+        "DRIVESUBORD",
+        "DRIVEREDEMP",
+        "DRIVEGAME",
+        "DRIVEEGO",
+        "DRIVERETIRE",
+        "DRIVESPIRIT"
+      ]
+    }
+  },
+  {
+    "Key": "PURSUIT",
+    "Name": "Pursuit",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "PURSUIT1",
+        "PURSUIT2",
+        "PURSUIT3",
+        "PURSUIT4",
+        "PURSUIT5",
+        "PURSUIT6",
+        "PURSUIT7",
+        "PURSUIT8",
+        "PURSUIT9",
+        "PURSUIT10"
+      ]
+    }
+  },
+  {
+    "Key": "INJUSTICE",
+    "Name": "Injustice",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "INJUSTICE1",
+        "INJUSTICE2",
+        "INJUSTICE3",
+        "INJUSTICE4",
+        "INJUSTICE5",
+        "INJUSTICE6",
+        "INJUSTICE7",
+        "INJUSTICE8",
+        "INJUSTICE9",
+        "INJUSTICE10"
+      ]
+    }
+  },
+  {
+    "Key": "CODE",
+    "Name": "Code",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "CODEPAID",
+        "CODEFINISH",
+        "CODELIVE",
+        "CODENEVER",
+        "CODECOLL",
+        "CODEQUIET",
+        "CODEREP",
+        "CODERULE",
+        "CODESURV",
+        "CODESCORE"
+      ]
+    }
+  },
+  {
+    "Key": "GROWTH",
+    "Name": "Growth",
+    "Description": "",
+    "Source": {
+      "_Page": "31",
+      "__text": "Disciples of Harmony"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "GROWTH1",
+        "GROWTH2",
+        "GROWTH3",
+        "GROWTH4",
+        "GROWTH5",
+        "GROWTH6",
+        "GROWTH7",
+        "GROWTH8",
+        "GROWTH9",
+        "GROWTH10"
+      ]
+    }
+  },
+  {
+    "Key": "MYSTERY",
+    "Name": "Mysteries",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "SpecificMotivations": ""
+  },
+  {
+    "Key": "IMPROVE",
+    "Name": "Improvements",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "IMPROVE1",
+        "IMPROVE4",
+        "IMPROVE2",
+        "IMPROVE7",
+        "IMPROVE10",
+        "IMPROVE6",
+        "IMPROVE3",
+        "IMPROVE8",
+        "IMPROVE5",
+        "IMPROVE9"
+      ]
+    }
+  },
+  {
+    "Key": "CHALLENGE",
+    "Name": "Challenges",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "CHALLENGE1",
+        "CHALLENGE2",
+        "CHALLENGE3",
+        "CHALLENGE4",
+        "CHALLENGE5",
+        "CHALLENGE6",
+        "CHALLENGE7",
+        "CHALLENGE8",
+        "CHALLENGE9",
+        "CHALLENGE10"
+      ]
+    }
+  },
+  {
+    "Key": "SECRET",
+    "Name": "Secrets",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "SpecificMotivations": {
+      "Key": [
+        "SECRET1",
+        "SECRET2",
+        "SECRET3",
+        "SECRET4",
+        "SECRET5",
+        "SECRET6",
+        "SECRET7",
+        "SECRET8",
+        "SECRET9",
+        "SECRET10"
+      ]
+    }
+  }
+]

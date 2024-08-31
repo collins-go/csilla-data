@@ -1,0 +1,5096 @@
+[
+  {
+    "Key": "ALEENA",
+    "Name": "Aleena",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/uyXgg1u.png",
+    "Source": {
+      "_Page": "98",
+      "__text": "Nexus of Power"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "8",
+      "StrainThreshold": "10",
+      "Experience": "95"
+    },
+    "SkillModifiers": {
+      "Key": "COORD",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": {
+      "Key": "DURA",
+      "RankAdd": "1"
+    },
+    "OptionChoices": {
+      "Key": "ALEENAAB1",
+      "Name": "Size",
+      "Options": {
+        "Key": "ALEENAAB1OP1",
+        "Name": "Silhouette",
+        "Description": "Aleena are smaller than average and count as silhouette 0."
+      }
+    }
+  },
+  {
+    "Key": "ANX",
+    "Name": "Anx",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/XFMy44x.png",
+    "Source": {
+      "_Page": "18",
+      "__text": "Savage Spirits"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "1",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "13",
+      "StrainThreshold": "10",
+      "Experience": "85"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": [
+      {
+        "Key": "KILL",
+        "RankAdd": "1"
+      },
+      {
+        "Key": "LETHALBL",
+        "RankAdd": "1"
+      }
+    ],
+    "OptionChoices": {
+      "Key": "ANXOC1",
+      "Name": "Skill Checks",
+      "Options": {
+        "Key": "ANXOC1OP1",
+        "Name": "Mood Indicator",
+        "Description": "If an Anx's head-crest is not covered, the character upgrades the difficulty of Deception checks once."
+      }
+    }
+  },
+  {
+    "Key": "AQUA",
+    "Name": "Aqualish",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/wuozTCR.png",
+    "Source": {
+      "_Page": "19",
+      "__text": "Dangerous Covenants"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "1",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "8",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "BRAWL",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "SubSpeciesList": [
+      {
+        "Key": "AQUASUB1",
+        "Name": "Aquala",
+        "Description": "Please see page 20 of the Dangerous Covenants Sourcebook for details.",
+        "SkillModifiers": {
+          "Key": "RESIL",
+          "RankStart": "1",
+          "RankLimit": "2"
+        },
+        "OptionChoices": {
+          "Key": "AQUAOC2",
+          "Name": "Conditions",
+          "Options": {
+            "Key": "AQUAOC2OP1",
+            "Name": "Environmental Conditions",
+            "Description": "Aquala may remove [SETBACK] imposed due to any cold or wet conditions."
+          }
+        }
+      },
+      {
+        "Key": "AQUASUB2",
+        "Name": "Ualaq",
+        "Description": "Please see page 20 of the Dangerous Covenants Sourcebook for details.",
+        "OptionChoices": [
+          {
+            "Key": "AQUASUB1OC1",
+            "Name": "Skills",
+            "Options": [
+              {
+                "Key": "AQUASUB1OC1OP1",
+                "Name": "Survival",
+                "Description": "Ualaq may begin the game with one rank in Survival.",
+                "SkillModifiers": {
+                  "Key": "SURV",
+                  "RankStart": "1"
+                }
+              },
+              {
+                "Key": "AQUASUB1OC1OP2",
+                "Name": "Perception",
+                "Description": "Ualaq may begin the game with one rank in Perception.",
+                "SkillModifiers": {
+                  "Key": "PERC",
+                  "RankStart": "1"
+                }
+              }
+            ]
+          },
+          {
+            "Key": "AQUASUB1OC2",
+            "Name": "Conditions",
+            "Options": {
+              "Key": "AQUASUB1OC2OP1",
+              "Name": "Environmental Conditions",
+              "Description": "Ualaq may remove [SETBACK] imposed due to dark conditions, but suffer [SETBACK] to  Perception checks in brightly lit environments"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "AQUASUB3",
+        "Name": "Quara",
+        "Description": "Please see page 20 of the Dangerous Covenants Sourcebook for details.",
+        "OptionChoices": [
+          {
+            "Key": "AQUASUB3OC1",
+            "Name": "Skills",
+            "Options": [
+              {
+                "Key": "AQUASUB3OC1OP1",
+                "Name": "Athletics",
+                "Description": "Quara may begin the game with one rank in Athletics.",
+                "SkillModifiers": {
+                  "Key": "ATHL",
+                  "RankStart": "1"
+                }
+              },
+              {
+                "Key": "AQUASUB3OC1OP2",
+                "Name": "Coercion",
+                "Description": "Quara may begin the game with one rank in Coercion.",
+                "SkillModifiers": {
+                  "Key": "COERC",
+                  "RankStart": "1"
+                }
+              }
+            ]
+          },
+          {
+            "Key": "AQUASUB3OC2",
+            "Name": "Conditions",
+            "Options": {
+              "Key": "AQUASUB3OC2OP1",
+              "Name": "Environmental Conditions",
+              "Description": "Quara may remove [SETBACK] when attempting to track anything through a natural environment."
+            }
+          }
+        ]
+      }
+    ],
+    "OptionChoices": {
+      "Key": "AQUASWIM",
+      "Name": "Aquatic",
+      "Options": {
+        "Key": "AQUASWIMOP",
+        "Name": "Underwater Breathing",
+        "Description": "All Aqualish are capable of breathing underwater."
+      }
+    }
+  },
+  {
+    "Key": "ARCONA",
+    "Name": "Arcona",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/l2i5HX5.png",
+    "Source": {
+      "_Page": "19",
+      "__text": "Far Horizons"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "DefenseRanged": "0",
+      "DefenseMelee": "0",
+      "SoakValue": "0",
+      "Experience": "100",
+      "ForceRating": "0"
+    },
+    "SkillModifiers": {
+      "Key": "VIGIL",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "ARCONAOC1",
+        "Name": "Environment",
+        "Options": {
+          "Key": "ARCONAOC1OP1",
+          "Name": "Environment",
+          "Description": "Arcona may remove [SETBACK] imposed due to arid or hot environmental conditions."
+        }
+      },
+      {
+        "Key": "ARCONAOC2",
+        "Name": "Mood",
+        "Options": {
+          "Key": "ARCONAOC2OP1",
+          "Name": "Mood Readers",
+          "Description": "Arcona add [ADVANTAGE] to any Charm or Negotiation checks they make.",
+          "DieModifiers": [
+            {
+              "SkillKey": "CHARM",
+              "AdvantageCount": "1"
+            },
+            {
+              "SkillKey": "NEG",
+              "AdvantageCount": "1"
+            }
+          ]
+        }
+      }
+    ],
+    "NoForceAbilities": "false"
+  },
+  {
+    "Key": "ARKAN",
+    "Name": "Arkanian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/bm1qiKI.png",
+    "Source": {
+      "_Page": "16",
+      "__text": "Disciples of Harmony"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "MED",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "OptionChoices": {
+      "Key": "ARKANOC",
+      "Name": "Environmental",
+      "Options": {
+        "Key": "ARKANOC1",
+        "Name": "Dark Vision",
+        "Description": "Arkanians remove up to [SE][SE] due to darkness when making skill checks."
+      }
+    }
+  },
+  {
+    "Key": "BALOSAR",
+    "Name": "Balosar",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/oRxEfEH.png",
+    "Source": {
+      "_Page": "19",
+      "__text": "Cyphers and Masks"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "SW",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "BALOSARCH1",
+      "Name": "Physiology",
+      "Options": {
+        "Key": "BALOSARCH1OP1",
+        "Name": "Antennapalps",
+        "Description": "Balosars add automatic [AD][AD] to all Vigilance checks.",
+        "DieModifiers": {
+          "SkillKey": "VIGIL",
+          "AdvantageCount": "2"
+        }
+      }
+    }
+  },
+  {
+    "Key": "BARDOTTAN",
+    "Name": "Bardottan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/7xnjjNn.png",
+    "Source": {
+      "_Page": "99",
+      "__text": "Nexus of Power"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "10",
+      "Experience": "105"
+    },
+    "SkillModifiers": {
+      "Key": "LORE",
+      "RankStart": "1",
+      "RankLimit": "2"
+    }
+  },
+  {
+    "Key": "BESALISK",
+    "Name": "Besalisk",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/kB936gn.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "Special Modifications"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "1",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "12",
+      "StrainThreshold": "7",
+      "Experience": "85"
+    },
+    "SkillModifiers": {
+      "Key": "RESIL",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "2",
+      "isCareer": "false"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "BESALISKCH1",
+      "Name": "Combat",
+      "Options": {
+        "Key": "BESALISKCH2OP1",
+        "Name": "Additional Limbs",
+        "Description": "Besalisks have four arms and gain an additional free maneuver per turn. They still may not perform more than two maneuvers per turn, however."
+      }
+    },
+    "NoForceAbilities": "false"
+  },
+  {
+    "Key": "BITH",
+    "Name": "Bith",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/aD0xMrx.png",
+    "Source": {
+      "_Page": "18",
+      "__text": "Fully Operational"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "3"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "PERC",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "BITHOC1",
+        "Name": "Skill",
+        "Options": {
+          "Key": "BITHOC1OP1",
+          "Name": "Sensitive Hearing",
+          "Description": "Bith add [BO] whenever they make a hearing-based Perception check.",
+          "DieModifiers": ""
+        }
+      },
+      {
+        "Key": "BITHOC2",
+        "Name": "Environmental",
+        "Options": {
+          "Key": "BITHOC2OP1",
+          "Name": "Sensitive Hearing",
+          "Description": "When Bith suffer strain due to loud noises, they suffer twice the normal amount of strain.",
+          "DieModifiers": ""
+        }
+      }
+    ]
+  },
+  {
+    "Key": "BOTH",
+    "Name": "Bothan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/AKfRnRC.png",
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "11",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "SW",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": {
+      "Key": "CONV",
+      "RankAdd": "1"
+    },
+    "Source": [
+      {
+        "_Page": "43",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "51",
+        "__text": "Age of Rebellion Core Rulebook"
+      }
+    ]
+  },
+  {
+    "Key": "CAAMASI",
+    "Name": "Caamasi",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/IDexraM.png",
+    "Source": {
+      "_Page": "19",
+      "__text": "Desperate Allies"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "11",
+      "Experience": "100"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "CAAABSK",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "CAASKCH",
+            "Name": "One Rank in Charm",
+            "Description": "Caamasi may begin the game with one rank in Charm.",
+            "SkillModifiers": {
+              "Key": "CHARM",
+              "RankAdd": "1"
+            }
+          },
+          {
+            "Key": "CAASKDEC",
+            "Name": "One Rank in Discipline",
+            "Description": "Caamasi may begin the game with one rank in Discipline.",
+            "SkillModifiers": {
+              "Key": "DISC",
+              "RankAdd": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "CAAAB2",
+        "Name": "Memories",
+        "Options": {
+          "Key": "CAAAB2CLAW",
+          "Name": "Memnii",
+          "Description": "Once per game session, a Caamasi may form a new memnis that encompasses one scene or encounter. At any time, a Caamasi may perfectly recall any memnis that he has formed or witnessed, or share it with another Caamasi or Force-sensitive.",
+          "DieModifiers": ""
+        }
+      }
+    ]
+  },
+  {
+    "Key": "CEREAN",
+    "Name": "Cerean",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/3RMTD3n.png",
+    "Source": {
+      "_Page": "54",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "1",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "13",
+      "Experience": "90"
+    },
+    "SkillModifiers": [
+      {
+        "Key": "VIGIL",
+        "RankStart": "1",
+        "RankLimit": "2"
+      },
+      {
+        "Key": "",
+        "RankStart": "0",
+        "RankAdd": "0",
+        "RankLimit": "0",
+        "isCareer": "true",
+        "SkillType": "Knowledge"
+      }
+    ],
+    "TalentModifiers": "",
+    "OptionChoices": ""
+  },
+  {
+    "Key": "CHADRA",
+    "Name": "Chadra-Fan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/iUVGMw9.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "Stay on Target"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "3",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "11",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "MECH",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "CHADAB1",
+        "Name": "Perception",
+        "Options": {
+          "Key": "CHADAB1OP1",
+          "Name": "Acute Senses",
+          "Description": "Chandra-Fan remove up to [REMSETBACK][REMSETBACK] from Perception checks due to superior senses.",
+          "DieModifiers": {
+            "SkillKey": "PERC",
+            "SetbackCount": "2"
+          }
+        }
+      },
+      {
+        "Key": "CHADAB2",
+        "Name": "Size",
+        "Options": {
+          "Key": "CHADAB1SIZ",
+          "Name": "Reduced Silouette",
+          "Description": "Chadra-Fan have a Silhouette of 0."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "CHAGRIAN",
+    "Name": "Chagrian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/ojU6iyf.png",
+    "Source": {
+      "_Page": "19",
+      "__text": "Lead by Example"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "1",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "10",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "RESIL",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "2",
+      "isCareer": "false",
+      "SkillType": ""
+    },
+    "TalentModifiers": {
+      "Key": "KNOWSPEC",
+      "RankStart": "0",
+      "RankAdd": "1",
+      "RankLimit": "0"
+    },
+    "OptionChoices": {
+      "Key": "CHAGRIANCH1",
+      "Name": "Environment",
+      "Options": {
+        "Key": "CHAGRIANCH1OP1",
+        "Name": "Amphibious",
+        "Description": "Chagrians can breathe underwater without penalty and never suffer movement penalties for traveling through water."
+      }
+    }
+  },
+  {
+    "Key": "CHEVIN",
+    "Name": "Chevin",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/9j1uhWO.png",
+    "Source": {
+      "_Page": "21",
+      "__text": "Far Horizons"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "1",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "11",
+      "DefenseRanged": "0",
+      "DefenseMelee": "0",
+      "SoakValue": "0",
+      "Experience": "80",
+      "ForceRating": "0"
+    },
+    "SkillModifiers": {
+      "Key": "NEG",
+      "RankStart": "1"
+    },
+    "TalentModifiers": {
+      "Key": "DURA",
+      "RankAdd": "1"
+    },
+    "OptionChoices": {
+      "Key": "CHEVINOC1",
+      "Name": "Smell",
+      "Options": {
+        "Key": "CHEVINOC1OP1",
+        "Name": "Advanced Olfaction",
+        "Description": "Chevin add [BOOST] to Perception checks involving the sense of smell.",
+        "DieModifiers": ""
+      }
+    },
+    "NoForceAbilities": "false"
+  },
+  {
+    "Key": "CHISS",
+    "Name": "Chiss",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/bvDCPtr.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "Enter the Unknown"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "COOL",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "CHABSK",
+      "Name": "Sight",
+      "Options": {
+        "Key": "CHSKCH",
+        "Name": "Infravision",
+        "Description": "Chiss have adapted to be able to see in both the infrared and normal visual spectra. This enables Chiss characters to remove up to [SETBACK] added to checks by lighting conditions."
+      }
+    }
+  },
+  {
+    "Key": "CLAWDITE",
+    "Name": "Clawdite",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/cRing9S.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "No Disintegrations"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "9",
+      "Experience": "95"
+    },
+    "SkillModifiers": {
+      "Key": "RESIL",
+      "RankStart": "1"
+    },
+    "TalentModifiers": {
+      "Key": "INDIS",
+      "RankAdd": "1"
+    },
+    "OptionChoices": {
+      "Key": "CLAWDITECH1",
+      "Name": "Appearance",
+      "Options": {
+        "Key": "CLAWDITECH1OP1",
+        "Name": "Changeling",
+        "Description": "As an action, may suffer 3 strain and make an Average ([DI][DI]) Resilience check to change appearance to match a previously-observed silhouette 1 character. Observer must make an opposed Perception vs. Deception check to detect that something is amiss."
+      }
+    }
+  },
+  {
+    "Key": "CLONE",
+    "Name": "Clone",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/6pNWiQV.png",
+    "Source": {
+      "_Page": "11",
+      "__text": "Rise of the Separatists"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "11",
+      "Experience": "100"
+    },
+    "SkillModifiers": [
+      {
+        "Key": "WARF",
+        "RankStart": "1",
+        "RankLimit": "2"
+      },
+      {
+        "Key": "RESIL",
+        "RankStart": "1",
+        "RankLimit": "2"
+      }
+    ],
+    "TalentModifiers": {
+      "Key": "PHYSTRAIN",
+      "RankAdd": "1"
+    },
+    "OptionChoices": ""
+  },
+  {
+    "Key": "HUMANCOR",
+    "Name": "Corellian Human",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/drYNqbb.jpeg",
+    "Source": {
+      "_Page": "93",
+      "__text": "Suns of Fortune"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "110"
+    },
+    "OptionChoices": {
+      "Key": "HUMANCORCH1",
+      "Name": "Skills",
+      "Description": "",
+      "Options": [
+        {
+          "Key": "HUMANCORCH1OP1",
+          "Name": "Piloting - Planetary",
+          "Description": "May begin game with one rank in Piloting - Planetary.",
+          "SkillModifiers": {
+            "Key": "PILOTPL",
+            "RankStart": "1",
+            "RankLimit": "3"
+          }
+        },
+        {
+          "Key": "HUMANCORCH1OP2",
+          "Name": "Piloting - Space",
+          "Description": "May begin game with one rank in Piloting - Space.",
+          "SkillModifiers": {
+            "Key": "PILOTSP",
+            "RankStart": "1",
+            "RankLimit": "2"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "COSIAN",
+    "Name": "Cosian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/2cYFcEo.png",
+    "Source": {
+      "_Page": "18",
+      "__text": "Disciples of Harmony"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "11",
+      "Experience": "95",
+      "EncumbranceBonus": "5"
+    },
+    "SkillModifiers": {
+      "Key": "LORE",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "OptionChoices": {
+      "Options": {
+        "Key": "COSIANOC1OP1",
+        "Name": "Strong Backed",
+        "Description": "Cosians gain +5 to their encumbrance threshold."
+      }
+    }
+  },
+  {
+    "Key": "DATHOMIRCOTR",
+    "Name": "Dathomirian",
+    "Description": "",
+    "Source": "Collapse of the Republic",
+    "imageUrl": "https://i.imgur.com/2X6VI3J.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "11",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "SkillModifier": [
+        {
+          "Key": "COERC",
+          "RankStart": "1"
+        },
+        {
+          "Key": "SURV",
+          "RankStart": "1"
+        }
+      ]
+    },
+    "TalentModifiers": {
+      "Key": "OUTDOOR",
+      "RankAdd": "1"
+    }
+  },
+  {
+    "Key": "DEVAR",
+    "Name": "Devaronian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/bxvHnbq.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "10",
+      "Experience": "95"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "DEVABSK",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "DEVSKDEC",
+            "Name": "One Rank in Deception",
+            "Description": "Devaronian may begin the game with one rank in Deception.",
+            "SkillModifiers": {
+              "Key": "DECEP",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "DEVSKSW",
+            "Name": "One Rank in Survival",
+            "Description": "Devaronian may begin the game with one rank in Survival.",
+            "SkillModifiers": {
+              "Key": "SURV",
+              "RankStart": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "DEVAB2",
+        "Name": "Physiology",
+        "Options": {
+          "Key": "DEFAB2OP1",
+          "Name": "Resillient Metabolism",
+          "Description": "Devaronians add automatic [SU] to all Resillience checks.",
+          "DieModifiers": {
+            "SkillKey": "RESIL",
+            "SuccessCount": "1"
+          }
+        }
+      }
+    ],
+    "Source": [
+      {
+        "_Page": "100",
+        "__text": "Nexus of Power"
+      },
+      {
+        "_Page": "23",
+        "__text": "No Disintegrations"
+      }
+    ]
+  },
+  {
+    "Key": "DOWUTIN",
+    "Name": "Dowutin",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/kftaQ7o.png",
+    "Source": {
+      "_Page": "18",
+      "__text": "Knights of Fate"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "1",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "15",
+      "StrainThreshold": "8",
+      "Experience": "85"
+    },
+    "SkillModifiers": {
+      "Key": "RESIL",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "DOWUTINAB1",
+        "Name": "Size",
+        "Options": [
+          {
+            "Key": "DOWUTINAB1OP1",
+            "Name": "Average-Sized",
+            "Description": "Silhouette 1"
+          },
+          {
+            "Key": "DOWUTINAB1OP2",
+            "Name": "Large-Sized",
+            "Description": "Silhouette 2"
+          }
+        ]
+      },
+      {
+        "Key": "DOWUTINAB2",
+        "Name": "Movement",
+        "Options": {
+          "Key": "DOWUTINAB2OP1",
+          "Name": "Immovable",
+          "Description": "Dowutins who are immobilized, knocked prone, or otherwise moved against their will, may suffer 3 strain to avoid the affect. Dowutins who are silhouette 2 only suffer 1 strain to use this ability."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "DRABATAN",
+    "Name": "Drabatan",
+    "Description": "",
+    "Source": {
+      "_Page": "93",
+      "__text": "Dawn of Rebellion"
+    },
+    "imageUrl": "https://i.imgur.com/KLvFCrr.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "3"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "OptionChoices": [
+      {
+        "Key": "DRABATANCH1",
+        "Name": "Skill",
+        "Options": [
+          {
+            "Key": "DRABATANCH1OP1",
+            "Name": "Charm",
+            "Description": "Drabatan may start the game with one rank in Charm.",
+            "SkillModifiers": {
+              "SkillModifier": {
+                "Key": "CHARM",
+                "RankStart": "1"
+              }
+            }
+          },
+          {
+            "Key": "DRABATANCH1OP2",
+            "Name": "Leadership",
+            "Description": "Drabatan may start the game with one rank in Leadership.",
+            "SkillModifiers": {
+              "SkillModifier": {
+                "Key": "LEAD",
+                "RankStart": "1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Key": "DRABATANCH2",
+        "Name": "Physiology",
+        "Options": {
+          "Key": "DRABATANCH2OP1",
+          "Name": "Big Noise",
+          "Description": "When making a Leadership or Coercion check, Drabatans can spend [AD][AD] to affect one additional character not originally targeted by the check or affect targets at one range band further than normal."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "DRALL",
+    "Name": "Drall",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/JWxz2ZV.png",
+    "Source": {
+      "_Page": "90",
+      "__text": "Suns of Fortune"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "1",
+      "Intellect": "4",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "8",
+      "StrainThreshold": "12",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "EDU",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "DRALLCH1",
+      "Name": "Checks",
+      "Description": "",
+      "Source": "",
+      "Options": {
+        "Key": "DRALLCH1OP1",
+        "Name": "Skilled Assistance",
+        "Description": "Drall add [BOOST] when providing skilled assistance."
+      }
+    }
+  },
+  {
+    "Key": "DRESSELLIAN",
+    "Name": "Dressellian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/BFVI8Yj.png",
+    "Source": {
+      "_Page": "22",
+      "__text": "Stay on Target"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "10",
+      "DefenseRanged": "0",
+      "DefenseMelee": "0",
+      "SoakValue": "0",
+      "Experience": "110",
+      "ForceRating": "0"
+    },
+    "SkillModifiers": {
+      "Key": "SURV",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "DRESSELLIANCH1",
+      "Name": "Technology",
+      "Description": "",
+      "Source": "",
+      "Options": [
+        {
+          "Key": "DRESSELLIANCH1OP1",
+          "Name": "Primitive",
+          "Description": "Dressellians must upgrade the difficulty of any checks involving non-Dressellian technology."
+        },
+        {
+          "Key": "DRESSELLIANCH1OP2",
+          "Name": "Non-Primitive",
+          "Description": "Tech-saavy Dressellians do not need to upgrade the difficulty of checks involving non-Dressellian technology. -10 Starting XP",
+          "StartingAttributes": {
+            "Experience": "-10"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "DROID",
+    "Name": "Droid",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/BLE8LI6.png",
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "1",
+      "Intellect": "1",
+      "Cunning": "1",
+      "Willpower": "1",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "175"
+    },
+    "TalentModifiers": {
+      "Key": "ENDUR",
+      "RankAdd": "1"
+    },
+    "OptionChoices": [
+      {
+        "Key": "DROIDAB",
+        "Name": "Skills",
+        "Options": {
+          "Key": "DROIDABSK",
+          "Name": "Additional Career Skills",
+          "Description": "May train in two additional career skills and one additional specialization skills",
+          "StartingSkillTraining": {
+            "SkillTraining": [
+              {
+                "SkillCount": "2",
+                "Requirement": {
+                  "Career": "true"
+                }
+              },
+              {
+                "SkillCount": "1",
+                "Requirement": {
+                  "Specialization": "true"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Key": "DROIDAB2",
+        "Name": "Droid",
+        "Options": {
+          "Key": "DROIDAB2OP1",
+          "Name": "Feature",
+          "Description": "Droids do not need to eat, sleep, or breath, and are unaffected by vacuum, toxins, and poisons."
+        }
+      },
+      {
+        "Key": "DROIDAB3",
+        "Name": "Droid",
+        "Options": {
+          "Key": "DROIDAB3OP1",
+          "Name": "Inorganic",
+          "Description": "Droids do not gain benefits from bacta, stimpacks, or Medicine checks. They must be repaired with repair patches and Mechanics checks."
+        }
+      },
+      {
+        "Key": "DROIDAB4",
+        "Name": "Droid",
+        "Options": {
+          "Key": "DROIDAB4OP1",
+          "Name": "Mechanical Being",
+          "Description": "Droids cannot become Force sensitive, cannot acquire a Force Rating or Force powers, and are not affected by mind-altering Force powers."
+        }
+      },
+      {
+        "Key": "DROIDAB5",
+        "Name": "Droid",
+        "Options": {
+          "Key": "DROIDAB5OP1",
+          "Name": "Cybernetics",
+          "Description": "Droids have a cybernetics implant cap of 6."
+        }
+      }
+    ],
+    "NoForceAbilities": "true",
+    "Source": [
+      {
+        "_Page": "45",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "53",
+        "__text": "Age of Rebellion Core Rulebook"
+      }
+    ]
+  },
+  {
+    "Key": "DUG",
+    "Name": "Dug",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/aE8eyjd.png",
+    "Source": {
+      "_Page": "22",
+      "__text": "Special Modifications"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "8",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "BRAWL",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": {
+      "Key": "DEFDRI",
+      "RankAdd": "1"
+    },
+    "OptionChoices": ""
+  },
+  {
+    "Key": "DUROS",
+    "Name": "Duros",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/EBt5WZJ.png",
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "PILOTSP",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "0",
+      "isCareer": "false"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Options": {
+        "Key": "DUROSCH1OP1",
+        "Name": "Intuitive Navigation",
+        "Description": "Add [ADVANTAGE] to all Astrogation checks.",
+        "DieModifiers": {
+          "SkillKey": "ASTRO",
+          "AdvantageCount": "1"
+        }
+      }
+    },
+    "NoForceAbilities": "false",
+    "Source": [
+      {
+        "_Page": "55",
+        "__text": "Age of Rebellion Core Rulebook"
+      },
+      {
+        "_Page": "21",
+        "__text": "Enter the Unknown"
+      }
+    ]
+  },
+  {
+    "Key": "ELOM",
+    "Name": "Elom",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/raIgrxS.png",
+    "Source": {
+      "_Page": "18",
+      "__text": "Forged in Battle"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "9",
+      "DefenseRanged": "0",
+      "DefenseMelee": "0",
+      "SoakValue": "0",
+      "Experience": "100",
+      "ForceRating": "0"
+    },
+    "SkillModifiers": {
+      "Key": "RESIL",
+      "RankStart": "1"
+    },
+    "OptionChoices": {
+      "Key": "ELOMOC1OP1",
+      "Name": "Digging Claws",
+      "Description": "Elom may use a move maneuver to travel through loose soil or similar terrain. Can result in low, narrow tunnel that others can use, at GM's discretion.",
+      "DieModifiers": ""
+    }
+  },
+  {
+    "Key": "ELOMIN",
+    "Name": "Elomin",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/lnZMn9X.png",
+    "Source": {
+      "_Page": "18",
+      "__text": "Forged in Battle"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "10",
+      "DefenseRanged": "0",
+      "DefenseMelee": "0",
+      "SoakValue": "0",
+      "Experience": "105",
+      "ForceRating": "0"
+    },
+    "SkillModifiers": [
+      {
+        "Key": "CHARM",
+        "RankStart": "1"
+      },
+      {
+        "Key": "EDU",
+        "RankStart": "1"
+      }
+    ]
+  },
+  {
+    "Key": "EWOKAAA",
+    "Name": "Ewok",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/XrH30WY.png",
+    "Source": "Allies and Adversaries",
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "11",
+      "Experience": "120"
+    },
+    "OptionChoices": [
+      {
+        "Key": "EWOKAAACH1",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "EWOKAAACH1OP1",
+            "Name": "Stealth",
+            "Description": "Ewoks may begin with a rank in Stealth. They still may not raise the skill above rank 2 during character creation.",
+            "SkillModifiers": {
+              "Key": "STEAL",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "EWOKAAACH1OP2",
+            "Name": "Survival",
+            "Description": "Ewoks may begin with a rank in Survival. They still may not raise the skill above rank 2 during character creation.",
+            "SkillModifiers": {
+              "Key": "SURV",
+              "RankStart": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "EWOKAAACH2",
+        "Name": "Size",
+        "Options": {
+          "Key": "EWOKAAACH2OP1",
+          "Name": "Size",
+          "Description": "Ewoks are usually smaller than average and count as silhouette 0. Acute Senses: Ewoks add [BO] to Perception and Vigilance checks.",
+          "DieModifiers": [
+            {
+              "SkillKey": "PERC",
+              "BoostCount": "1"
+            },
+            {
+              "SkillKey": "VIGIL",
+              "BoostCount": "1"
+            }
+          ]
+        }
+      },
+      {
+        "Key": "EWOKAAACH3",
+        "Name": "Low-Tech Users",
+        "Options": [
+          {
+            "Key": "EWOKAAACH3OP1",
+            "Name": "Low-Tech",
+            "Description": "Ewoks upgrade the difficulty of any checks involving advanced technology not available on their home planet once. If an Ewok uses a particular piece of advanced technology for an extended period of time, they may become familiar with it and be exempt from this rule when using that piece of technology (at the GM's discretion)."
+          },
+          {
+            "Key": "EWOKAAACH3OP2",
+            "Name": "Adapted",
+            "Description": "With GM approval, a player with an Ewok character may spend 10 XP to remove this disadvantage from their character.",
+            "StartingAttributes": {
+              "Experience": "-10"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Key": "FALLEEN",
+    "Name": "Falleen",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/0fuFR1c.png",
+    "Source": {
+      "_Page": "18",
+      "__text": "Fly Casual"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "3"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "12",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "CHARM",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "2",
+      "isCareer": "false"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "FALLEENOC1",
+      "Name": "Ability",
+      "Options": {
+        "Key": "FALLEENOC1OP1",
+        "Name": "Beguiling Pheromones",
+        "Description": "Once per check as an incidental, may suffer 2 strain to upgrade ability of Charm, Deception, or Negotiation check against living, sentient being within short range. No effect if wearing breath mask or having no respiratory system."
+      }
+    }
+  },
+  {
+    "Key": "GAND",
+    "Name": "Gand",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/WAv7gq6.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "DISC",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "OptionChoices": {
+      "Key": "GANDAB",
+      "Name": "Breathing",
+      "Options": [
+        {
+          "Key": "GANDABLUNG",
+          "Name": "Has Lungs",
+          "Description": "Starts the game with an ammonia respirator, and treats oxygen as a dangerous atmosphere with Rating 8. Gains +10 starting XP",
+          "StartingAttributes": {
+            "Experience": "10"
+          }
+        },
+        {
+          "Key": "GANDABNOLUNG",
+          "Name": "Lungless",
+          "Description": "Immune to suffocation (but not the wounds suffered from being exposed to vacuum)."
+        }
+      ]
+    },
+    "Source": [
+      {
+        "_Page": "47",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "18",
+        "__text": "Endless Vigil"
+      }
+    ]
+  },
+  {
+    "Key": "GANK",
+    "Name": "Gank",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/VKgJ5Ge.png",
+    "Source": {
+      "_Page": "95",
+      "__text": "Lords of Nal Hutta"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "110"
+    },
+    "OptionChoices": [
+      {
+        "Key": "GANKOC1",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "GANKOC1OP1",
+            "Name": "Coercion",
+            "Description": "Ganks may begin the game with one rank in Coercion.",
+            "SkillModifiers": {
+              "Key": "COERC",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "GANKOC1OP2",
+            "Name": "Vigilance",
+            "Description": "Ganks may begin the game with one rank in Vigilance.",
+            "SkillModifiers": {
+              "Key": "VIGIL",
+              "RankStart": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "GANKOC2",
+        "Name": "Cybernetics",
+        "Options": {
+          "Key": "GANKOC2OP1",
+          "Name": "Cyborg",
+          "Description": "Ganks may begin play with up to two cybernetic implants that cost up to 5,000 credits. Extra credits for obligation may be applied to purchase these cybernetics."
+        }
+      }
+    ],
+    "CyberneticsAdjust": "3"
+  },
+  {
+    "Key": "GEONOSIAN",
+    "Name": "Geonosian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/nq0Y6ks.png",
+    "Source": {
+      "_Page": "12",
+      "__text": "Rise of the Separatists"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "1",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "9",
+      "Experience": "140"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "GEONOSIANOC1",
+        "Name": "Skill",
+        "Options": {
+          "Key": "GEONOSIANOC1OP1",
+          "Name": "Skill Choice",
+          "Description": "Geonisians start the game with one rank in any skill of their choice.",
+          "StartingSkillTraining": {
+            "SkillTraining": {
+              "SkillCount": "1",
+              "Requirement": {
+                "FromSkillType": "true",
+                "SkillType": "All"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Key": "GEONOSIANOC2",
+        "Name": "Assistance",
+        "Options": {
+          "Key": "GEONOSIANOC2OP1",
+          "Name": "Industrious",
+          "Description": "A Geonosian who provides assistance adds [BO] to the check, in addition to the normal benefits of assistance, and the Geonosian heals 1 strain."
+        }
+      },
+      {
+        "Key": "GEONOSIANOC3",
+        "Name": "Flight",
+        "Options": {
+          "Key": "GEONOSIANOC3OP1",
+          "Name": "Winged",
+          "Description": "Geonosians can fly."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "GIGORAN",
+    "Name": "Gigoran",
+    "Description": "",
+    "Source": {
+      "_Page": "93",
+      "__text": "Dawn of Rebellion"
+    },
+    "imageUrl": "https://i.imgur.com/H4T0FFI.png0",
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "1",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "12",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "SkillModifier": {
+        "Key": "BRAWL",
+        "RankStart": "1"
+      }
+    },
+    "OptionChoices": [
+      {
+        "Key": "GIGORANCH1",
+        "Name": "Environment",
+        "Options": {
+          "Key": "GIGORANCH1OP1",
+          "Name": "Adapted to the Cold",
+          "Description": "Gigorans remove [SE] imposed due to cold or snow-filled conditions."
+        }
+      },
+      {
+        "Key": "GIGORANCH2",
+        "Name": "Culture",
+        "Options": {
+          "Key": "GIGORANCH2OP1",
+          "Name": "Low-Tech",
+          "Description": "Gigorans upgrade the difficulty of Mechanics checks involving advanced technology once."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "GOSSAM",
+    "Name": "Gossam",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/ItLavyh.png",
+    "Source": {
+      "_Page": "22",
+      "__text": "Desperate Allies"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "11",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "DECEP",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "OptionChoices": {
+      "Key": "GOSSAMOC1",
+      "Name": "Size",
+      "Options": {
+        "Key": "GOSSAMOC1OP1",
+        "Name": "Small",
+        "Description": "Gossam are smaller than average and count as silhouette 0."
+      }
+    }
+  },
+  {
+    "Key": "GOTAL",
+    "Name": "Gotal",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/r32giQ0.png",
+    "Source": {
+      "_Page": "21",
+      "__text": "Fly Casual"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "8",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "PERC",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "2",
+      "isCareer": "false"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "GOTALOC1",
+      "Name": "Senses",
+      "Options": {
+        "Key": "GOTALOC1OP1",
+        "Name": "Energy Sensitivity",
+        "Description": "Once per encounter as a maneuver, may sense the presence and current emotional states of all living things within short range."
+      }
+    }
+  },
+  {
+    "Key": "GRAN",
+    "Name": "Gran",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/kPLv9jJ.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "3"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "9",
+      "Experience": "100"
+    },
+    "OptionChoices": [
+      {
+        "Key": "GRANCH1",
+        "Name": "Skills",
+        "Description": "",
+        "Options": [
+          {
+            "Key": "GRANCH1OP1",
+            "Name": "One rank in Charm",
+            "Description": "Gran may take one rank in Charm",
+            "SkillModifiers": {
+              "Key": "CHARM",
+              "RankStart": "1",
+              "RankAdd": "0",
+              "RankLimit": "0",
+              "isCareer": "false"
+            }
+          },
+          {
+            "Key": "GRANCH1OP2",
+            "Name": "One rank in Negotiation",
+            "Description": "Gran may take one rank in Negotiation",
+            "SkillModifiers": {
+              "Key": "NEG",
+              "RankStart": "1",
+              "RankAdd": "0",
+              "RankLimit": "0",
+              "isCareer": "false"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "GRANCH2",
+        "Name": "Vision",
+        "Description": "",
+        "Options": {
+          "Key": "GRANCH2OP1",
+          "Name": "Enhanced Vision",
+          "Description": "When making ranged combat or Perception checks, Gran remove up to [SETBACK][SETBACK] imposed due to environmental conditions or concealment (but not defense)."
+        }
+      }
+    ],
+    "NoForceAbilities": "false",
+    "Source": [
+      {
+        "_Page": "56",
+        "__text": "Age of Rebellion Core Rulebook"
+      },
+      {
+        "_Page": "22",
+        "__text": "Far Horizons"
+      }
+    ]
+  },
+  {
+    "Key": "GUNGAN",
+    "Name": "Gungan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/tVOpH2r.png",
+    "Source": {
+      "_Page": "101",
+      "__text": "Nexus of Power"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "1",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "3"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "ATHL",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "GUNGAB1",
+      "Name": "Underwater",
+      "Options": {
+        "Key": "GUNGAB1OP1",
+        "Name": "Amphibious",
+        "Description": "Gungans may breathe underwater without penalty and never suffer movement penalties for traveling through water."
+      }
+    }
+  },
+  {
+    "Key": "HUMAN",
+    "Name": "Human",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/a54I8C0.jpeg",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "110"
+    },
+    "OptionChoices": {
+      "Key": "HUMANAB",
+      "Name": "Skills",
+      "Options": {
+        "Key": "HUMANABSK",
+        "Name": "Additional Non-Career Skills",
+        "Description": "Humans start the game with one rank in two different non-career skills of their choice.",
+        "StartingSkillTraining": {
+          "SkillTraining": {
+            "SkillCount": "2",
+            "Requirement": {
+              "NonCareer": "true"
+            }
+          }
+        }
+      }
+    },
+    "Source": [
+      {
+        "_Page": "48",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "57",
+        "__text": "Age of Rebellion Core Rulebook"
+      },
+      {
+        "_Page": "55",
+        "__text": "Force and Destiny Core Rulebook"
+      }
+    ]
+  },
+  {
+    "Key": "HUTT",
+    "Name": "Hutt",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/NFjvam6.png",
+    "Source": {
+      "_Page": "94",
+      "__text": "Lords of Nal Hutta"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "1",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "13",
+      "StrainThreshold": "11",
+      "Experience": "70"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": [
+      {
+        "Key": "ENDUR",
+        "RankAdd": "1"
+      },
+      {
+        "Key": "NOBFOOL",
+        "RankAdd": "1"
+      }
+    ],
+    "OptionChoices": [
+      {
+        "Key": "HUTTOC1",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "HUTTOC1OP1",
+            "Name": "Coercion",
+            "Description": "Hutts may begin the game with one rank in Coercion.",
+            "SkillModifiers": {
+              "Key": "COERC",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "HUTTOC1OP2",
+            "Name": "Discipline",
+            "Description": "Hutts may begin the game with one rank in Discipline.",
+            "SkillModifiers": {
+              "Key": "DISC",
+              "RankStart": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "HUTTOC2",
+        "Name": "Movement",
+        "Options": {
+          "Key": "HUTTOC2OP1",
+          "Name": "Ponderous",
+          "Description": "A Hutt can never spend more than one maneuver moving per turn."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "IAKARU",
+    "Name": "Iakaru",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/s8klIzX.png",
+    "Source": {
+      "_Page": "94",
+      "__text": "Dawn of Rebellion"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "SkillModifier": {
+        "Key": "PILOTSP",
+        "RankStart": "1"
+      }
+    },
+    "OptionChoices": {
+      "Key": "IAKARUCH1",
+      "Name": "Environment",
+      "Options": {
+        "Key": "IAKARUCH1OP1",
+        "Name": "Brachiation",
+        "Description": "Iakaru suffer no terrian penalties to movement though jungles or similar environments. They also add [BO] to Athletics and Coordination checks related to climbing, swinging, and balancing."
+      }
+    }
+  },
+  {
+    "Key": "IKTOTCHI",
+    "Name": "Iktotchi",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/EmBnSdB.png",
+    "Source": {
+      "_Page": "18",
+      "__text": "Keeping the Peace"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "12",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "VIGIL",
+      "RankStart": "1"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "IKTOTCHICH1",
+      "Name": "Initiative",
+      "Options": {
+        "Key": "IKTOTCHICH1OP1",
+        "Name": "Precognition",
+        "Description": "In addition to seeing flashes of the future at the GM's discretion, an Iktotchi may spend [TR] on an Initiative check to perform a free maneuver, or have an ally within short range perform a free maneuver, before the encounter begins."
+      }
+    }
+  },
+  {
+    "Key": "ISHITIB",
+    "Name": "Ishi Tib",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/xpfBfrH.png",
+    "Source": {
+      "_Page": "21",
+      "__text": "Lead by Example"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "12",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "DISC",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "ISHITIBCH1",
+        "Name": "Environment",
+        "Options": {
+          "Key": "ISHITIBCH1OP1",
+          "Name": "Amphibious",
+          "Description": "Ishi Tib can breathe underwater without penalty and never suffer movement penalties for traveling through water."
+        }
+      },
+      {
+        "Key": "ISHITIBCH2",
+        "Name": "Requirement",
+        "Options": {
+          "Key": "ISHITIBCH2OP1",
+          "Name": "Water Dependence",
+          "Description": "If an Ishi Tib has not been doused in salt water in the last twenty-four hours, the character's wound threshold is reduced by 2. This condition remains in effect until the ishi Tib is doused in salt water."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "ITHORIAN",
+    "Name": "Ithorian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/5j3Nmxi.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "1",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "12",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "SURV",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "2",
+      "isCareer": "false"
+    },
+    "OptionChoices": {
+      "Key": "ITHOROC1",
+      "Name": "Attack",
+      "Options": {
+        "Key": "ITHOROC1OP1",
+        "Name": "Bellow",
+        "Description": "With two mouths and four throats, Ithorians have a unique natural weapon they can call upon when threatened. Each time the Ithorian uses this ability, he suffers 3 strain.."
+      }
+    },
+    "NoForceAbilities": "false",
+    "Source": [
+      {
+        "_Page": "58",
+        "__text": "Age of Rebellion Core Rulebook"
+      },
+      {
+        "_Page": "20",
+        "__text": "Savage Spirits"
+      }
+    ],
+    "WeaponModifier": {
+      "Secondary": true,
+      "UnarmedName": "Bellow",
+      "SkillKey": "RESIL",
+      "AllSkillKey": "",
+      "Damage": "6",
+      "DamageAdd": "0",
+      "Crit": "4",
+      "CritSub": "0",
+      "RangeValue": "wrShort",
+      "Qualities": [
+        {
+          "Key": "BLAST",
+          "Count": "3",
+          "Index": "0",
+          "MiscDesc": "",
+          "DefZone": ""
+        },
+        {
+          "Key": "CONCUSSIVE",
+          "Count": "1",
+          "Index": "0",
+          "MiscDesc": "",
+          "DefZone": ""
+        },
+        {
+          "Key": "SLOWFIRING",
+          "Count": "2",
+          "Index": "0",
+          "MiscDesc": "",
+          "DefZone": ""
+        },
+        {
+          "Key": "STUNDAMAGE",
+          "MiscDesc": "",
+          "DefZone": ""
+        }
+      ]
+    }
+  },
+  {
+    "Key": "JAWA",
+    "Name": "Jawa",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/PbZm3Kf.png",
+    "Source": "Allies and Adversaries",
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "8",
+      "StrainThreshold": "8",
+      "Experience": "120"
+    },
+    "TalentModifiers": {
+      "Key": "CLEVNEG"
+    },
+    "OptionChoices": [
+      {
+        "Key": "JAWACH1",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "JAWACH1OP1",
+            "Name": "Negotiation",
+            "Description": "Jawas may begin with one rank in Negotiation. They still may not train the skill above rank 2 during character creation.",
+            "SkillModifiers": {
+              "Key": "NEG",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "JAWACH1OP2",
+            "Name": "Skulduggery",
+            "Description": "Jawas may begin with one rank in Skulduggery. They still may not train the skill above rank 2 during character creation.",
+            "SkillModifiers": {
+              "Key": "SKUL",
+              "RankStart": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "JAWACH2",
+        "Name": "Size",
+        "Options": {
+          "Key": "JAWACH2OP1",
+          "Name": "Size",
+          "Description": "Jawas count as silhouette 0"
+        }
+      }
+    ]
+  },
+  {
+    "Key": "KALLERAN",
+    "Name": "Kalleran",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/C2UwpSP.png",
+    "Source": {
+      "_Page": "25",
+      "__text": "No Disintegrations"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "8",
+      "StrainThreshold": "12",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "SW",
+      "RankStart": "1"
+    },
+    "TalentModifiers": {
+      "Key": "HEIGHT"
+    }
+  },
+  {
+    "Key": "KAMINOAN",
+    "Name": "Kaminoan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/AuaE1nd.png",
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "MED",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": {
+      "Key": "RESEARCH",
+      "RankAdd": "1"
+    },
+    "OptionChoices": [
+      {
+        "Key": "KAMINOANOC1",
+        "Name": "Skills",
+        "Description": "",
+        "Options": {
+          "Key": "KAMINOANOC1OP1",
+          "Name": "Expressionless",
+          "Description": "Kaminoans add [SE] to all Charm checks they make.",
+          "DieModifiers": {
+            "SkillKey": "CHARM",
+            "AddSetbackCount": "1"
+          }
+        }
+      },
+      {
+        "Key": "KAMINOANOC2",
+        "Name": "Opposing Skills",
+        "Description": "",
+        "Options": {
+          "Key": "KAMINOANOC2OP1",
+          "Name": "Expressionless",
+          "Description": "Other characters add [SE] to all social skill checks made against Kaminoans."
+        }
+      }
+    ],
+    "Source": [
+      {
+        "_Page": "20",
+        "__text": "Fully Operational"
+      },
+      {
+        "_Page": "14",
+        "__text": "Rise of the Separatists"
+      }
+    ]
+  },
+  {
+    "Key": "KARKARCOTR",
+    "Name": "Karkarodon",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/t6hRh97.png",
+    "Source": "Collapse of the Republic",
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "1",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "12",
+      "StrainThreshold": "10",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "SkillModifier": {
+        "Key": "ATHL",
+        "RankStart": "1"
+      }
+    },
+    "OptionChoices": [
+      {
+        "Key": "KARKJAWS",
+        "Name": "Jaws",
+        "Options": {
+          "Key": "NIKTOSP2OC1OP1",
+          "Name": "May use jaws when brawling",
+          "Description": "When a Karkarodon makes Brawl checks to deal damage to an opponent, they deal +1 damage and have a Critical Rating of 3."
+        }
+      },
+      {
+        "Key": "KARKARCOTRCH1",
+        "Name": "Amphibious",
+        "Options": {
+          "Key": "KARKARCOTRCH1OP1",
+          "Name": "Amphibious",
+          "Description": "Karkarodons are Amphibious and can breathe and move in water without penalty."
+        }
+      }
+    ],
+    "WeaponModifier": {
+      "UnarmedName": "Jaws",
+      "SkillKey": "BRAWL",
+      "DamageAdd": "1",
+      "Crit": "3",
+      "Range": "Engaged"
+    }
+  },
+  {
+    "Key": "KELDOR",
+    "Name": "Kel Dor",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/Tchroik.png",
+    "Source": {
+      "_Page": "57",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "EDU",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "KELDOROC1",
+        "Name": "Sight",
+        "Options": {
+          "Key": "KELDOROC1OP1",
+          "Name": "Dark Vision",
+          "Description": "Kel Dors remove up to [SETBACK][SETBACK] imposed due to darkness from any skill checks."
+        }
+      },
+      {
+        "Key": "KELDOROC2",
+        "Name": "Mask",
+        "Options": {
+          "Key": "KELDOROC2OP1",
+          "Name": "Atmospheric Requirement",
+          "Description": "Kel Dors must wear a specialized mask to breath and see outside of their native atmosphere. However, Kel Dor may survive in vacuum for up to five minues before suffering its effects."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "KLATOO",
+    "Name": "Klatooinian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/vkX9s0j.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "Dangerous Covenants"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "OptionChoices": [
+      {
+        "Key": "KLATOC1",
+        "Name": "Non-Career",
+        "Options": {
+          "Key": "KLATOC1OP1",
+          "Name": "Additional Non-Career Skill",
+          "Description": "Klatooninians start the game with one additional rank of one non-career skill of his choice.",
+          "StartingSkillTraining": {
+            "SkillTraining": {
+              "SkillCount": "1",
+              "Requirement": {
+                "NonCareer": "true"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Key": "KLATOC2",
+        "Name": "Combat",
+        "Options": [
+          {
+            "Key": "KLATOC2OP1",
+            "Name": "One Rank in Brawl",
+            "Description": "Klatooninians may begin the game with one rank in Brawl.",
+            "SkillModifiers": {
+              "Key": "BRAWL",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "KLATOC2OP2",
+            "Name": "One Rank in Ranged-Heavy",
+            "Description": "Klatooninians may begin the game with one rank in Ranged-Heavy.",
+            "SkillModifiers": {
+              "Key": "RANGHVY",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "KLATOC2OP3",
+            "Name": "One Rank in Ranged-Light",
+            "Description": "Klatooninians may begin the game with one rank in Ranged-Light.",
+            "SkillModifiers": {
+              "Key": "RANGLT",
+              "RankStart": "1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Key": "KUBAZ",
+    "Name": "Kubaz",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/k8oJRDL.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "Cyphers and Masks"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "KUBAZCH1",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "KUBAZCH1OP1",
+            "Name": "Stealth",
+            "Description": "Kubaz may begin the game with one rank in Stealth.",
+            "SkillModifiers": {
+              "Key": "STEAL",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "KUBAZCH1OP2",
+            "Name": "Survival",
+            "Description": "Kubaz may begin the game with one rank in Survival.",
+            "SkillModifiers": {
+              "Key": "SURV",
+              "RankStart": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "KUBAZCH2",
+        "Name": "Environmental",
+        "Options": {
+          "Key": "KUBAZCH2OP1",
+          "Name": "Enhanced Vision",
+          "Description": "When making Ranged combat or Perception checks, Kubaz may remove up to [SE][SE] due to concealment or environmental factors (but not defense)."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "KYUZO",
+    "Name": "Kyuzo",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/QNUUCAj.png",
+    "Source": {
+      "_Page": "22",
+      "__text": "Forged in Battle"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "11",
+      "DefenseRanged": "0",
+      "DefenseMelee": "0",
+      "SoakValue": "0",
+      "Experience": "90",
+      "ForceRating": "0"
+    },
+    "SkillModifiers": {
+      "Key": "COORD",
+      "RankStart": "1"
+    },
+    "OptionChoices": {
+      "Key": "KYUZOOC1",
+      "Name": "Physiology",
+      "Options": {
+        "Key": "KYUZOOC1OP1",
+        "Name": "Dense Musculature",
+        "Description": "Once per round as a maneuver, may suffer 3 strain to leap horizontally or vertically to any location within medium range.",
+        "DieModifiers": ""
+      }
+    }
+  },
+  {
+    "Key": "LANNIK",
+    "Name": "Lannik",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/HbKN5Oi.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "1",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "8",
+      "StrainThreshold": "12",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "SW",
+      "RankStart": "1"
+    },
+    "OptionChoices": {
+      "Key": "LANNIKCH1",
+      "Name": "Remove Setback",
+      "Options": {
+        "Key": "LANNIKCH1OP1",
+        "Name": "Indomitable",
+        "Description": "A Lannik removes up to [SE][SE] caused by Critical Injuries, the disoriented condition, and fear from all checks he makes."
+      }
+    },
+    "Source": [
+      {
+        "_Page": "20",
+        "__text": "Keeping the Peace"
+      },
+      {
+        "_Page": "23",
+        "__text": "Lead by Example"
+      }
+    ]
+  },
+  {
+    "Key": "LASATAAA",
+    "Name": "Lasat",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/3152Jdp.png",
+    "Source": "Allies and Adversaries",
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "12",
+      "StrainThreshold": "10",
+      "Experience": "90"
+    },
+    "OptionChoices": [
+      {
+        "Key": "LASATAAACH1",
+        "Name": "Skill Rank",
+        "Options": [
+          {
+            "Key": "LASATAAACH1OP1",
+            "Name": "Brawl",
+            "Description": "Lasats may begin with a rank in Brawl.  They still may not raise the skill above rank 2 during character creation.",
+            "SkillModifiers": {
+              "SkillModifier": {
+                "Key": "BRAWL",
+                "RankStart": "1"
+              }
+            }
+          },
+          {
+            "Key": "LASATAAACH1OP2",
+            "Name": "Lore",
+            "Description": "Lasats may begin with a rank in Lore. They still may not raise the skill above rank 2 during character creation.",
+            "SkillModifiers": {
+              "SkillModifier": {
+                "Key": "LORE",
+                "RankStart": "1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Key": "LASATAAACH2",
+        "Name": "Prehensile Feet",
+        "Options": {
+          "Key": "LASATAAACH2OP1",
+          "Name": "Prehensile Feet",
+          "Description": "Lasats can move along a vertical surface as if the surface was horizontal."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "MANDOHUMAN",
+    "Name": "Mandalorian Human",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/w5NXVyz.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "10",
+      "Experience": "105"
+    },
+    "OptionChoices": {
+      "Key": "MANDOHUMANOC1",
+      "Name": "Skills",
+      "Options": [
+        {
+          "Key": "MANDOHUMANOC1OP1",
+          "Name": "Combat Skill",
+          "Description": "Mandalorian Humans start the game with one rank in a combat skill of their choice.",
+          "StartingSkillTraining": {
+            "SkillTraining": {
+              "SkillCount": "1",
+              "Requirement": {
+                "FromSkillType": "true",
+                "SkillType": "Combat"
+              }
+            }
+          }
+        },
+        {
+          "Key": "MANDOHUMANOC1OP2",
+          "Name": "Knowledge Skills",
+          "Description": "Mandalorian Humans start the game with one rank in two knowledge skills of their choice.",
+          "StartingSkillTraining": {
+            "SkillTraining": {
+              "SkillCount": "2",
+              "Requirement": {
+                "FromSkillType": "true",
+                "SkillType": "Knowledge"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Source": {
+      "_Page": "7",
+      "__text": "Friends Like These"
+    }
+  },
+  {
+    "Key": "MELITTO",
+    "Name": "Melitto",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/jV2lZ1y.png",
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "11",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "PERC",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "OptionChoices": [
+      {
+        "Key": "MELITTOOC1",
+        "Name": "Vision",
+        "Options": {
+          "Key": "MELITTOOC1OP1",
+          "Name": "Sightless Vision",
+          "Description": "Melittos can perceive their surroundings without needing light and never suffer penalties on combat or Perception checks due to darkness or other factors that affect vision."
+        }
+      },
+      {
+        "Key": "MELITTOOC2",
+        "Name": "Physiology",
+        "Options": {
+          "Key": "MELITTOOC2OP1",
+          "Name": "Reliant on Toxins",
+          "Description": "Melittos require toxins of their native atmosphere to live. Offworld, they gain a free respirator that emulates this environment. They treat standard air as corrosive with a rating of 6."
+        }
+      }
+    ],
+    "Source": {
+      "_Page": "21",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "MIKKIAN",
+    "Name": "Mikkian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/8VmC1Fi.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "Knights of Fate"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "11",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "DISC",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "MIKKIANAB1",
+      "Name": "Senses",
+      "Options": {
+        "Key": "MIKKIANAB1OP1",
+        "Name": "Sensory Tendrils",
+        "Description": "Mikkians add [BO] to all Perception checks.",
+        "DieModifiers": {
+          "SkillKey": "PERC",
+          "BoostCount": "1"
+        }
+      }
+    }
+  },
+  {
+    "Key": "MIRIALAN",
+    "Name": "Mirialan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/tKTfgZv.png",
+    "Source": {
+      "_Page": "58",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": [
+      {
+        "Key": "DISC",
+        "RankStart": "1",
+        "RankLimit": "2"
+      },
+      {
+        "Key": "COOL",
+        "RankStart": "1",
+        "RankLimit": "2"
+      }
+    ],
+    "TalentModifiers": "",
+    "OptionChoices": ""
+  },
+  {
+    "Key": "MONCAL",
+    "Name": "Mon Calamari",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/ofEVNIf.png",
+    "Source": {
+      "_Page": "59",
+      "__text": "Age of Rebellion Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "EDU",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "0",
+      "isCareer": "false"
+    },
+    "OptionChoices": {
+      "Key": "MONCALCH1",
+      "Name": "Water",
+      "Description": "",
+      "Options": {
+        "Key": "MONCALCH1OP1",
+        "Name": "Amphibious",
+        "Description": "Mon Calamari can breathe underwater without penalty and never suffer movement penalties for traveling through water."
+      }
+    },
+    "NoForceAbilities": "false"
+  },
+  {
+    "Key": "MUSTAFARIAN",
+    "Name": "Mustafarian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/dbb04xY.png",
+    "Source": {
+      "_Page": "24",
+      "__text": "Special Modifications"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "BRAWL",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "SubSpeciesList": [
+      {
+        "Key": "MUSTAFARIANSUB1",
+        "Name": "Northern Mustafarian",
+        "Description": "Please see page 26 of the Special Modifications Sourcebook for details.",
+        "TalentModifiers": {
+          "Key": "EYEDET",
+          "RankAdd": "1"
+        },
+        "OptionChoices": {
+          "Key": "NMUSTAOC1",
+          "Name": "Environmental",
+          "Options": {
+            "Key": "NMUSTAOC1OP1",
+            "Name": "Arid/Hot Environments",
+            "Description": "Northern Mustafarians may remove [SETBACK][SETBACK] to resist arid or hot environmental conditions."
+          }
+        }
+      },
+      {
+        "Key": "MUSTAFARIANSUB2",
+        "Name": "Southern Mustafarian",
+        "Description": "Please see page 26 of the Special Modifications Sourcebook for details.",
+        "TalentModifiers": {
+          "Key": "ENDUR",
+          "RankAdd": "1"
+        },
+        "OptionChoices": {
+          "Key": "SMUSTAOC1",
+          "Name": "Environmental",
+          "Options": {
+            "Key": "SMUSTAOC1OP1",
+            "Name": "Arid/Hot Environments",
+            "Description": "Southern Mustafarians may remove [SETBACK][SETBACK] to resist arid or hot environmental conditions."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Key": "MUUN",
+    "Name": "Muun",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/7ke8PsC.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "Endless Vigil"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "3",
+      "Willpower": "1",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "9",
+      "Experience": "90"
+    },
+    "SkillModifiers": [
+      {
+        "Key": "EDU",
+        "RankStart": "1",
+        "RankLimit": "2"
+      },
+      {
+        "Key": "CORE",
+        "RankStart": "1",
+        "RankLimit": "2"
+      }
+    ],
+    "OptionChoices": {
+      "Key": "MUUNOC1",
+      "Name": "Credits",
+      "Options": {
+        "Key": "MUUNOC1OP1",
+        "Name": "Deep Pockets",
+        "Description": "Muun characters start the game with an additional 1,000 credits. They may not be spend during character creation."
+      }
+    }
+  },
+  {
+    "Key": "NAUTOLAN",
+    "Name": "Nautolan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/0WSczHg.png",
+    "Source": {
+      "_Page": "59",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "9",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "ATHL",
+      "RankStart": "1"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "NAUTOLANCH1",
+      "Name": "Breathe",
+      "Description": "",
+      "Options": {
+        "Key": "NAUTOLANCH1OP1",
+        "Name": "Amphibious",
+        "Description": "Nautolans may breathe underwater without penalty and never suffer movement penalties for traveling through water."
+      }
+    }
+  },
+  {
+    "Key": "NEIM",
+    "Name": "Neimoidian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/X2ltdVM.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "Desperate Allies"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "3",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "9",
+      "Experience": "90"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "NEIMCH1",
+      "Name": "Skills",
+      "Description": "",
+      "Options": [
+        {
+          "Key": "NEIMCH1OP1",
+          "Name": "Negotiation",
+          "Description": "Neimoidians may begin the game with one free rank in Negotiation.",
+          "SkillModifiers": {
+            "Key": "NEG",
+            "RankStart": "1"
+          }
+        },
+        {
+          "Key": "NEIMCH1OP2",
+          "Name": "Deception",
+          "Description": "Neimoidians may begin the game with one free rank in Deception.",
+          "SkillModifiers": {
+            "Key": "DECEP",
+            "RankStart": "1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "NIKTO",
+    "Name": "Nikto",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/Vfh8Flu.png",
+    "Source": {
+      "_Page": "96",
+      "__text": "Lords of Nal Hutta"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "OptionChoices": "",
+    "SubSpeciesList": [
+      {
+        "Key": "NIKTOCH1OP1",
+        "Name": "Kajain'sa'Nikto (Red Nikto)",
+        "Description": "The most common subspecies, the Kajain'sa'Nikto or \"Red Nikto\", adapted to survive in the Wannschok, or \"Endless Wastes\", a desert region on Kintan. They have a series of forehead ridges and small facial horns surrounding their eyes and on the chin.",
+        "SkillModifiers": {
+          "Key": "RESIL",
+          "RankStart": "1"
+        },
+        "OptionChoices": {
+          "Key": "NIKTOSP1OC1",
+          "Name": "Environmental",
+          "Options": {
+            "Key": "NIKTOSP1OC1OP1",
+            "Name": "Arid/Hot Environments",
+            "Description": "Red Niktos may remove [SETBACK] imposed due to arid or hot enviromental conditions."
+          }
+        }
+      },
+      {
+        "Key": "NIKTOCH1OP2",
+        "Name": "Kadas'sa'Nikto (Green Nikto)",
+        "Description": "Kadas'sa'Nikto, or \"Green Nikto,\" originated in the milder climatic regions of Kintan, such as the forests and the seacoasts. Their scaly faces have small facial horns surrounding the eyes and on the chin. Their main distinguishing features are the long climbing claws on their hands, which can also be used in combat.",
+        "SkillModifiers": {
+          "Key": "COORD",
+          "RankStart": "1"
+        },
+        "WeaponModifier": {
+          "UnarmedName": "Claws",
+          "AllSkillKey": "BRAWL",
+          "DamageAdd": "1",
+          "Crit": "3"
+        },
+        "OptionChoices": [
+          {
+            "Key": "NIKTOSP2OC1",
+            "Name": "Claws",
+            "Options": {
+              "Key": "NIKTOSP2OC1OP1",
+              "Name": "May use claws when brawling",
+              "Description": "When a Green Nikto makes Brawl checks to deal damage to an opponent, he deals +1 damage and has a Critical Rating of 3."
+            }
+          },
+          {
+            "Key": "NIKTOSP2OC2",
+            "Name": "Athletics",
+            "Options": {
+              "Key": "NIKTOSP2OC2OP1",
+              "Name": "Climbing",
+              "Description": "Green Nikto gain [BOOST] to Athletics checks made to climb trees and other surfaces their claws can pierce."
+            }
+          }
+        ]
+      },
+      {
+        "Key": "NIKTOCH1OP3",
+        "Name": "Esral'sa'Nikto (Mountain Nikto)",
+        "Description": "Esral'sa'Nikto, or \"Mountain Nikto\", adapted to the variable climate of the mountains of Kintan. They have large facial fins which are used for heat regulation. These fins also improve the Esral'sa'Nikto's hearing. Their skin is blue-gray, and they have neither horns nor breathing tubes.",
+        "SkillModifiers": {
+          "Key": "SURV",
+          "RankStart": "1"
+        },
+        "TalentModifiers": {
+          "Key": "NATOUT",
+          "RankAdd": "1"
+        }
+      },
+      {
+        "Key": "NIKTOCH1OP4",
+        "Name": "Gluss'sa'Nikto (Pale Nikto)",
+        "Description": "Gluss'sa'Nikto, or \"Pale Nikto\", came from the Gluss'elta Islands of Kintan, causing them to be natural sailors. They have white-gray skin, eye-horns like the Kadas'sa'Nikto, and fins similar to those of the Esral'sa'Nikto, but smaller.",
+        "SkillModifiers": {
+          "Key": "ATHL",
+          "RankStart": "1"
+        },
+        "OptionChoices": {
+          "Key": "NIKTOSP4OC1",
+          "Name": "Aquatic",
+          "Options": {
+            "Key": "NIKTOSP4OC1OP1",
+            "Name": "Swimmer",
+            "Description": "A Pale Nikto never suffers movement penalties for traveling through water and can hold his breath for a number of rounds equal to twice his Brawn rating before beginning to drown."
+          }
+        }
+      },
+      {
+        "Key": "NIKTOCH1OP5",
+        "Name": "M'shento'su'Nikto (Southern Nikto)",
+        "Description": "M'shento'su'Nikto, or \"Southern Nikto\", have no horns, a covered nose, and several pairs of breathing tubes. These tubes are larger than those of the Kajain'sa'Nikto, and also act as primitive ultrasonic sensory organs. Their skin color varies from white to yellow or orange.",
+        "SkillModifiers": {
+          "Key": "PERC",
+          "RankStart": "1"
+        },
+        "OptionChoices": {
+          "Key": "NIKTOSP5OC1",
+          "Name": "Detection",
+          "Options": {
+            "Key": "NIKTOSP5OC1OP1",
+            "Name": "Sounds",
+            "Description": "Southern Nikto may add [BOOST] to Perception and Vigilance checks to detect sounds."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Key": "PANTORAN",
+    "Name": "Pantoran",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/r49f9Ms.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "3"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "11",
+      "Experience": "110"
+    },
+    "OptionChoices": [
+      {
+        "Key": "PANTOC1",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "PANTOC1OP1",
+            "Name": "Cool",
+            "Description": "Pantorans may begin the game with one rank in Cool.",
+            "SkillModifiers": {
+              "Key": "COOL",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "PANTAB1OP2",
+            "Name": "Negotiation",
+            "Description": "Pantorans may begin the game with one rank in Negotiation.",
+            "SkillModifiers": {
+              "Key": "NEG",
+              "RankStart": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "PANTOC2",
+        "Name": "Environmental",
+        "Options": {
+          "Key": "PANTOC2OP1",
+          "Name": "Tundra Dweller",
+          "Description": "When making skill checks, Pantorans may remove [SETBACK] imposed due to cold environmental conditions."
+        }
+      }
+    ],
+    "Source": {
+      "_Page": "22",
+      "__text": "Endless Vigil"
+    }
+  },
+  {
+    "Key": "PAUAN",
+    "Name": "Pau'an",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/kdEpv1B.png",
+    "Source": {
+      "_Page": "19",
+      "__text": "Disciples of Harmony"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "12",
+      "StrainThreshold": "8",
+      "Experience": "95"
+    },
+    "OptionChoices": [
+      {
+        "Key": "PAUANCH1",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "PAUANCH1OP1",
+            "Name": "Coercion",
+            "Description": "Pau'ans may begin the game with one free rank in Coercion.",
+            "SkillModifiers": {
+              "Key": "COERC",
+              "RankStart": "1",
+              "RankLimit": "2"
+            },
+            "TalentModifiers": ""
+          },
+          {
+            "Key": "PAUANCH1OP2",
+            "Name": "Negotiation",
+            "Description": "Pau'an may begin the game with one free rank in Negotiation.",
+            "SkillModifiers": {
+              "Key": "NEG",
+              "RankStart": "1",
+              "RankLimit": "2"
+            },
+            "TalentModifiers": ""
+          }
+        ]
+      },
+      {
+        "Key": "PAUANCH2",
+        "Name": "Perceiving",
+        "Options": {
+          "Key": "PAUANCH2OP1",
+          "Name": "Sensitive Hearing",
+          "Description": "Pau'an's add [BO] to all Perception and Vigilance checks while wearing ear protection. Without ear protection, they add [TH] to Perception and Vigilance checks instead."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "PHYDOLON",
+    "Name": "Phydolon",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/KKJKwTy.png",
+    "Source": {
+      "_Page": "21",
+      "__text": "Knights of Fate"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "PHYDOLONAB1",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "PHYDOLONAB1OP1",
+            "Name": "Cool",
+            "Description": "Phydolons may begin the game with one rank in Cool.",
+            "SkillModifiers": {
+              "Key": "COOL",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "PHYDOLONAB1OP2",
+            "Name": "Discipline",
+            "Description": "Phydolons may begin the game with one rank in Discipline.",
+            "SkillModifiers": {
+              "Key": "DISC",
+              "RankStart": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "PHYDOLONAB2",
+        "Name": "Wound Recovery",
+        "Options": {
+          "Key": "PHYDOLONAB2OP1",
+          "Name": "Symbiotic Resilience",
+          "Description": "When recovering wounds naturally, Phydolons heal 1 extra wound per full night's rest. When critially injured, Phydolons may attempt to recover from one Critical Injury after a full night's rest, instead of a full week's."
+        }
+      },
+      {
+        "Key": "PHYDOLONAB3",
+        "Name": "Strain Recovery",
+        "Options": {
+          "Key": "PHYDOLONAB3OP1",
+          "Name": "Symbiont Isolation",
+          "Description": "When recovering from strain at the end of an encounter, Phydolons recover 1 less strain if no other Phydolons are present (to a minimum of 1)."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "POLISMASSAN",
+    "Name": "Polis Massan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/yeILTmG.png",
+    "Source": {
+      "_Page": "98",
+      "__text": "Strongholds of Resistance"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "1",
+      "Requirement": {
+        "WearingArmor": "false",
+        "Career": "false",
+        "Specialization": "false",
+        "NonCareer": "false",
+        "SoakAtLeast": "0",
+        "WieldingMelee": "false",
+        "WieldingBrawl": "false",
+        "WieldingLightsaber": "false"
+      }
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "8",
+      "StrainThreshold": "11",
+      "DefenseRanged": "0",
+      "DefenseMelee": "0",
+      "SoakValue": "0",
+      "Experience": "100",
+      "ForceRating": "0",
+      "Requirement": {
+        "WearingArmor": "false",
+        "Career": "false",
+        "Specialization": "false",
+        "NonCareer": "false",
+        "SoakAtLeast": "0",
+        "WieldingMelee": "false",
+        "WieldingBrawl": "false",
+        "WieldingLightsaber": "false"
+      }
+    },
+    "SkillModifiers": {
+      "Key": "MED",
+      "SubSpeciesKey": "",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "2",
+      "isCareer": "false"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "POLISMASSANCH1",
+        "Name": "Vocal Chords",
+        "Description": "",
+        "Source": "",
+        "Options": [
+          {
+            "Key": "POLISMASSANCH1OP1",
+            "Name": "No Vocal Chords",
+            "Description": "A vast majority of Polis Massans are born without vocal chords."
+          },
+          {
+            "Key": "POLISMASSANCH1OP2",
+            "Name": "Posesses Vocal Chords",
+            "Description": "A small minority of Polis Massans do possess vocal chords. Referred to as \"speakers\" by their people, these rare individuals can physically speak languages, though their voices are soft and strangely resonant.",
+            "StartingAttributes": {
+              "Experience": "-10"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "POLISMASSANCH2",
+        "Name": "Communication",
+        "Options": {
+          "Key": "POLISMASSANCH2OP1",
+          "Name": "Telepathy",
+          "Description": "Polis Massans can communicate with other beings using a simple form of telepathy. At short range, this is akin to a broadcast, and any being will \"hear\" what the Polis Massan says. They can \"whisper\" to individuals at engaged range."
+        }
+      }
+    ],
+    "SubSpeciesList": "",
+    "CyberneticsAdjust": "0",
+    "NoForceAbilities": "false"
+  },
+  {
+    "Key": "QUARREN",
+    "Name": "Quarren",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/uvpQzG4.png",
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "1",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "8",
+      "Experience": "95"
+    },
+    "SkillModifiers": {
+      "Key": "NEG",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "2",
+      "isCareer": "false"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "QUARRENOC1",
+        "Name": "Environment",
+        "Options": {
+          "Key": "QUARRENOC1OP1",
+          "Name": "Amphibious",
+          "Description": "Can breathe underwater without penalty and never suffer movement penalties for traveling through water."
+        }
+      },
+      {
+        "Key": "QUARRENOC2",
+        "Name": "Defense",
+        "Options": {
+          "Key": "QUARRENOC2OP1",
+          "Name": "Ink Spray",
+          "Description": "Can spray ink. Once per encounter, as an out-of-turn incidental, may suffer 2 strain to add [SE] to enemy check within short range. Add [SE][SE][SE] underwater."
+        }
+      }
+    ],
+    "Source": [
+      {
+        "_Page": "23",
+        "__text": "Fly Casual"
+      },
+      {
+        "_Page": "100",
+        "__text": "Strongholds of Resistance"
+      }
+    ]
+  },
+  {
+    "Key": "QUERMIAN",
+    "Name": "Quermian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/KLiHdmX.png",
+    "Source": {
+      "_Page": "98",
+      "__text": "Savage Spirits"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "85"
+    },
+    "SkillModifiers": {
+      "Key": "PERC",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "QUERMOC1",
+      "Name": "Combat",
+      "Options": {
+        "Key": "QUERMOC1OP1",
+        "Name": "Additional Limbs",
+        "Description": "Quermians have four arms and gain an additional free maneuver per turn. They still may not perform more than two maneuvers per turn, however."
+      }
+    }
+  },
+  {
+    "Key": "ROD",
+    "Name": "Rodian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/9mHMZkT.png",
+    "Source": {
+      "_Page": "49",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "SURV",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": {
+      "Key": "EXTRACK",
+      "RankAdd": "1"
+    }
+  },
+  {
+    "Key": "SAKIYAN",
+    "Name": "Sakiyan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/prP3ZCY.png",
+    "Source": {
+      "_Page": "98",
+      "__text": "Lords of Nal Hutta"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "8",
+      "StrainThreshold": "10",
+      "Experience": "80"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": {
+      "Key": "EXTRACK",
+      "RankAdd": "1"
+    },
+    "OptionChoices": {
+      "Key": "SAKIYANOC1",
+      "Name": "Skills",
+      "Options": [
+        {
+          "Key": "SAKIYANOC1OP1",
+          "Name": "Perception",
+          "Description": "Sakiyans may begin the game with one rank in Perception.",
+          "SkillModifiers": {
+            "Key": "PERC",
+            "RankStart": "1"
+          }
+        },
+        {
+          "Key": "SAKIYANOC1OP2",
+          "Name": "Vigilance",
+          "Description": "Sakiyans may begin the game with one rank in Vigilance.",
+          "SkillModifiers": {
+            "Key": "VIGIL",
+            "RankStart": "1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "SATHARI",
+    "Name": "Sathari",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/pDDGqo0.png",
+    "Source": {
+      "_Page": "15",
+      "__text": "Chronicles of the Gatekeeper"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "8",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "COORD",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "OptionChoices": {
+      "Key": "SATHARICH1",
+      "Name": "Avian",
+      "Options": {
+        "Key": "SATHARICH1OP1",
+        "Name": "Glider",
+        "Description": "A Sathari can fall safely from any height and can glide over small gaps or distances while falling. While conscious, a Sathari character does not suffer damage from falling (see page 221 of the Force and Destiny Core Rulebook)."
+      }
+    }
+  },
+  {
+    "Key": "SELONIAN",
+    "Name": "Selonian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/XRp2XTf.jpeg",
+    "Source": {
+      "_Page": "91",
+      "__text": "Suns of Fortune"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "3",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "10",
+      "Experience": "80"
+    },
+    "SkillModifiers": {
+      "Key": "COORD",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "OptionChoices": [
+      {
+        "Key": "SELONIANCH1",
+        "Name": "Sight",
+        "Options": {
+          "Key": "SELONIANCH1OP1",
+          "Name": "Sees in Darkness",
+          "Description": "Selonians see in almost total darkness. Remove all [SETBACK] added due to darkness."
+        }
+      },
+      {
+        "Key": "SELONIANTAIL",
+        "Name": "Tail",
+        "Options": {
+          "Key": "SELONIANTAIL",
+          "Name": "May use tail when brawling",
+          "Description": "A Selonian's tail may be used as a brawl weapon. When used to attack, it uses the Brawl skill with the Agility characteristic. It always counts as equipped, and has the following profile: Damage +1, Critical 5, Range (Engaged), Disorient 2, Knockdown. They may activate Knockdown with [AD]"
+        }
+      }
+    ],
+    "WeaponModifier": {
+      "Secondary": true,
+      "UnarmedName": "Tail",
+      "SkillKey": "BRAWL",
+      "DamageAdd": "1",
+      "Crit": "5",
+      "RangeValue": "wrEngaged",
+      "Qualities": [
+        {
+          "Key": "DISORIENT",
+          "Count": "2"
+        },
+        {
+          "Key": "KNOCKDOWN"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "SHIST",
+    "Name": "Shistavanen",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/8gJieQe.png",
+    "Source": {
+      "_Page": "24",
+      "__text": "Forged in Battle"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "3",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "12",
+      "StrainThreshold": "10",
+      "Experience": "80"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "SHISTCH1",
+        "Name": "Initiative",
+        "Description": "",
+        "Options": {
+          "Key": "SHISTCH1OP1",
+          "Name": "Hunter's Instincts",
+          "Description": "When making an Initiative check, a Shistavanens may use Survival instead of Vigilance or Cool."
+        }
+      },
+      {
+        "Key": "SHISTCH2",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "SHISTCH2OP1",
+            "Name": "Brawl",
+            "Description": "Shistavanens may begin the game with one rank in Brawl.",
+            "SkillModifiers": {
+              "Key": "BRAWL",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "SHISTCH2OP2",
+            "Name": "Survival",
+            "Description": "Shistavanens may begin the game with one rank in Survival.",
+            "SkillModifiers": {
+              "Key": "SURV",
+              "RankStart": "1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Key": "SKAKOAN",
+    "Name": "Skakoan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/BDiAslZ.png",
+    "Source": {
+      "_Page": "21",
+      "__text": "Fully Operational"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "3",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "8",
+      "Experience": "80"
+    },
+    "SkillModifiers": [
+      {
+        "Key": "EDU",
+        "RankStart": "1",
+        "RankLimit": "2"
+      },
+      {
+        "Key": "MECH",
+        "RankStart": "1",
+        "RankLimit": "2"
+      }
+    ],
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "SKAKOANOC1",
+        "Name": "Equipment",
+        "Description": "",
+        "Options": {
+          "Key": "SKAKOANOC1OP1",
+          "Name": "Methane Breather",
+          "Description": "Skakoans start the game with a Skakoan Pressure Suit.",
+          "DieModifiers": ""
+        }
+      },
+      {
+        "Key": "SKAKOANOC2",
+        "Name": "Environment",
+        "Description": "",
+        "Options": {
+          "Key": "SKAKOANOC2OP1",
+          "Name": "Methane Breather",
+          "Description": "Skakoans treat standard planetary air and pressure as a corrosive atmosphere with rating 6."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "SULLUSTAN",
+    "Name": "Sullustan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/4Kk9Uqf.png",
+    "Source": {
+      "_Page": "60",
+      "__text": "Age of Rebellion Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "ASTRO",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "0",
+      "isCareer": "false"
+    },
+    "TalentModifiers": {
+      "Key": "SKILLJOCK",
+      "RankStart": "0",
+      "RankAdd": "1",
+      "RankLimit": "0"
+    },
+    "OptionChoices": "",
+    "NoForceAbilities": "false"
+  },
+  {
+    "Key": "THISSPIASIAN",
+    "Name": "Thisspiasian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/5LUkNFR.png",
+    "Source": {
+      "_Page": "18",
+      "__text": "Unlimited Power"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "8",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "DISC",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "THISSPIASIANAB1",
+        "Name": "Healing",
+        "Options": {
+          "Key": "THISSPIASIANAB1OP1",
+          "Name": "Rest",
+          "Description": "Thisspiasians only need two hours sleep to heal all strain."
+        }
+      },
+      {
+        "Key": "THISSPIASIANAB2",
+        "Name": "Healing",
+        "Options": {
+          "Key": "THISSPIASIANAB2OP1",
+          "Name": "Meditation",
+          "Description": "Once per session, Thisspiasians may spend ten minutes meditating to heal strain equal to twice their ranks in Discipline."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "THOLOTHIAN",
+    "Name": "Tholothian",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/fbdqDMX.png",
+    "Source": {
+      "_Page": "20",
+      "__text": "Unlimited Power"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "95"
+    },
+    "SkillModifiers": {
+      "Key": "XEN",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "THOLOTHIANAB1",
+        "Name": "Social",
+        "Options": {
+          "Key": "THOLOTHIANAB1OP1",
+          "Name": "Cultural Adopters",
+          "Description": "Tholothians add an automatic [AD] when making social skill checks to interact with non-Tholothians.",
+          "DieModifiers": [
+            {
+              "SkillKey": "CHARM",
+              "AdvantageCount": "1"
+            },
+            {
+              "SkillKey": "COERC",
+              "AdvantageCount": "1"
+            },
+            {
+              "SkillKey": "DECEP",
+              "AdvantageCount": "1"
+            },
+            {
+              "SkillKey": "LEAD",
+              "AdvantageCount": "1"
+            },
+            {
+              "SkillKey": "NEG",
+              "AdvantageCount": "1"
+            }
+          ]
+        }
+      },
+      {
+        "Key": "THOLOTHIANAB2",
+        "Name": "Healing",
+        "Options": {
+          "Key": "THOLOTHIANAB2OP1",
+          "Name": "Natural Roots",
+          "Description": "When making a check to heal strain in a natural or wild setting, Tholothians heal one additional strain."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "TOGNATHS",
+    "Name": "Tognath",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/yGlJVxq.png",
+    "Source": {
+      "_Page": "96",
+      "__text": "Dawn of Rebellion"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "9",
+      "Experience": "95"
+    },
+    "SkillModifiers": {
+      "SkillModifier": [
+        {
+          "Key": "COORD",
+          "RankStart": "1"
+        },
+        {
+          "Key": "PERC",
+          "RankStart": "1"
+        }
+      ]
+    },
+    "OptionChoices": [
+      {
+        "Key": "TOGNATHSCH1",
+        "Name": "Physiology",
+        "Options": {
+          "Key": "TOGNATHSCH1OP1",
+          "Name": "Primitive Nerves",
+          "Description": "Add [SE][SE] to Coercion checks targeting Tognath characters."
+        }
+      },
+      {
+        "Key": "TOGNATHSCH2",
+        "Name": "Requirement",
+        "Options": {
+          "Key": "TOGNATHSCH2OP1",
+          "Name": "Atmospheric Requirement",
+          "Description": "Tognaths must wear a specialized mask or breathing apparatus to breathe outside their native atmosphere. Tognath characters start the game with a breath mask and treat oxygen as a corrosive atmosphere with rating 5. However, they can surivive in vacuum for up to five minutes before suffering its effects."
+        }
+      },
+      {
+        "Key": "TOGNATHSCH3",
+        "Name": "Egg Mates",
+        "Options": {
+          "Key": "TOGNATHSCH3OP1",
+          "Name": "Egg Mates",
+          "Description": "If Tognath characters have an egg-mate, they may spend a Destiny Point as an incidental to learn the general location or direction of that egg mate, as long as the egg mate is within extreme rage of their location. They also learn the current emotional state of the egg mate as well."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "TOGRUTA",
+    "Name": "Togruta",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/2Xve6JA.png",
+    "Source": {
+      "_Page": "60",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "3",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100",
+      "ForceRating": "0"
+    },
+    "SkillModifiers": {
+      "Key": "PERC",
+      "RankStart": "1"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "TOGRUTAOC1",
+      "Name": "Combat",
+      "Description": "",
+      "Options": {
+        "Key": "TOGRUTAOC1OP1",
+        "Name": "Pack Instincts",
+        "Description": "When performing the assist maneuver, Togrutas grant [BOOST][BOOST] instead of [BOOST]."
+      }
+    }
+  },
+  {
+    "Key": "TOYDARIAN",
+    "Name": "Toydarians",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/qC2Ytoh.png",
+    "Source": {
+      "_Page": "22",
+      "__text": "Enter the Unknown"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "1",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "3"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "12",
+      "Experience": "90"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "TOYDARIANCH1",
+        "Name": "Size",
+        "Description": "",
+        "Options": {
+          "Key": "TOYDARIANCH1OP1",
+          "Name": "Silhouette",
+          "Description": "Toydarians are smaller than average and count as silhouette 0."
+        }
+      },
+      {
+        "Key": "TOYDARIANCH2",
+        "Name": "Wings",
+        "Description": "",
+        "Options": {
+          "Key": "TOYDARIANCH2OP1",
+          "Name": "Hoverer",
+          "Description": "Toydarians have wings that allow them to hover slightly off the ground. When hovering, Toydarians do not have to spend additional maneuvers when navigating difficult terrain. Otherwise, their wings allow them no extra capabilities beyond those of a normal, walking character."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "TRAND",
+    "Name": "Trandoshan",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/OGREcNh.png",
+    "Source": {
+      "_Page": "50",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "1",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "12",
+      "StrainThreshold": "9",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "PERC",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "TRANDABREGEN",
+        "Name": "Regeneration",
+        "Options": {
+          "Key": "TRANDREGEN",
+          "Name": "Wound Regeneration",
+          "Description": "Whenever a trandoshan would recover one or more wounds from natural rest or recuperation in a Bacta tank, he recovers one additional wound. Trandoshans can regrow lost limbs as well, though it usully takes at least a month before the limb is usable."
+        }
+      },
+      {
+        "Key": "TRANDABCL",
+        "Name": "Claws",
+        "Options": {
+          "Key": "TRANDCL",
+          "Name": "May use claws when brawling",
+          "Description": "When a Trandoshan makes Brawl checks to deal damage to an opponent, he deals +1 damage and has a Critical Rating of 3."
+        }
+      }
+    ],
+    "WeaponModifier": {
+      "AllSkillKey": "BRAWL",
+      "DamageAdd": "1",
+      "Crit": "3"
+    }
+  },
+  {
+    "Key": "TUSKENRAIDER",
+    "Name": "Tusken Raider",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/nEFFGue.png",
+    "Source": "Allies and Adversaries",
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "11",
+      "Experience": "105"
+    },
+    "SkillModifiers": {
+      "SkillModifier": {
+        "Key": "SURV",
+        "RankStart": "1"
+      }
+    },
+    "OptionChoices": [
+      {
+        "Key": "TUSKENRAIDERCH1",
+        "Name": "Bantha Riders",
+        "Options": {
+          "Key": "TUSKENRAIDERCH1OP1",
+          "Name": "Bantha Riders",
+          "Description": "When making Athletics or Survival checks to handle a bantha, Tusken Raiders add automatic [SU] to the check."
+        }
+      },
+      {
+        "Key": "TUSKENRAIDERCH2",
+        "Name": "Water Reclamator",
+        "Options": {
+          "Key": "TUSKENRAIDERCH2OP1",
+          "Name": "Water Reclamator",
+          "Description": "Tusken Raiders reduce the difficulty of all Resilience and Survival checks related to enduring extreme heat or going without water once."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "TWI",
+    "Name": "Twi'lek",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/h8V1C2N.png",
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "3"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "11",
+      "Experience": "100"
+    },
+    "OptionChoices": [
+      {
+        "Key": "TWIABSK",
+        "Name": "Skills",
+        "Options": [
+          {
+            "Key": "TWISKCH",
+            "Name": "Charm",
+            "Description": "Twi'leks may begin the game with one rank in Charm.",
+            "SkillModifiers": {
+              "Key": "CHARM",
+              "RankStart": "1"
+            }
+          },
+          {
+            "Key": "TWISKDEC",
+            "Name": "Deception",
+            "Description": "Twi'leks may begin the game with one rank in Deception.",
+            "SkillModifiers": {
+              "Key": "DECEP",
+              "RankStart": "1"
+            }
+          }
+        ]
+      },
+      {
+        "Key": "TWIENV",
+        "Name": "Environmental",
+        "Options": {
+          "Key": "TWIENVHOT",
+          "Name": "Arid/Hot Environments",
+          "Description": "When making skill checks, Twi'leks may remove [SETBACK] imposed due to arid or hot environmental conditions."
+        }
+      }
+    ],
+    "Source": [
+      {
+        "_Page": "51",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "61",
+        "__text": "Force and Destiny Core Rulebook"
+      }
+    ]
+  },
+  {
+    "Key": "UMBARAN",
+    "Name": "Umbaran",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/RYHV4df.png",
+    "Source": {
+      "_Page": "15",
+      "__text": "Rise of the Separatists"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "DECEP",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "UMBARANAB1",
+        "Name": "Skills",
+        "Options": {
+          "Key": "UMBARANAB1OP1",
+          "Name": "Entrancing Gaze",
+          "Description": "Umbarans add [BO] to all Charm, Deception, and Negotiation checks.",
+          "DieModifiers": [
+            {
+              "SkillKey": "CHARM",
+              "BoostCount": "1"
+            },
+            {
+              "SkillKey": "DECEP",
+              "BoostCount": "1"
+            },
+            {
+              "SkillKey": "NEG",
+              "BoostCount": "1"
+            }
+          ]
+        }
+      },
+      {
+        "Key": "UMBARANAB2",
+        "Name": "Skills",
+        "Options": {
+          "Key": "UMBARANAB2OP1",
+          "Name": "Shadow Dweller",
+          "Description": "When making skill checks, Umbarans remove up to [SE][SE] due to darkness, and add [SE] to checks made in bright natural light."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "VERPINE",
+    "Name": "Verpine",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/qYBKBl7.png",
+    "Source": {
+      "_Page": "102",
+      "__text": "Strongholds of Resistance"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "3",
+      "Intellect": "3",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "12",
+      "Experience": "80"
+    },
+    "SkillModifiers": {
+      "Key": "MECH",
+      "RankStart": "1",
+      "RankAdd": "0",
+      "RankLimit": "0",
+      "isCareer": "false"
+    },
+    "OptionChoices": [
+      {
+        "Key": "VERPINECH1",
+        "Name": "Perception",
+        "Description": "",
+        "Options": {
+          "Key": "VERPINECH1OP1",
+          "Name": "Microvision",
+          "Description": "When closely examining an object, Verpine add [BO] to their Perception checks."
+        }
+      },
+      {
+        "Key": "VERPINECH2",
+        "Name": "Communication",
+        "Description": "",
+        "Options": {
+          "Key": "VERPINECH2OP1",
+          "Name": "Radio-wave Communication",
+          "Description": "Verpine can produce and hear radio waves, which allows them to silently communicate with other Verpine and specially-tuned comlinks within a 100-kilometer range."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "VURK",
+    "Name": "Vurk",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/cU7qBtG.png",
+    "Source": {
+      "_Page": "22",
+      "__text": "Unlimited Power"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "3"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "11",
+      "StrainThreshold": "11",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "NEG",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "VURKAB1",
+        "Name": "Environmental",
+        "Options": {
+          "Key": "VURKAB1OP1",
+          "Name": "Amphibious",
+          "Description": "Vurk can breathe and move underwater without penalty."
+        }
+      },
+      {
+        "Key": "VURKAB2",
+        "Name": "Environmental",
+        "Options": {
+          "Key": "VURKAB2OP1",
+          "Name": "Cold Blooded",
+          "Description": "Vurk take an additional [SE] in cold environments."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "WEEQUAY",
+    "Name": "Weequay",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/wwrJkx2.png",
+    "Source": {
+      "_Page": "22",
+      "__text": "Dangerous Covenants"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "1",
+      "Cunning": "3",
+      "Willpower": "2",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "9",
+      "Experience": "90"
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "WEEQUAYCH1",
+        "Name": "Skills",
+        "Description": "",
+        "Options": [
+          {
+            "Key": "WEEQUAYCH1OP1",
+            "Name": "One Rank in Resilience",
+            "Description": "Weequay may begin the game with one rank in Resilience.",
+            "SkillModifiers": {
+              "Key": "RESIL",
+              "RankStart": "1"
+            },
+            "TalentModifiers": ""
+          },
+          {
+            "Key": "WEEQUAYCH1OP2",
+            "Name": "One Rank in Athletics",
+            "Description": "Weequay may begin the game with one rank in Athletics.",
+            "SkillModifiers": {
+              "Key": "ATHL",
+              "RankStart": "1",
+              "RankAdd": "0",
+              "RankLimit": "0",
+              "isCareer": "false"
+            },
+            "TalentModifiers": ""
+          }
+        ]
+      },
+      {
+        "Key": "WEEQUAYCH2",
+        "Name": "Pheromones",
+        "Description": "",
+        "Options": {
+          "Key": "WEEQUAYCH2OP1",
+          "Name": "Communicative Pheromones",
+          "Description": "Weequay can communicate non-verbally with other Weequays up to Short Range."
+        }
+      }
+    ]
+  },
+  {
+    "Key": "WHIPHID",
+    "Name": "Whiphid",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/iL8iWeM.png",
+    "Source": {
+      "_Page": "21",
+      "__text": "Keeping the Peace"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "1",
+      "Willpower": "2",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "12",
+      "StrainThreshold": "10",
+      "Experience": "80"
+    },
+    "SkillModifiers": {
+      "Key": "SURV",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": [
+      {
+        "Key": "WHIPHIDCH1",
+        "Name": "",
+        "Description": "",
+        "Options": {
+          "Key": "WHIPHIDCH1OP1",
+          "Name": "Tusks",
+          "Description": "When a Whiphid makes a Brawl check to deal damage to an opponent, their attack deals +2 point of damage, has a Crit Rating of 4, and has the Vicious 1 quality."
+        }
+      },
+      {
+        "Key": "WHIPHIDCH2",
+        "Name": "Survival",
+        "Description": "",
+        "Options": {
+          "Key": "WHIPHIDCH2OP1",
+          "Name": "Hardy Survivalist",
+          "Description": "A Whiphid adds automatic [SU] to Survival checks and can survive for several weeks without food thanks to reserve blubber.",
+          "DieModifiers": {
+            "SkillKey": "SURV",
+            "SuccessCount": "1"
+          }
+        }
+      }
+    ],
+    "WeaponModifier": {
+      "Unarmed": "false",
+      "UnarmedName": "",
+      "SkillKey": "",
+      "AllSkillKey": "BRAWL",
+      "Damage": "0",
+      "DamageAdd": "2",
+      "Crit": "4",
+      "CritSub": "0",
+      "RangeValue": "wrEngaged",
+      "Qualities": [
+        {
+          "Key": "VICIOUS",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "WOOK",
+    "Name": "Wookiee",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/yD8Yi8H.png",
+    "Source": {
+      "_Page": "52",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "3",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "14",
+      "StrainThreshold": "8",
+      "Experience": "90"
+    },
+    "SkillModifiers": {
+      "Key": "BRAWL",
+      "RankStart": "1",
+      "RankLimit": "2"
+    },
+    "OptionChoices": {
+      "Key": "WOOKAB",
+      "Name": "Rage",
+      "Options": {
+        "Key": "WOOKABRAGE",
+        "Name": "Rages when Wounded",
+        "Description": "When a Wookiee has suffered any wounds, he deals +1 damage to Brawl and Melee attacks. When a Wookiee is Critically Injured, he instead deals +2 damage to Brawl and Melee attacks."
+      }
+    }
+  },
+  {
+    "Key": "XEXTO",
+    "Name": "Xexto",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/PtPfPwr.png",
+    "Source": {
+      "_Page": "24",
+      "__text": "Stay on Target"
+    },
+    "StartingChars": {
+      "Brawn": "1",
+      "Agility": "3",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "1",
+      "Presence": "2",
+      "Requirement": {
+        "WearingArmor": "false",
+        "Career": "false",
+        "Specialization": "false",
+        "NonCareer": "false",
+        "SoakAtLeast": "0"
+      }
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "9",
+      "StrainThreshold": "9",
+      "DefenseRanged": "0",
+      "DefenseMelee": "0",
+      "SoakValue": "0",
+      "Experience": "85",
+      "ForceRating": "0",
+      "Requirement": {
+        "WearingArmor": "false",
+        "Career": "false",
+        "Specialization": "false",
+        "NonCareer": "false",
+        "SoakAtLeast": "0"
+      }
+    },
+    "SkillModifiers": "",
+    "TalentModifiers": {
+      "Key": "CONF",
+      "SubSpeciesKey": "",
+      "RankStart": "0",
+      "RankAdd": "1",
+      "RankLimit": "0",
+      "Requirement": {
+        "WearingArmor": "false",
+        "Career": "false",
+        "Specialization": "false",
+        "NonCareer": "false",
+        "SoakAtLeast": "0"
+      }
+    },
+    "OptionChoices": {
+      "Key": "XEXTOCH1",
+      "Name": "Limbs",
+      "Description": "",
+      "Source": "",
+      "Options": {
+        "Key": "XEXTOCH1OP1",
+        "Name": "Additional Limbs",
+        "Description": "Xexto have four arms and gain an additional free maneuver per turn. They still may not perform more than two maneuvers per turn, however."
+      }
+    },
+    "NoForceAbilities": "false"
+  },
+  {
+    "Key": "ZABRAK",
+    "Name": "Zabrak",
+    "Description": "",
+    "imageUrl": "https://i.imgur.com/WlNV7Bg.png",
+    "Source": {
+      "_Page": "62",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "StartingChars": {
+      "Brawn": "2",
+      "Agility": "2",
+      "Intellect": "2",
+      "Cunning": "2",
+      "Willpower": "3",
+      "Presence": "1"
+    },
+    "StartingAttrs": {
+      "WoundThreshold": "10",
+      "StrainThreshold": "10",
+      "Experience": "100"
+    },
+    "SkillModifiers": {
+      "Key": "SURV",
+      "RankStart": "1"
+    },
+    "TalentModifiers": "",
+    "OptionChoices": {
+      "Key": "ZABRAKOC1",
+      "Name": "Fear",
+      "Description": "",
+      "Options": {
+        "Key": "ZABRAKOC1OP1",
+        "Name": "Fearsome Countenance",
+        "Description": "A Zabrak adds automatic [ADVANTAGE] to all Coercion checks he makes.",
+        "DieModifiers": {
+          "SkillKey": "COERC",
+          "AdvantageCount": "1"
+        },
+        "TalentModifiers": ""
+      }
+    }
+  }
+]

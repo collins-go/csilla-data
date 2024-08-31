@@ -1,0 +1,2505 @@
+[
+  {
+    "Key": "AMBFRIEND",
+    "Name": "Friendship",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBLOVE",
+    "Name": "Love",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBFREE",
+    "Name": "Freedom",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBFAME",
+    "Name": "Fame",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBGREED",
+    "Name": "Greed",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBSTATUS",
+    "Name": "Status",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBEXPER",
+    "Name": "Expertise",
+    "Description": "",
+    "Motivation": "Ambition",
+    "Source": [
+      "Edge of the Empire Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ]
+  },
+  {
+    "Key": "AMBWAND",
+    "Name": "Wanderlust/Novelty",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBPOWER",
+    "Name": "Power",
+    "Description": "",
+    "Motivation": "Ambition",
+    "Source": [
+      "Edge of the Empire Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ]
+  },
+  {
+    "Key": "AMBRELIGION",
+    "Name": "Religion/Spirituality",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "CAURELIGION",
+    "Name": "Religion/Spirituality",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUWEAK",
+    "Name": "The Weak/Charity",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUNONHUM",
+    "Name": "Non-Human Rights",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUPOLITICS",
+    "Name": "Local Politics",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUOVER",
+    "Name": "Overthrow the Empire",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUCRIME",
+    "Name": "Crime",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUEMANC",
+    "Name": "Emancipation",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUDROID",
+    "Name": "Droid Rights",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUCAPITAL",
+    "Name": "Capitalism",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUEMPIRE",
+    "Name": "Support the Empire",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "RELORIGIN",
+    "Name": "Place of Origin",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELPET",
+    "Name": "Pet",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELFRIEND",
+    "Name": "Childhood Friend",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELCOMRADES",
+    "Name": "Comrades",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELSIB",
+    "Name": "Sibling/Siblings",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELMENTOR",
+    "Name": "Mentor",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELPARENTS",
+    "Name": "Parents",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELFAMILY",
+    "Name": "Extended Family/Clan",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELDROID",
+    "Name": "Droid Companion",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELNEMESIS",
+    "Name": "Former Nemesis",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook",
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "DISCOVERYSM1",
+    "Name": "Self",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "DISCOVERYSM2",
+    "Name": "Civilization",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "DISCOVERYSM3",
+    "Name": "Planets",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "DISCOVERYSM4",
+    "Name": "Treasures",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "DISCOVERYSM5",
+    "Name": "Secrets",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "DISCOVERYSM6",
+    "Name": "Knowledge",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "DISCOVERYSM7",
+    "Name": "Resources",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "DISCOVERYSM8",
+    "Name": "Technology",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "DISCOVERYSM9",
+    "Name": "The Lost",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "DISCOVERYSM10",
+    "Name": "\"Anywhere But Here!\"",
+    "Description": "",
+    "Source": "Enter the Unknown",
+    "Motivation": "Discovery"
+  },
+  {
+    "Key": "CONFLICT1",
+    "Name": "Mayhem",
+    "Description": "",
+    "Motivation": "Conflict",
+    "Source": [
+      "Dangerous Covenants",
+      "Stay on Target"
+    ]
+  },
+  {
+    "Key": "CONFLICT2",
+    "Name": "Violent Conquest",
+    "Description": "",
+    "Motivation": "Conflict",
+    "Source": [
+      "Dangerous Covenants",
+      "Stay on Target"
+    ]
+  },
+  {
+    "Key": "CONFLICT3",
+    "Name": "Squadmates",
+    "Description": "",
+    "Source": "Dangerous Covenants",
+    "Motivation": "Conflict"
+  },
+  {
+    "Key": "CONFLICT4",
+    "Name": "Blood Money",
+    "Description": "",
+    "Source": "Dangerous Covenants",
+    "Motivation": "Conflict"
+  },
+  {
+    "Key": "CONFLICT5",
+    "Name": "Honor in Battle",
+    "Description": "",
+    "Motivation": "Conflict",
+    "Source": [
+      "Dangerous Covenants",
+      "Stay on Target"
+    ]
+  },
+  {
+    "Key": "CONFLICT6",
+    "Name": "Best in the Field",
+    "Description": "",
+    "Source": "Dangerous Covenants",
+    "Motivation": "Conflict"
+  },
+  {
+    "Key": "CONFLICT7",
+    "Name": "Revenge",
+    "Description": "",
+    "Motivation": "Conflict",
+    "Source": [
+      "Dangerous Covenants",
+      "Stay on Target"
+    ]
+  },
+  {
+    "Key": "CONFLICT8",
+    "Name": "Out of the Game",
+    "Description": "",
+    "Source": "Dangerous Covenants",
+    "Motivation": "Conflict"
+  },
+  {
+    "Key": "CONFLICT9",
+    "Name": "Adrenaline Junky",
+    "Description": "",
+    "Motivation": "Conflict",
+    "Source": [
+      "Dangerous Covenants",
+      "Stay on Target"
+    ]
+  },
+  {
+    "Key": "CONFLICT10",
+    "Name": "Life Debt",
+    "Description": "",
+    "Motivation": "Conflict",
+    "Source": [
+      "Dangerous Covenants",
+      "Stay on Target"
+    ]
+  },
+  {
+    "Key": "CREATIONSM1",
+    "Name": "Society",
+    "Description": "",
+    "Source": "Far Horizons",
+    "Motivation": "Creations"
+  },
+  {
+    "Key": "CREATIONSM2",
+    "Name": "Homestead",
+    "Description": "",
+    "Source": "Far Horizons",
+    "Motivation": "Creations"
+  },
+  {
+    "Key": "CREATIONSM3",
+    "Name": "Legacy",
+    "Description": "",
+    "Source": "Far Horizons",
+    "Motivation": "Creations"
+  },
+  {
+    "Key": "CREATIONSM4",
+    "Name": "Family",
+    "Description": "",
+    "Source": "Far Horizons",
+    "Motivation": "Creations"
+  },
+  {
+    "Key": "CREATIONSM5",
+    "Name": "Art",
+    "Description": "",
+    "Source": "Far Horizons",
+    "Motivation": "Creations"
+  },
+  {
+    "Key": "CREATIONSM6",
+    "Name": "Cure",
+    "Description": "",
+    "Source": "Far Horizons",
+    "Motivation": "Creations"
+  },
+  {
+    "Key": "CREATIONSM7",
+    "Name": "Understanding",
+    "Description": "",
+    "Source": "Far Horizons",
+    "Motivation": "Creations"
+  },
+  {
+    "Key": "CREATIONSM8",
+    "Name": "Business",
+    "Description": "",
+    "Source": "Far Horizons",
+    "Motivation": "Creations"
+  },
+  {
+    "Key": "REWARDSM1",
+    "Name": "Credits",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "REWARDSM2",
+    "Name": "Power",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "REWARDSM3",
+    "Name": "Victory",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "REWARDSM4",
+    "Name": "Beating the Odds",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "REWARDSM5",
+    "Name": "Fame",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "REWARDSM6",
+    "Name": "Esteem",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "REWARDSM7",
+    "Name": "Experience",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "REWARDSM8",
+    "Name": "Moral",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "REWARDSM9",
+    "Name": "Excitement",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "REWARDSM10",
+    "Name": "Independence",
+    "Description": "",
+    "Source": "Fly Casual",
+    "Motivation": "Reward"
+  },
+  {
+    "Key": "FAINAT",
+    "Name": "Natural World",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "FAIGOODPEOP",
+    "Name": "Goodness of People",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "FAIFRIENDFAM",
+    "Name": "Friends and Family",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "FAICOSMICFOR",
+    "Name": "The Cosmic Force",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "FAISCIENCE",
+    "Name": "Science and Reason",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "FAIJEDICODE",
+    "Name": "The Jedi Code",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "FAIIMPRULE",
+    "Name": "Imperial Rule",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "FAIREBELLION",
+    "Name": "The Rebellion",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "FAIRELCODE",
+    "Name": "Religious Code",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "FAINOTHING",
+    "Name": "Nothing",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Faith"
+  },
+  {
+    "Key": "CREEDSM10",
+    "Name": "Living Memory",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CREEDSM1",
+    "Name": "Power Corrupts",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CREEDSM2",
+    "Name": "Strive for Excellence",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CREEDSM3",
+    "Name": "The Body Needs a Head",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CREEDSM4",
+    "Name": "Order from Chaos",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CREEDSM5",
+    "Name": "Never Alone",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CREEDSM6",
+    "Name": "Return the Favor",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CREEDSM7",
+    "Name": "Be Unique",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CREEDSM8",
+    "Name": "People Are Counting on Me",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CREEDSM9",
+    "Name": "Balance Must Be Restored",
+    "Description": "",
+    "Source": "Desperate Allies",
+    "Motivation": "Creed"
+  },
+  {
+    "Key": "CONFLICT11",
+    "Name": "Squadron",
+    "Description": "",
+    "Source": "Stay on Target",
+    "Motivation": "Conflict"
+  },
+  {
+    "Key": "BELCRIME",
+    "Name": "Crime",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELREPUBLIC",
+    "Name": "The Republic",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELHONOR",
+    "Name": "Honor",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELTHEJEDI",
+    "Name": "The Jedi",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELJUSTICE",
+    "Name": "Justice",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELSPRIGHTS",
+    "Name": "Species Rights",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELPEACE",
+    "Name": "Peace",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELRELPHIL",
+    "Name": "Religion/Philosophy",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELFREE",
+    "Name": "Freedom",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELPROGRESS",
+    "Name": "Progress",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "CONPOLITICAL",
+    "Name": "Political",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "CONFAMILY",
+    "Name": "Family",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "CONMILITARY",
+    "Name": "Military",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "CONINTEL",
+    "Name": "Intelligence",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "CONFRIENDS",
+    "Name": "Friends",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "CONUNDERWORLD",
+    "Name": "The Underworld",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "CONECON",
+    "Name": "Economic",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "CONLOVE",
+    "Name": "Love Interest",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "CONNOONE",
+    "Name": "No One",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "CONEMPIRE",
+    "Name": "The Empire",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "QUEFREEDOM",
+    "Name": "Freedom",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "QUEREDEM",
+    "Name": "Redemption",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "QUEGLORY",
+    "Name": "Glory",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "QUEVENG",
+    "Name": "Vengeance",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "QUEINFLU",
+    "Name": "Influence",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "QUERESCUE",
+    "Name": "Rescue",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "QUEJEDI",
+    "Name": "The Jedi",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "QUESITH",
+    "Name": "The Sith",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "QUERICHES",
+    "Name": "Riches",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "QUETHRILL",
+    "Name": "Thrill",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "CONFLICT12",
+    "Name": "Professional",
+    "Description": "",
+    "Source": "Stay on Target",
+    "Motivation": "Conflict"
+  },
+  {
+    "Key": "CONFLICT14",
+    "Name": "Retirement",
+    "Description": "",
+    "Source": "Stay on Target",
+    "Motivation": "Conflict"
+  },
+  {
+    "Key": "AMBREVENGE",
+    "Name": "Revenge",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBWEALTH",
+    "Name": "Wealth",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBJEDI",
+    "Name": "Become a Jedi",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBSURVIVAL",
+    "Name": "Survival",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBGLORY",
+    "Name": "Glory",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBSITH",
+    "Name": "Destroy the Sith",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBENLIGHT",
+    "Name": "Enlightenment",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "AMBDISC",
+    "Name": "Discovery",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Ambition"
+  },
+  {
+    "Key": "CAUFREEDOM",
+    "Name": "Freedom",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAURESTJEDI",
+    "Name": "Restore the Jedi",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUPEACE",
+    "Name": "Galactic Peace",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUJUSTICE",
+    "Name": "Justice",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUSTOPREB",
+    "Name": "Stop the Rebellion",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUEQUAL",
+    "Name": "Equality",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUHELPLESS",
+    "Name": "Help the Helpless",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUFREEENT",
+    "Name": "Free Enterprise",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUOVEREMP",
+    "Name": "Overthrow the Empire",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "CAUKNOW",
+    "Name": "Knowledge",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Motivation": "Cause"
+  },
+  {
+    "Key": "BELFREEENT",
+    "Name": "Free Enterprise",
+    "Description": "",
+    "Source": "Age of Rebellion Beta Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "CONRESCUE",
+    "Name": "Rescuer",
+    "Description": "",
+    "Source": "Age of Rebellion Beta Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "QUETREAS",
+    "Name": "Lost Treasure",
+    "Description": "",
+    "Source": "Age of Rebellion Beta Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "BELFORCE",
+    "Name": "The Force",
+    "Description": "",
+    "Source": "Age of Rebellion Beta Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELORDER",
+    "Name": "Order",
+    "Description": "",
+    "Source": "Age of Rebellion Beta Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "BELLIBERTY",
+    "Name": "Liberty",
+    "Description": "",
+    "Source": "Age of Rebellion Beta Rulebook",
+    "Motivation": "Belief"
+  },
+  {
+    "Key": "QUEPURPOSE",
+    "Name": "Purpose",
+    "Description": "",
+    "Source": "Age of Rebellion Beta Rulebook",
+    "Motivation": "Quest"
+  },
+  {
+    "Key": "CONRIVAL",
+    "Name": "Rival",
+    "Description": "",
+    "Source": "Age of Rebellion Beta Rulebook",
+    "Motivation": "Connections"
+  },
+  {
+    "Key": "OATHWARD",
+    "Name": "Ward",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "OATHDEPART",
+    "Name": "Departed",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "OATHSPECIES",
+    "Name": "Species",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "OATHLOVE",
+    "Name": "Love",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "OATHHOME",
+    "Name": "Homeland",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "OATHREPUB",
+    "Name": "The Republic",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "OATHBALANCE",
+    "Name": "Balance of the Force",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "OATHLEGACY",
+    "Name": "Artistic Legacy",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "OATHLIFE",
+    "Name": "Life Itself",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "OATHJUSTICE",
+    "Name": "Justice",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Motivation": "Oath"
+  },
+  {
+    "Key": "INNOVTECHRIVAL",
+    "Name": "Technical Rival",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "INNOVTECHHIST",
+    "Name": "Technological Historian",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "INNOVTECHNECESS",
+    "Name": "Technological Necessity",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "INNOVTECHFASC",
+    "Name": "Technological Fascination",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "INNOVTECHBUS",
+    "Name": "Technical Business Interests",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "INNOVIMP",
+    "Name": "Personal Improvement",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "INNOVWASTE",
+    "Name": "Waste Not, Want Not",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "INNOVINV",
+    "Name": "Invention",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "INNOVMOD",
+    "Name": "Modification",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "INNOVFAB",
+    "Name": "Fabrication",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Special Modifications"
+    },
+    "Motivation": "Innovation"
+  },
+  {
+    "Key": "LOCWEIKWIDE",
+    "Name": "Wide-Eyed Wanderer",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Weik"
+  },
+  {
+    "Key": "LOCWEIKFORREV",
+    "Name": "Force-Reverent",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Weik"
+  },
+  {
+    "Key": "LOCWEIKCAST",
+    "Name": "Caste Member",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Weik"
+  },
+  {
+    "Key": "LOCOSSUSARCH",
+    "Name": "Archaeologist",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Ossus"
+  },
+  {
+    "Key": "LOCOSSUSPLUND",
+    "Name": "Plunderer",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Ossus"
+  },
+  {
+    "Key": "LOCNABOOPOET",
+    "Name": "Poet",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Naboo"
+  },
+  {
+    "Key": "LOCNABOOGUNG",
+    "Name": "Gungan Rights",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Naboo"
+  },
+  {
+    "Key": "LOCLOTHWARPROF",
+    "Name": "War Profiteer",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Lothal"
+  },
+  {
+    "Key": "LOCNABOOENVOY",
+    "Name": "Envoy",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Naboo"
+  },
+  {
+    "Key": "LOCLOTHUPPOV",
+    "Name": "Up from Poverty",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Lothal"
+  },
+  {
+    "Key": "LOCLOTHREV",
+    "Name": "Revolutionary",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Lothal"
+  },
+  {
+    "Key": "LOCIKTOEXILE",
+    "Name": "Exile",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Iktotch"
+  },
+  {
+    "Key": "LOCIKTOCOLLAB",
+    "Name": "Collaborator",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Iktotch"
+  },
+  {
+    "Key": "LOCDEVMAT",
+    "Name": "Matriarch",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Devaron"
+  },
+  {
+    "Key": "LOCIKTOVIS",
+    "Name": "Visions of the Future",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Iktotch"
+  },
+  {
+    "Key": "LOCBARDMEND",
+    "Name": "Mendicant",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Bardotta"
+  },
+  {
+    "Key": "LOCBARDFRANG",
+    "Name": "Frangawl Sympathizer",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Bardotta"
+  },
+  {
+    "Key": "LOCAURASTUD",
+    "Name": "Study of the Past",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Auratera"
+  },
+  {
+    "Key": "LOCBARDPRES",
+    "Name": "Preservationist",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Bardotta"
+  },
+  {
+    "Key": "LOCAURAISO",
+    "Name": "Isolationist",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Auratera"
+  },
+  {
+    "Key": "LOCALEENFOLL",
+    "Name": "Follower of Orphne",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Aleen"
+  },
+  {
+    "Key": "LOCALEENENAM",
+    "Name": "Enamored of the Kindalo",
+    "Description": "",
+    "Source": {
+      "_Page": "115",
+      "__text": "Nexus of Power"
+    },
+    "Motivation": "Location: Aleen"
+  },
+  {
+    "Key": "DRIVESPIRIT",
+    "Name": "Spirit",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "DRIVERETIRE",
+    "Name": "Retirement",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "DRIVEEGO",
+    "Name": "Ego",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "DRIVEGAME",
+    "Name": "The Game",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "DRIVEREDEMP",
+    "Name": "Redemption",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "DRIVESUBORD",
+    "Name": "Subordinates",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "DROVECOMMAND",
+    "Name": "Command",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "DRIVEALLCOSTS",
+    "Name": "At All Costs",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "DRIVEMISSION",
+    "Name": "The Mission",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "DRIVEGUILT",
+    "Name": "Guilt",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "CODEFINISH",
+    "Name": "Finish the Job",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "CODELIVE",
+    "Name": "Live Capture",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "CODECOLL",
+    "Name": "No Collateral Damage",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "CODEQUIET",
+    "Name": "Quiet Professionalism",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "CODEREP",
+    "Name": "Reputation is Everything",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "CODEPAID",
+    "Name": "Always Get Paid",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "CODENEVER",
+    "Name": "Never Again",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "CODESCORE",
+    "Name": "The Only Score that Matters",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "CODESURV",
+    "Name": "Survival",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "INJUSTICE10",
+    "Name": "Violence",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "CODERULE",
+    "Name": "Rule of Law",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "No Disintegrations"
+    },
+    "Motivation": "Code"
+  },
+  {
+    "Key": "INJUSTICE8",
+    "Name": "Prejudice",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "INJUSTICE9",
+    "Name": "Slavery",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "INJUSTICE6",
+    "Name": "Oppression",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "INJUSTICE7",
+    "Name": "Poverty",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "INJUSTICE4",
+    "Name": "Illness",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "INJUSTICE5",
+    "Name": "Imprisonment",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "INJUSTICE2",
+    "Name": "Displacement",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "INJUSTICE3",
+    "Name": "Hunger",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "PURSUIT10",
+    "Name": "Vengeance",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "INJUSTICE1",
+    "Name": "Disenfranchisement",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Endless Vigil"
+    },
+    "Motivation": "Injustice"
+  },
+  {
+    "Key": "PURSUIT8",
+    "Name": "Self-Reliance",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "PURSUIT9",
+    "Name": "Efficiency",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "PURSUIT6",
+    "Name": "Exploration",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "PURSUIT7",
+    "Name": "The Force",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "PURSUIT4",
+    "Name": "Deadliness",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "PURSUIT5",
+    "Name": "Happiness",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "PURSUIT2",
+    "Name": "Wealth",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "PURSUIT3",
+    "Name": "Knowledge",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "PURSUIT1",
+    "Name": "Justice",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Savage Spirits"
+    },
+    "Motivation": "Pursuit"
+  },
+  {
+    "Key": "DRIVECOMMAND",
+    "Name": "Command",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Lead by Example"
+    },
+    "Motivation": "Drive"
+  },
+  {
+    "Key": "RELLOCALCIV",
+    "Name": "Local Civilian",
+    "Description": "",
+    "Source": {
+      "_Page": "36",
+      "__text": "Forged in Battle"
+    },
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELTECH",
+    "Name": "Tech",
+    "Description": "",
+    "Source": {
+      "_Page": "36",
+      "__text": "Forged in Battle"
+    },
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELRIVAL",
+    "Name": "Rival",
+    "Description": "",
+    "Source": {
+      "_Page": "36",
+      "__text": "Forged in Battle"
+    },
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "RELLOVER",
+    "Name": "Lover",
+    "Description": "",
+    "Source": {
+      "_Page": "36",
+      "__text": "Forged in Battle"
+    },
+    "Motivation": "Relationship"
+  },
+  {
+    "Key": "CONFLICT13",
+    "Name": "Best of the Best",
+    "Description": "",
+    "Source": {
+      "_Page": "34",
+      "__text": "Stay on Target"
+    },
+    "Motivation": "Conflict"
+  },
+  {
+    "Key": "GROWTH10",
+    "Name": "Apprentice",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "GROWTH8",
+    "Name": "Knowledge",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "GROWTH9",
+    "Name": "Wisdom/Experience",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "GROWTH6",
+    "Name": "Allies",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "GROWTH7",
+    "Name": "Community",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "GROWTH4",
+    "Name": "The Jedi Order",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "GROWTH5",
+    "Name": "Life",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "GROWTH2",
+    "Name": "Friendship",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "GROWTH3",
+    "Name": "Hope",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "GROWTH1",
+    "Name": "Force Connection",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Disciples of Harmony"
+    },
+    "Motivation": "Growth"
+  },
+  {
+    "Key": "IMPROVE1",
+    "Name": "Accuracy",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "IMPROVE2",
+    "Name": "Challenge",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "IMPROVE3",
+    "Name": "Lethality",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "IMPROVE4",
+    "Name": "Aesthetics",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "IMPROVE5",
+    "Name": "Reliability",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "IMPROVE6",
+    "Name": "Flexibility",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "IMPROVE7",
+    "Name": "Durability",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "IMPROVE8",
+    "Name": "Makeshift",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "IMPROVE9",
+    "Name": "Simplicity",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "IMPROVE10",
+    "Name": "Efficiency",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Fully Operational"
+    },
+    "Motivation": "Improvements"
+  },
+  {
+    "Key": "SECRETS1",
+    "Name": "Falsification",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRETS2",
+    "Name": "Detection",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRETS3",
+    "Name": "Extraction",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRETS4",
+    "Name": "Classification",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRETS5",
+    "Name": "Analysis",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRETS6",
+    "Name": "Security",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRETS7",
+    "Name": "Revelation",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRETS8",
+    "Name": "Tracking",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRETS9",
+    "Name": "Preservation",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRETS10",
+    "Name": "Retrieval",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "CHALLENGE2",
+    "Name": "Birthright",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "CHALLENGE1",
+    "Name": "Liberation",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "CHALLENGE3",
+    "Name": "Perfection",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "SECRET1",
+    "Name": "Falsification",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRET2",
+    "Name": "Detection",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRET3",
+    "Name": "Extraction",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRET4",
+    "Name": "Classification",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRET5",
+    "Name": "Analysis",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRET6",
+    "Name": "Security",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRET7",
+    "Name": "Revelation",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRET8",
+    "Name": "Tracking",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRET9",
+    "Name": "Preservation",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "SECRET10",
+    "Name": "Retrieval",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Cyphers and Masks"
+    },
+    "Motivation": "Secrets"
+  },
+  {
+    "Key": "CHALLENGE5",
+    "Name": "Acceptance",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "CHALLENGE6",
+    "Name": "Legacy",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "CHALLENGE9",
+    "Name": "Martial Mastery",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "CHALLENGE4",
+    "Name": "Meaning",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "CHALLENGE7",
+    "Name": "Recognition",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "CHALLENGE10",
+    "Name": "Superiority",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "CHALLENGE8",
+    "Name": "Worthy Opponent",
+    "Description": "",
+    "Source": {
+      "_Page": "32",
+      "__text": "Knights of Fate"
+    },
+    "Motivation": "Challenges"
+  },
+  {
+    "Key": "MYSTERY1",
+    "Name": "Death",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  },
+  {
+    "Key": "MYSTERY2",
+    "Name": "The Force",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  },
+  {
+    "Key": "MYSTERY3",
+    "Name": "Destiny and Fate",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  },
+  {
+    "Key": "MYSTERY4",
+    "Name": "Happiness",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  },
+  {
+    "Key": "MYSTERY5",
+    "Name": "Balance",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  },
+  {
+    "Key": "MYSTERY6",
+    "Name": "Suffering",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  },
+  {
+    "Key": "MYSTERY7",
+    "Name": "The Jedi",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  },
+  {
+    "Key": "MYSTERY8",
+    "Name": "Other Force Traditions",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  },
+  {
+    "Key": "MYSTERY9",
+    "Name": "The Dark Side of the Force",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  },
+  {
+    "Key": "MYSTERY10",
+    "Name": "Life",
+    "Description": "",
+    "Source": {
+      "_Page": "35",
+      "__text": "Unlimited Power"
+    },
+    "Motivation": "Mysteries"
+  }
+]

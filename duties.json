@@ -1,0 +1,386 @@
+[
+  {
+    "Key": "AIRSUP",
+    "Name": "Air Superiority",
+    "Description": "",
+    "Source": "Stay on Target"
+  },
+  {
+    "Key": "ANTIISB",
+    "Name": "Anti-ISB Efforts",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "CAMAR",
+    "Name": "Camaraderie",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Lead by Example"
+    }
+  },
+  {
+    "Key": "CHEMBIO",
+    "Name": "Chemical/Biological Analysis",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "CIVOUT",
+    "Name": "Civilian Outreach",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "CLEARSKIES",
+    "Name": "Clear Skies",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Forged in Battle"
+    }
+  },
+  {
+    "Key": "COMBATVICTORY",
+    "Name": "Combat Victory",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "COMMFAC",
+    "Name": "Communication Facilitation",
+    "Description": "",
+    "Source": "Desperate Allies"
+  },
+  {
+    "Key": "COMM",
+    "Name": "Communications",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "COUNTERINTELLIGENCE",
+    "Name": "Counter Intelligence",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "COUNTERMEAS",
+    "Name": "Countermeasures",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "DISREL",
+    "Name": "Disaster Relief",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "DOUBLEAGENT",
+    "Name": "Double Agent Recruitment",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "DROIDRETASK",
+    "Name": "Droid Retasking",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "ENEMYDEMOR",
+    "Name": "Enemy Demoralization",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Lead by Example"
+    }
+  },
+  {
+    "Key": "ENVMANIP",
+    "Name": "Environmental Manipulation",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "FIELDTRAIN",
+    "Name": "Field Training",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "GROUNDSUP",
+    "Name": "Ground Superiority",
+    "Description": "",
+    "Source": "Stay on Target"
+  },
+  {
+    "Key": "INTELLIGENCE",
+    "Name": "Intelligence",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "INTERNALSECURITY",
+    "Name": "Internal Security",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "INSECURITY",
+    "Name": "Internal Security",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "INTERORESIST",
+    "Name": "Interrogation Resistance",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "LEGENDCRAFT",
+    "Name": "Legend Crafting",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "LOSSPREV",
+    "Name": "Loss Prevention",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Lead by Example"
+    }
+  },
+  {
+    "Key": "MORALE",
+    "Name": "Morale",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Forged in Battle"
+    }
+  },
+  {
+    "Key": "MUNITIONS",
+    "Name": "Munitions",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "OPPLAN",
+    "Name": "Operation Planning",
+    "Description": "",
+    "Source": "Desperate Allies"
+  },
+  {
+    "Key": "PERSONNEL",
+    "Name": "Personnel",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "PLACHUNT",
+    "Name": "Placard Hunter",
+    "Description": "",
+    "Source": "Stay on Target"
+  },
+  {
+    "Key": "POLITICALSUPPORT",
+    "Name": "Political Support",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "PSYCHWAR",
+    "Name": "Psychological Warfare",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Forged in Battle"
+    }
+  },
+  {
+    "Key": "PSYCHOWAR",
+    "Name": "Psychological Warfare",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "REBELBASE",
+    "Name": "Rebel Base",
+    "Description": "",
+    "Source": "Desperate Allies"
+  },
+  {
+    "Key": "RECRUITING",
+    "Name": "Recruiting",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "RESCUEREC",
+    "Name": "Rescue and Recovery/Evac",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "RANDD",
+    "Name": "Research and Development",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "RESOURCEACQUISITION",
+    "Name": "Resource Acquisition",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "RESOURCEACQ",
+    "Name": "Resource Acquisition",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "SABOTAGE",
+    "Name": "Sabotage",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "SIEGEENG",
+    "Name": "Siege Engineering",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "SPACESUPERIORITY",
+    "Name": "Space Superiority",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "SUPPORT",
+    "Name": "Support",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "SURVEYENEMY",
+    "Name": "Surveying the Enemy",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "TACTINSIGHT",
+    "Name": "Tactical Insight",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "TECHPROCUREMENT",
+    "Name": "Tech Procurement",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "TECHSUPERIORITY",
+    "Name": "Tech Superiority",
+    "Description": "",
+    "Source": "Stay on Target"
+  },
+  {
+    "Key": "TESTING",
+    "Name": "Testing",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "TRANSPORT",
+    "Name": "Transportation",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "WETWORK",
+    "Name": "Wetwork",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Cyphers and Masks"
+    }
+  }
+]

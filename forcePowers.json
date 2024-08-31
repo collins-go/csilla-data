@@ -1,0 +1,4354 @@
+[
+  {
+    "Key": "ALTER",
+    "Name": "Alter",
+    "Description": " Many Force users have the ability to sense the life force of the environment around them. Some Force users take this sense a bit further. By tapping into that living gestalt, the can manipulate the land around them. Intruders may find vines choking their path or mists rising up to block their sight. Meanwhile, allies find that trails and paths mysteriously open up before them, only to vanish once they have reached their destination.",
+    "Source": {
+      "_Page": "42",
+      "__text": "Unlimited Power"
+    },
+    "Custom": "AddedItem",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "ALTERBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              "",
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "ALTERCONTROL1",
+              "ALTERRANGE",
+              "ALTERCONTROL2"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "ALTERCONTROL3",
+              "ALTERCONTROL4",
+              "ALTERDURATION",
+              "ALTERSTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10",
+              "5"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "ALTERRANGE",
+              "ALTERCONTROL5",
+              "ALTERSTRENGTH",
+              "ALTERCONTROL6"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "15",
+              "10",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "ALTERCONTROL7",
+              "ALTERMASTERY",
+              "ALTERSTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "2",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20",
+              "20",
+              "15"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "BATMED",
+    "Name": "Battle Meditation",
+    "Description": "  Some Force users can telepathically guide allies around them, helping them to coordinate and achieve amazing feats. This guidance can easily become domination, however, and Force users must strive to maintain a balance between gentle guidance and outright tyranny. Meanwhile, individuals less concerned with trifling matters like \"morality\" and \"the basic dignity of all sentients\" use Battle Meditation to guide their disposable pawns to ignoble ends for their own selfish betterment.",
+    "Source": "Force and Destiny Core Rulebook",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "BATMEDBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              "",
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "BATMEDMAGNITUDE",
+              "BATMEDRANGE",
+              "BATMEDCONTROL1"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2",
+              "0"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "10",
+              "0"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "BATMEDMAGNITUDE",
+              "BATMEDRANGE",
+              "BATMEDSTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "BATMEDMAGNITUDE",
+              "BATMEDRANGE",
+              "BATMEDDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "15",
+              "25"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "BATMEDMAGNITUDE",
+              "BATMEDCONTROL2",
+              "BATMEDMASTERY"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20",
+              "20",
+              "25"
+            ]
+          }
+        }
+      ]
+    },
+    "MinForceRating": "2"
+  },
+  {
+    "Key": "BIND",
+    "Name": "Bind",
+    "Description": "  Force users skilled in telekinetic powers can seize others from afar, preventing them from moving or attacking. When used with a calm heart, this power can be an extremely useful defensive tool, letting the Force user stop an enemy in his tracks without hurting him. Of course, once a foe is in the Force user's grip, it can be extremely tempting to simply crush him.",
+    "Source": "Force and Destiny Core Rulebook",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "BINDBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "BINDRANGE",
+              "BINDMAGNITUDE",
+              "BINDSTRENGTH",
+              "BINDCONTROL1"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "15",
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "BINDRANGE",
+              "BINDMAGNITUDE",
+              "BINDSTRENGTH",
+              "BINDDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "20",
+              "10",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "BINDCONTROL2",
+              "BINDMAGNITUDE",
+              "BINDSTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "25",
+              "20"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "BINDRANGE",
+              "BINDMASTERY"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "3"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20",
+              "25"
+            ]
+          }
+        }
+      ]
+    },
+    "MinForceRating": "2"
+  },
+  {
+    "Key": "CONJURE",
+    "Name": "Conjure",
+    "Description": " Some of the more esoteric uses of the Force can seem like magic to the ignorant and uninformed. While most Force users can move objects with their mind and sense what's going on around them with otherworldly perception, some Force-sensitives can do far stranger and more wondrous things. These individuals often learn the ways of the Force as a part of one of the many minor Force traditions scattered around the galaxy. Organizations such as the now-destroyed Nightsisters of Dathomir or the secretive Dagoyan Order teach ways to use the Force that would seem strange to most of the ancient Jedi, or those who no struggle to inherit their mantle.    The Nightsisters were known to be able to use the Force to summon a glowing green ichor known as the \"Waters of Life.\" With this, they could form tools, weapons, and even facsimiles of living creatures. While this power could not create complicated technological implements such as a blaster or a speeder bike, the most powerful Nightsisters were said to have been able to conjure blades that could withstand a Jedi's lightsaber, and even imbue the bodies of the dead with a ghastly parody of life.",
+    "Source": {
+      "_Page": "39",
+      "__text": "Unlimited Power"
+    },
+    "Custom": "AddedItem",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "CONJUREBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              "",
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "CONJUREDURATION",
+              "CONJURENUMBER",
+              "CONJUREMAGNITUDE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "CONJUREMAGNITUDE",
+              "CONJURECONTROL1",
+              "CONJUREDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20",
+              "10",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "CONJURENUMBER",
+              "CONJURECONTROL2",
+              "CONJURERANGE",
+              "CONJUREDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "15",
+              "20",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "CONJUREMASTERY"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              "",
+              "",
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "EBBFLOW",
+    "Name": "Ebb/Flow",
+    "Description": "     Some Force users have compared the Force to an ocean. Like an ocean, they say, the Force has its tides and currents, its tempests and calms. When Force users truly let the Force flow through them, governing their actions, they feel the Force in every move it makes. It revitalizes and empowers them, even as it saps and hinders their enemies. These Force users do not even need to think about it, the Force simply does what they need it to do, and they obey the will of the Force in turn.",
+    "Source": {
+      "_Page": "39",
+      "__text": "Disciples of Harmony"
+    },
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "EBBFLOWBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              "",
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "EBBFLOWMAGNITUDE",
+              "EBBFLOWRANGE",
+              "EBBFLOWSTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              "",
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "2",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "EBBFLOWCONTROL1",
+              "EBBFLOWCONTROL2",
+              "EBBFLOWSTRENGTH2"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true"
+              },
+              {
+                "Left": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "2",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "EBBFLOWMAGNITUDE",
+              "EBBFLOWCONTROL3",
+              "EBBFLOWSTRENGTH3"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "2",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "EBBFLOWCONTROL4",
+              "EBBFLOWCONTROL5"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "20"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "ENDURE",
+    "Name": "Endure",
+    "Description": " Those strong in the Force, and who learn to control that gift, can achieve great, even seemingly impossible feats of physical prowess. The Force flows through all living beings, and this connection to the physical allows some Force users to achieve miraculous control of their bodies. Masters of this ability can ignore otherwise-debilitating pain or even resist physical injury that would prove lethal to another being.",
+    "Source": {
+      "_Page": "36",
+      "__text": "Knights of Fate"
+    },
+    "Custom": "AddedItem",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "ENDUREBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              "",
+              "",
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "ENDURESTRENGTH",
+              "ENDURECONTROL",
+              "ENDUREDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "ENDURECONTROL",
+              "ENDURESTRENGTH",
+              "ENDUREMAGNITUDE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true"
+              },
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "ENDURESTRENGTH",
+              "ENDURECONTROL",
+              "ENDUREDEATH",
+              "ENDURERANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "15",
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "ENDUREMASTERY"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              "",
+              "",
+              {
+                "Up": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "ENHANCE",
+    "Name": "Enhance",
+    "Description": "  One of the most straightforward ways in which Force users utilize the power of the Force is to imbue their own bodies with energy and strength. Making leaps that might otherwise be deemed impossible, moving at high speeds, and harnessing physical strength well beyond the capacity of most sentient beings are all equally viable. In this way, the Force becomes an almost literal fuel for feats of endurance and power. Most Force users find it a relatively simple thing to use the Force in order to overcome their own physical limitations and shrug off the effects of fatigue. With a little practice, most Force users are able to expand the arenas in which they can use the Force beyond that of mere brute strength. They are able to concentrate the Force into assisting them with acts of dexterity and acrobatics.",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "ENHANCEBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {}
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "1",
+          "Abilities": {
+            "Key": [
+              "ENHANCECONT1",
+              "ENHANCECONT2",
+              "ENHANCECONT3"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "2",
+          "Abilities": {
+            "Key": [
+              "ENHANCECONT4",
+              "ENHANCECONT5",
+              "ENHANCECONT6"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              "",
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "3",
+          "Abilities": {
+            "Key": [
+              "ENHANCECONT7",
+              "ENHANCECONT8",
+              "ENHANCERANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              },
+              "",
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "2",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "4",
+          "Abilities": {
+            "Key": [
+              "ENHANCECONT9",
+              "ENHANCECONT0"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              "",
+              "",
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10"
+            ]
+          }
+        }
+      ]
+    },
+    "Source": [
+      "Age of Rebellion Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ]
+  },
+  {
+    "Key": "FARSIGHT",
+    "Name": "Farsight",
+    "Description": " In its most basic form, Farsight allows he Force user to see in situations in which normal visual detection would be impossible, such as in total darkness or heavily obscuring smoke. Using Farsight, it is even possible for those without eyes or have lost their sight to see with perfect vision.",
+    "Source": {
+      "_Page": "36",
+      "__text": "Savage Spirits"
+    },
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "FARSIGHTBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              "",
+              {
+                "Down": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "FARSIGHTCONTROL1",
+              "FARSIGHTCONTROL2",
+              "FARSIGHTCONTROL6",
+              "FARSIGHTDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "FARSIGHTRANGE",
+              "FARSIGHTDURATION",
+              "FARSIGHTCONTROL3",
+              "FARSIGHTRANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "5",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "FARSIGHTCONTROL4",
+              "FARSIGHTCONTROL5",
+              "FARSIGHTMASTERY"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "10",
+              "20"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "FORSEE",
+    "Name": "Foresee",
+    "Description": "  Force users often have precognitive flashes, experiencing waking dreams or visions about people and situations through their abilities. These powers are rarely so clear and obvious as to provide unequivocal visions of the future, but they are certainly enough to give Force users pause for thought when they have a \"bad feeling about something.\"     The power of foresight has been used in countless different ways by countless different Force users throughout history. Some use it to gain vague images far into the future, while others use it to predict the movements of their foes or see an unexpected event soon to happen.",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "FORSEEBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "1",
+          "Abilities": {
+            "Key": [
+              "FORSEECONTROL1",
+              "FORSEESTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "3",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "5"
+            ]
+          }
+        },
+        {
+          "Index": "2",
+          "Abilities": {
+            "Key": [
+              "FORSEEMAGNITUDE",
+              "FORSEERANGE",
+              "FORSEECONTROL2",
+              "FORSEEDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "10",
+              "5"
+            ]
+          }
+        },
+        {
+          "Index": "3",
+          "Abilities": {
+            "Key": [
+              "FORSEEMAGNITUDE",
+              "FORSEERANGE",
+              "FORSEERANGE",
+              "FORSEESTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "5",
+              "5"
+            ]
+          }
+        },
+        {
+          "Index": "4",
+          "Abilities": {
+            "Key": [
+              "FORSEECONTROL3",
+              "FORSEEDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              "",
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "3",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "5"
+            ]
+          }
+        }
+      ]
+    },
+    "Source": [
+      "Age of Rebellion Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ]
+  },
+  {
+    "Key": "HEALHARM",
+    "Name": "Heal/Harm",
+    "Description": "  This power reflects a Force user's capacity to manipulate the living energy in things around him. It is the individual's choice, however, whether to use this gift to help others flourish, binding their injuries and making them whole, or to steal their vital essence, ripping the life from them to watch as they wither and die.",
+    "Source": "Force and Destiny Core Rulebook",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "HEALHARMBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "HEALHARMRANGE",
+              "HEALHARMMAGNITUDE",
+              "HEALHARMMAGNITUDE",
+              "HEALHARMCONTROL2"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "5",
+              "5",
+              "20"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "HEALHARMRANGE",
+              "HEALHARMMAGNITUDE",
+              "HEALHARMSTRENGTH",
+              "HEALHARMCONTROL3"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20",
+              "10",
+              "15",
+              "20"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "HEALHARMCONTROL1",
+              "HEALHARMCONTROL4",
+              "HEALHARMMASTERY",
+              "HEALHARMSTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20",
+              "20",
+              "20",
+              "15"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "IMBUE",
+    "Name": "Imbue",
+    "Description": "      Those who count the Force as their ally can use the Force to imbue their allies in turn. They can rest their hand on a friend's shoulder or arm, or even just stand beside an ally as a solid, reassuring presence. As they reach out to touch the Force, they channel the power given to them through their bodies and out again, flowing into the nearby ally. Imbued allies may accomplish great and terrible feats, jumping higher, thinking faster, and striking harder with the Force. An ally need not even be able to touch the Force normally, for the Force flows through all living things.",
+    "Source": {
+      "_Page": "37",
+      "__text": "Disciples of Harmony"
+    },
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "IMBUEBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              "",
+              "",
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "IMBUESTRENGTH",
+              "IMBUECONTROL1",
+              "IMBUERANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              "",
+              {
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10",
+              "5"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "IMBUERANGE",
+              "IMBUERANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "IMBUESTRENGTH",
+              "IMBUEMASTERY",
+              "IMBUEDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              "",
+              {
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "25",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "IMBUERANGE",
+              "IMBUESTRENGTH",
+              "IMBUEDURATION2"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "2",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "20",
+              "20"
+            ]
+          }
+        }
+      ]
+    },
+    "MinForceRating": "2"
+  },
+  {
+    "Key": "INFLUENCE",
+    "Name": "Influence",
+    "Description": "  The ability to influence the minds of others is not something to be taken lightly. Misuse of the ability, colloquially known as a \"mind trick,\" is a sure step on the path to the dark side. A powerful Force user can manipulate the minds of others to the point where he can convince them to believe things that are untrue, or calm an angry crowd. Conversely, he can rile the crowd into a murderous frenzy, or frighten a single soul into gibbering madness. This is where the danger of Influence lies.    However, Influence is not inherently evil. Many Force users have used Influence to protect the helpless or to deal with a threat in a way that avoids violence. It is much better to convince a guard to return to his post than to have to kill him.",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "INFLUENCEBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "1",
+          "Abilities": {
+            "Key": [
+              "INFLUENCERANGE",
+              "INFLUENCEMAGNITUDE",
+              "INFLUENCECONTROL1"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "2",
+          "Abilities": {
+            "Key": [
+              "INFLUENCECONTROL2",
+              "INFLUENCESTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              "",
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "3",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "3",
+          "Abilities": {
+            "Key": [
+              "INFLUENCERANGE",
+              "INFLUENCEMAGNITUDE",
+              "INFLUENCEDURATION",
+              "INFLUENCEDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "5",
+              "5",
+              "5"
+            ]
+          }
+        },
+        {
+          "Index": "4",
+          "Abilities": {
+            "Key": [
+              "INFLUENCERANGE",
+              "INFLUENCEMAGNITUDE",
+              "INFLUENCEDURATION",
+              "INFLUENCEDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "5",
+              "5"
+            ]
+          }
+        }
+      ]
+    },
+    "Source": [
+      "Edge of the Empire Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ]
+  },
+  {
+    "Key": "JERINF",
+    "Name": "Jerserra's Influence",
+    "Description": " Jerserra combined her Inquisitor's strict training with her guidance from her shard of the Nardithi Cluster and found a way to project fear onto her foes. Other Force users, through encountering Jerserra and her power, can learn to do the same.   The user may spend [FP] to target one character within short range. That character must immediately make an [B]Average ([DI][DI]) fear check as an out of turn incidental. The user may not activate this multiple times.",
+    "Source": {
+      "_Page": "13",
+      "__text": "Ghosts of Dathomir"
+    },
+    "Custom": "AddedItem",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "JERINFBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              "",
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "JERINFRANGE",
+              "JERINFSTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Down": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "3"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "JERINFCONTROL1",
+              "JERINFRANGE",
+              "JERINFCONTROL2",
+              "JERINFMAGNITUDE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "JERINFMAGNITUDE",
+              "JERINFSTRENGTH",
+              "JERINFCONTROL3",
+              "JERINFRANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "15",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "JERINFMASTERY1",
+              "JERINFMASTERY2"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "5"
+            ]
+          }
+        }
+      ]
+    },
+    "MinForceRating": "2"
+  },
+  {
+    "Key": "MANIPULATE",
+    "Name": "Manipulate",
+    "Description": " The Force user shapes machine components on a molecular level, allowing better crafting and repairing of items.   The Force user may spend [FP] to cause one vehicle or ship he is engaged with to recover one system strain. The user may activate this multiple times, increasing the system strain recovered by one each time.",
+    "Source": {
+      "_Page": "37",
+      "__text": "Endless Vigil"
+    },
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "MANIPULATEBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              "",
+              "",
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "MANIPULATECONTROL1",
+              "MANIPULATESTRENGTH",
+              "MANIPULATECONTROL2"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "MANIPULATECONTROL3",
+              "MANIPULATERANGE",
+              "MANIPULATECONTROL4",
+              "MANIPULATECONTROL5"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "MANIPULATECONTROL6",
+              "MANIPULATERANGE",
+              "MANIPULATESTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "MANIPULATECONTROL7",
+              "MANIPULATERANGE",
+              "MANIPULATEMASTERY"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "15",
+              "20"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "MISDIRECT",
+    "Name": "Misdirect",
+    "Description": "  Trickery is an important part of many Force users' arsenals, letting them tip the scales of battle in their favor or even avoid some conflicts entirely. Force users versed in shrouding techniques often walk unseen amidst their foes-a particularly useful ability for any Force-sensitive hiding from the Empire. Especially skilled crafters of illusions can even project visions onto those around them, baffling pursuers or terrifying enemies with horrific phantasms.",
+    "Source": "Force and Destiny Core Rulebook",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "MISDIRBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              "",
+              "",
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "MISDIRRANGE",
+              "MISDIRDURATION",
+              "MISDIRSTRENGTH",
+              "MISDIRCONTROL1"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "MISDIRMAGNITUDE",
+              "MISDIRMAGNITUDE",
+              "MISDIRSTRENGTH",
+              "MISDIRCONTROL2"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "MISDIRRANGE",
+              "MISDIRCONTROL3",
+              "MISDIRSTRENGTH",
+              "MISDIRMASTERY"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "15",
+              "15",
+              "20"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "MISDIRRANGE",
+              "MISDIRSTRENGTH"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              "",
+              {
+                "Up": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "15"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "MOVE",
+    "Name": "Move",
+    "Description": "  Many Force users develop the ability to shift objects without physically handling them, moving matter with the power of the mind. Those with a modicum of training in the skill can cause small objects to slowly and painstakingly rise, fall, or travel in space. True masters of the Force are rumored to be able to hurl starships about or juggle heavy crates in the air. Other applications of the power allow for Force users to manipulate control panels or computer keyboards at a distance. There is thought to be no limit to what a Force user could move with the application of enough concentration.    When moving items, the default speed is slow and deliberate, not fast enough to inflict injury or accurate enough to allow for fine manipulation.",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "MOVEBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "1",
+          "Abilities": {
+            "Key": [
+              "MOVEMAGNITUDE",
+              "MOVESTRENGTH",
+              "MOVERANGE",
+              "MOVERANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10",
+              "5",
+              "5"
+            ]
+          }
+        },
+        {
+          "Index": "2",
+          "Abilities": {
+            "Key": [
+              "MOVEMAGNITUDE",
+              "MOVESTRENGTH",
+              "MOVECONTROL1"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "3",
+          "Abilities": {
+            "Key": [
+              "MOVEMAGNITUDE",
+              "MOVESTRENGTH",
+              "MOVECONTROL2",
+              "MOVERANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "15",
+              "5",
+              "15"
+            ]
+          }
+        },
+        {
+          "Index": "4",
+          "Abilities": {
+            "Key": [
+              "MOVEMAGNITUDE",
+              "MOVESTRENGTH",
+              "MOVECONTROL3"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "20",
+              "15"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "PROTUNL",
+    "Name": "Protect/Unleash",
+    "Description": "  Force users can harness the innate abilities of the Force to protect themselves and others from harm. However, that same power can be turned to terrible ends when the user infuses himself with the dark side. Dark siders can shoot lightning from their fingertips or envelop their targets in withering, murderous cold.",
+    "Source": "Force and Destiny Core Rulebook",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "PROTUNLBASICPOWER"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              "",
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "PROTUNLRANGE",
+              "PROTUNLSTRENGTH",
+              "PROTUNLSTRENGTH",
+              "PROTUNLCONTROL1"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "PROTUNLRANGE",
+              "PROTUNLMAGNITUDE",
+              "PROTUNLRANGE",
+              "PROTUNLCONTROL2"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "PROTUNLMAGNITUDE",
+              "PROTUNLSTRENGTH",
+              "PROTUNLSTRENGTH",
+              "PROTUNLDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20",
+              "15",
+              "20",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "PROTUNLCONTROL3",
+              "PROTUNLMASTERY"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              "",
+              "",
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "25",
+              "25"
+            ]
+          }
+        }
+      ]
+    },
+    "MinForceRating": "3"
+  },
+  {
+    "Key": "SEEK",
+    "Name": "Seek",
+    "Description": "  The Force user casts out with his mind's eye, searching for something lost, concealed, or forgotten. While countless different Force traditions across the galaxy have attached different practices and techniques to this power, from tribal cultures that use it to hunt prey-beasts to orders of assassins who seek out any who defy their orthodoxy, the basic ability remains the same: those who follow pathways of the Force can track down anything or anyone, regardless of the distance or eons that separate them from their quarry.",
+    "Source": "Force and Destiny Core Rulebook",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "SEEKBASICPOWER"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              "",
+              {
+                "Down": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "SEEKMAGNITUDE",
+              "SEEKCONTROL1"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              "",
+              {
+                "Up": "true"
+              },
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "SEEKSTRENGTH",
+              "SEEKMAGNITUDE",
+              "SEEKMAGNITUDE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "2",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "5",
+              "5"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "SEEKCONTROL2",
+              "SEEKSTRENGTH",
+              "SEEKMAGNITUDE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "2",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "15",
+              "15",
+              "15"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "SEEKDURATION",
+              "SEEKCONTROL3",
+              "SEEKMASTERY"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              "",
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "2",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20",
+              "15",
+              "20"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "SENSE",
+    "Name": "Sense",
+    "Description": "  By opening his mind, a Force user can commune with the world around him . He senses the endless movement of the Living Force, seeing beyond what his eyes allow. The actions of those around him are laid bare, as if the Force user had a bird's eye view of his surroundings, allowing him to anticipate attacks and better strike blows of his own, or even spot ambushes and lurking foes. Alternatively, he can sense the thoughts of others. Even a Jedi cannot read someone's mind completely, but a Force-sensitive being can detect his target's feelings and emotions, and even sense surface thoughts.     Unlike many other Force powers, Sense has a basic power that can be used in two very different ways. Users can rely on Sense to augment their defensive (and eventually offensive) abilities, or they can invest in the ability to read the emotions and feelings of others. They can even read their surface thoughts, which can be particularly valuable in a wide variety of situations.",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "SENSEBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "1",
+          "Abilities": {
+            "Key": [
+              "SENSECONTROL1",
+              "SENSECONTROL2"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "2",
+          "Abilities": {
+            "Key": [
+              "SENSEDURATION",
+              "SENSERANGE",
+              "SENSEMAGNITUDE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "5",
+              "5"
+            ]
+          }
+        },
+        {
+          "Index": "3",
+          "Abilities": {
+            "Key": [
+              "SENSESTRENGTH",
+              "SENSERANGE",
+              "SENSEMAGNITUDE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Index": "4",
+          "Abilities": {
+            "Key": [
+              "SENSECONTROL3",
+              "SENSERANGE",
+              "SENSEMAGNITUDE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10"
+            ]
+          }
+        }
+      ]
+    },
+    "Source": [
+      "Edge of the Empire Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ]
+  },
+  {
+    "Key": "SUPPRESS",
+    "Name": "Suppress",
+    "Description": "   By feeling the flow of the Force and seizing hostile currents in a mental grip, a Force sensitive can directly grapple with supernatural attacks, preventing harm and shielding allies from their strikes. Masters of this ability can even negate Force-based attacks completely, shrugging off gouts of supernatural energy or shattering mental assaults with strength of will and the power of the Force.   Some Force users punctuate this mental defense with physical motions or even weave it into their fighting style, while others stand perfectly still amid the chaos, twisting invisible currents with their minds to keep those around them safe from malign powers. By projecting force of will outward, the Force user can diminish the effects of enemies' Force powers or even cause their Force-based attacks to sputter out entirely before they strike.   The basic power of Suppress can be used in one way: to create a protective bubble around the Force user that dampens the effects of other Force powers meant to harm the user and nearby allies. The basic power has one way to spend force points:   The user may spend [FP] to extend a dampening field around himself that shields him and all allies in short range. Until the end of the user's next turn, any hostile Force user who makes a skill check as part of a Force power check against the user or any affected ally adds automatic [FA] to the results. The user may not activate this multiple times.",
+    "Source": "Keeping the Peace",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "SUPPRESSBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              "",
+              "",
+              {
+                "Down": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "4"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "SUPPRESSSTRENGTH",
+              "SUPPRESSDURATION",
+              "SUPPRESSRANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "5",
+              "5"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "SUPPRESSCONTROL1",
+              "SUPPRESSRANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true"
+              },
+              {
+                "Left": "true",
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "3",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "5"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "SUPPRESSSTRENGTH",
+              "SUPPRESSCONTROL2",
+              "SUPPRESSRANGE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              "",
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "5"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "SUPPRESSMASTERY",
+              "SUPPRESSCONTROL3"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              "",
+              {
+                "Up": "true"
+              },
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "2",
+              "2"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "20",
+              "15"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Key": "WARFOR",
+    "Name": "Warde's Foresight",
+    "Description": " Warde's Foresight differs from many other prophetic abilities in that it focuses very narrowly on a specific person. At the most basic level, it observes not the future of the cosmos but the fate of a particular individual. However, even these hints that Wardeâ€™s power of prophecy grants are only likelihoods. The future is volatile, shifting with the choices of individuals. Even the decision whether or not to act on these visions of possible futures can alter results they foreshadowed.    The basic power has one way to spend Force points: the user may spend [FP] to gain hints about what an individual within short range is likely to do in the near future. In structured gameplay, this knowledge does not typically extend beyond the end of the current encounter.",
+    "Source": "Chronicles of the Gatekeeper",
+    "Custom": "DescOnly",
+    "AbilityRows": {
+      "AbilityRow": [
+        {
+          "Abilities": {
+            "Key": [
+              "WARFORBASIC"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              },
+              "",
+              ""
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "3"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "WARFORRANGE",
+              "WARFORCONTROL1"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              },
+              {
+                "Down": "true"
+              },
+              {
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "3"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "WARFORSTRENGTH",
+              "WARFORCONTROL2",
+              "WARFORDURATION",
+              "WARFORDURATION"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true"
+              },
+              {
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "10",
+              "10",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "WARFORRANGE",
+              "WARFORDURATION",
+              "WARFORCONTROL3",
+              "WARFORMAGNITUDE"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Right": "true",
+                "Up": "true",
+                "Down": "true"
+              },
+              {
+                "Left": "true"
+              },
+              {
+                "Right": "true",
+                "Up": "true"
+              },
+              {
+                "Left": "true",
+                "Down": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "5",
+              "10",
+              "15",
+              "10"
+            ]
+          }
+        },
+        {
+          "Abilities": {
+            "Key": [
+              "WARFORSTRENGTH",
+              "WARFORCONTROL4"
+            ]
+          },
+          "Directions": {
+            "Direction": [
+              {
+                "Up": "true"
+              },
+              "",
+              "",
+              {
+                "Up": "true"
+              }
+            ]
+          },
+          "AbilitySpan": {
+            "Span": [
+              "1",
+              "3"
+            ]
+          },
+          "Costs": {
+            "Cost": [
+              "10",
+              "15"
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

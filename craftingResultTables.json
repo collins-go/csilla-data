@@ -1,0 +1,4245 @@
+[
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMPRAC",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Practice Makes Perfect",
+        "Description": "Character learns something valuable and gains [BO] on next check with same skill.",
+        "AffectsCost": "false",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMLIGHT",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Lightweight",
+        "Description": "Reduce encumbrance by 1.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "EncumbranceChange": "-1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMSEAL",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Sealable",
+        "Description": "Armor can take the Vacuum Sealed attachment.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Armor can take the Vacuum Sealed attachment."
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMLESSON",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Lessons Learned",
+        "Description": "Reduce difficulty of next crafting check by 1.",
+        "AffectsCost": "false",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMMDEF",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Extra Melee Defense",
+        "Description": "Add +1 melee defense to armor.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "MELEEDEFADD",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMSPECEMB",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Special Embellishment",
+        "Description": "Add automatic [AD] to a chosen skill.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "SpecialEmb": {
+            "TypeValue": "stNone",
+            "SkillList": [
+                "CHARM",
+                "COERC",
+                "NEG",
+                "LEAD",
+                "RESIL",
+                "STEAL"
+            ],
+            "SkillCount": "1"
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMEFFCONST",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Efficient Construction",
+        "Description": "Retain supplies worth 50% of the Material Price.",
+        "AffectsCost": "false",
+        "MaterialCostDiscount": "50",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMRDEF",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Extra Ranged Defense",
+        "Description": "Add +1 ranged defense to armor.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "RANGEDEFADD",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMHP",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Extra Hard Point",
+        "Description": "Add 1 hard point to armor.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "2",
+        "HPChange": "1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMSOAK",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Extra Soak",
+        "Description": "Add +1 soak to armor.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "SoakChange": "1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMDUP",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Duplicate",
+        "Description": "Create one additional, identical set of armor at no cost.",
+        "AffectsCost": "false",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "DuplicateItem": "1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMSCHEM",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Armor Schematic",
+        "Description": "Permanently reduce difficulty of checks to create armor using this template by 1 (to a minimum of Simple [-]).",
+        "AffectsCost": "false",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "Schematic": "true"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMATT",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Integral Attachment",
+        "Description": "Add +1 hard point to armor, then install one applicable armor attachment that requires 1 hard point.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "IntegralAttachment": "true"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMEXH",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Exhausting Effort",
+        "Description": "Suffer 3 strain when finished with construction.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMHVY",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Heavy",
+        "Description": "Increase encumbrance by 1.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "EncumbranceChange": "1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMFIT",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Poor Fit",
+        "Description": "Donning and doffing this armor requires one additional action.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Poor Fit: Donning and doffing this armor requires one additional action"
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMCOMPLEX",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Complex",
+        "Description": "The armor is difficult to repair.  Increase difficulty of checks to repair armor by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Complex: Increase difficulty of checks to repair this armor by 1"
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMDIFCUST",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Difficult to Customize",
+        "Description": "Increase the difficulty of checks to modify attachments on this armor by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Difficult to Customize: Increase the difficulty of checks to modify attachments on this armor by 1"
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMRESTR",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Restrictive",
+        "Description": "Wearer adds automatic [TH] to checks with selected skill.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Restrictive": {
+            "TypeValue": "stNone",
+            "SkillList": [
+                "ATHL",
+                "COORD",
+                "PERC",
+                "SKUL",
+                "VIGIL"
+            ],
+            "SkillCount": "1"
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMWEARTEAR",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Wear and Tear",
+        "Description": "The tools used to make this armor are damaged 1 step(s).",
+        "AffectsCost": "false",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "3"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMFRAG",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Fragile",
+        "Description": "Whenever armor becomes damaged, the damage always counts as moderate unless it would be worse.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Fragile: Whenever armor becomes damaged, the damage always counts as moderate unless it would be worse"
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMEXPENSIVE",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Expensive",
+        "Description": "Whenever armor becomes damaged, the cost to repair is doubled.",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Expensive: Whenever armor becomes damaged, the cost to repair is doubled"
+        }
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMSHORTAGE",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Supply Shortage",
+        "Description": "Cannot finish until more supplies are acquired costing 25% of Material Price.",
+        "AffectsCost": "false",
+        "MaterialCostDiscount": "-25",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Armor",
+        "Key": "IMPARMFLAW",
+        "Source": {
+            "_Page": "91",
+            "__text": "Keeping the Peace"
+        },
+        "Name": "Unexpected Flaw",
+        "Description": "GM may spend 1 Destiny point to cause armor to fail and suffer major damage.  This can be exploited only once.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Unexpected Flaw: GM may spend 1 Destiny point to cause armor to fail and suffer major damage."
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEPRAC",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Practice Makes Perfect",
+        "Description": "Character learns something valuable and gains [BO] on next check with same skill.",
+        "AffectsCost": "false",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEE2H",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Two-Handed",
+        "Description": "The weapon becomes two-handed, increasing damage and encumbrance.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "TwoHands": "true",
+        "DamAddChange": "1",
+        "EncumbranceChange": "2"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEELIGHT",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Lightweight",
+        "Description": "Reduce encumbrance by 1.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "EncumbranceChange": "-1"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEKNOCK",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Knockdown Quality",
+        "Description": "This weapon gains the Knockdown quality.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "KNOCKDOWN"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEELESSON",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Lessons Learned",
+        "Description": "Reduce difficulty of next crafting check by 1.",
+        "AffectsCost": "false",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEDEFQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Defensive Quality",
+        "Description": "This weapon gains the Defensive 1 quality, or increases Defensive quality by 1 (to a maxiumum of 3).",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "3",
+        "Mods": {
+            "Key": "DEFENSIVE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEECUST",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Customizable",
+        "Description": "Increase the weapon's hard points by 1.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "HPChange": "1"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEPIERCEQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Pierce Quality",
+        "Description": "This weapon gains the Pierce 1 quality, or increases Pierce quality by 1.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "Mods": {
+            "Key": "PIERCE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEVICQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Vicious Quality",
+        "Description": "This weapon gains the Vicious 1 quality, or increases Vicious quality by 1 (to a maxiumum of 5).",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "5",
+        "Mods": {
+            "Key": "VICIOUS",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEESTUNQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Stun Quality",
+        "Description": "This weapon gains the Stun 1 quality, or increases Stun quality by 1.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "Mods": {
+            "Key": "STUN",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEEFFCONST",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Efficient Construction",
+        "Description": "Retain supplies worth 50% of the Material Price.",
+        "AffectsCost": "false",
+        "MaterialCostDiscount": "50",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEENSQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Ensnare Quality",
+        "Description": "This weapon gains the Ensnare 1 quality, or increases Ensnare quality by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "Mods": {
+            "Key": "ENSNARE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEDEFLQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Deflection Quality",
+        "Description": "This weapon gains the Deflection 1 quality, or increases Deflection quality by 1 (to a maxiumum of 3).",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "3",
+        "Mods": {
+            "Key": "DEFLECTION",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEDESTR",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Destructive",
+        "Description": "Increases weapon's damage by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "DamAddChange": "1"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEACCQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Accurate Quality",
+        "Description": "This weapon gains the Accurate 1 quality, or increases Accurate quality by 1 (to a maxiumum of 3).",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "SelectCount": "3",
+        "Mods": {
+            "Key": "ACCURATE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEELETHAL",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Lethal",
+        "Description": "Decreases weapon's critical rating by 1.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "CritChange": "-1"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEESUNDQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Sunder Quality",
+        "Description": "This weapon gains the Sunder quality.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "SUNDER"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEESCHEM",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Schematic",
+        "Description": "Permanently reduce difficulty of checks to create weapons using this template by 1 (to a minimum of Simple [-]).",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "Schematic": "true"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEECONCQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Concussive Quality",
+        "Description": "This weapon gains the Concussive 1 quality.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "CONCUSSIVE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEATT",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Integral Attachment",
+        "Description": "Add +1 hard point to weapon, then install one applicable weapon attachment that requires 1 hard point.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "IntegralAttachment": "true"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEEXH",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Exhausting Effort",
+        "Description": "Suffer 3 strain when finished with construction.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEHVY",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Heavy",
+        "Description": "Increase encumbrance by 1.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "EncumbranceChange": "1"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEECUMBQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Cumbersome Quality",
+        "Description": "This weapon gains the Cumbersome 1 quality, or increases Cumbersome quality by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "Key": "CUMBERSOME",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEHARDMOD",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Hard to Modify",
+        "Description": "Increase the difficulty of checks to modify attachments on this weapon by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Hard to Modify: Increase the difficulty of checks to modify attachments on this weapon by 1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEWEARTEAR",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Wear and Tear",
+        "Description": "The tools used to make this armor are damaged 1 step(s).",
+        "AffectsCost": "false",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "3"
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEDIFFREP",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Difficult to Repair",
+        "Description": "The weapon is difficult to repair.  Increase difficulty of checks to repair weapon by 1.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Difficult to Repair: Increase difficulty of checks to repair this weapon by 1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEINACCQ",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Inaccurate Quality",
+        "Description": "This weapon gains the Inaccurate 1 quality, or increases Inaccurate quality by 1.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "Mods": {
+            "Key": "INACCURATE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEBRITT",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Brittle",
+        "Description": "On a [DE] result from a combat check, weapon becomes damaged one level.",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Brittle: On a [DE] result from a combat check, weapon becomes damaged 1 level(s)"
+        }
+    },
+    {
+        "TempType": "Brawl or Melee Weapon",
+        "Key": "IMPMELEEFLAW",
+        "Source": {
+            "_Page": "77",
+            "__text": "Special Modifications"
+        },
+        "Name": "Hidden Flaw",
+        "Description": "GM may spend 1 Destiny point to cause weapon to fracture or break, suffering major damage.  This can be exploited only once.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Hidden Flaw: GM may spend 1 Destiny point to cause weapon to fracture or break, suffering major damage."
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDPRAC",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Practice Makes Perfect",
+        "Description": "Character learns something valuable and gains [BO] on next check with same skill.",
+        "AffectsCost": "false",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDIONQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Ion Quality",
+        "Description": "This weapon gains the Ion quality.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "ION"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDLIGHT",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Lightweight",
+        "Description": "Reduce encumbrance by 1.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "EncumbranceChange": "-1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDDISORQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Disorient Quality",
+        "Description": "This weapon gains the Disorient 1 quality, or increases Disorient quality by 1.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "Mods": {
+            "Key": "DISORIENT",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDEXMAG",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Expanded Magazine",
+        "Description": "If weapon has Limited Ammo, increase by 1.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "LimitedAmmoGood": "true"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDLESSON",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Lessons Learned",
+        "Description": "Reduce difficulty of next crafting check by 1.",
+        "AffectsCost": "false",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDCUST",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Customizable",
+        "Description": "Increase the weapon's hard points by 1.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "HPChange": "1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDINCRANGE",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Increase Range",
+        "Description": "Increase the weapon's range by 1 range band.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "RangeChange": "1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDKNOCKQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Knockdown Quality",
+        "Description": "This weapon gains the Knockdown quality.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "KNOCKDOWN"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDVICQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Vicious Quality",
+        "Description": "This weapon gains the Vicious 1 quality, or increases Vicious quality by 1 (to a maxiumum of 5).",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "5",
+        "Mods": {
+            "Key": "VICIOUS",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDSTUNSETQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Stun Setting Quality",
+        "Description": "This weapon gains the Stun Setting quality.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "STUNSETTING"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDEFFCONST",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Efficient Construction",
+        "Description": "Retain supplies worth 50% of the Material Price.",
+        "AffectsCost": "false",
+        "MaterialCostDiscount": "50",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDDESTR",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Destructive",
+        "Description": "Increases weapon's damage by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "DamChange": "1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDENSQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Ensnare Quality",
+        "Description": "This weapon gains the Ensnare 1 quality, or increases Ensnare quality by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "Mods": {
+            "Key": "ENSNARE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDSTUNQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Stun Quality",
+        "Description": "This weapon gains the Stun 3 quality, or increases Stun quality by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "Mods": {
+            "Key": "STUN",
+            "NewCount": "3",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDPIERCEQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Pierce Quality",
+        "Description": "This weapon gains the Pierce 1 quality, or increases Pierce quality by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "Mods": {
+            "Key": "PIERCE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDAUTOFQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Auto-Fire Quality",
+        "Description": "This weapon gains the Auto-Fire quality.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "AUTOFIRE"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDBURNQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Burn Quality",
+        "Description": "This weapon gains the Burn 1 quality, or increases Burn quality by 1.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "Mods": {
+            "Key": "BURN",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDLETHAL",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Lethal",
+        "Description": "Reduce weapon's critical rating by 1.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "CritChange": "-1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDACCQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Accurate Quality",
+        "Description": "This weapon gains the Accurate 1 quality, or increases Accurate quality by 1 (to a maxiumum of 3).",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "SelectCount": "3",
+        "Mods": {
+            "Key": "ACCURATE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDSCHEM",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Schematic",
+        "Description": "Permanently reduce difficulty of checks to create weapon using this template by 1 (to a minimum of Simple [-]).",
+        "AffectsCost": "false",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "Schematic": "true"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDBLASTQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Blast Quality",
+        "Description": "This weapon gains the Blast 5 quality, or increases Blast quality by 2.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "Mods": {
+            "Key": "BLAST",
+            "NewCount": "5",
+            "Count": "2"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDCONCQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Concussive Quality",
+        "Description": "This weapon gains the Concussive 1 quality.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "CONCUSSIVE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDATT",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Integral Attachment",
+        "Description": "Add +1 hard point to weapon, then install one applicable weapon attachment that requires 1 hard point.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "IntegralAttachment": "true"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDEXH",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Exhausting Effort",
+        "Description": "Suffer 3 strain when finished with construction.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDHVY",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Heavy",
+        "Description": "Increase encumbrance by 1.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "EncumbranceChange": "1"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDCUMBQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Cumbersome Quality",
+        "Description": "This weapon gains the Cumbersome 1 quality, or increases Cumbersome quality by 1.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "Mods": {
+            "Key": "CUMBERSOME",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDEXPENSIVE",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Expensive",
+        "Description": "Whenever weapon becomes damaged, the cost to repair is doubled.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Expensive: Whenever weapon becomes damaged, the cost to repair is doubled"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDHARDMOD",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Hard to Modify",
+        "Description": "Increase the difficulty of checks to modify attachments on this weapon by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Hard to Modify: Increase the difficulty of checks to modify attachments on this weapon by 1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDDIFFREP",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Difficult to Repair",
+        "Description": "The weapon is difficult to repair.  Increase difficulty of checks to repair weapon by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Difficult to Repair: Increase difficulty of checks to repair this weapon by 1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDWEARTEAR",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Wear and Tear",
+        "Description": "The tools used to make this armor are damaged 1 step(s).",
+        "AffectsCost": "false",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "3"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDPREPQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Prepare Quality",
+        "Description": "This weapon gains the Prepare 1 quality, or increases Prepare quality by 1.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "Mods": {
+            "Key": "PREPARE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDAMMOINEFF",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Ammunition-Inefficient",
+        "Description": "[TH][TH][TH] may cause weapon to run out of ammunition.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Ammunition-Inefficient: In addition to a [DE], [TH][TH][TH] may also cause weapon to run out of ammunition"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDINACCQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Inaccurate Quality",
+        "Description": "This weapon gains the Inaccurate 1 quality, or increases Inaccurate quality by 1.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "Mods": {
+            "Key": "INACCURATE",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDLIMAMMOQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Limited Ammo Quality",
+        "Description": "If weapon has Limited Ammo, decrease by 1.  If not, gains Limited Ammo 3.",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "LimitedAmmoBad": "true"
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDSLOWQ",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Slow-Firing Quality",
+        "Description": "This weapon gains the Slow-Firing 1 quality, or increases Slow-Firing quality by 1.",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "Mods": {
+            "Key": "SLOWFIRING",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Ranged Weapon",
+        "Key": "IMPRANGEDVOLA",
+        "Source": {
+            "_Page": "79",
+            "__text": "Special Modifications"
+        },
+        "Name": "Dangerously Volatile",
+        "Description": "GM may spend [DE] from any combat check to have this weapon explode.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Dangerously Volatile: GM may spend [DE] from any combat check to have this weapon explode.  Weapon is destroyed and wielder and all engaged characters suffer 10 damage"
+        }
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERLIGHT",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Lightweight",
+        "Description": "Reduce encumbrance by 1.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "EncumbranceChange": "-1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABER2H",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Two-Handed",
+        "Description": "The lightsaber becomes two-handed, increasing damage and encumbrance.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "TwoHands": "true",
+        "EncumbranceChange": "2",
+        "SelectCount": "1",
+        "Mods": {
+            "Key": "DAMADD",
+            "Count": "1"
+        }
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERDISG",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Disguised",
+        "Description": "Add [SE] to checks to identify the lightsaber.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "Mods": {
+            "MiscDesc": "Disguised: Add [SE] to checks to identify the lightsaber as such when it is not ignited."
+        }
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERCW",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Counterweight",
+        "Description": "Increases encumbrance, gains Cumbersome instead of Unwieldy.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "Counterweight": true,
+        "EncumbranceChange": "2",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERCG",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Crossguard",
+        "Description": "Lightsaber gains a crossguard.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "Crossguard": "true",
+        "SelectCount": "1",
+        "Mods": [
+            {
+                "MiscDesc": "Crossguard: May spend [AD][AD] or [TR] to hook an opponent's blade and disarm them."
+            },
+            {
+                "Key": "DEFENSIVE",
+                "Count": "1"
+            }
+        ]
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERCUST",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Customizable",
+        "Description": "Increase the lightsaber's hard points by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "HPChange": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERDB",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Delicate Balance",
+        "Description": "Gains Unwieldy instead of Cumbersome.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "DelicateBalance": "true",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERPD",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Personalized Design",
+        "Description": "Crafter adds automatic [SU] on successful checks.  Others add [TH].",
+        "Mods": {
+            "MiscDesc": "Personalized Design: When the lightsaber's creator makes a successful Lightsaber check, an automatic [SU] is added.  All others add automatic [TH]."
+        },
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERINBUILT",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Inbuilt",
+        "Description": "Choose an item of encumbrance 1 or more that the character possesses.  This lightsaber will be built into that item.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "InbuiltItem": "true",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERENBLEED",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Energy Bleed",
+        "Description": "Lightsaber gains the Stun 2 quality, or increases the Stun quality by 2.",
+        "Mods": {
+            "Key": "STUN",
+            "Count": "2"
+        },
+        "CostAdvThr": "4",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERFTE",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Fine-Tuned Emitter",
+        "Description": "Add automatic [AD] to combat checks.",
+        "Mods": {
+            "MiscDesc": "Fine-Tuned Emitter: Add automatic [AD] to combat checks.",
+            "Key": "ADVADDCOM",
+            "Count": "1"
+        },
+        "CostAdvThr": "0",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERPERS",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Personalized Inlay",
+        "Description": "Reduce difficulty of checks to modify installed crystals  by 1.",
+        "Mods": {
+            "MiscDesc": "Personalized Inlay: Reduce the difficulty of checks to modify any crystal installed in this lightsaber by 1."
+        },
+        "CostAdvThr": "0",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERATT",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Integral Attachment",
+        "Description": "Add +1 hard point to lightsaber, then install one applicable attachment that requires 1 hard point.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "IntegralAttachment": "true"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERHVY",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Heavy",
+        "Description": "Increase encumbrance by 1.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "EncumbranceChange": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABEREXH",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Exhausting Effort",
+        "Description": "Suffer 3 strain when finished with construction.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERODD",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Oddly Weighted",
+        "Description": "Lightsaber gains the Cumbersome 2 quality, or increases the Cumbersome quality by 1.",
+        "Mods": {
+            "Key": "CUMBERSOME",
+            "NewCount": "2",
+            "Count": "1"
+        },
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERFRAG",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Fragile Casing",
+        "Description": "Increase difficulty of checks to repair lightsaber by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Fragile Casing: Increase difficulty of checks to repair this lightsaber by 1"
+        }
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERAWK",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Awkward Grip",
+        "Description": "Lightsaber gains the Unwieldy 2 quality, or increases the Unwieldy quality by 1.",
+        "Mods": {
+            "Key": "UNWIELDY",
+            "Count": "2"
+        },
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERME",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Misaligned Emitter",
+        "Description": "Lightsaber requires a maneuver to ignite.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Misaligned Emitter: Lightsaber requires a maneuver to ignite.  It can still be powered down as an incidental."
+        }
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERERRATIC",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Erratic",
+        "Description": "GM may spend [DE] to damage hilt and wielder.",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Erratic: GM may spend [DE] to damage lightsaber one step and inflict 3 strain on wielder."
+        }
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERPF",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Poor Focusing Lens",
+        "Description": "Lightsaber gains Inaccurate quality, or decreases its Accurate quality.",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "PoorFocusing": "true"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERFAULT",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Faulty Inlay",
+        "Description": "Increase difficulty of modifying lightsaber crystals",
+        "CostAdvThr": "0",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Faulty Inlay: Increase difficulty of modifying lightsaber crystals installed in this lightsaber by 1."
+        }
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERACCI",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Tragic Accident",
+        "Description": "Character suffers a Critical Injury upon completing the construction of the lightsaber.",
+        "AffectsCost": "false",
+        "CostAdvThr": "0",
+        "CostTriDes": "-1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERUNST",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Unstable",
+        "Description": "GM may spend [DE] from combat checks to short out lightsaber.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Unstable: GM may spend [DE] from combat checks with this lightsaber to have it short out.  It remains inoperable until repaired with a Average ([DI][DI]) Mechanics check."
+        }
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERLEARN",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Learning Experience",
+        "Description": "(On a failed check) Crafter learns valuable techniques and gains [BO] on the next attempt to craft the hilt.  Does not need to purchase new materials.",
+        "AffectsCost": "false",
+        "CostAdvThr": "0",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Lightsaber",
+        "Key": "IMPLTSABERHORR",
+        "Source": {
+            "_Page": "87",
+            "__text": "Endless Vigil"
+        },
+        "Name": "Horrible Accident",
+        "Description": "(On a failed check) Hilt explodes, causing Critical Injury at +20 and destroying all materials.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGLIGHT",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Lightweight",
+        "Description": "Reduce encumbrance by 1.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "EncumbranceChange": "-1"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGPRAC",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Practice Makes Perfect",
+        "Description": "Character learns something valuable and gains [BO] on next check with same skill.",
+        "AffectsCost": "false",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGCOMP",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Compact",
+        "Description": "Gadget with encumbrance of 3 or less adds [SE] to checks for others to find this item on the wearer's person (max of [SE][SE][SE]).",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "3",
+        "Compact": "true"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGLESSON",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Lessons Learned",
+        "Description": "Reduce difficulty of next crafting check by 1.",
+        "AffectsCost": "false",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGEFFCONST",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Efficient Construction",
+        "Description": "Retain supplies worth 50% of the Material Price.",
+        "AffectsCost": "false",
+        "MaterialCostDiscount": "50",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGSAFETY",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Safety Features",
+        "Description": "Add automatic [AD] to checks made with chosen skill.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Safety": "true"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGINWEAP",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Inbuilt Weapon",
+        "Description": "Choose a weapon encumbrance 2 or less that the character possesses.  This weapon will be built into the item.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "InbuiltWeapon": "true"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGCRAFT",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Supreme Craftsmanship",
+        "Description": "Choose a General skill.  Upgrade checks with that skill made with this tool once.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "Craftsmanship": {
+            "TypeValue": "stGeneral",
+            "SkillCount": "1"
+        }
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGEXH",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Exhausting Effort",
+        "Description": "Suffer 3 strain when finished with construction.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGHVY",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Heavy",
+        "Description": "Increase encumbrance by 1.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "EncumbranceChange": "1"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGDIFFREP",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Difficult to Repair",
+        "Description": "Increase difficulty of checks to repair gadget by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Difficult to Repair: Increase difficulty of checks to repair this gadget by 1"
+        }
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGDELICATE",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Delicate",
+        "Description": "A [TH][TH] or [DE] result on any check may cause gadget to be damaged one level.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Delicate: A [TH][TH] or [DE] result on any check may cause gadget to be damaged 1 level(s)"
+        }
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGUNPRES",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Unpresentable",
+        "Description": "Decrease base price of this item by 50%.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "PriceChangePercent": "-50"
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGFRAGILE",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Fragile",
+        "Description": "Whenever gadget becomes damaged one step, it becomes damaged two steps instead.",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Fragile: Whenever gadget becomes damaged one step, it becomes damaged two steps instead"
+        }
+    },
+    {
+        "TempType": "Gadget",
+        "Key": "IMPGADGFAULT",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "Name": "Faulty",
+        "Description": "Upgrade difficulty of checks made using this gadget once.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Faulty: When using this tool for a skill check, upgrade difficulty of check once"
+        }
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBERPRAC",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Practice Makes Perfect",
+        "Description": "Character learns something valuable and gains [BO] on next check with same skill.",
+        "AffectsCost": "false",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBERINTTOOL",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Integrated Tool",
+        "Description": "Allows character to make checks with a chosen skill.  It can also count as the right tool for the job.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "Tool": {
+            "TypeValue": "stGeneral",
+            "SkillCount": "1"
+        }
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBERUNOB",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Unobtrusive",
+        "Description": "Add [SE] to checks to determine that the character has the cybernetic installed.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "Mods": {
+            "MiscDesc": "Unobtrusive: Add [SE] to checks to determine that the character has the cybernetic installed"
+        }
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBERTAIL",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Tailored",
+        "Description": "If built for a specific being, this cybernetic does not require a check to be installed in that being.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBERINWEAP",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Inbuilt Weapon",
+        "Description": "Choose a weapon encumbrance 2 or less that the character possesses.  This weapon will be built into the cybernetic.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "InbuiltWeapon": "true"
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBERION",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Ion-Shielded",
+        "Description": "This cybernetic does not shut down as normal when affected by weapons with the Ion quality.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Ion-Shielded: This cybernetic does not shut down as normal when affected by weapons with the Ion quality"
+        }
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBEREXH",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Exhausting Effort",
+        "Description": "Suffer 3 strain when finished with construction.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBERDIFFINS",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Difficult to Install",
+        "Description": "Increase difficulty of checks to install this cybernetic by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Difficult to Install: Increase difficulty of checks to install this cybernetic by 1"
+        }
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBERWEARTEAR",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Wear and Tear",
+        "Description": "The tools used to craft this cybernetic are damaged 1 step(s).",
+        "AffectsCost": "false",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "3"
+    },
+    {
+        "TempType": "Cybernetic",
+        "Key": "IMPCYBERSEVFEED",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "Name": "Severe Feedback",
+        "Description": "When making checks using this cybernetic, character implanted with it suffers 1 strain.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "Mods": {
+            "MiscDesc": "Severe Feedback: When making checks using this cybernetic, character implanted with it suffers 1 strain"
+        }
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDPRAC",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Practice Makes Perfect",
+        "Description": "Character learns something valuable and gains [BO] on next check with same skill.",
+        "AffectsCost": "false",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDREINFCHAS",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Reinforced Chassis",
+        "Description": "Increase droid's wound threshold by 1.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "WoundChange": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDUNOB",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Unobtrusive",
+        "Description": "Droid gains 1 rank of the Indistinguishable talent.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "Unobtrusive": "true",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDLESSON",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Lessons Learned",
+        "Description": "Reduce difficulty of next crafting check by 1.",
+        "AffectsCost": "false",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDDEFLCARAP",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Deflective Carapace",
+        "Description": "Increase droid's melee defense by 1.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "2",
+        "MDefChange": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDNARRPROF",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Narrow Profile",
+        "Description": "Increase droid's ranged defense by 1.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "2",
+        "RDefChange": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDARMORPL",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Armor Plating",
+        "Description": "Increase droid's soak by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "SoakChange": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDSIZE",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Unusual Size (Larger)",
+        "Description": "Increase droid's silhouette by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "SilhouetteChange": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDSIZED",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Unusual Size (Smaller)",
+        "Description": "Decrease droid's silhouette by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "SilhouetteChange": "-1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDMODHARD",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Modular Hardware",
+        "Description": "Choose one cybernetic implant. The droid is already installed with this implant.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "InbuiltCybernetic": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDSCHEM",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Chassis Schematic",
+        "Description": "Permanently reduce difficulty of checks to create droid using this template by 1 (to a minimum of Simple [-]).",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "Schematic": "true"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDSUPHARD",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Superior Hardware",
+        "Description": "Increase any 1 of the droid's characteristics by 1.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "IncreaseCharacteristic": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDDOPP",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Doppelganger",
+        "Description": "Create 1 additional identical droid as part of the construction process.",
+        "AffectsCost": "false",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "DuplicateItem": "1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDEXH",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Exhausting Effort",
+        "Description": "Suffer 3 strain when finished with construction.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDSPECHARD",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Specialized Hardware",
+        "Description": "Droid suffers [SE] on skill checks for skills without a rank.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "Abilities": {
+            "Ability": {
+                "Name": "Specialized Hardware",
+                "Description": "Droid suffers [SE] on skill checks for skills without a rank."
+            }
+        }
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDDIFFCUST",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Difficult to Customize",
+        "Description": "Increase difficulty of checks to install cybernetics on this droid by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Abilities": {
+            "Ability": {
+                "Name": "Difficult to Customize",
+                "Description": "Increase difficulty of checks to install cybernetics on this droid by 1."
+            }
+        }
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDWEARTEAR",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Wear and Tear",
+        "Description": "The tools used to make this armor are damaged 1 step(s).",
+        "AffectsCost": "false",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "3"
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDDELMECH",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Delicate Mechanisms",
+        "Description": "Increase difficulty of checks to repair this droid by 1.",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "Abilities": {
+            "Ability": {
+                "Name": "Delicate Mechanisms",
+                "Description": "Increase difficulty of checks to repair this droid by 1."
+            }
+        }
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDERATCORE",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Erratic Power Core",
+        "Description": "May spend [DE] to have droid shut down until end of encounter.",
+        "CostAdvThr": "-4",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Abilities": {
+            "Ability": {
+                "Name": "Erratic Power Core",
+                "Description": "GM may spend [DE] from any check made by the droid to have it shut down until the end of the encounter."
+            }
+        }
+    },
+    {
+        "TempType": "ctDroid",
+        "Key": "IMPDROIDVOLACORE",
+        "Source": {
+            "_Page": "81",
+            "__text": "Special Modifications"
+        },
+        "Name": "Volatile Power Core",
+        "Description": "When a Critical Injury kills the droid, it explodes.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "SelectCount": "1",
+        "Abilities": {
+            "Ability": {
+                "Name": "Volatile Power Core",
+                "Description": "When droid suffers Critical Injury, add +50 ro result.  If the result kills the droid, it explodes.  Each engaged character suffers 10 damage."
+            }
+        }
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRRPQUIRK",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Random Positive Quirk",
+        "Description": "Droid gets one random positive personality trait.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "RandomPositiveQuirk": "true"
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRARCHFUNC",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Archival Functions",
+        "Description": "Add one new Knowledge skill.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "AddSkill": {
+            "TypeValue": "stKnowledge",
+            "SkillCount": "1"
+        }
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRADAPPROG",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Adaptive Programming",
+        "Description": "Add 1 rank to a skill the droid already possesses.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "AddToSkill": "true",
+        "NoMinion": "true"
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRBROADUTIL",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Broad Utility",
+        "Description": "Add one new General skill.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "AddSkill": {
+            "TypeValue": "stGeneral",
+            "SkillCount": "1"
+        }
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRPQUIRK",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Positive Quirk",
+        "Description": "Droid gets one positive personality quirk.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "PositiveQuirk": "true"
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRDEFPROG",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Defensive Programming",
+        "Description": "Add one new Combat skill.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "AddSkill": {
+            "TypeValue": "stCombat",
+            "SkillCount": "1"
+        }
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRBEHOPT",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Behavioral Optimization",
+        "Description": "Add 1 rank to a ranked talent the droid already possesses.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "AddToTalent": "true"
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRSCHEM",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Program Pattern",
+        "Description": "Permanently reduce difficulty of checks to program directive using this template by 1 (to a minimum of Simple [-]).",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "Schematic": "true"
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRECCEN",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Eccentric",
+        "Description": "Add one random negative personality quirk.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "RandomNegativeQuirk": "true"
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRPOORLIST",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Poor Listening Skills",
+        "Description": "Add [SE][SE] to checks to give this droid orders.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Abilities": {
+            "Ability": {
+                "Name": "Poor Listening Skills",
+                "Description": "Add [SE][SE] to checks to give this droid orders."
+            }
+        }
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRNQUIRK",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Negative Quirk",
+        "Description": "Add one negative personality quirk.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "NegativeQuirk": "true"
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRLIMPROG",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Limited Programming",
+        "Description": "Upgrade the difficulty of skill checks droid has no ranks in by 1.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "Abilities": {
+            "Ability": {
+                "Name": "Limited Programming",
+                "Description": "Upgrade the difficulty of skill checks droid has no ranks in by 1."
+            }
+        }
+    },
+    {
+        "TempType": "ctDroidDirect",
+        "Key": "IMPDROIDDIRUNKFLAW",
+        "Source": {
+            "_Page": "83",
+            "__text": "Special Modifications"
+        },
+        "Name": "Unknown Flaw",
+        "Description": "GM secretly adds 1 negative personality trait.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTCAP",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Expanded Capacity",
+        "Description": "Increases the fortification's occupancy by 1.",
+        "PassengerChange": "1",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTCOVER",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Additional Cover",
+        "Description": "Increases the ranged defense of the fortification by 1.",
+        "RDefChange": "1",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTADDL",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Additional Feature - Miscellaneous",
+        "Description": "Add a useful feature to the fortification (add feature to description of fortification).",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTADDLWEAP",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Additional Feature - Standard Weapon Turret",
+        "Description": "Add a standard weapon to fortification.",
+        "AddVehicleWeapon": "true",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTADDLWEAPM",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Additional Feature - Custom Weapon Turret",
+        "Description": "Add a custom weapon to fortification.",
+        "AddWeaponModifier": "true",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTARMOR",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Reinforced Armor",
+        "Description": "Increase the fortification's armor by 1.",
+        "ArmorChange": "1",
+        "CostAdvThr": "0",
+        "CostTriDes": "1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTEXHAUST",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Exhausting Effort",
+        "Description": "Suffer 3 strain when finished with construction.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTINFPROT",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Inferior Protection",
+        "Description": "Decreases the ranged defense of the fortification by 1.",
+        "RDefChange": "-1",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "SelectCount": "1"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTVULN",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Vulnerability",
+        "Description": "Fortification includes a critical flaw that an enemy can use to easily neutralize it.",
+        "Mods": {
+            "MiscDesc": "Vulnerability - Includes 1 critical flaw(s) that an enemy can use to easily neutralize this fortification."
+        },
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "ctFortification",
+        "Key": "IMPFORTLIFE",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "Name": "Limited Lifespan",
+        "Description": "This fortification can protect for a limited number of attacks before it is rendered useless (GM's discretion).",
+        "Mods": {
+            "MiscDesc": "Limited Lifespan - This fortification can protect for a limited number of attacks before it is rendered useless (GM's discretion).",
+            "Count": "1"
+        },
+        "SelectCount": "1",
+        "CostAdvThr": "0",
+        "CostTriDes": "-1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRLESSON",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Lessons Learned",
+        "Description": "Gain [BO] on the next check made with the same skill duing this session.",
+        "AffectsCost": "false",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRSCOPE",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Larger Scope",
+        "Description": "Increases the craft's silhouette by 1.",
+        "SilhouetteChange": "1",
+        "SelectCount": "1",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRHP",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Extra Hard Point",
+        "Description": "Add 1 customization hard point to the craft.",
+        "HPChange": "1",
+        "SelectCount": "1",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFINTIMP",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Integrated Improvement",
+        "Description": "Increase or decrease passenger or crew capacity by one half.",
+        "IntegratedImprovement": "true",
+        "SelectCount": "1",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRREINFCONST",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Reinforced Construction",
+        "Description": "Increase the craft's hull trauma threshold by one.",
+        "HullTraumaChange": "1",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRHARDWORK",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Hard Work Recognized",
+        "Description": "Increase crafter's Duty by two.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFREFFCONST",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Efficient Construction",
+        "Description": "Retain supplies worth 50% of the Material Price.",
+        "AffectsCost": "false",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "MaterialCostDiscount": "50"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRELEGANT",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Elegant Design",
+        "Description": "Decrease the craft's silhouette by 1.",
+        "SilhouetteChange": "-1",
+        "SelectCount": "1",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRTOOBIG",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Too Big to Hurt",
+        "Description": "Add Massive 1 to the craft, or increase Massive rating by one.",
+        "MassiveChange": "1",
+        "SelectCount": "1",
+        "CostAdvThr": "0",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRSCHEM",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Schematic",
+        "Description": "Permanently reduce difficulty of checks to create a frame using this template by 1 (to a minimum of Simple [-]).",
+        "Schematic": "true",
+        "CostAdvThr": "0",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRMODIF",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Modifiable",
+        "Description": "Reduce the difficulty of checks to modify attachments on this vehicle by 1 (to a minimum of Easy ([DI])).",
+        "CostAdvThr": "0",
+        "CostTriDes": "1",
+        "Mods": {
+            "MiscDesc": "Modifiable - Reduce the difficulty of checks to modify attachments on this vehicle by 1 (to a minimum of Easy ([DI])).",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRTOUGHONE",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "This is a Tough One",
+        "Description": "Upon completing the Assembly step, character suffers 5 strain.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": ""
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRDIFFINT",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Difficult to Integrate",
+        "Description": "When a charaacter attempts the Assembly step, upgrade the Mechanics check by one.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": ""
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRDIFFREP",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Difficult to Repair",
+        "Description": "Increase the difficulty of checks to repair this vehicle by 1.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Difficult to Repair - Increase the difficulty of checks to repair this vehicle by 1.",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleFrame",
+        "Key": "IMPVEHFRFAULTY",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "Name": "Faulty Wiring",
+        "Description": "The GM may spend [TH][TH][TH] or [DE] that a character generates on a Piloting check with this craft to have it suffer the \"Major System Failure\" Critical Hit result.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Faulty Wiring - The GM may spend [TH][TH][TH] or [DE] that a character generates on a Piloting check with this craft to have it suffer the \"Major System Failure\" Critical Hit result.",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGLESSON",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Lessons Learned",
+        "Description": "Gain [BO] on the next check made with the same skill duing this session.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGENHOUT",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Enhanced Output",
+        "Description": "Increases the craft's speed by 1.",
+        "SpeedChange": "1",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGFINETUNE",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Fine-Tuned Circuits",
+        "Description": "Increases the craft's system strain by 1.",
+        "SystemStrainChange": "1",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGEFFCONST",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Efficient Construction",
+        "Description": "Retain supplies worth 50% of the Material Price.",
+        "MaterialCostDiscount": "50",
+        "AffectsCost": "false",
+        "SelectCount": "1",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGENHPOWERREFLZONE",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Enhanced Power to Deflectors",
+        "Description": "Increase each vehicle defense zone by one, or one zone by two.",
+        "EnhancedDeflector": "true",
+        "SelectCount": "1",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGEASYREPAIR",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Easy to Repair",
+        "Description": "Reduce difficulty of checks to repair Critical Hits on this vehicle by 1.",
+        "AffectsCost": "false",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "Mods": {
+            "MiscDesc": "Easy To Repair: Reduce difficulty of checks to repair Critical Hits on this vehicle by 1 (to a minimum of Simple (--))"
+        }
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGFINETUNED",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Fine-Tuned",
+        "Description": "Remove [SE] from Piloting checks caused by navigation hazards and difficult terrain.",
+        "CostAdvThr": "0",
+        "CostTriDes": "1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Fine-Tuned: Remove [SE] from Piloting checks caused by navigation hazards and difficult terrain."
+        }
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGSCHEM",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Schematic",
+        "Description": "Permanently reduce difficulty of checks to create an engine using this template by 1 (to a minimum of Simple [-]).",
+        "Schematic": "true",
+        "CostAdvThr": "0",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGTOUGHONE",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "This is a Tough One",
+        "Description": "Upon completing the Assembly step, character suffers 5 strain.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": ""
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGTREAREP",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Treacherous to Repair",
+        "Description": "Upgrade the difficulting of repair checks for Critical Hits.",
+        "SelectCount": "1",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Treacherous to Repair: Upgrade the difficulty of checks to repair Critical Hits suffered by this craft once."
+        }
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGUNRELOUT",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Unreliable Output",
+        "Description": "The GM may spend [TH][TH][TH] or [DE] that a character generates on a Piloting check with this craft to have it suffer the \"Power Fluctuations\" Critical Hit result.",
+        "SelectCount": "1",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Unreliable Output - The GM may spend [TH][TH][TH] or [DE] that a character generates on a Piloting check with this craft to have it suffer the \"Power Fluctuations\" Critical Hit result.",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGPRONEFAIL",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Prone to Failure",
+        "Description": "The GM may spend [DE] that a character generates on a Piloting check with this craft to have it suffer the \"Engines Down\" Critical Hit result.",
+        "SelectCount": "1",
+        "CostAdvThr": "0",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Prone to Failure - The GM may spend [DE] that a character generates on a Piloting check with this craft to have it suffer the \"Engines Down\" Critical Hit result.",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleEngine",
+        "Key": "IMPVEHENGFUELHOG",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Fuel Hog",
+        "Description": "When this craft suffers 1 or more system strain, it suffers that amount +1.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Fuel Hog - When this craft suffers 1 or more system strain, it suffers that amount +1.",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLLESSON",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Lessons Learned",
+        "Description": "Gain [BO] on the next check made with the same skill duing this session.",
+        "AffectsCost": "false",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLCARGOPOD",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Cargo Pods",
+        "Description": "Increase the craft's encumbrance capacity by its silhouette.  This is doubled if the craft is a freighter.",
+        "CargoPods": "true",
+        "CostAdvThr": "1",
+        "CostTriDes": "0"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLHP",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Extra Hard Point",
+        "Description": "Add 1 customization hard point to the craft.",
+        "HPChange": "1",
+        "SelectCount": "1",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLLAYERED",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Layered Plating",
+        "Description": "Increase the craft's armor by 1.",
+        "ArmorChange": "1",
+        "SelectCountSil": "true",
+        "CostAdvThr": "2",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLEFFCONST",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Efficient Construction",
+        "Description": "Retain supplies worth 50% of the Material Price.",
+        "AffectsCost": "false",
+        "MaterialCostDiscount": "50",
+        "SelectCount": "1",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLFINS",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Maneuvering Fins",
+        "Description": "Increase the craft's handling by 1 to a maximum of +3.",
+        "HandlingChange": "1",
+        "HandlingMax": "3",
+        "CostAdvThr": "3",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLCARGOPOD2",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Cargo Pods",
+        "Description": "Increase the craft's encumbrance capacity its silhouette.  This is increased to 4x silhouette if the craft is a freighter.",
+        "CargoPods": "true",
+        "CostAdvThr": "0",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLINTSYSTEM",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Integrated System",
+        "Description": "Add +1 hard point to craft, then install one applicable vehicle attachment that requires 1 hard point.",
+        "IntegralAttachment": "true",
+        "CostAdvThr": "0",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLSCHEM",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Schematic",
+        "Description": "Permanently reduce difficulty of checks to create a hull using this template by 1 (to a minimum of Simple [-]).",
+        "Schematic": "true",
+        "CostAdvThr": "0",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLTOOTOUGH",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Too Tough to Hurt",
+        "Description": "Add Massive 1 to the craft, or increase Massive rating by one.",
+        "MassiveChange": "1",
+        "SelectCount": "1",
+        "CostAdvThr": "0",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLTOUGHONE",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "This is a Tough One",
+        "Description": "Upon completing the Assembly step, character suffers 5 strain.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": ""
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLDIFFINT",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Difficult to Integrate",
+        "Description": "When a charaacter attempts the Assembly step, upgrade the Mechanics check by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": ""
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLTIGHT",
+        "Source": {
+            "_Page": "84",
+            "__text": "Fully Operational"
+        },
+        "Name": "Tight Quarters",
+        "Description": "Add [SE] to checks made on board this craft.",
+        "SelectCount": "1",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Tight Quarters - Add [SE] to all checks except Piloting and Gunnery while on board this craft.",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleHull",
+        "Key": "IMPVEHHULLPLATE",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "Name": "Loose Plating",
+        "Description": "The GM may spend [DE][DE] that a character generates on a Piloting check with this craft to have it suffer the \"Destabilized\" Critical Hit result.",
+        "SelectCount": "1",
+        "CostAdvThr": "0",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Loose Plating - The GM may spend [DE][DE] that a character generates on a Piloting check with this craft to have it suffer the \"Destabilized\" Critical Hit result.",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASLESSON",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Lessons Learned",
+        "Description": "Gain [BO] on the next check made with the same skill duing this session.",
+        "AffectsCost": "false",
+        "CostAdvThr": "1",
+        "CostTriDes": "1"
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASIMPSAFE",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Improved Saftey Features",
+        "Description": "Characters in vehicle suffer less wound and strain.",
+        "SelectCount": "1",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "Mods": {
+            "MiscDesc": "Improved Saftey Features - Whenever a character in this vehicle would suffer wounds or strain from a Critical Hit the vehicle suffers, as a result of working on the vehicle, or other similar occurrences, the character suffers two fewer wound or strain, to a minimum of 1.",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASIMPCUSTCONT",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Customized Controls",
+        "Description": "Choose a pilot.  That pilot gains [BO] to Piloting checks made with this craft.",
+        "SelectCount": "1",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "ChoosePilot": "true",
+        "Mods": {
+            "MiscDesc": "Choose a pilot.  That pilot gains [BO] to Piloting checks made with this craft."
+        }
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASIMPUNDERBUDG",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Under Budget",
+        "Description": "Retain supplies worth 25% of the Material Price.",
+        "AffectsCost": "false",
+        "MaterialCostDiscount": "25",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "SelectCount": "2"
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASDISTSTYLE",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Distinctive Style",
+        "Description": "Crew of this craft add [BO] to Charm, Coercion, and Negotiations checks made in the presence of the vessel.",
+        "SelectCount": "1",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "Mods": {
+            "MiscDesc": "Distinctive Style - Crew of this craft add [BO] to Charm, Coercion, and Negotiations checks made in the presence of the vessel."
+        }
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASAHEAD",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Ahead of Schedule",
+        "Description": "Reduce the time required for assembly by 25% (to a minimum of one hour)",
+        "AffectsCost": "false",
+        "TimeDiscount": "25",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "Mods": ""
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASMASTCONST",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Masterful Construction",
+        "Description": "If this craft ever suffers the \"Vaporized\" Critical Hit result, or otherwise be instantaneously destroyed, it instead suffers the \"Breaking Up\" Critical Hit.",
+        "SelectCount": "1",
+        "CostAdvThr": "0",
+        "CostTriDes": "1",
+        "Mods": {
+            "MiscDesc": "Masterful Construction - If this craft ever suffers the \"Vaporized\" Critical Hit result, or otherwise be instantaneously destroyed, it instead suffers the \"Breaking Up\" Critical Hit.",
+            "Count": "0"
+        }
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASPLANS",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Assembly Plans",
+        "Description": "Permanently reduce difficulty of checks to assemble starships and vehicles of this silhouette by 1 (to a minimum of Simple [-]).",
+        "AffectsCost": "false",
+        "CostAdvThr": "0",
+        "CostTriDes": "1",
+        "Schematic": "true"
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASTOUGHONE",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "This is a Tough One",
+        "Description": "Upon completing the Assembly step, character suffers 5 strain.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": ""
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASFINICKY",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Finicky Interface",
+        "Description": "Increase the difficulty of checks to modify attachments to this craft by 1.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "Mods": {
+            "MiscDesc": "Finicky Interface: Increase the difficulty of checks to modify attachments to this craft by 1"
+        }
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASLOOKMUCH",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Doesn't Look Like Much",
+        "Description": "Decrease price that buyer is willing to pay for this craft by 50%.",
+        "AffectsCost": "false",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "PriceChangePercent": "-50",
+        "Mods": {
+            "MiscDesc": "Decrease price that buyer is willing to pay for this craft by 50%."
+        }
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASCOMPLEX",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Complex Construction",
+        "Description": "Increase the difficulty of checks to repair this craft once.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Complex Construction: Increase the difficulty of checks to repair this craft once"
+        }
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASSPECIAL",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Specialized",
+        "Description": "Choose an environment.  Outside this environment, pilot adds [SE] to Piloting checks made with this craft.",
+        "ChooseEnvironment": "true",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Outside of chosen environment, pilot adds [SE] to Piloting checks made with this craft."
+        }
+    },
+    {
+        "TempType": "VehicleAssembly",
+        "Key": "IMPVEHASDEFSEALS",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "Name": "Defective Seals",
+        "Description": "GM may spend [DE][DE] generated by a Piloting check with this craft to have it suffer the \"Major Hull Breach\" Critical Hit.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-1",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Defective Seals: GM may spend [DE][DE] generated by a Piloting check with this craft to have it suffer the \"Major Hull Breach\" Critical Hit."
+        }
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTFORT",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Fortifying",
+        "Description": "Target heals 1 wound when consumed.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "CostLightDark": "1",
+        "Mods": {
+            "MiscDesc": "Fortifying: Target heals 1 wound when consumed."
+        }
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTREV",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Reviving",
+        "Description": "Target heals 1 strain when consumed.",
+        "DisplayCountMult": "2",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "CostLightDark": "1",
+        "Mods": {
+            "MiscDesc": "Reviving: Target heals 1 strain when consumed.",
+            "CraftMultiplier": "2"
+        }
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTDRAIN",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Draining",
+        "Description": "Target suffers 1 strain when consumed.",
+        "DisplayCountMult": "2",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "CostLightDark": "1",
+        "Mods": {
+            "MiscDesc": "Draining: Target suffers 1 strain when consumed.",
+            "CraftMultiplier": "2"
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTLONG",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Long-Lasting",
+        "Description": "Increase duration by 1 hour (or round)",
+        "DisplayCountMult": "2",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "CostLightDark": "2",
+        "Mods": {
+            "MiscDesc": "Long-Lasting: Increase duration by 1 hour (or round)."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTCOST",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Careful Measuring",
+        "Description": "Retain supplies worth 50% of the Material Price.",
+        "AffectsCost": "false",
+        "MaterialCostDiscount": "50",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "CostLightDark": "2",
+        "SelectCount": "1",
+        "__text": "3"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTDUP",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Large Batch",
+        "Description": "Brew up an additional dose of the potion",
+        "AffectsCost": "false",
+        "DuplicateItem": "1",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "CostLightDark": "3",
+        "__text": "3"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTPOTENT",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Extra Potentcy",
+        "Description": "Increase difficulty to resist potion by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "CostLightDark": "3",
+        "Mods": {
+            "MiscDesc": "Extra Potentcy: Increase difficulty to resist potion by 1, to a maximum of Formidable ([DI][DI][DI][DI][DI])."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTSCHEM",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Recipe",
+        "Description": "Permanently reduce difficulty of checks to create potion using this template by 1 (to a minimum of Simple [-]).",
+        "AffectsCost": "false",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "CostLightDark": "4",
+        "Schematic": "true"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTVIR",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Virulent",
+        "Description": "Upgrade difficulty of resistance checks by 1.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "CostLightDark": "4",
+        "Mods": {
+            "MiscDesc": "Virulent: Upgrade difficulty of resistance checks by 1."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTEMP",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Empowered",
+        "Description": "Potion has the same effect for an additional 1 round(s).",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "CostLightDark": "5",
+        "Mods": {
+            "MiscDesc": "Empowered: Potion has the same effect for an additional 1 round(s)."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTFOUL",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Foul Taste",
+        "Description": "User suffers 1 strain after benefiting from effects.",
+        "DisplayCountMult": "2",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "CostLightDark": "-1",
+        "Mods": {
+            "MiscDesc": "Foul Taste: User suffers 1 strain after benefiting from effects.",
+            "CraftMultiplier": "2"
+        }
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTVILE",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Vile Smell",
+        "Description": "Characters add [BO] to detect use of the potion.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "CostLightDark": "-1",
+        "Mods": {
+            "MiscDesc": "Vile Smell: Characters add [BO] to detect use of the potion."
+        }
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTBRIEF",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Brief Effect",
+        "Description": "Decrease duration by 1 hour (or round).",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "CostLightDark": "-2",
+        "Mods": {
+            "MiscDesc": "Brief Effect: Decrease duration by 1 hour (or round), to a minimum of 1."
+        }
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTSLOP",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Sloppy Brewing",
+        "Description": "Cannot finish until more supplies are acquired costing 25% of Material Price",
+        "DisplayCountMult": "25",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "CostLightDark": "-2",
+        "MaterialCostDiscount": "-25"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTDIL",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Diluted Strength",
+        "Description": "Reduce difficulty of resistance checks by 1.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "CostLightDark": "-3",
+        "Mods": {
+            "MiscDesc": "Diluted Strength: Reduce difficulty of resistance checks by 1, to a minimum of Simple(-)."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTEVIL",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Empowered by Evil",
+        "Description": "After consuming, user suffers 1 Conflict.",
+        "DisplayCountMult": "2",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "CostLightDark": "-3",
+        "Mods": {
+            "MiscDesc": "Empowered by Evil: After consuming, user suffers 1 Conflict.",
+            "CraftMultiplier": "2"
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Potion",
+        "Key": "IMPALCHPOTSIDE",
+        "Source": {
+            "_Page": "82",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Unexpected Side Effects",
+        "Description": "GM may select effects of another potion and apply them to the target.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "CostLightDark": "-4",
+        "Mods": {
+            "MiscDesc": "Unexpected Side Effects: GM may select effects of another potion and apply them to the target.  Harmful potions get beneficial effects and vice versa."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALDRAIN",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Draining",
+        "Description": "Character suffers 1 strain after resolving effects of talisman.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "CostLightDark": "1",
+        "Mods": {
+            "MiscDesc": "Draining: Character suffers 1 strain after resolving effects of talisman."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALHID",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Hidden Purpose",
+        "Description": "Add [SE] to any checks made to determine talisman's true purpose.",
+        "CostAdvThr": "1",
+        "CostTriDes": "1",
+        "CostLightDark": "1",
+        "Mods": {
+            "MiscDesc": "Hidden Purpose: Add [SE] to any checks made to determine talisman's true purpose."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALPOW",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Growing Power",
+        "Description": "Any enemy skill check required by this talisman has its difficulty increased by 1.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "CostLightDark": "2",
+        "Mods": {
+            "MiscDesc": "Growing Power: Any enemy skill check required by this talisman has its difficulty increased by 1."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALINVIG",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Invigorating",
+        "Description": "User recovers 1 strain after using talisman.",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "CostLightDark": "2",
+        "Mods": {
+            "MiscDesc": "Invigorating: User recovers 1 strain after using talisman."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALMAT",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Careful Measuring",
+        "Description": "Retain supplies worth 50% of the Material Price.",
+        "AffectsCost": "false",
+        "MaterialCostDiscount": "50",
+        "CostAdvThr": "2",
+        "CostTriDes": "1",
+        "CostLightDark": "2",
+        "SelectCount": "1",
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALADDL1",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Additional Power - Inflicted",
+        "Description": "Amount of inflicted damage is increased by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "CostLightDark": "3",
+        "Mods": {
+            "MiscDesc": "Additional Power: Amount of inflicted damage is increased by 1."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALADDL2",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Additional Power - Reduced",
+        "Description": "Amount of reduced damage is increased by 1.",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "CostLightDark": "3",
+        "Mods": {
+            "MiscDesc": "Additional Power: Amount of reduced damage is increased by 1."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALDUP",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Clever Construction",
+        "Description": "Construct an additional talisman using same materials.",
+        "AffectsCost": "false",
+        "DuplicateItem": "1",
+        "CostAdvThr": "3",
+        "CostTriDes": "1",
+        "CostLightDark": "3",
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALREDIR",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Redirect Energy",
+        "Description": "User may make a single maneuver as an out-of-turn incidental when talisman's effects are resolved.",
+        "CostAdvThr": "4",
+        "CostTriDes": "1",
+        "CostLightDark": "4",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Redirect Energy: User may make a single maneuver as an out-of-turn incidental when talisman's effects are resolved."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALEMPOW1",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Empowered - Single Use",
+        "Description": "If talisman is one-use, can be used an additional 1 time(s) before being consumed.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "CostLightDark": "5",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Empowered: Talisman can be used 1 additional time before being consumed."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALEMPOW2",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Empowered - Once per Session",
+        "Description": "If talisman can be used only once per session, can be used an additional time per session.",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "CostLightDark": "5",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Empowered: Talisman can be used 1 additional time per session."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALMIGHTY1",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Mighty - Remove Setback",
+        "Description": "If talisman has an effect that removes [SE], it removes 1 additional [SE].",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "CostLightDark": "5",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Mighty: Talisman removes an additional [SE] from the check."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALMIGHTY2",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Mighty - Add Setback",
+        "Description": "If talisman has an effect that adds [SE], it adds 1 additional [SE].",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "CostLightDark": "5",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Mighty: Talisman adds an additional [SE] to the check."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALMIGHTY3",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Mighty - Add Boost",
+        "Description": "If talisman has an effect that adds [BO], it adds 1 additional [BO].",
+        "CostAdvThr": "0",
+        "CostTriDes": "2",
+        "CostLightDark": "5",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Mighty: Talisman adds an additional [BO] to the check."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALNOTICE",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Noticeable",
+        "Description": "Force users add [BO] to checks to determine that talisman is a crafted item and not just decorative jewelry or an ornamental keepsake.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "CostLightDark": "-1",
+        "Mods": {
+            "MiscDesc": "Noticeable: Force users add [BO] to checks to determine that talisman is a crafted item and not just decorative jewelry or an ornamental keepsake."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALCUMB",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Cumbersome",
+        "Description": "Talisman increases encumbrance by 1.",
+        "CostAdvThr": "-1",
+        "CostTriDes": "-1",
+        "CostLightDark": "-1",
+        "EncumbranceChange": "1",
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALBAD",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Bad Feeling",
+        "Description": "User suffers 1 Conflict after using talisman.",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "CostLightDark": "-2",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Bad Feeling: User suffers 1 Conflict after using talisman."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALSLOP",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Sloppy Integration",
+        "Description": "Cannot finish until more supplies are acquired costing 25% of Material Price",
+        "DisplayCountMult": "25",
+        "CostAdvThr": "-2",
+        "CostTriDes": "-1",
+        "CostLightDark": "-2",
+        "MaterialCostDiscount": "-25",
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALHARD",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Hard to Control",
+        "Description": "User must make a Hard ([DI][DI][DI]) Discipline check as an out-of-turn incidentalin order for the talisman to activate",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "CostLightDark": "-3",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Hard to Control: User must make a Hard ([DI][DI][DI]) Discipline check as an out-of-turn incidentalin order for the talisman to activate"
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALEVIL",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Empowered by Evil",
+        "Description": "User suffers 2 Conflict after using talisman.",
+        "CostAdvThr": "-3",
+        "CostTriDes": "-1",
+        "CostLightDark": "-3",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Empowered by Evil: User suffers 2 Conflict after using talisman."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALTWIST",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Twisted Fates",
+        "Description": "User must spend a Destiny Point to use talisman.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "CostLightDark": "-4",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Twisted Fates: User must spend a Destiny Point to use talisman."
+        },
+        "__text": "3"
+    },
+    {
+        "TempType": "Talisman",
+        "Key": "IMPALCHTALFAIL",
+        "Source": {
+            "_Page": "85",
+            "__text": "Unlimited Power"
+        },
+        "Name": "Failure to Activate",
+        "Description": "GM can spend 2 Destiny Points to have the talisman fail to work.",
+        "CostAdvThr": "0",
+        "CostTriDes": "-2",
+        "CostLightDark": "-4",
+        "SelectCount": "1",
+        "Mods": {
+            "MiscDesc": "Failure to Activate: GM can spend 2 Destiny Points to have the talisman fail to work."
+        },
+        "__text": "3"
+    }
+]

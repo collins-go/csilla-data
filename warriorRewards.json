@@ -1,0 +1,122 @@
+{
+    "Allies": {
+        "Category": "Ally",
+        "Benefit": "Ally makes one Knowledge, Skulduggery, or Streetwise check with ",
+        "Tiers": [
+            {
+                "Name": "Grateful Ally",
+                "Cost": 5,
+                "Dice": "[AB][AB][AB]"
+            },
+            {
+                "Name": "Indebted Ally",
+                "Cost": 10,
+                "Dice": "[PR][AB][AB]"
+            },
+            {
+                "Name": "Loyal Ally",
+                "Cost": 15,
+                "Dice": "[PR][PR][AB][AB]"
+            }
+        ]
+    },
+    "Apprentices": {
+        "Category": "Apprentice",
+        "Tiers": [
+            {
+                "Name": "Novice Apprentice",
+                "Cost": 5,
+                "Benefit": "Add [BO] to all combat checks."
+            },
+            {
+                "Name": "Trained Apprentice",
+                "Cost": 10,
+                "Benefit": "Add automatic [AD] to all combat checks, or add +1 melee defense. The Warrior chooses which at the beginning of each turn, and the effect lasts until the beginning of the Warrior's next turn."
+            },
+            {
+                "Name": "Experienced Apprentice",
+                "Cost": 15,
+                "Benefit": "Add automatic [SU][AD] to all combat checks, or add +2 melee defense. The Warrior chooses which at the beginning of each turn, and the effect lasts until the beginning of the Warrior's next turn."
+            }
+        ]
+    },
+    "Followers": {
+        "Category": "Follower",
+        "Benefit": "Follower makes one Computers, Mechanics, or Medicine check with ",
+        "Tiers": [
+            {
+                "Name": "Helpful Follower",
+                "Cost": 5,
+                "Dice": "[AB][AB][AB]"
+            },
+            {
+                "Name": "Loyal Follower",
+                "Cost": 10,
+                "Dice": "[PR][AB][AB]"
+            },
+            {
+                "Name": "Trusted Follower",
+                "Cost": 15,
+                "Dice": "[PR][PR][AB][AB]"
+            }
+        ]
+    },
+    "Schools": {
+        "Category": "School",
+        "Tiers": [
+            {
+                "Name": "Local Gym",
+                "Cost": 5,
+                "Benefit": "Add [BO] to follower and ally checks, and to checks made with the aid of an apprentice."
+            },
+            {
+                "Name": "Respected Dojo",
+                "Cost": 10,
+                "Benefit": "Add [BO][BO] to follower and ally checks, add [AD] to checks made with the aid of an apprentice."
+            },
+            {
+                "Name": "Training Academy",
+                "Cost": 15,
+                "Benefit": "Upgrade ability of follower and ally checks, add [SU][AD] to checks made with the aid of an apprentice."
+            }
+        ]
+    },
+    "Titles": {
+        "Category": "Honored Title",
+        "Tiers": [
+            {
+                "Name": "Minor Title",
+                "Cost": 5,
+                "Benefit": "Once per encounter, add [BO][BO] to the next applicable Social skill check."
+            },
+            {
+                "Name": "Moderate Title",
+                "Cost": 10,
+                "Benefit": "Once per encounter, upgrade the next applicable Social skill check."
+            },
+            {
+                "Name": "Major Title",
+                "Cost": 15,
+                "Benefit": "Once per encounter, add [SU][SU] to the next applicable Social skill check."
+            }
+        ],
+        "Types": [
+            {
+                "Name": "Classroom Title",
+                "Skills": "Coercion or Negotiation"
+            },
+            {
+                "Name": "Championship Title",
+                "Skills": "Charm or Deception"
+            },
+            {
+                "Name": "Legendary Title",
+                "Skills": "Coercion or Leadership"
+            }
+        ]
+    },
+    "Source": {
+        "_Page": "92",
+        "__text": "Knights of Fate"
+    }
+}

@@ -1,0 +1,1043 @@
+[
+  {
+    "Key": "ALIENATION",
+    "Name": "Alienation",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "AMBITION",
+    "Name": "Ambition",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Strength",
+    "WeakKey": "GREED"
+  },
+  {
+    "Key": "ANGER",
+    "Name": "Anger",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "ANTIPATHY",
+    "Name": "Antipathy",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "APATHYW",
+    "Name": "Apathy",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Disciples of Harmony"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "ARROGANCE",
+    "Name": "Arrogance",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "ASSERTIVENESS",
+    "Name": "Assertiveness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Savage Spirits"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Endless Vigil"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "BRAVERY",
+    "Name": "Bravery",
+    "Description": "",
+    "Source": {
+      "_Page": "50",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace",
+          "WeakKey": "RECKLESSNESS"
+        },
+        {
+          "Name": "Savage Spirits",
+          "WeakKey": "RECKLESSNESS"
+        },
+        {
+          "Name": "Endless Vigil",
+          "WeakKey": "DEFIANCE"
+        },
+        {
+          "Name": "Disciples of Harmony"
+        },
+        {
+          "Name": "Knights of Fate",
+          "WeakKey": "RECKLESSNESS"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "CAMARADERIE",
+    "Name": "Camaraderie",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Strength",
+    "WeakKey": "CONFORMITY"
+  },
+  {
+    "Key": "CAUTION",
+    "Name": "Caution",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Strength",
+    "WeakKey": "FEAR"
+  },
+  {
+    "Key": "CERTAINTY",
+    "Name": "Certainty",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Strength",
+    "WeakKey": "EGOISM"
+  },
+  {
+    "Key": "CHARITY",
+    "Name": "Charity",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Disciples of Harmony"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        },
+        {
+          "Name": "Endless Vigil"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "CLARITY",
+    "Name": "Clarity",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Strength",
+    "WeakKey": "CONFUSION"
+  },
+  {
+    "Key": "CLEVER",
+    "Name": "Cleverness",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Disciples of Harmony"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        },
+        {
+          "Name": "Endless Vigil"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "CLOSEDMIND",
+    "Name": "Closed-mindedness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Savage Spirits"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "COLDHEART",
+    "Name": "Cold-Heartedness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Savage Spirits"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "COLDNESS",
+    "Name": "Coldness",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "COMPASSION",
+    "Name": "Compassion",
+    "Description": "",
+    "Source": {
+      "_Page": "50",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Unlimited Power",
+          "WeakKey": "SORROW"
+        },
+        {
+          "Name": "Keeping the Peace"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "CONDEMN",
+    "Name": "Condemnation",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "CONDES",
+    "Name": "Condescension",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Disciples of Harmony"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "CONFIDENCE",
+    "Name": "Confidence",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Strength",
+    "WeakKey": "ARROGANCE"
+  },
+  {
+    "Key": "CONFORMITY",
+    "Name": "Conformity",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "CONFUSION",
+    "Name": "Confusion",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "CONSIDERATION",
+    "Name": "Consideration",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Strength",
+    "WeakKey": "HESITANCY"
+  },
+  {
+    "Key": "CONSISTENCY",
+    "Name": "Consistency",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Type": "Strength",
+    "WeakKey": "OBSTINATENESS"
+  },
+  {
+    "Key": "CONVICTION",
+    "Name": "Conviction",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Strength",
+    "WeakKey": "OBSTINACY"
+  },
+  {
+    "Key": "CRUELTY",
+    "Name": "Cruelty",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "CURIOSITY",
+    "Name": "Curiosity",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Strength",
+    "WeakKey": "OBSESSION"
+  },
+  {
+    "Key": "DEDICATION",
+    "Name": "Dedication",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Type": "Strength",
+    "WeakKey": "OBSESSION"
+  },
+  {
+    "Key": "DEFIANCE",
+    "Name": "Defiance",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "DEMANDING",
+    "Name": "Demanding",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "DESPERATION",
+    "Name": "Desperation",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "DISARRAY",
+    "Name": "Disarray",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Savage Spirits"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "DISCIPLINE",
+    "Name": "Discipline",
+    "Description": "",
+    "Source": {
+      "_Page": "50",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace",
+          "WeakKey": "INTOLERANCE"
+        },
+        {
+          "Name": "Savage Spirits",
+          "WeakKey": "CLOSEDMIND"
+        },
+        {
+          "Name": "Endless Vigil"
+        },
+        {
+          "Name": "Disciples of Harmony",
+          "WeakKey": "INTOLERANCE"
+        },
+        {
+          "Name": "Unlimited Power",
+          "WeakKey": "COLDNESS"
+        },
+        {
+          "Name": "Knights of Fate",
+          "WeakKey": "REPRESSION"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "DISDAIN",
+    "Name": "Disdain",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Savage Spirits"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "DOGMATIC",
+    "Name": "Dogmatic",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "EGOISM",
+    "Name": "Egoism",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "EMPATHY",
+    "Name": "Empathy",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Savage Spirits"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace",
+          "WeakKey": ""
+        },
+        {
+          "Name": "Endless Vigil"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "ENTHUSIASM",
+    "Name": "Enthusiasm",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Strength",
+    "WeakKey": "RECKLESSNESS"
+  },
+  {
+    "Key": "FEAR",
+    "Name": "Fear",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "FONDNESS",
+    "Name": "Fondness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Strength",
+    "WeakKey": "DEMANDING"
+  },
+  {
+    "Key": "FRUGAL",
+    "Name": "Frugality",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "GREED",
+    "Name": "Greed",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "GUARDED",
+    "Name": "Guardedness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "HATRED",
+    "Name": "Hatred",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "HESITANCY",
+    "Name": "Hesitancy",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "HONOR",
+    "Name": "Honor",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Strength",
+    "WeakKey": "VANITY"
+  },
+  {
+    "Key": "HUMILITY",
+    "Name": "Humility",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Strength",
+    "WeakKey": "WORTHLESSNESS"
+  },
+  {
+    "Key": "IDEALISM",
+    "Name": "Idealism",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Strength",
+    "WeakKey": "NAIVETY"
+  },
+  {
+    "Key": "IMPATIENCE",
+    "Name": "Impatience",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "INDECISION",
+    "Name": "Indecision",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "INDEPENDENCE",
+    "Name": "Independence",
+    "Description": "",
+    "Source": {
+      "_Page": "50",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Savage Spirits",
+          "WeakKey": "ARROGANCE"
+        },
+        {
+          "Name": "Endless Vigil"
+        },
+        {
+          "Name": "Disciples of Harmony"
+        },
+        {
+          "Name": "Unlimited Power",
+          "WeakKey": "OBSTINATENESS"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "INTOLERANCE",
+    "Name": "Intolerance",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "JEALOUSY",
+    "Name": "Jealousy",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "JOY",
+    "Name": "Joy",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Strength",
+    "WeakKey": "ANTIPATHY"
+  },
+  {
+    "Key": "JUDGING",
+    "Name": "Judging",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "JUSTICE",
+    "Name": "Justice",
+    "Description": "",
+    "Source": {
+      "_Page": "50",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Savage Spirits",
+          "WeakKey": "MERCILESSNESS"
+        },
+        {
+          "Name": "Knights of Fate",
+          "WeakKey": "JUDGING"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "LOVE",
+    "Name": "Love",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Strength",
+    "WeakKey": "JEALOUSY"
+  },
+  {
+    "Key": "MALLEAB",
+    "Name": "Malleability",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "MARTYR",
+    "Name": "Martyrdom",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Disciples of Harmony"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "MERCILESSNESS",
+    "Name": "Mercilessness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Savage Spirits"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "MERCY",
+    "Name": "Mercy",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Strength",
+    "WeakKey": "APATHY"
+  },
+  {
+    "Key": "MODESTY",
+    "Name": "Modesty",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "NAIVETY",
+    "Name": "Naivety",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "NAIVETE",
+    "Name": "Naïveté",
+    "Description": "",
+    "Source": "Keeping the Peace",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "OBSESSION",
+    "Name": "Obsession",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "OBSTINACY",
+    "Name": "Obstinacy",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Savage Spirits"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "OBSTINATENESS",
+    "Name": "Obstinance",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "PATIENT",
+    "Name": "Patience",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Disciples of Harmony"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        },
+        {
+          "Name": "Endless Vigil"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "PRIDE",
+    "Name": "Pride",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Strength",
+    "WeakKey": "ARROGANCE"
+  },
+  {
+    "Key": "REASON",
+    "Name": "Reason",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Disciples of Harmony"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        },
+        {
+          "Name": "Endless Vigil"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "RECKLESSNESS",
+    "Name": "Recklessness",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "REPRESSION",
+    "Name": "Repression",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "RIGHT",
+    "Name": "Righteousness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "RIGID",
+    "Name": "Rigid",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "SOPH",
+    "Name": "Sophism",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Disciples of Harmony"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "SORROW",
+    "Name": "Sorrow",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "SPITE",
+    "Name": "Spite",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "SYMPATHY",
+    "Name": "Sympathy",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Knights of Fate"
+    },
+    "Type": "Strength",
+    "WeakKey": "DESPERATION"
+  },
+  {
+    "Key": "TRUST",
+    "Name": "Trust",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "VANITY",
+    "Name": "Vanity",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "VENGEANCE",
+    "Name": "Vengeance",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Savage Spirits"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "APATHY",
+    "Name": "Weakness",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook",
+    "Type": "Weakness"
+  },
+  {
+    "Key": "WEARINESS",
+    "Name": "Weariness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Weakness"
+  },
+  {
+    "Key": "WELLNESS",
+    "Name": "Wellness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Strength",
+    "WeakKey": "RIGID"
+  },
+  {
+    "Key": "WONDER",
+    "Name": "Wonder",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Endless Vigil"
+    },
+    "Type": "Strength",
+    "Pairs": {
+      "MoralityPair": [
+        {
+          "Name": "Keeping the Peace"
+        },
+        {
+          "Name": "Savage Spirits"
+        }
+      ]
+    }
+  },
+  {
+    "Key": "WORTHLESSNESS",
+    "Name": "Worthlessness",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Unlimited Power"
+    },
+    "Type": "Weakness"
+  }
+]

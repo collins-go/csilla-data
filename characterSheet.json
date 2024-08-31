@@ -1,0 +1,121 @@
+{
+  "Background": {
+    "Text": "",
+    "Culture": {},
+    "Force": {},
+    "Adventure": {},
+    "Indexes": {
+      "Culture": "",
+      "Force": "",
+      "Adventure": ""
+    }
+  },
+  "Obligations": [
+    {
+      "Name": "",
+      "Descpription": "",
+      "Toggle": true,
+      "Obligation": "",
+      "Starting": "",
+      "Text": "",
+      "XP5": false,
+      "XP10": false,
+      "C1": false,
+      "C2": false,
+      "Total": 0
+    }
+  ],
+  "Duties": [
+    {
+      "Name": "",
+      "Descpription": "",
+      "Toggle": false,
+      "Duty": "",
+      "Starting": "",
+      "Text": "",
+      "XP5": false,
+      "XP10": false,
+      "C1": false,
+      "C2": false,
+      "Total": 0
+    }
+  ],
+  "Morality": {
+    "Toggle": false,
+    "XPC": false,
+    "XP10": false,
+    "C2": false,
+    "StartLight": false,
+    "StartDark": false,
+    "Score": 50,
+    "StrengthWeakness": [
+      {
+        "Strength": {
+          "Text": "",
+          "Key": null
+        },
+        "Weakness": {
+          "Text": "",
+          "Key": null
+        }
+      }
+    ]
+  },
+  "Species": {
+    "Species": "",
+    "StartingAttrs": ""
+  },
+  "Career": {
+    "Key": "",
+    "Index": "",
+    "Specs": []
+  },
+  "Specializations": [
+    {}
+  ],
+  "SignatureAbilities": [],
+  "CareerSkills": [],
+  "CareerRanks": [],
+  "SpecSkills": [],
+  "SpecRanks": [],
+  "ExtraCareerSkills": [],
+  "SelectedCareerSkills": {},
+  "Characteristics": {},
+  "Skills": [],
+  "ForcePowers": {},
+  "MentorBonuses": {},
+  "Motivations": [
+    {
+      "Motivation": {
+        "Key": ""
+      },
+      "SpecificMotivation": {
+        "Key": ""
+      }
+    }
+  ],
+  "Weapons": [],
+  "Armor": [],
+  "Gear": [],
+  "Vehicles": [],
+  "Mentor": {
+    "Training": "",
+    "CW": "",
+    "Purge": "",
+    "Tradition": "",
+    "Personality": "",
+    "Complication": ""
+  },
+  "Holocron": [],
+  "XP": 0,
+  "Credits": 500,
+  "WoundThreshold": 0,
+  "StrainThreshold": 0,
+  "Soak": 0,
+  "Defense": {
+    "Ranged": 0,
+    "Melee": 0
+  },
+  "EncumbranceThreshold": 0,
+  "Name": ""
+}

@@ -1,0 +1,775 @@
+[
+  {
+    "Key": "FLAW",
+    "Name": "A Failure of Character",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook"
+  },
+  {
+    "Key": "HIGH",
+    "Name": "A Higher Calling",
+    "Description": "",
+    "Source": "Edge of the Empire Core Rulebook"
+  },
+  {
+    "Key": "ACADEMIC",
+    "Name": "Academic",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Enter the Unknown"
+    }
+  },
+  {
+    "Key": "ACTIV",
+    "Name": "Activist",
+    "Description": "",
+    "Source": {
+      "_Page": "10",
+      "__text": "Endless Vigil"
+    }
+  },
+  {
+    "Key": "ANCIENTORDER",
+    "Name": "Ancient Order",
+    "Description": "",
+    "Source": "Keeping the Peace"
+  },
+  {
+    "Key": "ANTIQ",
+    "Name": "Antiquarian",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Special Modifications"
+    }
+  },
+  {
+    "Key": "ARISTO",
+    "Name": "Aristocrat",
+    "Description": "",
+    "Source": {
+      "_Page": "11",
+      "__text": "Endless Vigil"
+    }
+  },
+  {
+    "Key": "ARTIST",
+    "Name": "Artist",
+    "Description": "",
+    "Source": {
+      "_Page": "10",
+      "__text": "Unlimited Power"
+    }
+  },
+  {
+    "Key": "AUGUR",
+    "Name": "Augur",
+    "Description": "",
+    "Source": {
+      "_Page": "12",
+      "__text": "Unlimited Power"
+    }
+  },
+  {
+    "Key": "BATTLEADER",
+    "Name": "Battlefield Leader",
+    "Description": "",
+    "Source": "Keeping the Peace"
+  },
+  {
+    "Key": "BORNENG",
+    "Name": "Born Engineer",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Special Modifications"
+    }
+  },
+  {
+    "Key": "BORNNBRED",
+    "Name": "Born and Bred",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "SOTBUSH",
+    "Name": "Bush Pilot",
+    "Description": "",
+    "Source": "Stay on Target"
+  },
+  {
+    "Key": "CITSOLD",
+    "Name": "Citizen Soldier",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Lead by Example"
+    }
+  },
+  {
+    "Key": "SOTCLONEWARS",
+    "Name": "Clone Wars Veteran",
+    "Description": "",
+    "Source": "Stay on Target"
+  },
+  {
+    "Key": "CONARTIST",
+    "Name": "Con Artist",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Unlimited Power"
+    }
+  },
+  {
+    "Key": "CRIMINAL",
+    "Name": "Criminal",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Stay on Target"
+    }
+  },
+  {
+    "Key": "CRUSADER",
+    "Name": "Crusader",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Knights of Fate"
+    },
+    "Custom": "AddedItem"
+  },
+  {
+    "Key": "CYNIC",
+    "Name": "Cynical",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "DEFECTOR",
+    "Name": "Defector",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Lead by Example"
+    }
+  },
+  {
+    "Key": "DESUND",
+    "Name": "Desire for Understanding",
+    "Description": "",
+    "Source": {
+      "_Page": "47",
+      "__text": "Force and Destiny Core Rulebook"
+    }
+  },
+  {
+    "Key": "DISADV",
+    "Name": "Disadvantaged",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "DISSART",
+    "Name": "Dissident Artist",
+    "Description": "",
+    "Source": "Desperate Allies"
+  },
+  {
+    "Key": "ECCENTRIC",
+    "Name": "Eccentric",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "ECONOMIST",
+    "Name": "Economist",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Unlimited Power"
+    }
+  },
+  {
+    "Key": "ENEMIES",
+    "Name": "Enemies and Antagonists",
+    "Description": "",
+    "Source": {
+      "_Page": "38",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
+  },
+  {
+    "Key": "SOTENTERTAINER",
+    "Name": "Entertainer",
+    "Description": "",
+    "Source": "Stay on Target"
+  },
+  {
+    "Key": "ENTREPRENEUR",
+    "Name": "Entrepreneur",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Enter the Unknown"
+    }
+  },
+  {
+    "Key": "EXIMP",
+    "Name": "Ex-Imperial Operator",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Enter the Unknown"
+    }
+  },
+  {
+    "Key": "EXMILITARY",
+    "Name": "Ex-Military",
+    "Description": "",
+    "Custom": "CustomItem",
+    "Source": [
+      {
+        "_Page": "13",
+        "__text": "Fly Casual"
+      },
+      {
+        "_Page": "14",
+        "__text": "Knights of Fate"
+      }
+    ]
+  },
+  {
+    "Key": "EXILE",
+    "Name": "Exile",
+    "Description": "",
+    "Source": {
+      "_Page": "12",
+      "__text": "Savage Spirits"
+    }
+  },
+  {
+    "Key": "FAILEDINIT",
+    "Name": "Failed Initiate",
+    "Description": "",
+    "Source": {
+      "_Page": "11",
+      "__text": "Disciples of Harmony"
+    }
+  },
+  {
+    "Key": "FALLENNOBLE",
+    "Name": "Fallen Noble",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Enter the Unknown"
+    }
+  },
+  {
+    "Key": "FLEEEMP",
+    "Name": "Fleeing the Empire",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook"
+  },
+  {
+    "Key": "FREERUNNER",
+    "Name": "Freerunner",
+    "Description": "",
+    "Source": {
+      "_Page": "12",
+      "__text": "Cyphers and Masks"
+    },
+    "Custom": "AddedItem"
+  },
+  {
+    "Key": "GANGL",
+    "Name": "Gang Leader",
+    "Description": "",
+    "Source": {
+      "_Page": "12",
+      "__text": "Endless Vigil"
+    }
+  },
+  {
+    "Key": "IDEALREC",
+    "Name": "Idealistic Recruit",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Forged in Battle"
+    }
+  },
+  {
+    "Key": "SOTIMPDEF",
+    "Name": "Imperial Defector",
+    "Description": "",
+    "Source": "Stay on Target"
+  },
+  {
+    "Key": "IMPOUT",
+    "Name": "Imperial Outcast",
+    "Description": "",
+    "Source": "Desperate Allies"
+  },
+  {
+    "Key": "INITMONEY",
+    "Name": "In It for the Money",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "No Disintegrations"
+    }
+  },
+  {
+    "Key": "INDUST",
+    "Name": "Industrialist",
+    "Description": "",
+    "Source": "Desperate Allies"
+  },
+  {
+    "Key": "JOURNEYMAN",
+    "Name": "Journeyman",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "LABOR",
+    "Name": "Laborer",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Endless Vigil"
+    }
+  },
+  {
+    "Key": "LAWENF",
+    "Name": "Law Enforcement Agent",
+    "Description": "",
+    "Source": {
+      "_Page": "12",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "LAWBRINGER",
+    "Name": "Lawbringer",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "No Disintegrations"
+    }
+  },
+  {
+    "Key": "MAKEUP",
+    "Name": "Makeup Artist",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "MERC",
+    "Name": "Mercenary",
+    "Description": "",
+    "Custom": "CustomItem",
+    "Source": [
+      {
+        "_Page": "15",
+        "__text": "Forged in Battle"
+      },
+      {
+        "_Page": "14",
+        "__text": "Knights of Fate"
+      }
+    ]
+  },
+  {
+    "Key": "MILITARY",
+    "Name": "Military",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Knights of Fate"
+    }
+  },
+  {
+    "Key": "MINVOICE",
+    "Name": "Minority Voice",
+    "Description": "",
+    "Source": "Desperate Allies"
+  },
+  {
+    "Key": "OFFICIAL",
+    "Name": "Official",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Endless Vigil"
+    }
+  },
+  {
+    "Key": "OPP",
+    "Name": "Opportunity Knocks",
+    "Description": "",
+    "Source": {
+      "_Page": "37",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
+  },
+  {
+    "Key": "OUTAGENT",
+    "Name": "Outlaw Agent",
+    "Description": "",
+    "Source": "Keeping the Peace"
+  },
+  {
+    "Key": "PEACETURNEDTOWAR",
+    "Name": "Peace Turned To War",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Dangerous Covenants"
+    }
+  },
+  {
+    "Key": "PERFORMER",
+    "Name": "Performer",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Cyphers and Masks"
+    },
+    "Custom": "AddedItem"
+  },
+  {
+    "Key": "POLITICALEXP",
+    "Name": "Political Expert",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Unlimited Power"
+    }
+  },
+  {
+    "Key": "PRIV",
+    "Name": "Privileged",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "SOTPROTOTYPE",
+    "Name": "Prototype Tester",
+    "Description": "",
+    "Source": "Stay on Target"
+  },
+  {
+    "Key": "PSYCHOLOGIST",
+    "Name": "Psychologist",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Cyphers and Masks"
+    },
+    "Custom": "AddedItem"
+  },
+  {
+    "Key": "QUESTER",
+    "Name": "Quester",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Savage Spirits"
+    }
+  },
+  {
+    "Key": "RECLUSE",
+    "Name": "Recluse",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Savage Spirits"
+    }
+  },
+  {
+    "Key": "REFUGEE",
+    "Name": "Refugee",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Endless Vigil"
+    }
+  },
+  {
+    "Key": "RELSEEK",
+    "Name": "Relic Seeker",
+    "Description": "",
+    "Source": {
+      "_Page": "12",
+      "__text": "Disciples of Harmony"
+    }
+  },
+  {
+    "Key": "RELECSTATIC",
+    "Name": "Religious Ecstatic",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Unlimited Power"
+    }
+  },
+  {
+    "Key": "REPOSPEC",
+    "Name": "Repo Specialist",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Cyphers and Masks"
+    }
+  },
+  {
+    "Key": "RESPECT",
+    "Name": "Respectable",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "ROGSCH",
+    "Name": "Rogue Scholar",
+    "Description": "",
+    "Source": {
+      "_Page": "11",
+      "__text": "Disciples of Harmony"
+    }
+  },
+  {
+    "Key": "SCIONOFALEGACY",
+    "Name": "Scion of a Legacy",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Dangerous Covenants"
+    }
+  },
+  {
+    "Key": "SURVIVOR",
+    "Name": "Survivor",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Savage Spirits"
+    }
+  },
+  {
+    "Key": "TALENTAM",
+    "Name": "Talented Amateur",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Fully Operational"
+    }
+  },
+  {
+    "Key": "TECHDES",
+    "Name": "Tech Designer",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Special Modifications"
+    }
+  },
+  {
+    "Key": "ACCREB",
+    "Name": "The Accidental Rebel",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "AVENGER",
+    "Name": "The Avenger",
+    "Description": "",
+    "Custom": "CustomItem",
+    "Source": [
+      {
+        "_Page": "14",
+        "__text": "Dangerous Covenants"
+      },
+      {
+        "_Page": "12",
+        "__text": "Forged in Battle"
+      },
+      {
+        "_Page": "12",
+        "__text": "Knights of Fate"
+      }
+    ]
+  },
+  {
+    "Key": "FAILLEAD",
+    "Name": "The Failed Leader",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Lead by Example"
+    }
+  },
+  {
+    "Key": "FUGITIVE",
+    "Name": "The Fugitive",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "GRIZZ",
+    "Name": "The Grizzled Settler",
+    "Description": "",
+    "Source": {
+      "_Page": "12",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "IDEALIST",
+    "Name": "The Idealist",
+    "Description": "",
+    "Source": {
+      "_Page": "15",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "LOCLEAD",
+    "Name": "The Local Leader",
+    "Description": "",
+    "Source": {
+      "_Page": "14",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "NEWREC",
+    "Name": "The New Recruit",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "OPPOR",
+    "Name": "The Opportunist",
+    "Description": "",
+    "Source": {
+      "_Page": "11",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "SEARCHINS",
+    "Name": "The Searching Insurgent",
+    "Description": "",
+    "Source": "Age of Rebellion Core Rulebook"
+  },
+  {
+    "Key": "THRILLHUNT",
+    "Name": "Thrill of the Hunt",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "No Disintegrations"
+    }
+  },
+  {
+    "Key": "ULTAB",
+    "Name": "Ultimate Abilities",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook"
+  },
+  {
+    "Key": "UNDTECH",
+    "Name": "Underworld Tech Expert",
+    "Description": "",
+    "Source": {
+      "_Page": "16",
+      "__text": "Special Modifications"
+    }
+  },
+  {
+    "Key": "WANDERER",
+    "Name": "Wanderer",
+    "Description": "",
+    "Source": [
+      {
+        "_Page": "18",
+        "__text": "Enter the Unknown"
+      },
+      {
+        "_Page": "15",
+        "__text": "Savage Spirits"
+      }
+    ]
+  },
+  {
+    "Key": "WANDDIP",
+    "Name": "Wandering Diplomat",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Disciples of Harmony"
+    }
+  },
+  {
+    "Key": "WAYFARER",
+    "Name": "Wayfarer",
+    "Description": "",
+    "Source": "Keeping the Peace"
+  },
+  {
+    "Key": "GREATPOW",
+    "Name": "With Great Power...",
+    "Description": "",
+    "Source": "Force and Destiny Core Rulebook"
+  },
+  {
+    "Key": "WRONG",
+    "Name": "Wrong Place, Wrong Time",
+    "Description": "",
+    "Source": {
+      "_Page": "38",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
+  },
+  {
+    "Key": "YESTERDAYSHERO",
+    "Name": "Yesterday's Hero",
+    "Description": "",
+    "Source": {
+      "_Page": "13",
+      "__text": "Dangerous Covenants"
+    }
+  }
+]

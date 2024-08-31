@@ -1,0 +1,3086 @@
+[
+    {
+        "Key": "INSIGHTFULBASIC",
+        "Name": "Insightful Revelation Basic Ability",
+        "Description": "Once per game session, the character may perform an Insightful Revelation action and spend 2 Destiny points to make a [B]Hard ([DI][DI][DI]) Knowledge (Education) check[b]. If he succeeds, he learns some valuable information that he did not previously possess pertaining to his current situation. What he learns is up to the GM. but it must be valuable to the player overcoming his immediate encounter or situation, and the information cannot be obtainable by any other immediately available means.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Insighful Revelation"
+    },
+    {
+        "Key": "INSIGHTFULSETBACK",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from skill check to activate Insightful Revelation.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Insightful Revelation"
+    },
+    {
+        "Key": "INSIGHTFULADDBOOST",
+        "Name": "Add Boost",
+        "Description": "Add [BO] to skill check to activate Insightful Revelation.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Insightful Revelation"
+    },
+    {
+        "Key": "INSIGHTFULREDDIFF",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Insightful Revelation to [B]Average ([DI][DI])[b].",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Insightful Revelation"
+    },
+    {
+        "Key": "INSIGHTFULADDSKILL",
+        "Name": "Additional Skills",
+        "Description": "When making the Insightful Revelation action, the character may replace Knowledge (Education) with any other Knowledge skill.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Insightful Revelations"
+    },
+    {
+        "Key": "INSIGHTFULINCEFF",
+        "Name": "Increase Effect",
+        "Description": "If the check is successful, the character may spend [TR] to gain one additional piece of equally useful information.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Insightful Revelation"
+    },
+    {
+        "Key": "INSIGHTFULDURATION",
+        "Name": "Duration",
+        "Description": "The character may perform the Insightful Revelation action one additional time per game session.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Insightful Revelation"
+    },
+    {
+        "Key": "INSIGHTFULDESTINY",
+        "Name": "Destiny",
+        "Description": "Insightful Revelation costs 1 Destiny Point instead of 2.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Insightful Revelation"
+    },
+    {
+        "Key": "UNMATCHEXPERT",
+        "Name": "Unmatched Expertise Basic Ability",
+        "Description": "Once per game session as an action, the character may spend two Destiny Points to reduce the difficulty of all career skill checks he makes by one to a minimum of Easy for the remainder of the encounter.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Expertise"
+    },
+    {
+        "Key": "UNMATCHEXPERTREDSETBK",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from career skill checks made while Unmatched Expertise is activated.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Expertise"
+    },
+    {
+        "Key": "UNMATCHEXPERTACT",
+        "Name": "Activation",
+        "Description": "Activate Unmatched Expertise as a maneuver instead of as an action.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Expertise"
+    },
+    {
+        "Key": "UNMATCHEXPERTACT2",
+        "Name": "Activation",
+        "Description": "Activate Unmatched Expertise as an incidental that may be triggered out of turn instead of as an action.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Expertise"
+    },
+    {
+        "Key": "UNMATCHEXPERTREDDIFF",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of career skill checks by 2 instead of 1.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Expertise"
+    },
+    {
+        "Key": "UNMATCHEXPERTSUPRED",
+        "Name": "Superior Reduction",
+        "Description": "Once per session while Unmatched Expertise is activated, may reduce the difficulty of one non-career skill.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Expertise"
+    },
+    {
+        "Key": "UNMATCHEXPDESTINY",
+        "Name": "Destiny",
+        "Description": "Unmatched Expertise costs 1 Destiny Point to activate instead of 2.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Expertise"
+    },
+    {
+        "Key": "UNMATCHEXPERTREDDIFF2",
+        "Name": "Reduce Difficulty",
+        "Description": "The difficulty of all career skill checks is reduced to a minimum of Simple instead of Easy.",
+        "Source": "Far Horizons",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Expertise"
+    },
+    {
+        "Key": "LOSBASIC",
+        "Name": "Last One Standing Basic Ability",
+        "Description": "Once per game session during a combat encounter, the character may spend 2 Destiny Points to make a [B]Hard ([DI][DI][DI]) Resilience check[b]. If he succeeds, he skips his next turn and eliminates all enemy minions in the encounter. (The minions are all eliminated immediately, so will not get to participate further in the combat, but for the sake of the narrative, the PC can spend the next round of combat incapacitating them). The narrative means by which he accomplishes this is up to the player character, but should be suitably exciting, and must also be approved by the GM.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Last One Standing"
+    },
+    {
+        "Key": "LOSREDUCESETBACK",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from skill check to activate Last One Standing.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Last One Standing"
+    },
+    {
+        "Key": "LOSADDBOOST",
+        "Name": "Add Boost",
+        "Description": "Add [BO]to skill check to activate Last One Standing.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Last One Standing"
+    },
+    {
+        "Key": "LOSREDUCEDIFF",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Last One Standing to [B]Average ([DI][DI])[b].",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Last One Standing"
+    },
+    {
+        "Key": "LOSINCREASEEFFECT",
+        "Name": "Increase Effect",
+        "Description": "When triggering Last One Standing, eliminate one rival per increase effect upgrade in addition to the minions.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Last One Standing"
+    },
+    {
+        "Key": "LOSDEST",
+        "Name": "Destiny",
+        "Description": "Last One Standing costs 1 Destiny Point instead of 2.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Last One Standing"
+    },
+    {
+        "Key": "UNPROTBASIC",
+        "Name": "Unmatched Protection Basic Ability",
+        "Description": "Once per game session as an incidental, the character may spend 2 Destiny Points to gain the following ability: once per round, after suffering a hit and determining damage, the character may halve the damage (rounded up) dealt before it is applied to his soak. This ability is active for the remainder of the current round and two additional rounds.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Protection"
+    },
+    {
+        "Key": "UNPROTDURATION",
+        "Name": "Duration",
+        "Description": "Unmatched Protection lasts for one additional round.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Protection"
+    },
+    {
+        "Key": "UNPROTSOAK",
+        "Name": "Soak",
+        "Description": "Gain +1 soak while Unmatched Protection is active.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Protection"
+    },
+    {
+        "Key": "UNPROTALLY",
+        "Name": "Protect Ally",
+        "Description": "Once per session while Unmatched Protection is active, when an engaged ally is hit by an attack, may choose to be hit by that attack instead.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Protection"
+    },
+    {
+        "Key": "UNPROTADDRED",
+        "Name": "Additional Reduction",
+        "Description": "May reduce the damage of 1 additional hit suffered each round.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Protection"
+    },
+    {
+        "Key": "UNPROTDEST",
+        "Name": "Destiny",
+        "Description": "Unmatched Protection costs 1 Destiny Point instead of 2.",
+        "Source": "Dangerous Covenants",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Protection"
+    },
+    {
+        "Key": "NARROWESCAPEBASE",
+        "Name": "Narrow Escape Base Ability",
+        "Description": "Once per game session, the character may spend two Destiny Points to make a [B]Hard ([DI][DI][DI]) Streetwise check[b]. If successful, the character is immediately able to flee from the current personal-scale combat encounter unscathed. The challenge is not overcome or defeated, but the character is able to evade the hazard or threat for the time being. The exact nature of what the character is trying to accomplish, as well as the end results, must be approved by the GM (see [B]Narrative Abilities[b] on page 38), but should be suitably creative or daring.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Narrow Escape"
+    },
+    {
+        "Key": "REDUCESBNE",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from the Skill check to activate Narrow Escape.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Narrow Escape"
+    },
+    {
+        "Key": "INCREASEEFFNE",
+        "Name": "Increase Effect",
+        "Description": "Affect an additional number of allied characters equal to Cunning per Increase Effect upgrade purchased.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Narrow Escape"
+    },
+    {
+        "Key": "ADDBOOSTNE",
+        "Name": "Add Boost",
+        "Description": "Add [BO] to the skill check to activate Narrow Escape.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Narrow Escape"
+    },
+    {
+        "Key": "CHANGESCALENE",
+        "Name": "Change Scale",
+        "Description": "Narrow Escape can be activated in a vehicle with the Piloting (Planetary) or Piloting (Space) skill.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Narrow Escape"
+    },
+    {
+        "Key": "REDUCEDIFFNE",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Narrow Escape to [B]Average ([DI][DI])[b].",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Narrow Escape"
+    },
+    {
+        "Key": "CHANGESKILLNE",
+        "Name": "Change Skill",
+        "Description": "Narrow Escape can be activated during social encounters with the Deception skill.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Narrow Escape"
+    },
+    {
+        "Key": "DESTINYNE",
+        "Name": "Destiny",
+        "Description": "Narrow Escape costs 1 Destiny Point instead of 2.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Narrow Escape"
+    },
+    {
+        "Key": "UNMATCHFORTUNEBASE",
+        "Name": "Unmatched Fortune Base Ability",
+        "Description": "Once per game session as an incidental, the character may spend 2 Destiny Points to change the face of one positive die in the character's dice pool to another face adjacent to it. An \"adjacent\" face is any die face sharing an edge—not a point—with the rolled face. Unmatched Fortune cannot be used on a [FO].",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Fortune"
+    },
+    {
+        "Key": "FREQUENCYUF",
+        "Name": "Frequency",
+        "Description": "Unmatched Fortune can be used one additional time each game session per Frequency upgrade purchased.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Fortune"
+    },
+    {
+        "Key": "INCREASENUMBERUF",
+        "Name": "Increase Number",
+        "Description": "Unmatched Fortune affects one additional die per Increase Number upgrade purchased.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Fortune"
+    },
+    {
+        "Key": "SHAREDLUCKUF",
+        "Name": "Shared Luck",
+        "Description": "Unmatched Fortune can also be used on the dice pool of a willing ally within short range.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Fortune"
+    },
+    {
+        "Key": "DESTINYUF",
+        "Name": "Destiny",
+        "Description": "Unmatched Fortune costs 1 Destiny Point instead of 2.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Fortune"
+    },
+    {
+        "Key": "INCREASEEFFECTUF",
+        "Name": "Increase Effect",
+        "Description": "Unmatched Fortune can also be used on negative dice.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Fortune"
+    },
+    {
+        "Key": "INCREASERANGEUF",
+        "Name": "Increase Range",
+        "Description": "Increases the maximum range at which Unmatched Fortune can affect willing allies by 1 per Increase Range upgrade purchased.",
+        "Source": "Fly Casual",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Fortune"
+    },
+    {
+        "Key": "SUDDISCBASIC",
+        "Name": "Sudden Discovery Basic Ability",
+        "Description": "Once per game session, the character may spend 2 Destiny Points to make a [B]Hard ([DI][DI][DI]) Knowledge (Outer Rim) or Knowledge (Core Worlds) check[b]. If he succeeds, the character can pinpoint his exact location without a map or other guide, discover a lost or hidden item or location, or identify a safe and fast path through any terrain. The exact nature of what the character is trying to accomplish, as well as the end results, must be approved by the GM.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Sudden Discovery"
+    },
+    {
+        "Key": "SUDDISCADDBOOST",
+        "Name": "Add Boost",
+        "Description": "Add [BO] to skill check to activate Sudden Discovery.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Sudden Discovery"
+    },
+    {
+        "Key": "SUDDISCREDUCESETBACK",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from skill check to activate Sudden Discovery",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Sudden Discovery"
+    },
+    {
+        "Key": "SUDDISCCHANGESKILL",
+        "Name": "Change Skill",
+        "Description": "Sudden Discovery can be activated with the Astrogation or Survival skills.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Sudden Discovery"
+    },
+    {
+        "Key": "SUDDISCFREQ",
+        "Name": "Frequency",
+        "Description": "Sudden Discovery may be used twice per game session.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Sudden Discovery"
+    },
+    {
+        "Key": "SUDDISCREDUCEDIFF",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Sudden Discovery to [B]Average ([DI][DI])[b].",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Sudden Discovery"
+    },
+    {
+        "Key": "SUDDISCDEST",
+        "Name": "Destiny",
+        "Description": "Sudden Discovery costs 1 Destiny Point instead of 2.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Sudden Discovery"
+    },
+    {
+        "Key": "UNMOBBASIC",
+        "Name": "Unmatched Mobility Basic Ability",
+        "Description": "Once per game session as an incidental, the character may spend 2 Destiny Points to increase the number of maneuvers he is allowed to perform in a turn to three for the next true rounds. This third maneuver may be gained through any of the means a second maneuver is normally gained.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Mobility"
+    },
+    {
+        "Key": "UNMOBDUR",
+        "Name": "Duration",
+        "Description": "Unmatched Mobility lasts for one additional round.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Mobility"
+    },
+    {
+        "Key": "UNMOBFREEMAN",
+        "Name": "Free Maneuver",
+        "Description": "Gain one additional free maneuver while base ability is active. This does not increase per-turn maneuvers.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Mobility"
+    },
+    {
+        "Key": "UNMOBMDEF",
+        "Name": "Melee Defense",
+        "Description": "Gain +1 melee defense while Unmatched Mobility is active.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Mobility"
+    },
+    {
+        "Key": "UNMOBDEST",
+        "Name": "Destiny",
+        "Description": "Unmatched Mobility costs 1 Destiny Point instead of 2.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Mobility"
+    },
+    {
+        "Key": "UNMOBRDEF",
+        "Name": "Ranged Defense",
+        "Description": "Gain +1 ranged defense while Unmatched Mobility is active.",
+        "Source": "Enter the Unknown",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Mobility"
+    },
+    {
+        "Key": "ACTIVATIONDS",
+        "Name": "Activation",
+        "Description": "May activate Diplomatic Solution at the start of any combat turn instead of only at the start of combat.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Diplomatic Solution"
+    },
+    {
+        "Key": "BOOSTALLIESDS",
+        "Name": "Boost Allies",
+        "Description": "Other friendly characters gain [BO] on social checks until the end of the encounter per Boost Allies Upgrade.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Diplomatic Solution"
+    },
+    {
+        "Key": "CHANGESKILL1DS",
+        "Name": "Change Skill (Coercion)",
+        "Description": "May make a Coercion check instead of a Charm check to activate Diplomatic Solution.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Diplomatic Solution"
+    },
+    {
+        "Key": "CHANGESKILL2DS",
+        "Name": "Change Skill (Leadership)",
+        "Description": "May make a Leadership check instead of a Charm check to activate Diplomatic Solution.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Diplomatic Solution"
+    },
+    {
+        "Key": "DESTINYDS",
+        "Name": "Destiny",
+        "Description": "Diplomatic Solution costs 1 Destiny Point instead of 2.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Diplomatic Solution"
+    },
+    {
+        "Key": "DIPLOMATICSOLUTIONBASE",
+        "Name": "Diplomatic Solution Base Ability",
+        "Description": "Once per game session, when a combat encounter against one or more sentient creatures is about to begin, the character may spend 2 Destiny Points and make a [B]Daunting ([DI][DI][DI][DI]) Charm check[b] to turn the encounter into a social encounter instead.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Diplomatic Solution"
+    },
+    {
+        "Key": "REDUCESETBACKDS",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from skill check to activate Diplomatic Solution.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Diplomatic Solution"
+    },
+    {
+        "Key": "DESTINYUI",
+        "Name": "Destiny",
+        "Description": "Unmatched Insight costs 1 Destiny Point instead of 2.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Insight"
+    },
+    {
+        "Key": "DISCERNMOTIVESUI",
+        "Name": "Discern Motives",
+        "Description": "The character realizes the motivations of each other participant in the scene.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Insight"
+    },
+    {
+        "Key": "FREQUENCYUI",
+        "Name": "Frequency",
+        "Description": "Unmatched Insight may be used twice per game session.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Insight"
+    },
+    {
+        "Key": "INCREASENUMBERUI",
+        "Name": "Increase Number",
+        "Description": "Increase the number of participants affected by 2 per Increase Number upgrade.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Insight"
+    },
+    {
+        "Key": "LEVERAGEUI",
+        "Name": "Leverage",
+        "Description": "Choose 1 character. Upgrade the ability of all social checks once per Leverage Upgrade against that character until the end of the encounter.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Insight"
+    },
+    {
+        "Key": "REDUCEDIFFICULTYDS",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Diplomatic Solution to [B]Hard ([DI][DI][DI])[b].",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Diplomatic Solution"
+    },
+    {
+        "Key": "SECRETUI",
+        "Name": "Secret",
+        "Description": "Notice one important detail that a chosen character would prefer to conceal.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Insight"
+    },
+    {
+        "Key": "UNMATCHEDINSIGHTBASE",
+        "Name": "Unmatched Insight Base Ability",
+        "Description": "Once per game session, during an encounter or scene involving one or more other sentient creatures, the character may spend 2 Destiny Points. The character immediately becomes aware of the emotional states and basic histories of up to 3 chosen participants in the scene.",
+        "Source": "Desperate Allies",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Insight"
+    },
+    {
+        "Key": "UNMATCHEDSURVBASE",
+        "Name": "Unmatched Survivability Base Ability",
+        "Description": "Once per game session, when piloting a starship or vehicle with a silhouette of 3 or less that is crippled (has hull trauma in excess of its hull trauma threshold), the character may spend 2 Destiny Points as an incidental. The starship or vehicle operates as if it is not crippled for the next 3 rounds, acting as if its hull trauma is equal to its hull trauma threshold.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Survivability"
+    },
+    {
+        "Key": "UNMATCHEDSURVREINF",
+        "Name": "Reinforcement",
+        "Description": "The Critical rating of all weapons targeting the ship or vehicle counts as 1 higher while Unmatched Survivability is active.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Survivability"
+    },
+    {
+        "Key": "UNMATCHEDSURVDEST",
+        "Name": "Destiny",
+        "Description": "Unmatched Survivability costs 1 Destiny Point instead of 2.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Survivability"
+    },
+    {
+        "Key": "UNMATCHEDSURVDURA",
+        "Name": "Duration",
+        "Description": "Unmatched Survivability lasts until the end of the encounter.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Survivability"
+    },
+    {
+        "Key": "UNMATCHEDSURVDUR",
+        "Name": "Durability",
+        "Description": "Reduce Critical Hits suffered by the ship or vehicle by 10 while Unmatched Survivability is active.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Survivability"
+    },
+    {
+        "Key": "UNMATCHEDSURVSIL",
+        "Name": "Change Silhouette",
+        "Description": "Unmatched Survivability affects ships or vehicles with 1 greater silhouette.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Survivability"
+    },
+    {
+        "Key": "UNMATCHEDSURVFREQ",
+        "Name": "Frequency",
+        "Description": "Unmatched Survivability may be used twice per game session.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Survivability"
+    },
+    {
+        "Key": "THISONEISMINEBASE",
+        "Name": "This One is Mine Base Ability",
+        "Description": "Once per game session, when piloting a starship or vehicle, the character may spend 2 Destiny Points to challenge another starship or vehicle in the battle with equal silhouette. For 2 rounds, the two ships are locked in a duel. For the duration of the duel, the two dueling ships can only make attacks targeting each other, and no other starships or characters can target the dueling ships with attacks.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "This One is Mine"
+    },
+    {
+        "Key": "THISONEISMINEDUR",
+        "Name": "Duration",
+        "Description": "This One is Mine lasts for 1 additional round.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "This One is Mine"
+    },
+    {
+        "Key": "THISONEISMINEFREQ",
+        "Name": "Frequency",
+        "Description": "This One is Mine may be used twice per game session.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "This One is Mine"
+    },
+    {
+        "Key": "THISONEISMINESIL",
+        "Name": "Change Silhouette",
+        "Description": "This One is Mine can target ships or vehicle with a silhouette 1 higher or lower.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "This One is Mine"
+    },
+    {
+        "Key": "THISONEISMINEDEST",
+        "Name": "Destiny",
+        "Description": "This One is Mine costs 1 Destiny Point instead of 2.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "This One is Mine"
+    },
+    {
+        "Key": "THISONEISMINEEVA",
+        "Name": "Evasion",
+        "Description": "Upgrade the difficulty of all incoming attacks once while This One is Mine is active.",
+        "Source": "Stay on Target",
+        "Custom": "DescOnly",
+        "SigAbility": "This One is Mine"
+    },
+    {
+        "Key": "UNMATCHHEROBASIC",
+        "Name": "Unmatched Heroism Basic Ability",
+        "Description": "[P]Once per game session, as an out of turn incidental, the character may spend 2 Destiny Points. For the next 2 rounds, whenever an ally within short range is targeted by a successful combat check, the character may suffer 2 strain to move to engaged range of that ally and become the target of that combat check instead.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Heroism"
+    },
+    {
+        "Key": "UNMATCHHERODESTINY",
+        "Name": "Destiny",
+        "Description": "[P]Unmatched Heroism costs 1 Destiny Point instead of 2.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Heroism"
+    },
+    {
+        "Key": "UNMATCHHEROENDURANCE",
+        "Name": "Endurance",
+        "Description": "[P]Reduce the strain cost to become the target of an attack with Unmatched Heroism by 1.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Heroism"
+    },
+    {
+        "Key": "UNMATCHHERORANGE",
+        "Name": "Increase Range",
+        "Description": "Increase the range at which Unmatched Heroism can affect allies to medium range.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Heroism"
+    },
+    {
+        "Key": "UNMATCHHERODURATION",
+        "Name": "Duration",
+        "Description": "Unmatched Heroism lasts for 1 additional round.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Heroism"
+    },
+    {
+        "Key": "UNMATCHHEROFREQUENCY",
+        "Name": "Frequency",
+        "Description": "Unmatched Heroism may be used twice per game session.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Heroism"
+    },
+    {
+        "Key": "FATDUELBALANCE",
+        "Name": "Cosmic Balance",
+        "Description": "Whenever the character suffers a Critical Injury while Fated Duel is active, flip one Dark Side destiny point to a Light Side destiny point.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Fated Duel"
+    },
+    {
+        "Key": "FATDUELDURATION",
+        "Name": "Duration",
+        "Description": "Fated Duel lasts for 1 additional round.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Fated Duel"
+    },
+    {
+        "Key": "FATDUELSTANDFIRM",
+        "Name": "Stand Firm",
+        "Description": "Increase wound threshold by +4 while Fated Duel is active.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Fated Duel"
+    },
+    {
+        "Key": "FATDUELREDUCEDIFF",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Fated Duel to [B]Average ([DI][DI])[b]",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Fated Duel"
+    },
+    {
+        "Key": "FATDUELBASIC",
+        "Name": "Fated Duel Basic Ability",
+        "Description": "Once per game session, during a combat encounter, the character may spend 2 Destiny Points and make a [B]Hard ([DI][DI][DI]) Discipline check[b] to challenge another character. If he succeeds, the two characters are locked in a duel for 3 rounds. For the duration of the duel, the two dueling characters can only make attacks targeting each other and n other characters can target the dueling characters with attacks (or otherwise intervene).",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Fated Duel"
+    },
+    {
+        "Key": "FATDUELINSPIRE",
+        "Name": "Inspiration",
+        "Description": "Add [BO] to checks made by allies while Fated Duel is active.",
+        "Source": "Keeping the Peace",
+        "Custom": "DescOnly",
+        "SigAbility": "Fated Duel"
+    },
+    {
+        "Key": "UNMATCHEDCALIBRATIONOPTIMIZE",
+        "Name": "Optimization",
+        "Description": "Upgrade one [AB] to be rerolled with Unmatched Calibration to [PR].",
+        "Source": {
+            "_Page": "40",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Calibration"
+    },
+    {
+        "Key": "UNMATCHEDCALIBRATIONDESTINY",
+        "Name": "Destiny",
+        "Description": "Unmatched Calibration costs 1 Destiny Point instead of 2.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Calibration"
+    },
+    {
+        "Key": "UNMATCHEDCALIBRATIONRISK",
+        "Name": "Minimize Risk",
+        "Description": "Downgrade one [CH] to be rerolled with Unmatched Calibration to [DI].",
+        "Source": {
+            "_Page": "40",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Calibration"
+    },
+    {
+        "Key": "UNMATCHEDCALIBRATIONNUMBER",
+        "Name": "Increase Number",
+        "Description": "Unmatched Calibration affects one additional die per Increase Number upgraded purchased.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Calibration"
+    },
+    {
+        "Key": "UNMATCHEDCALIBRATIONFREQUENCY",
+        "Name": "Frequency",
+        "Description": "Unmatched Calibration can be used one additional time each game session per Frequency upgrade purchased.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Calibration"
+    },
+    {
+        "Key": "UNMATCHEDCALIBRATIONBASIC",
+        "Name": "Unmatched Calibration Base Ability",
+        "Description": "Once per game session as an incidental, the character may spend 2 Destiny Points to reroll up to two dice in the character's dice pool. Unmatched Calibration cannot be used on a [FORCE].",
+        "Source": {
+            "_Page": "40",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Calibration"
+    },
+    {
+        "Key": "UNMATCHEDCALIBRATIONSETBACK",
+        "Name": "Remove Setback",
+        "Description": "May remove [SE] instead of rerolling it.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Calibration"
+    },
+    {
+        "Key": "INVENTIVECREATIONDESTINY",
+        "Name": "Destiny",
+        "Description": "Inventive Creation costs 1 Destiny Point instead of 2.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Inventive Creation"
+    },
+    {
+        "Key": "INVENTIVECREATIONSCALE",
+        "Name": "Change Scale",
+        "Description": "May create a vehicle of silhouette 2 or smaller using Inventive Creation.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Inventive Creation"
+    },
+    {
+        "Key": "INVENTIVECREATIONRARITY",
+        "Name": "Increase Rarity",
+        "Description": "Increase the rarity of the device the character can build by 1.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Inventive Creation"
+    },
+    {
+        "Key": "INVENTIVECREATIONDIFF",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Inventive Creation to [B]Hard ([DI][DI][DI])[b].",
+        "Source": {
+            "_Page": "39",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Inventive Creation"
+    },
+    {
+        "Key": "INVENTIVECREATIONBASIC",
+        "Name": "Inventive Creation Base Ability",
+        "Description": "Oncer per game session, as an action, the character may spend 2 Destiny Points and make a [B]Daunting ([DI][DI][DI][DI]) Mechanics check[b]. If he succeeds, the character immediately uses available parts to build a device that functions as an item of his choice with a rarity of 5 or lower. The item is functional until the end of the encounter, at which point it falls apart, shorts out, or otherwise ceases to function permanently. The exact nature of the device the character its trying to construct as well as the end results, must be apporved by the GM (see [B]Narrative Abilities[b] on page 38).",
+        "Source": {
+            "_Page": "39",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Inventive Creation"
+    },
+    {
+        "Key": "INVENTIVECREATIONSETBACK",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from skill check to activate Inventive Creation",
+        "Source": {
+            "_Page": "39",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Inventive Creation"
+    },
+    {
+        "Key": "UNMATCHAUTHINCREASEEFFECT2",
+        "Name": "Increase Effect: Reduce Difficulty",
+        "Description": "May reduce the difficulty of an ally's skill check instead of downgrading the difficulty.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Authority"
+    },
+    {
+        "Key": "UNMATCHAUTHDESTINY",
+        "Name": "Destiny",
+        "Description": "Unmatched Authority costs 1 Destiny Point instead of 2.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Authority"
+    },
+    {
+        "Key": "UNMATCHAUTHMASSCOMBAT",
+        "Name": "Mass Combat",
+        "Description": "The character can spend strain to modify Mass Combat  checks with Unmatched Authority as though it was an ally's skill check.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Authority"
+    },
+    {
+        "Key": "UNMATCHAUTHINCREASEEFFECT",
+        "Name": "Increase Effect: Remove Setback",
+        "Description": "May remove [SE] from an ally's check instead of downgrading the difficulty.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Authority"
+    },
+    {
+        "Key": "UNMATCHAUTHFIRMRESOLVE",
+        "Name": "Firm Resolve",
+        "Description": "Increase strain threshold by 2 while Unmatched Authority is active.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Authority"
+    },
+    {
+        "Key": "UNMATCHAUTHENDURANCE",
+        "Name": "Endurance",
+        "Description": "Reduce the strain cost to modify an ally's skill check with Unmatched Authority by 1",
+        "Source": {
+            "_Page": "40",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Authority"
+    },
+    {
+        "Key": "UNMATCHAUTHBASIC",
+        "Name": "Unmatched Authority Basic Ability",
+        "Description": "Once per game session, as an action during an encounter in structured time, the character may spend 2 Destiny Points to gain the following ability for the remainder of the current round and two additional rounds. As an out of turn incidental, the character may suffer 2 strain to downgrade the difficulty of an ally's skill check once.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Authority"
+    },
+    {
+        "Key": "UNMATCHAUTHDURATION",
+        "Name": "Duration",
+        "Description": "Unmatched Authority lasts\none additional round.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Authority"
+    },
+    {
+        "Key": "ROUSORTURNINGPOINT",
+        "Name": "Turning Point",
+        "Description": "During a mass combat, may\nactivate Rousing Oratory to\ncreate a turning point or\nboost allies already taking\npart in one.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Rousing Oratory"
+    },
+    {
+        "Key": "ROUSORDESTINY",
+        "Name": "Destiny",
+        "Description": "Rousing Oratory costs 1\nDestiny Point instead of 2.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Rousing Oratory"
+    },
+    {
+        "Key": "ROUSORRECOVERSTRAIN",
+        "Name": "Recover Strain",
+        "Description": "Friendly characters and\nNPCs targeted by Rousing\nOratory recover a number\nof strain equal to the character’s\nranks in Leadership.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Rousing Oratory"
+    },
+    {
+        "Key": "ROUSORBOOSTALLIES",
+        "Name": "Boost Allies",
+        "Description": "After triggering Rousing\nOratory, add [BO] per Boost\nAllies upgrade to all Discipline\nand Cool checks that\nother friendly characters\nand NPCs make until the\nend of the encounter.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Rousing Oratory"
+    },
+    {
+        "Key": "ROUSORCHANGESKILL2",
+        "Name": "Change Skill: Cool",
+        "Description": "May make a Cool check instead\nof a Leadership check\nto activate Rousing Oratory.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Rousing Oratory"
+    },
+    {
+        "Key": "ROUSORREDUCESETBACK",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from skill check to\nactivate Rousing Oratory.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Rousing Oratory"
+    },
+    {
+        "Key": "ROUSORREDUCEDIFF",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the\nskill check to activate\nRousing Oratory to [B]Average\n([DI][DI])[b].",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Rousing Oratory"
+    },
+    {
+        "Key": "ROUSORCHANGESKILL",
+        "Name": "Change Skill: Discipline",
+        "Description": "May make a Discipline check\ninstead of a Leadership check\nto activate Rousing Oratory.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Rousing Oratory"
+    },
+    {
+        "Key": "ROUSORBASIC",
+        "Name": "Rousing Oratory Basic Ability",
+        "Description": "Once per game session, the character may perform a Rousing Oratory action, spend 2 Destiny Poins, and make a [B]Hard ([DI][DI][DI]) Leadership check to inspire a group to take action in a military situation about which  members were previously hesitant.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Lead by Example"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Rousing Oratory"
+    },
+    {
+        "Key": "UNMATCHEDCALIBRATIONACUMEN",
+        "Name": "Shared Acumen",
+        "Description": "Unmatched Calibration can also be used on the dice pool of a wiling ally within short range.",
+        "Source": {
+            "_Page": "40",
+            "__text": "Special Modifications"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Calibration"
+    },
+    {
+        "Key": "UNMATCHEDVIGILANCEGROUPPREPARATION",
+        "Name": "Group Preparation",
+        "Description": "All NPCs add [SE] to their combat checks targeting any PC who has not yet taken a turn in the current round.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Vigilance"
+    },
+    {
+        "Key": "UNMATCHEDVIGILANCEBASIC",
+        "Name": "Unmatched Vigilance Base Ability",
+        "Description": "Once per game session at the beginning of a structured encounter, the character may spend 2 Destiny Points. If he does so, he determines the Initiative order of the first round of the enounter. Characters still make checks to determine Initiative, but these results will only apply after Unmatched Vigilance's effects end.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Vigilance"
+    },
+    {
+        "Key": "UNMATCHEDVIGILANCEGROUPVIGILANCE",
+        "Name": "Group Vigilance",
+        "Description": "All PCs add [BO] to their combat checks targeting any NPC who has already taken a turn during the current round..",
+        "Source": {
+            "_Page": "35",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Vigilance"
+    },
+    {
+        "Key": "UNMATCHEDVIGILANCEALWAYSALERT",
+        "Name": "Always Alert",
+        "Description": "After activating Unmatched Vigilance, the character may choose to use either Cool or Vigilance for his Initiative check.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Vigilance"
+    },
+    {
+        "Key": "UNMATCHEDVIGILANCEDURATION",
+        "Name": "Duration",
+        "Description": "The Initiative order the base ability establishes lasts 1 additional round per Duration upgrade purchased.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Vigilance"
+    },
+    {
+        "Key": "UNMATCHEDVIGILANCECOMBATPREPARATION",
+        "Name": "Combat Preparation",
+        "Description": "When the character activates Unmatched Vigilance he may choose to introduce a \"fact\" or additional context directly into the narrative as if he had spent a Destiny Point.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Vigilance"
+    },
+    {
+        "Key": "UNMATCHEDVIGILANCECOMBATREADINESS",
+        "Name": "Combat Readiness",
+        "Description": "After activating Unmatched Vigilance, the character may immediately perform 1 free maneuver..",
+        "Source": {
+            "_Page": "35",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Vigilance"
+    },
+    {
+        "Key": "UNMATCHEDVIGILANCEDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate the Unmatched Vigilance base ability, the character only needs to spend 1 Destiny Point instead of the normal 2.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Vigilance"
+    },
+    {
+        "Key": "MYCITYREDUCEDIFFICULTY",
+        "Name": "Reduce Difficulty",
+        "Description": "The skill check difficulty to activate My City is [B]Average ([DI][DI])[b] instead of [B]Hard ([DI][DI][DI])[b].",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "My City"
+    },
+    {
+        "Key": "MYCITYBOOSTSKILL2",
+        "Name": "Boost Skill: Skulduggery and Stealth",
+        "Description": "When making a skill check while My City is active the character adds [BO] to Skulduggery and Stealth checks.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "My City"
+    },
+    {
+        "Key": "MYCITYBOOSTSKILL1",
+        "Name": "Boost Skill: Streetwise and Survival",
+        "Description": "When making a skill check while My City is active, the character adds [BO] to Streetwise and Survival checks.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "My City"
+    },
+    {
+        "Key": "MYCITYDOWNGRADE",
+        "Name": "Downgrade",
+        "Description": "While My City is active and the character is in the chosen city, he may suffer 2 strain to downgrade the difficulty of any Stealth check once.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "My City"
+    },
+    {
+        "Key": "MYCITYCHANGESKILL1",
+        "Name": "Change Skill: Streetwise",
+        "Description": "When activating My City, the character may make a Streetwise check instead of a Knowledge (Core Worlds/Outer Rim) check.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "My City"
+    },
+    {
+        "Key": "MYCITYCHANGESKILL2",
+        "Name": "Change Skill: Underworld",
+        "Description": "When activating My City, the character may make a Knowledge (Underworld) check instead of a Knowledge (Core Worlds/Outer Rim) check.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "My City"
+    },
+    {
+        "Key": "MYCITYCOVERUPGRADE",
+        "Name": "Cover Upgrade",
+        "Description": "While My City is active and the character is in the chosen city, whenever the character is in cover, he increases his ranged defense by 1.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "My City"
+    },
+    {
+        "Key": "MYCITYBASIC",
+        "Name": "My City Base Ability",
+        "Description": "Once per game session when in an urban setting, the character may spend 2 Destiny Points and make a [B]Hard ([DI][DI][DI]) Knowledge (Core Worlds)[b] or [B]Knowledge (Outer Rim) check[b]. If successful, for the remainder of the game session, the character may suffer 2 strain to recall or learn the location of any individual, group, or establishment within that city, and any relevant information.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "My City"
+    },
+    {
+        "Key": "MYCITYDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate My City, the character only needs to spend 1 Destiny Point instead of the normal 2.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Endless Vigil"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "My City"
+    },
+    {
+        "Key": "UNMATCHEDPURSUITFREQUENCY",
+        "Name": "Frequency",
+        "Description": "Unmatched Pursuit can be activated twice per game session instead of once.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Pursuit"
+    },
+    {
+        "Key": "UNMATCHEDPURSUITENDURANCE",
+        "Name": "Endurance",
+        "Description": "Reduce the strain cost to keep up with the target by 1to a minimumof 0, per endurance upgrade.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Pursuit"
+    },
+    {
+        "Key": "UNMATCHEDPURSUITDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate Unmatched Pursuit, the character only needs to spend 1 Destiny Point, instead of the Nomral 2 Destiny Points.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Pursuit"
+    },
+    {
+        "Key": "UNMATCHEDPURSUITRANGE",
+        "Name": "Increase Range",
+        "Description": "Increase the maximum range at which a target can be increased to long range.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Pursuit"
+    },
+    {
+        "Key": "UNMATCHEDPURSUITMANEUVER",
+        "Name": "Maneuver",
+        "Description": "Should the target of Unmatched Pursuit spend a maneuver to increase the distance from the character, the character may immediately perform a Move maneuver as an out of turn incidental to close the distance between them.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Pursuit"
+    },
+    {
+        "Key": "UNMATCHEDPURSUITDURATION",
+        "Name": "Duration",
+        "Description": "Unmatched Pursuit lasts for 1 additional round per Duration upgrade.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Pursuit"
+    },
+    {
+        "Key": "BIGGERTHEYAREBASIC",
+        "Name": "The Bigger They Are... Base Ability",
+        "Description": "Once per game session as an action, the character may spend 2 Destiny Points, nominate one vehicle, starship, living creature of silhouette 2 or smaller that he can see and make a [B]Hard ([DI][DI][DI]) Knowledge (Warfare) check[b]. If he succeeds, for the next 3 rounds,he and each other friendly character within medium range of him ignore the target's armor (or soak) when inflicting damage on the target with non-vehicle/starship weapons.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Bigger They Are..."
+    },
+    {
+        "Key": "BIGGERTHEYARESKILL1",
+        "Name": "Change Skill (Survival)",
+        "Description": "May use Survival instead of Knowledge (Warfare) to acivate The Bigger They Are.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Bigger They Are..."
+    },
+    {
+        "Key": "BIGGERTHEYAREDIFFICULTY",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate The Bigger They Are to [B]Average ([DI][DI])[b].",
+        "Source": {
+            "_Page": "38",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Bigger They Are..."
+    },
+    {
+        "Key": "BIGGERTHEYARESALVO",
+        "Name": "Ongoing Salvo",
+        "Description": "If the target is destroyed (or dies) while The Bigger They Are is active, the character may spend 1 Destiny Point to select a new target for The Bigger They Are.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Bigger They Are..."
+    },
+    {
+        "Key": "BIGGERTHEYAREDURATION",
+        "Name": "Duration",
+        "Description": "The Bigger They Are lasts for 2 additonal rounds.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Bigger They Are..."
+    },
+    {
+        "Key": "BIGGERTHEYARESKILL2",
+        "Name": "Change Skill (Athletics)",
+        "Description": "May use Athletics instead of Knowledge (Warfare) to activate The Bigger They Are.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Bigger They Are..."
+    },
+    {
+        "Key": "BIGGERTHEYARESILHOUETTE",
+        "Name": "Increase Silhouette",
+        "Description": "Increase the silhouette of targets that can be affected by The Bigger They Are by 1.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Bigger They Are..."
+    },
+    {
+        "Key": "BIGGERTHEYAREDESTINY",
+        "Name": "Destiny",
+        "Description": "The Bigger They Are costs 1 Destiny Point instead of 2.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Bigger They Are..."
+    },
+    {
+        "Key": "UNMATCHEDPURSUITBASIC",
+        "Name": "Unmatched Pursuit Base Ability",
+        "Description": "Once per game session, as n out of turn incidental, the character may spend 2 Destiny Points and designate one enemy character or vehicle within medium range (either personal or planetary scale) as the quarry for the next 3 rounds. If the designated target would successfully elude his pursuit, the character may voluntarily suffer 2 strain to keep pace preventing the target, from escaping him.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Pursuit"
+    },
+    {
+        "Key": "UNEXPECTEDDEMISESKILL",
+        "Name": "Change Skill",
+        "Description": "To acivate Unexpected Demise, the character can use Discipline.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unexpected Demise"
+    },
+    {
+        "Key": "UNEXPECTEDDEMISEDIFFICULTY",
+        "Name": "Reduce Difficulty",
+        "Description": "The skill check difficulty to activate Unexpected Demise is [B]Average ([DI][DI])[b] instead of [B]Hard ([DI][DI][DI])[b].",
+        "Source": {
+            "_Page": "34",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unexpected Demise"
+    },
+    {
+        "Key": "UNEXPECTEDDEMISEDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate Unexpected Demise the character only needs to spend 1 Destiny Point instead of the normal 2 Destiny Points.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unexpected Demise"
+    },
+    {
+        "Key": "UNEXPECTEDDEMISEBASIC",
+        "Name": "Unexpected Demise Base Ability",
+        "Description": "Once per session as an action, the character may spend 2 Destiny Points and make a [B]Hard ([DI][DI][DI]) Perception check[b] If successful, for the next 2 rounds the character may spend 1 maneuver to add 1 automatic [TR] to his next combat check made in that turn. In addition, for the next 2 rounds when the character inflicts a Critical Injury on a rival NPC, the target is immediately incapacitated in teh same way as a minion NPC would be (see page 400 of the [B]Force and Destiny[b] Core Rulebook).",
+        "Source": {
+            "_Page": "34",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unexpected Demise"
+    },
+    {
+        "Key": "UNEXPECTEDDEMISESETBACK",
+        "Name": "Reduce Setback",
+        "Description": "When making a combat check with Unexpected Demise is active the character removes [SE].",
+        "Source": {
+            "_Page": "34",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unexpected Demise"
+    },
+    {
+        "Key": "UNEXPECTEDDEMISEDURATION",
+        "Name": "Duration",
+        "Description": "Unexpected Demise lasts for 1 additional round per Duration upgrade.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Savage Spirits"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unexpected Demise"
+    },
+    {
+        "Key": "ALWAYSGETMYMARKTAKEDOWN",
+        "Name": "Takedown",
+        "Description": "Upgrade the difficulty of the check once to begin with the mark in custody.",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Always Get My Mark"
+    },
+    {
+        "Key": "ALWAYSGETMYMARKCHANGESKILL2",
+        "Name": "Change Skill: Survival",
+        "Description": "May activate Always Get My Mark with Survival instead of Streetwise.",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Always Get My Mark"
+    },
+    {
+        "Key": "ALWAYSGETMYMARKCHANGESKILL1",
+        "Name": "Change Skill: Underworld",
+        "Description": "May activate Always Get My Mark with Knowledge (Underworld) instead of Streetwise.",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Always Get My Mark"
+    },
+    {
+        "Key": "UNMATCHEDDEVISTATIONIMPROVEMOBILITY",
+        "Name": "Improve Mobility",
+        "Description": "Before performing a combat check as part of Unmatched Devastation, suffer 2 strain  to perform the Move maneuver as an incidental.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devistation"
+    },
+    {
+        "Key": "ALWAYSGETMYMARKINCREASEEFFECT2",
+        "Name": "Increase Effect: Nemesis",
+        "Description": "Upgrade the difficulty of the check twice to find a nemesis NPC (or player character) instead of a minion.",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Always Get My Mark"
+    },
+    {
+        "Key": "UNMATCHEDDEVISTATIONBASIC",
+        "Name": "Unmatched Devistation Base Ability",
+        "Description": "Once per game session as an incidental, after performing a combat check, the character may spend 2 Destiny Points to perform an additional combat check against the same target with the difficulty increased by 1 for each successful combat check the character has performed this turn. This combat check must be made using a non-starship vehicle weapon that the character has not already used this turn.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devistation"
+    },
+    {
+        "Key": "UNMATCHEDCOURAGEFINISH",
+        "Name": "Finish the Job",
+        "Description": "While Unmatched Courage is active the character adds +2 damage for each Critical Injury he is suffering to the first hit of each successful combat check he makes.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Courage"
+    },
+    {
+        "Key": "ALWAYSGETMYMARKINCREASERANGE",
+        "Name": "Increase Range",
+        "Description": "If the character has a starship or access to interstellar travel, she may choose a character on a different planet to be her mark. If she does so, she travels to that mark's world.",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Always Get My Mark"
+    },
+    {
+        "Key": "UNMATCHEDCOURAGETOUGH",
+        "Name": "Too Tough To Die",
+        "Description": "When Unmatched Courage ends, make a [B]Hard ([DI][DI][DI]) Resillience check[b] to remove one Critical Injury.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Courage"
+    },
+    {
+        "Key": "UNMATCHEDCOURAGEBASIC",
+        "Name": "Unmatched Courage Base Ability",
+        "Description": "Once per game session, as an out of turn incidental, the character may spend 2 Destiny Points to ignore the effects of all Critical Injuries for 2 rounds. When this effect ends, he fuggers the effects of these Critical Injuries as normal.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Courage"
+    },
+    {
+        "Key": "UNMATCHEDCOURAGEEFFECT",
+        "Name": "Increase Effect",
+        "Description": "While Unmatched Courage is active whenever the character would suffer strain, he may suffer that many wounds instead.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Courage"
+    },
+    {
+        "Key": "ALWAYSGETMYMARKBASIC",
+        "Name": "Always Get My Mark Base Ability",
+        "Description": "Once per game session, the character may choose a known minion NPC on the same planet to be her mark, spend 2 Destiny Points, and make a [B]Hard ([DI][DI][DI]) Streetwise check[b]. If she succeeds, the character tracks down the chosen mark; a new encounter begins as the character reaches the mark's location. The exact nature of the encounter, as well as the circumstances under which it takes place, must be approved by the GM (see [B]Narrative Abilites[b] on page 40).",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Always Get My Mark"
+    },
+    {
+        "Key": "ALWAYSGETMYMARKINCREASEEFFECT1",
+        "Name": "Increase Effect: Rival",
+        "Description": "Upgrade the difficulty of the check once to find a rival NPC instead of a minion.",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Always Get My Mark"
+    },
+    {
+        "Key": "ALWAYSGETMYMARKDESTINY",
+        "Name": "Destiny",
+        "Description": "Always Get My Mark costs 1 Destiny Point instead of 2.",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Always Get My Mark"
+    },
+    {
+        "Key": "UNMATCHEDCOURAGETHROUGH",
+        "Name": "See It Through",
+        "Description": "While Unmatched Courage is active, the character does not become incapacitated when his wounds exceed his wound threshold.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Courage"
+    },
+    {
+        "Key": "UNMATCHEDDEVISTATIONTARGETPRIORITY",
+        "Name": "Target Priority",
+        "Description": "The character may choose a new legal target for each combat check made as part of Unmatched Devastation.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devistation"
+    },
+    {
+        "Key": "UNMATCHEDDEVISTATIONINCREASENUMBER",
+        "Name": "Increase Number",
+        "Description": "Perform additional combat checks equal to ranks in Increase Number upgrade.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devistation"
+    },
+    {
+        "Key": "ALWAYSGETMYMARKREDUCEDIFFICULTY",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Always Get My Mark to [B]Average ([DI][DI])[b].",
+        "Source": {
+            "_Page": "39",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Always Get My Mark"
+    },
+    {
+        "Key": "UNMATCHEDCOURAGEDURATION",
+        "Name": "Duration",
+        "Description": "Unmatched Courage lasts for 2 additional rounds.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Courage"
+    },
+    {
+        "Key": "UNMATCHEDDEVISTATIONDRAWANDFIRE",
+        "Name": "Draw and Fire",
+        "Description": "Before performing each combat check with Unmatched Devastation, the character may holster and draw a weapon.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devistation"
+    },
+    {
+        "Key": "UNMATCHEDDEVISTATIONREMOVESETBACK",
+        "Name": "Remove Setback",
+        "Description": "When making a combat check part of Unmatched Devastation, remove [SE] equal to ranks in Remove Setback upgrade.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devistation"
+    },
+    {
+        "Key": "UNMATCHEDCOURAGESURVIVOR",
+        "Name": "Survivor",
+        "Description": "While Unmatched Courage is active, add [BO] to checks to remove Critical Injuries.",
+        "Source": {
+            "_Page": "39",
+            "__text": "Forged in Battle"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Courage"
+    },
+    {
+        "Key": "UNMATCHEDDEVASTATIONBASIC",
+        "Name": "Unmatched Devastation Base Ability",
+        "Description": "Once per game session, after performing a combat check, the character may spend 2 Destiny POints to perform one additional combat check against the same target as an incidental.\n[P]\nThe difficulty of this combat check is increased by 1 for each successful combat check the character has performed this turn. This combat check must be made using a non-starship/vehicle weapon that the character has not already used this turn.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devastation"
+    },
+    {
+        "Key": "UNMATCHEDDEVASTATIONINCREASENUMBER",
+        "Name": "Increase Number",
+        "Description": "Perform addition combat checks equal to ranks in Increase Number upgrade.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devastation"
+    },
+    {
+        "Key": "UNMATCHEDDEVASTATIONDRAWANDFIRE",
+        "Name": "Draw and Fire",
+        "Description": "Before performing each combat check with Unmatched Devastation, the character may holster and draw a weapon.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devastation"
+    },
+    {
+        "Key": "UNMATCHEDDEVASTATIONTARGETPRIORITY",
+        "Name": "Target Priority",
+        "Description": "The character may choose a new legal target for each combat check made as part of Unmatched Devastation.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devastation"
+    },
+    {
+        "Key": "UNMATCHEDDEVASTATIONREMOVESETBACK",
+        "Name": "Remove Setback",
+        "Description": "When making a combat check as part of Unmatched Devastation, remove [SE] equal to ranks in Remove Setback upgrade.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devastation"
+    },
+    {
+        "Key": "UNMATCHEDDEVASTATIONIMPROVEMOBILITY",
+        "Name": "Improve Mobility",
+        "Description": "Before performing a combat check as part of Unmatched Devastation, suffer 2 strain to perform the move maneuver as an incidental.",
+        "Source": {
+            "_Page": "41",
+            "__text": "No Disintegrations"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Devastation"
+    },
+    {
+        "Key": "UNMATCHEDNEGOTIATIONADDTRIUMPH",
+        "Name": "Add Triumph",
+        "Description": "Whenever the character fails a Charm, Coercion, Deception, or Negotiation check while this power is active, the character adds automatic [TR] to the results.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Negotiation"
+    },
+    {
+        "Key": "UNMATCHEDNEGOTIATIONREMOVESETBACK",
+        "Name": "Remove Setback",
+        "Description": "Remove [SE] from any checks affected by Unmatched Negotiation.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Negotiation"
+    },
+    {
+        "Key": "UNMATCHEDNEGOTIATIONDURATION",
+        "Name": "Duration",
+        "Description": "Unmatched Negotiation lasts for 1 additional round.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Negotiation"
+    },
+    {
+        "Key": "UNMATCHEDNEGOTIATIONINCREASERANGE",
+        "Name": "Increase Range",
+        "Description": "Increase the range at which this ability affects allied PCs to medium range.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Negotiation"
+    },
+    {
+        "Key": "UNMATCHEDNEGOTIATIONINCREASEEFFECT",
+        "Name": "Increase Effect",
+        "Description": "Engaged allied characters making Charm, Coercion, Deception, or Negotiation checks while this power is active downgrade their difficulty once.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Negotiation"
+    },
+    {
+        "Key": "UNMATCHEDNEGOTIATIONDESTINY",
+        "Name": "Destiny",
+        "Description": "Unmatched Negotiation costs 1 Destiny Point instead of 2.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Negotiation"
+    },
+    {
+        "Key": "UNMATCHEDNEGOTIATIONBASIC",
+        "Name": "Unmatched Negotiation Base Ability",
+        "Description": "Once per game session as an incidental, the character may spend 2 Destiny Point. For the rest of the round, whenever that character makes a Charm, Coercion, Deception, or Negotiation check, the character downgrades the difficulty of the check the number of times needed to remove all [CH] from the pool.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Negotiation"
+    },
+    {
+        "Key": "MUCHTOLEARNBASIC",
+        "Name": "Much to Learn Base Ability",
+        "Description": "Once per game session, the character may spend 2 Destiny Points and make a [B]Hard ([DI] [DI] [DI]) Knowledge (Education) check[b], then choose one talent that the character possesses. For the remainder of the current encounter, one character within medium range counts as having that talent. If that talent is ranked, the allied character counts as having as may ranks in the talent as the character with this signature ability does.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Much to Learn"
+    },
+    {
+        "Key": "MUCHTOLEARNIMPROVE",
+        "Name": "Improve Talent",
+        "Description": "If the character possesses the improved version of the chosen talent, allies affected count as possessing it too for the duration of the encounter.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Much to Learn"
+    },
+    {
+        "Key": "MUCHTOLEARNCHANGESKILL1",
+        "Name": "Change Skill: Leadership",
+        "Description": "May make a Leadership check, instead of a Knowledge (Education) check to activate Much to Learn.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Much to Learn"
+    },
+    {
+        "Key": "MUCHTOLEARNCHANGESKILL2",
+        "Name": "Change Skill: Knowledge",
+        "Description": "May make any Knowledge skill check instead of a Knowledge (Education) check to activate Much to Learn.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Much to Learn"
+    },
+    {
+        "Key": "MUCHTOLEARNREDUCEDIFFICULTY",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Much to learn to [B]Average ([DI] [DI])[b].",
+        "Source": {
+            "_Page": "34",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Much to Learn"
+    },
+    {
+        "Key": "MUCHTOLEARNDESTINY",
+        "Name": "Destiny",
+        "Description": "Much to Learn costs 1 Destiny Point instead of 2.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Much to Learn"
+    },
+    {
+        "Key": "MUCHTOLEARNSUPREME",
+        "Name": "Supreme Talent",
+        "Description": "If the character possesses the supreme version of the chosen talent, allies affected count as possessing it too for the duration of the encounter.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Much to Learn"
+    },
+    {
+        "Key": "MUCHTOLEARNINCREASENUMBER",
+        "Name": "Increase Number",
+        "Description": "Increase the number of allies affected by 2 per Increase Number upgrade.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Disciples of Harmony"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Much to Learn"
+    },
+    {
+        "Key": "HARDERTHEYFALLBASE",
+        "Name": "The Harder They Fall Base Ability",
+        "Description": "Once per game session as an incidental, the character may spend 2 Destiny Points and make a [B]Hard ([DI][DI][DI]) Mechanics check[b]. If successful, for the remainder of the encounter, combat checks the character makes against vehicles, structures, or droids that inflict wounds or hull trauma automatically inflict a Critical lnjury or Critical Hit (depending on the target). [AD] or [TR] can be spent to trigger the attack's critical rating additional times, adding + 10 to the critical roll as usual.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Harder They Fall"
+    },
+    {
+        "Key": "HARDERTHEYFALINCNUMBERL",
+        "Name": "Increase Number",
+        "Description": "The effects of The Harder They Fall extend to a number of allies within medium range equal to ranks in Increase Number.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Harder They Fall"
+    },
+    {
+        "Key": "HARDERTHEYFALLCHANGESKILL",
+        "Name": "Change Skill",
+        "Description": "The skill check to activate The Harder They Fall can be made using Knowledge (Education) or Knowledge (Warfare) instead of the Mechanics skill.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Harder They Fall"
+    },
+    {
+        "Key": "HARDERTHEYFALLIGNOREDEF",
+        "Name": "Ignore Defenses",
+        "Description": "While The Harder They Fall is active, combat checks that the character makes ignore one point of defense rating per Ignore Defenses.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Harder They Fall"
+    },
+    {
+        "Key": "HARDERTHEYFALLDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate The Harder They Fall, the character needs to spend one Destiny Point instead of the normal two Destiny Points.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Harder They Fall"
+    },
+    {
+        "Key": "HARDERTHEYFALLREDUCEDIFF",
+        "Name": "Reduce Difficulty",
+        "Description": "The difficulty of the skill check to activate The Harder They Fall is [B]Average ([DI][DI])[b] instead of [B]Hard ([DI][DI][DI])[b].",
+        "Source": {
+            "_Page": "34",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Harder They Fall"
+    },
+    {
+        "Key": "HARDERTHEYFALLFREQ",
+        "Name": "Frequency",
+        "Description": "The Harder They Fall can be used one additional time per game session.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "The Harder They Fall"
+    },
+    {
+        "Key": "UNMATCHEDINGENBASE",
+        "Name": "Unmatched Ingenuity Base Ability",
+        "Description": "Once per game session as an action, the character may spend 2 Destiny Points and make a [B]Hard ([DI][DI][DI]) Mechanics check[b]. If successful, he can add one item quality (except Breach or Concussive) to a weapon or item he is holding or operating. If applicable, the item quality has a rating of 1. The character may spend [TR] to add one additional quality to the same item, and [AD] to increase an item quality's rating by 1 . This alteration lasts for 2 rounds, or ten minutes of narrative time.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ingenuity"
+    },
+    {
+        "Key": "UNMATCHEDINGENADDBOOST",
+        "Name": "Add Boost",
+        "Description": "When making the skill check to activate Unmatched Ingenuity, the character adds [BO] per Add Boost upgrade.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ingenuity"
+    },
+    {
+        "Key": "UNMATCHEDINGENDURATION",
+        "Name": "Duration",
+        "Description": "The alteration from using Unmatched Ingenuity lasts for 1 additional round per Duration Upgrade.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ingenuity"
+    },
+    {
+        "Key": "UNMATCHEDINGENDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate Unmatched Ingenuity, the character needs to spend only 1 Destiny Point instead of the normal 2 Destiny Points.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ingenuity"
+    },
+    {
+        "Key": "UNMATCHEDINGENQUALITY",
+        "Name": "Quality: Breach",
+        "Description": "The character may also apply the Breach item quality to the weapon or item.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Fully Operational"
+        },
+        "Custom": "CustomItem",
+        "SigAbility": "Unmatched Ingenuity"
+    },
+    {
+        "Key": "UNMATCHEDINGENQUALITY2",
+        "Name": "Quality: Concussive",
+        "Description": "The character may also apply the Concussive item quality to the weapon or item.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Fully Operational"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Ingenuity"
+    },
+    {
+        "Key": "UNMATCHEDINGENREDUCEDIFF",
+        "Name": "Reduced Difficulty",
+        "Description": "The difficulty of the skill check to activate Unmatched Ingenuity is [B]Average ([DI][DI])[b] instead of [B]Hard ([DI][DI][DI])[b].",
+        "Source": {
+            "_Page": "35",
+            "__text": "Fully Operational"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ingenuity"
+    },
+    {
+        "Key": "PROPHECYBASE",
+        "Name": "Prophecy Base Ability",
+        "Description": "Once per game session, the character may spend 1 Destiny Point and make a [B]Hard ([DI][DI][DI]) Vigilance check[b] to utter a prophecy. If they succeed, they foretell a single event, the focus of which is centered around themself. At any time before the end of the game session. they may spend 1 Destiny Point, at which point the foretold event transpires. The GM should interpret the prophecy to fit the scene, possibly revealing truths the character did not foresee in the process.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Prophecy"
+    },
+    {
+        "Key": "PROPHECYSETBACK",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from the check to activate Prophecy.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Prophecy"
+    },
+    {
+        "Key": "PROPHECYFLOW",
+        "Name": "Flow of the Universe",
+        "Description": "Add [BO] to the character's checks to bring the foretold event to fruition.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Prophecy"
+    },
+    {
+        "Key": "PROPHECYSHAREV",
+        "Name": "Shared Revelation",
+        "Description": "The prophecy may pertain to any one other character who hears it.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Prophecy"
+    },
+    {
+        "Key": "PROPHECYRECUR",
+        "Name": "Recurrence",
+        "Description": "One additional time before the end of the game session, the character may spend 1 Destiny Point to have to prophecy's foretold event recur, likely in a different form.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Prophecy"
+    },
+    {
+        "Key": "PROPHECYREDIFF",
+        "Name": "Reduce Difficulty",
+        "Description": "Reduce the difficulty of the skill check to activate Prophecy to [B]Average ([DI][DI])[b].",
+        "Source": {
+            "_Page": "37",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Prophecy"
+    },
+    {
+        "Key": "PROPHECYDOOM",
+        "Name": "Doom",
+        "Description": "Add [SE] to any character's checks to prevent the foretold event from occurring.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Prophecy"
+    },
+    {
+        "Key": "PROPHECYDESTINY",
+        "Name": "Destiny",
+        "Description": "Prophecy costs 1 fewer Destiny Points to activate, it still requires a Destiny Point to trigger the occurrence of the prophesised event.",
+        "Source": {
+            "_Page": "37",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Prophecy"
+    },
+    {
+        "Key": "UNMATCHEDDESTBASE",
+        "Name": "Unmatched Destiny Base Ability",
+        "Description": "Once per game session, after making a Force power check, the character may spend 2 Destiny Points to reroll up to 2 Force dice. Conflict generated as part of this Force power check is doubled.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Destiny"
+    },
+    {
+        "Key": "UNMATCHEDDESTINCNUMB",
+        "Name": "Increase Number",
+        "Description": "Reroll up to 1 additional Force die per Increase Number upgrade.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Destiny"
+    },
+    {
+        "Key": "UNMATCHEDDESTDESTINY",
+        "Name": "Destiny",
+        "Description": "Unmatched Destiny costs 1 fewer Destiny Points to activate.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Destiny"
+    },
+    {
+        "Key": "UNMATCHEDDESTSHADEST",
+        "Name": "Shared Destiny",
+        "Description": "Unmatched Destiny can be used after another character at short range makes a Force power check.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Destiny"
+    },
+    {
+        "Key": "UNMATCHEDDESTFREQ",
+        "Name": "Frequency",
+        "Description": "Unmatched Destiny can be used 1 additional time per session.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Destiny"
+    },
+    {
+        "Key": "UNMATCHEDDESTUNPOWER",
+        "Name": "Unleashed Power",
+        "Description": "For each [LI][LI] result, add automatic [LI] to the check.\n[P]For each [DA][DA] result, add automatic [DA] to the check.",
+        "Source": {
+            "_Page": "38",
+            "__text": "Unlimited Power"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Destiny"
+    },
+    {
+        "Key": "DEADREPBASE",
+        "Name": "Deadly Reputation Base Ability",
+        "Description": "Once per session as an incidental, the character may spend 2 Destiny Points to activate Deadly Reputation. Until the end of the character's next turn, increase the difficulty of all skill checks targeting the character by one.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Deadly Reputation"
+    },
+    {
+        "Key": "DEADREPDURATION",
+        "Name": "Duration",
+        "Description": "Deadly Reputation lasts for one additional turn.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Deadly Reputation"
+    },
+    {
+        "Key": "DEADREPASSOCIATION",
+        "Name": "Deadly by Association",
+        "Description": "Deadly Reputation also affect checks targeting the character's allies.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Deadly Reputation"
+    },
+    {
+        "Key": "DEADREPSETBACK",
+        "Name": "Add Setback",
+        "Description": "Add [SE] to checks affected by Deadly Reputation.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Deadly Reputation"
+    },
+    {
+        "Key": "DEADREPEFFECT",
+        "Name": "Increase Effect",
+        "Description": "Upgrade the difficulty of checks affected by Deadly Reputation.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Deadly Reputation"
+    },
+    {
+        "Key": "DEADREPDESTINY",
+        "Name": "Destiny",
+        "Description": "Deadly Reputation costs 1 fewer Destiny Point to activate.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Deadly Reputation"
+    },
+    {
+        "Key": "UNMATCHEDFERBASE",
+        "Name": "Unmatched Ferocity Base Ability",
+        "Description": "Once per session after resolving a successful Melee combat check against a target engaged with the character, the character may spend 2 Destiny Points. The character then suffers 4 strain and 1 Conflict to immediately make a Melee attack as an incidental against the same target, increasing the difficulty of tile check by one, to a maximum difficulty of [B]Formidable ([DI][DI][DI][DI][DI])[b]. If successful, the character may repeat the process (suffering further strain and Conflict).",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFERSTRAIN",
+        "Name": "Reduce Strain",
+        "Description": "Reduce the strain suffered to make additional attacks by 1.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFERBRAWL",
+        "Name": "Change Skill (Brawl)",
+        "Description": "The character may activate Unmatched Ferocity after a successful Brawl check.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFERLIGHTSABER",
+        "Name": "Change Skill (Lightsaber)",
+        "Description": "The character may activate Unmatched Ferocity after a successful Lightsaber check.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFERDESTINY",
+        "Name": "Destiny",
+        "Description": "Unmatched Ferocity costs 1 fewer Destiny Point to activate.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFERTARGET",
+        "Name": "Change Target",
+        "Description": "The character may choose a different target for each attack made as a result of Unmatched Ferocity.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFERCONFLICT",
+        "Name": "Reduce Conflict",
+        "Description": "The character may choose to suffer an additional 2 strain instead of 1 Conflict to activate Unmatched Ferocity.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "COUNTERESPIONAGEBASE",
+        "Name": "Counterespionage Base Ability",
+        "Description": "Once per game session the character may spend 2 Destiny Points to make an [B]opposed Knowledge (Warfare) vs. Deception check[b] against an identified enemy agent or espionage leader. If successful, the character utterly foils one previously identified ploy or tactic associated with that enemy’s act of espionage. The exact nature of how the character accomplishes this must be approved by the GM, but should be suitably cunning and clever. Note that the enemy character does not need to be physically present or near the character for this ability to be used, and that the GM has final say on which NPCs are valid targets.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "COUNTERESPIONAGEBOOST",
+        "Name": "Add Boost",
+        "Description": "When making the skill check to activate Counterespionage, the character adds [BO] per Add Boost upgrade.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "COUNTERESPIONAGECHARM",
+        "Name": "Change Skill (Charm)",
+        "Description": "The skill check the character makes as part of using Counterespionage can be made using Charm instead of Knowledge (Warfare).",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "COUNTERESPIONAGENEGOTIATION",
+        "Name": "Change Skill (Negotiation)",
+        "Description": "The skill check the character makes as part of using Counterespionage can be made using Negotiation instead of Knowledge (Warfare).",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "COUNTERESPIONAGESETBACK",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from the character’s skill check as part of using Counterespionage.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "COUNTERESPIONAGEDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate Counterespionage, the character needs to spend only one Destiny Point instead of the normal two Destiny Points.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "COUNTERESPIONAGETURN",
+        "Name": "Turn Agent",
+        "Description": "Spend [TR] on a successful check to activate Counterespionage to turn one identified enemy agent into a double agent secretly working for the character.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "UNMATCHEDTRADBASE",
+        "Name": "Unmatched Tradecraft Base Ability",
+        "Description": "Once per session as an incidental, after the player rolls the dice for a Deception check but before resolving the results, he may spend 2 Destiny Points to remove one the rolled [DI] from the pool. The results from the [DI] are ignored, and the check is then resolved as normal.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADSETBACK",
+        "Name": "Increase Effect (Setback)",
+        "Description": "Unmatched Tradecraft may also be used on [SE].",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADCHALLENGE",
+        "Name": "Increase Effect (Challenge)",
+        "Description": "Unmatched Tradecraft may also be used on [CH].",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADNUMBER",
+        "Name": "Increase Number",
+        "Description": "The number of dice removed through Unmatched Tradecraft increases by one per Increase Number upgrade.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADSTEALTH",
+        "Name": "Change Skill (Stealth)",
+        "Description": "Unmatched Tradecraft may be used with the Stealth skill instead of Deception.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADSKULDUGGERY",
+        "Name": "Change Skill (Skulduggery)",
+        "Description": "Unmatched Tradecraft may be used with the Skulduggery skill instead of Deception.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate Unmatched Tradecraft, the character needs to spend only one Destiny Point instead of the normal two Destiny Points.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADFREQ",
+        "Name": "Frequency",
+        "Description": "Unmatched Tradecraft can be used an additional time per game session.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "AddedItem",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "DEADLYREPADDSETBACK",
+        "Name": "Add Setback",
+        "Description": "Add [SE] to checks affected by Deadly Reputation.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Deady Reputation"
+    },
+    {
+        "Key": "UNMATCHEDFEROCITYSKILL1",
+        "Name": "Change Skill - Brawl",
+        "Description": "The character may activate Unmatched Ferocity after a successful Brawl check.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFEROCITYSKILL2",
+        "Name": "Change Skill - Lightsaber",
+        "Description": "The character may activate Unmatched Ferocity after a successful Lightsaber check.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFEROCITYCHANGETARGET",
+        "Name": "Change Target",
+        "Description": "The character may choose a different target for each attack made as a result of Unmatched Ferocity.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "DEADLYREPASSOCIATION",
+        "Name": "Deadly By Association",
+        "Description": "Deadly Reputation also affect checks targeting the character's allies.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Deady Reputation"
+    },
+    {
+        "Key": "DEADLYREPBASE",
+        "Name": "Deadly Reputation Base Ability",
+        "Description": "Once per session as an incidental, the character may spend 2 Destiny Points to activate Deadly Reputation. Until the end of the character's next turn, increase the difficulty of all skill checks targeting the character by one.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Deady Reputation"
+    },
+    {
+        "Key": "UNMATCHEDFEROCITYDESTINY",
+        "Name": "Destiny",
+        "Description": "Unmatched Ferocity costs 1 fewer Destiny Point to activate.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "DEADLYREPDESTINY",
+        "Name": "Destiny",
+        "Description": "Deadly Reputation costs 1 fewer Destiny Point to activate.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Deady Reputation"
+    },
+    {
+        "Key": "DEADLYREPDURATION",
+        "Name": "Increase Duration",
+        "Description": "Deadly Reputation lasts for one additional turn.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Deady Reputation"
+    },
+    {
+        "Key": "DEADLYREPINCREASEEFFECT",
+        "Name": "Increase Effect",
+        "Description": "Upgrade the difficulty of checks affected by Deadly Reputation.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Deady Reputation"
+    },
+    {
+        "Key": "UNMATCHEDFEROCITYREDUCECONFLICT",
+        "Name": "Reduce Conflict",
+        "Description": "The character may choose to suffer an additional 2 strain instead of 1 Conflict to activate Unmatched Ferocity.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFEROCITYREDUCESTRAIN",
+        "Name": "Reduce Strain",
+        "Description": "Reduce the strain suffered to make additional attacks by 1.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "UNMATCHEDFEROCITYBASE",
+        "Name": "Unmatched Ferocity Base Ability",
+        "Description": "Once per session after resolving a successful Melee combat check against a target engaged with the character, the character may spend 2 Destiny Points. The character then suffers 4 strain and 1 Conflict to immediately make a Melee attack as an incidental against the same target, increasing the difficulty of tile check by one, to a maximum difficulty of [B]Formidable ([DI][DI][DI][DI][DI])[b]. If successful, the character may repeat the process (suffering further strain and Conflict).",
+        "Source": {
+            "_Page": "35",
+            "__text": "Knights of Fate"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Ferocity"
+    },
+    {
+        "Key": "COUNTERESPBOOST",
+        "Name": "Add Boost",
+        "Description": "When making the skill check to activate Counterespionage, the character adds [BO] per Add Boost upgrade.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "COUNTERESPSKILL1",
+        "Name": "Change Skill (Charm)",
+        "Description": "The skill check the character makes as part of using Counterespionage can be made using Charm instead of Knowledge (Warfare).",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "COUNTERESPSKILL2",
+        "Name": "Change Skill (Negotiation)",
+        "Description": "The skill check the character makes as part of using Counterespionage can be made using Negotiation instead of Knowledge (Warfare).",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "UNMATCHEDTRADESKILL2",
+        "Name": "Change Skill (Skulduggery)",
+        "Description": "Unmatched Tradecraft may be used with the Skulduggery skill instead of Deception.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADESKILL1",
+        "Name": "Change Skill (Stealth)",
+        "Description": "Unmatched Tradecraft may be used with the Stealth skill instead of Deception.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "COUNTERESPBASE",
+        "Name": "Counterespionage Base Ability",
+        "Description": "Once per game session the character may spend 2 Destiny Points to make an [B]opposed Knowledge (Warfare) vs. Deception check[b] against an identified enemy agent or espionage leader. If successful, the character utterly foils one previously identified ploy or tactic associated with that enemy’s act of espionage. The exact nature of how the character accomplishes this must be approved by the GM, but should be suitably cunning and clever. Note that the enemy character does not need to be physically present or near the character for this ability to be used, and that the GM has final say on which NPCs are valid targets.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "UNMATCHEDTRADEDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate Unmatched Tradecraft, the character needs to spend only one Destiny Point instead of the normal two Destiny Points.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "COUNTERESPDESTINY",
+        "Name": "Destiny",
+        "Description": "To activate Counterespionage, the character needs to spend only one Destiny Point instead of the normal two Destiny Points.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "FREQUENCY",
+        "Name": "Frequency",
+        "Description": "Unmatched Tradecraft can be used an additional time per game session.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADEINCREASEEFFECT2",
+        "Name": "Increase Effect (Challenge)",
+        "Description": "Unmatched Tradecraft may also be used on [CH].",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADEINCREASEEFFECT1",
+        "Name": "Increase Effect (Setback)",
+        "Description": "Unmatched Tradecraft may also be used on [SE].",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTRADEINCREASENUMBER",
+        "Name": "Increase Number",
+        "Description": "The number of dice removed through Unmatched Tradecraft increases by one per Increase Number upgrade.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "COUNTERESPREDUCESETBACK",
+        "Name": "Reduce Setback",
+        "Description": "Remove [SE] from the character’s skill check as part of using Counterespionage.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "COUNTERESPTURNAGENT",
+        "Name": "Turn Agent",
+        "Description": "Spend [TR] on a successful check to activate Counterespionage to turn one identified enemy agent into a double agent secretly working for the character.",
+        "Source": {
+            "_Page": "34",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Counterespionage"
+    },
+    {
+        "Key": "UNMATCHEDTRADEBASE",
+        "Name": "Unmatched Tradecraft Base Ability",
+        "Description": "Once per session as an incidental, after the player rolls the dice for a Deception check but before resolving the results, he may spend 2 Destiny Points to remove one the rolled [DI] from the pool. The results from the [DI] are ignored, and the check is then resolved as normal.",
+        "Source": {
+            "_Page": "35",
+            "__text": "Cyphers and Masks"
+        },
+        "Custom": "DescOnly",
+        "SigAbility": "Unmatched Tradecraft"
+    },
+    {
+        "Key": "UNMATCHEDTEAMBASE",
+        "Name": "Unmatched Teamwork Base Ability",
+        "Description": "Once per session as an icidental, the character may spend 2 Destiny Points to activate Unmatched Teamwork. Until the end of the encounter, the character may assist another character as an incidental (instead of a maneuver) once per round.",
+        "Source": {
+            "_Page": "46",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Unmatched Teamwork"
+    },
+    {
+        "Key": "UNMATCHEDTEAMINCREASESUC",
+        "Name": "Increase Effect:  Success",
+        "Description": "The character's assistance instead adds [SU]",
+        "Source": {
+            "_Page": "46",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Unmatched Teamwork"
+    },
+    {
+        "Key": "UNMATCHEDTEAMINCREASESUCADV",
+        "Name": "Increase Effect:  Success and Advantage",
+        "Description": "The character's assistance instead adds [SU] [AD]",
+        "Source": {
+            "_Page": "46",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Unmatched Teamwork"
+    },
+    {
+        "Key": "UNMATCHEDTEAMINCREASETRI",
+        "Name": "Increase Effect:  Triumph",
+        "Description": "The character's assistance instead adds [TR]",
+        "Source": {
+            "_Page": "46",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Unmatched Teamwork"
+    },
+    {
+        "Key": "UNMATCHEDTEAMREMSETBACK",
+        "Name": "Remove Setback",
+        "Description": "The character's assistance also removes [SE]",
+        "Source": {
+            "_Page": "46",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Unmatched Teamwork"
+    },
+    {
+        "Key": "UNMATCHEDTEAMINCREASERANGE",
+        "Name": "Increase Range",
+        "Description": "Increase the range at which the character can provide assistance by one range band.",
+        "Source": {
+            "_Page": "46",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Unmatched Teamwork"
+    },
+    {
+        "Key": "UNMATCHEDTEAMCAMARADERIE",
+        "Name": "Camaraderie",
+        "Description": "When the character provides assistance, they heal 2 strain from themself.",
+        "Source": {
+            "_Page": "46",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Unmatched Teamwork"
+    },
+    {
+        "Key": "UNMATCHEDTEAMDESTINY",
+        "Name": "Destiny",
+        "Description": "Unmatched Teamwork costs 1 fewer Destiny point to activate.",
+        "Source": {
+            "_Page": "46",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Unmatched Teamwork"
+    },
+    {
+        "Key": "PEERLESSINTERCEPBASE",
+        "Name": "Peerless Interception Base Ability",
+        "Description": "Once per session as an out-of-turn incidental, the character may spend 2 Destiny Po1nlS to activate Peerless interception. For the next two rounds, when the character uses Parry or Reflect to reduce the damage of a hit, they reduce the damage by an add1t1ona1 amount equal to their Force rating.",
+        "Source": {
+            "_Page": "47",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Peerless Interception"
+    },
+    {
+        "Key": "PEERLESSINTERCEPDESTINY",
+        "Name": "Destiny",
+        "Description": "Peerless Interception costs 1 fewer Destiny Point to activate",
+        "Source": {
+            "_Page": "47",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Peerless Interception"
+    },
+    {
+        "Key": "PEERLESSINTERCEPINCREASEDUR",
+        "Name": "Increase Duration",
+        "Description": "Peerless Interception lasts for one additional round.",
+        "Source": {
+            "_Page": "47",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Peerless Interception"
+    },
+    {
+        "Key": "PEERLESSINTERCEPCRITCOUNT",
+        "Name": "Critical Counter",
+        "Description": "When the character spends [DE] to inflict a hit on their attacker using Improved Parry or Improved Reflect, they also inflict a Critical Injury.",
+        "Source": {
+            "_Page": "47",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Peerless Interception"
+    },
+    {
+        "Key": "PEERLESSINTERCEPREDUCESTR",
+        "Name": "Reduce Strain",
+        "Description": "The character only suffers strain the first time they use Parry or Reflect each round.",
+        "Source": {
+            "_Page": "47",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Peerless Interception"
+    },
+    {
+        "Key": "PEERLESSINTERCEPACTIVATEQUAL",
+        "Name": "Activate Quality",
+        "Description": "When the character uses Improved Parry or Improved Reflect to inflict a hit on an attacker, they may activate one item quality.",
+        "Source": {
+            "_Page": "47",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Peerless Interception"
+    },
+    {
+        "Key": "PEERLESSINTERCEPEFFORTCOUNT",
+        "Name": "Effortless Counter",
+        "Description": "Once per round, character may use Improved Parry or Improved Reflect to inflict a hit on their attacker without spending [TH] or [DE].",
+        "Source": {
+            "_Page": "47",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Peerless Interception"
+    },
+    {
+        "Key": "PEERLESSINTERCEPINCFREQU",
+        "Name": "Increase Frequency",
+        "Description": "The character may activate Peerless Interception one additional time per session.",
+        "Source": {
+            "_Page": "47",
+            "__text": "Collapse of the Republic"
+        },
+        "SigAbility": "Peerless Interception"
+    }
+]

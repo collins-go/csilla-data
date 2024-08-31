@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Brawn",
+        "Key": "BR"
+    },
+    {
+        "Name": "Agility",
+        "Key": "AG"
+    },
+    {
+        "Name": "Intellect",
+        "Key": "INT"
+    },
+    {
+        "Name": "Cunning",
+        "Key": "CUN"
+    },
+    {
+        "Name": "Willpower",
+        "Key": "WIL"
+    },
+    {
+        "Name": "Presence",
+        "Key": "PR"
+    }
+]

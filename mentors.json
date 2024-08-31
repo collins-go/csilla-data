@@ -1,0 +1,168 @@
+{
+  "MentorHistory": {
+    "Training": [
+      {
+        "Title": "Trained by the Jedi",
+        "Description": "Before the Clone Wars, the Jedi Order was ten thousand strong, with thousands more washed-out Padawans working in the Jedi Service Corps. While a mentor with Jedi training conjures imagery of an aged Jedi Knight or Master, perhaps some only received partial training before the Order was          destroyed. Others, like Ahsoka Tano, left the Order, discontinuing any training. GMs might develop the former masters of such mentors, and consider why their training ended prematurely. The mentor's former master might even appear later as a new mentor or adversary!"
+      },
+      {
+        "Title": "Trained Elsewhere",
+        "Description": "Despite the Jedi dominance of the previous era, countless Force sects exist throughout the galaxy. Some come from worlds never incorporated into the Republic, like the wizards of Weik, while others developed in parallel even after joining the Republic, such as the Baran Do Sages, Dagoyan Masters, and Gand Findsmen. Other sects utilize techniques considered unnatural. such as the Sith Lords or Nightsisters. Most Force traditions are limited to a single planet or species, making it difficult for outsiders to grasp some of their teachings."
+      },
+      {
+        "Title": "Self-Taught",
+        "Description": "Many Force sensitives go undiscovered, by either failing the test for Force sensitivity or failing to be tested. However, their connection to the Force is no less real or full of potential. Some use the Force instinctively, unaware that their luck is a product of the Force. Others recognize their connection and appropriate any means of training available. While such mentors might be unable to translate their experiences into lessons effectively, they may have a hoard of documents and recordings gathered over decades that shed more light."
+      }
+    ],
+    "TheCloneWars": [
+      {
+        "Title": "Clone Wars Veteran",
+        "Description": "Force users fought alongside the Republic's clones and Separatist droids alike, their every action potentially affecting millions. Alternatively, the mentor might have served in a planetary defense force or mercenary unit working for either side, or even playing both against each other. How do allies, enemies, and locals remember the mentor's actions on the battlefield? Was the mentor a hero, butcher, or coward? Did the mentor lose any comrades in battle? Is the mentor in conlact with an old unit? Are surviving comrades loyal to their old commander, the Empire, the Rebellion, or something else?"
+      },
+      {
+        "Title": "Conscientious Objector",
+        "Description": "Not everyone was willing to fight, and many fled into the Unknown Regions or Wild Space in rejection of a galaxy Inflamed with bloodlust. Did the mentor go into hiding or openly protest the conflict only to be branded a traitor or arrested? Why did the mentor object to the Clone Wars? Was it purely ideological, or did somelhing happen to purge the taste for battle? Does the mentor regret or stand by those wartime decisions? How does the mentor feel about fighting the Empire?"
+      },
+      {
+        "Title": "Civilian",
+        "Description": "Not all mentors fought in the Clone Wars; many were bystanders to or victims of the conflict. Was the mentor's family collateral damage during an air strike? Did a military invasion make the mentor a refugee, led to safety by a Force user? Did the mentor somehow escape any harm thanks to special connections? Does the mentor blame a faction or person for certain experiences? What became of the mentor's friends, family, and community? Can the mentor ever return home?"
+      }
+    ],
+    "SurvivingThePurge": [
+      {
+        "Title": "On the Run",
+        "Description": "How long has the mentor been running? How far behind are Imperial agents? What resources does the mentor have to run with? Does the mentor have a goal beyond survival? Mentors who ran might have passed through hundreds of worlds and worked several different jobs, never stopping long. Paranoia has kept this mentor safe. and aspiring students might struggle to earn such a mentor's trust."
+      },
+      {
+        "Title": "In Hiding",
+        "Description": " How long has the mentor been hiding? Where is the mentor hiding? Does the Empire think the mentor is dead? How has isolation changed the mentor? Are locals aware of the mentor, and if so, what do they say or know? Do locals consider the mentor an eccentric old hermit? Mentors isolated for too long can be unpleasant, with few social graces. This might distract students from recognizing what the mentor has to offer."
+      },
+      {
+        "Title": "Resisting",
+        "Description": "What made the mentor fight? Was it a sense of revenge, rage, despair, or duty? Who fights alongside the mentor? What position does the mentor hold within the group? What sort of operations does the mentor conduct? Does the mentor hide or flaunt his Force powers? While such mentors often welcome students, a history of open defiance or resistance against the Empire draws notice from Imperial agents. Any students the mentor takes on are likely to become priority Imperial targets quickly."
+      },
+      {
+        "Title": "Captured",
+        "Description": "Did the mentor try to run, hide, or fight before being captured? Is the mentor still held by the Empire? Was the prisoner released, or did he engineer an escape? Did the mentor give anything up under interrogation? Those who have dealt with prison are likely to bring a host of problems with them. The mentor might require the party to arrange a breakout, or interrogation might have broken the mentor's fighting spirit. The mentor might be monitored by the Empire in the hope of being led to Force sensitives. or the mentor might even be an Imperial agent."
+      }
+    ]
+  },
+  "MentorPersonality": [
+    {
+      "Style": "Parental",
+      "Details": ""
+    },
+    {
+      "Style": "Critical",
+      "Details": ""
+    },
+    {
+      "Style": "Complimentary",
+      "Details": ""
+    },
+    {
+      "Style": "Cryptic",
+      "Details": ""
+    },
+    {
+      "Style": "Detached",
+      "Details": ""
+    },
+    {
+      "Style": "Partner",
+      "Details": ""
+    },
+    {
+      "Style": "Adversarial",
+      "Details": ""
+    }
+  ],
+  "MentorComplications": [
+    {
+      "Complication": "Physically Wounded",
+      "Details": ""
+    },
+    {
+      "Complication": "Strict",
+      "Details": ""
+    },
+    {
+      "Complication": "Remote",
+      "Details": ""
+    },
+    {
+      "Complication": "No Force Connection",
+      "Details": ""
+    },
+    {
+      "Complication": "Angry",
+      "Details": ""
+    },
+    {
+      "Complication": "Afraid",
+      "Details": ""
+    },
+    {
+      "Complication": "Attached",
+      "Details": ""
+    },
+    {
+      "Complication": "Addict",
+      "Details": ""
+    },
+    {
+      "Complication": "Psychologically Wounded",
+      "Details": ""
+    }
+  ],
+  "MentorForceTraditions": [
+    {
+      "Tradition": "Baran Do Sages",
+      "Description": "",
+      "Benefit": {
+        "Discounts": [{ "Power": "", "Discount": 0 }],
+        "Description": ""
+      },
+      "Drawback": {
+        "Cost": 0,
+        "Description": ""
+      }
+    },
+    {
+      "Tradition": "Dagoyan Masters",
+      "Description": "",
+      "Benefit": {
+        "Discounts": [{ "Power": "", "Discount": 0 }],
+        "Description": ""
+      },
+      "Drawback": {
+        "Cost": 0,
+        "Description": ""
+      }
+    },
+    {
+      "Tradition": "Gand Findsmen",
+      "Description": "",
+      "Benefit": {
+        "Discounts": [{ "Power": "", "Discount": 0 }],
+        "Description": ""
+      },
+      "Drawback": {
+        "Cost": 0,
+        "Description": ""
+      }
+    },
+    {
+      "Tradition": "Sith Lords",
+      "Description": "",
+      "Benefit": {
+        "Discounts": [{ "Power": "", "Discount": 0 }],
+        "Description": ""
+      },
+      "Drawback": {
+        "Cost": 0,
+        "Description": ""
+      }
+    }
+  ]
+}

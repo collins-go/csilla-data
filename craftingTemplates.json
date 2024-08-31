@@ -1,0 +1,3254 @@
+[
+    {
+        "Key": "ARMORREINF",
+        "Name": "Reinforced Clothing",
+        "Description": "Reinforced Clothing",
+        "Source": {
+            "_Page": "90",
+            "__text": "Keeping the Peace"
+        },
+        "TempType": "Armor",
+        "MaterialCost": "25",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "TimeHours": "6",
+        "CheckSkills": [
+            "MECH",
+            "SURV"
+        ],
+        "CheckDifficulty": "2",
+        "ArmorProfile": {
+            "Name": "Reinforced Clothing",
+            "Rarity": "-1",
+            "Encumbrance": "1",
+            "HP": "0",
+            "BaseMods": "",
+            "WeaponModifiers": "",
+            "Defense": "0",
+            "Soak": "1"
+        }
+    },
+    {
+        "Key": "ARMORLT",
+        "Name": "Light Armor",
+        "Description": "Light Armor",
+        "Source": {
+            "_Page": "90",
+            "__text": "Keeping the Peace"
+        },
+        "TempType": "Armor",
+        "TimeHours": "12",
+        "CheckSkills": [
+            "MECH",
+            "SURV"
+        ],
+        "CheckDifficulty": "2",
+        "MaterialCost": "250",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "ArmorProfile": {
+            "Encumbrance": "2",
+            "Rarity": "-1",
+            "HP": "0",
+            "BaseMods": "",
+            "WeaponModifiers": "",
+            "Defense": "0",
+            "Soak": "2"
+        }
+    },
+    {
+        "Key": "ARMORCUST",
+        "Name": "Customizable Armor",
+        "Description": "Customizable Armor",
+        "Source": {
+            "_Page": "90",
+            "__text": "Keeping the Peace"
+        },
+        "TempType": "Armor",
+        "TimeHours": "16",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "500",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "ArmorProfile": {
+            "Rarity": "-1",
+            "Encumbrance": "4",
+            "HP": "4",
+            "Defense": "0",
+            "Soak": "1"
+        }
+    },
+    {
+        "Key": "ARMORDEFL",
+        "Name": "Deflective Armor",
+        "Description": "Deflective Armor",
+        "Source": {
+            "_Page": "90",
+            "__text": "Keeping the Peace"
+        },
+        "TempType": "Armor",
+        "TimeHours": "24",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "500",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "false",
+        "ArmorProfile": {
+            "Rarity": "-1",
+            "Encumbrance": "2",
+            "HP": "1",
+            "Defense": "1",
+            "Soak": "1"
+        }
+    },
+    {
+        "Key": "ARMORCOMBAT",
+        "Name": "Combat Armor",
+        "Description": "Combat Armor",
+        "Source": {
+            "_Page": "90",
+            "__text": "Keeping the Peace"
+        },
+        "TempType": "Armor",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "1250",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "ArmorProfile": {
+            "Rarity": "-1",
+            "Encumbrance": "4",
+            "HP": "3",
+            "Defense": "0",
+            "Soak": "2"
+        }
+    },
+    {
+        "Key": "ARMORSEG",
+        "Name": "Segmented Armor",
+        "Description": "Segmented Armor",
+        "Source": {
+            "_Page": "90",
+            "__text": "Keeping the Peace"
+        },
+        "TempType": "Armor",
+        "TimeHours": "72",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "2500",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "true",
+        "ArmorProfile": {
+            "Rarity": "-1",
+            "Encumbrance": "6",
+            "HP": "4",
+            "BaseMods": "",
+            "WeaponModifiers": "",
+            "Defense": "1",
+            "Soak": "2"
+        }
+    },
+    {
+        "Key": "ARMORAUG",
+        "Name": "Augmentative Armor",
+        "Description": "Augmentative Armor",
+        "Source": {
+            "_Page": "90",
+            "__text": "Keeping the Peace"
+        },
+        "TempType": "Armor",
+        "TimeHours": "120",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "5",
+        "MaterialCost": "4500",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "true",
+        "ArmorProfile": {
+            "Rarity": "-1",
+            "Encumbrance": "6",
+            "HP": "6",
+            "BaseMods": "",
+            "WeaponModifiers": "",
+            "Defense": "2",
+            "Soak": "2"
+        }
+    },
+    {
+        "Key": "BRAWLFIST",
+        "Name": "Fist Weapon",
+        "Description": "Fist Weapon",
+        "Source": {
+            "_Page": "76",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Brawl or Melee Weapon",
+        "TimeHours": "4",
+        "CheckSkills": [
+            "MECH",
+            "SURV"
+        ],
+        "CheckDifficulty": "2",
+        "MaterialCost": "10",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "BRAWL",
+            "DamageAdd": "1",
+            "Crit": "4",
+            "RangeValue": "Engaged",
+            "Encumbrance": "1",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Brawling",
+            "Hands": "whOneHanded",
+            "Categories": "Brawl",
+            "Qualities": [
+                {
+                    "Key": "DISORIENT",
+                    "Count": "3"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "BRAWLBLUNT",
+        "Name": "Blunt Weapon",
+        "Description": "Blunt Weapon",
+        "Source": {
+            "_Page": "76",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Brawl or Melee Weapon",
+        "TimeHours": "6",
+        "CheckSkills": [
+            "MECH",
+            "SURV"
+        ],
+        "CheckDifficulty": "1",
+        "MaterialCost": "5",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "MELEE",
+            "DamageAdd": "2",
+            "Crit": "5",
+            "RangeValue": "Engaged",
+            "Encumbrance": "3",
+            "HP": "1",
+            "Rarity": "-1",
+            "Type": "Melee",
+            "Hands": "whOneHanded",
+            "Categories": "Melee",
+            "Qualities": [
+                {
+                    "Key": "DISORIENT",
+                    "Count": "2"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "MELEESHIELD",
+        "Name": "Shield",
+        "Description": "Shield",
+        "Source": {
+            "_Page": "76",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Brawl or Melee Weapon",
+        "TimeHours": "8",
+        "CheckSkills": [
+            "MECH",
+            "SURV"
+        ],
+        "CheckDifficulty": "2",
+        "MaterialCost": "10",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "MELEE",
+            "DamageAdd": "0",
+            "Crit": "5",
+            "RangeValue": "Engaged",
+            "Encumbrance": "1",
+            "HP": "4",
+            "Rarity": "-1",
+            "Type": "Melee",
+            "Hands": "whOneHanded",
+            "Categories": [
+                "Shield",
+                "Melee"
+            ],
+            "Qualities": [
+                {
+                    "Key": "DEFENSIVE",
+                    "Count": "1"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "MELEEBLADED",
+        "Name": "Bladed Weapon",
+        "Description": "Bladed Weapon",
+        "Source": {
+            "_Page": "76",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Brawl or Melee Weapon",
+        "TimeHours": "16",
+        "CheckSkills": [
+            "MECH",
+            "SURV"
+        ],
+        "CheckDifficulty": "2",
+        "MaterialCost": "10",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "MELEE",
+            "DamageAdd": "1",
+            "Crit": "3",
+            "RangeValue": "Engaged",
+            "Encumbrance": "2",
+            "HP": "1",
+            "Rarity": "-1",
+            "Type": "Melee",
+            "Hands": "whOneHanded",
+            "Categories": "Melee",
+            "Qualities": ""
+        }
+    },
+    {
+        "Key": "MELEEVIBRO",
+        "Name": "Vibro-weapon",
+        "Description": "Vibro-weapon",
+        "Source": {
+            "_Page": "76",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Brawl or Melee Weapon",
+        "TimeHours": "24",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "200",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "MELEE",
+            "DamageAdd": "1",
+            "Crit": "2",
+            "RangeValue": "Engaged",
+            "Encumbrance": "2",
+            "HP": "3",
+            "Rarity": "-1",
+            "Type": "Melee",
+            "Hands": "whOneHanded",
+            "Categories": [
+                "Melee"
+            ],
+            "Qualities": [
+                {
+                    "Key": "PIERCE",
+                    "Count": "2"
+                },
+                {
+                    "Key": "VICIOUS",
+                    "Count": "1"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "MELEEPOW",
+        "Name": "Powered Melee Weapon",
+        "Description": "Powered Melee Weapon",
+        "Source": {
+            "_Page": "76",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Brawl or Melee Weapon",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "400",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "MELEE",
+            "DamageAdd": "2",
+            "Crit": "3",
+            "RangeValue": "Engaged",
+            "Encumbrance": "3",
+            "HP": "5",
+            "Rarity": "-1",
+            "Hands": "whOneHanded",
+            "Type": "Melee",
+            "Categories": "Melee",
+            "Qualities": [
+                {
+                    "Key": "STUN",
+                    "Count": "3"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "MELEEPOWCUT",
+        "Name": "Powered Melee Weapon (Cutting Edge)",
+        "Description": "Powered Melee Weapon (Cutting Edge)",
+        "Source": {
+            "_Page": "76",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Brawl or Melee Weapon",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "400",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "MELEE",
+            "DamageAdd": "2",
+            "Crit": "3",
+            "RangeValue": "Engaged",
+            "Encumbrance": "3",
+            "HP": "5",
+            "Rarity": "-1",
+            "Hands": "whOneHanded",
+            "Type": "Melee",
+            "Categories": [
+                "Melee"
+            ],
+            "Qualities": [
+                {
+                    "Key": "STUN",
+                    "Count": "3"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "MELEEPOWBLUD",
+        "Name": "Powered Melee Weapon (Bludgeoning)",
+        "Description": "Powered Melee Weapon (Bludgeoning)",
+        "Source": {
+            "_Page": "76",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Brawl or Melee Weapon",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "400",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "MELEE",
+            "DamageAdd": "2",
+            "Crit": "3",
+            "RangeValue": "Engaged",
+            "Encumbrance": "3",
+            "HP": "5",
+            "Rarity": "-1",
+            "Hands": "whOneHanded",
+            "Type": "Melee",
+            "Categories": [
+                "Melee"
+            ],
+            "Qualities": [
+                {
+                    "Key": "STUN",
+                    "Count": "3"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDPROJ",
+        "Name": "Simple Projectile Weapon",
+        "Description": "Simple Projectile Weapon",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "4",
+        "CheckSkills": [
+            "MECH",
+            "SURV"
+        ],
+        "CheckDifficulty": "2",
+        "MaterialCost": "10",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "Categories": "Ranged",
+            "SkillKey": "RANGLT",
+            "Damage": "4",
+            "Crit": "5",
+            "RangeValue": "Short",
+            "Encumbrance": "3",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Explosives/Other",
+            "Qualities": [
+                {
+                    "Key": "LIMITEDAMMO",
+                    "Count": "1"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDSOLIDPIST",
+        "Name": "Solid Projectile Pistol",
+        "Description": "Solid Projectile Pistol",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "8",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "50",
+        "MaterialRarity": "2",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "RANGLT",
+            "Damage": "4",
+            "Crit": "5",
+            "RangeValue": "Short",
+            "Encumbrance": "1",
+            "HP": "0",
+            "Price": "100",
+            "Rarity": "-1",
+            "Type": "Slugthrower",
+            "Categories": [
+                "Ranged (Light)",
+                "Ranged"
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDSOLIDRIF",
+        "Name": "Solid Projectile Rifle",
+        "Description": "Solid Projectile Rifle",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "8",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "125",
+        "MaterialRarity": "2",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "RANGHVY",
+            "Damage": "7",
+            "Crit": "5",
+            "RangeValue": "Medium",
+            "Encumbrance": "5",
+            "HP": "1",
+            "Rarity": "-1",
+            "Type": "Slugthrower",
+            "Categories": [
+                "Ranged (Heavy)",
+                "Ranged"
+            ],
+            "Qualities": [
+                {
+                    "Key": "CUMBERSOME",
+                    "Count": "2"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDENERPIST",
+        "Name": "Energy Pistol",
+        "Description": "Energy Pistol",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "12",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "200",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "RANGLT",
+            "Damage": "6",
+            "Crit": "3",
+            "RangeValue": "Medium",
+            "Encumbrance": "1",
+            "HP": "3",
+            "Rarity": "-1",
+            "Type": "Energy Weapon",
+            "Categories": [
+                "Ranged (Light)",
+                "Ranged"
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDENERRIF",
+        "Name": "Energy Rifle",
+        "Description": "Energy Rifle",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "16",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "450",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "RANGHVY",
+            "Damage": "9",
+            "Crit": "3",
+            "RangeValue": "Long",
+            "Encumbrance": "4",
+            "HP": "4",
+            "Rarity": "-1",
+            "Type": "Energy Weapon",
+            "Categories": [
+                "Ranged (Heavy)",
+                "Ranged"
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDENERRIFHVY",
+        "Name": "Heavy Energy Rifle",
+        "Description": "Heavy Energy Rifle",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "24",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "1000",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "true",
+        "WeaponProfile": {
+            "SkillKey": "GUNN",
+            "Damage": "10",
+            "Crit": "3",
+            "RangeValue": "Long",
+            "Encumbrance": "6",
+            "HP": "4",
+            "Rarity": "-1",
+            "Type": "Energy Weapon",
+            "Categories": [
+                "Ranged (Heavy)",
+                "Ranged"
+            ],
+            "Qualities": [
+                {
+                    "Key": "CUMBERSOME",
+                    "Count": "3"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDMISSLAUNCH",
+        "Name": "Missile Launcher",
+        "Description": "Missile Launcher",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "16",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "4000",
+        "MaterialRarity": "7",
+        "MaterialRestricted": "true",
+        "WeaponProfile": {
+            "SkillKey": "GUNN",
+            "Damage": "0",
+            "Crit": "0",
+            "RangeValue": "NoRange",
+            "Encumbrance": "0",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Explosives/Other",
+            "Categories": [
+                "Ranged",
+                "Explosive"
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDMISS",
+        "Name": "Missile",
+        "Description": "Missile",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "4",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "100",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "true",
+        "WeaponProfile": {
+            "SkillKey": "GUNN",
+            "Damage": "20",
+            "Crit": "2",
+            "RangeValue": "Extreme",
+            "Encumbrance": "7",
+            "HP": "4",
+            "Rarity": "-1",
+            "Type": "Explosives/Other",
+            "Categories": [
+                "Ranged",
+                "Explosive"
+            ],
+            "Qualities": [
+                {
+                    "Key": "BLAST",
+                    "Count": "10"
+                },
+                {
+                    "Key": "BREACH",
+                    "Count": "1"
+                },
+                {
+                    "Key": "CUMBERSOME",
+                    "Count": "3"
+                },
+                {
+                    "Key": "GUIDED",
+                    "Count": "3"
+                },
+                {
+                    "Key": "PREPARE",
+                    "Count": "1"
+                },
+                {
+                    "Key": "LIMITEDAMMO",
+                    "Count": "1"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDGRENADE",
+        "Name": "Grenade",
+        "Description": "Grenade",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "2",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "35",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "WeaponProfile": {
+            "SkillKey": "RANGLT",
+            "Damage": "8",
+            "Crit": "4",
+            "RangeValue": "Short",
+            "Encumbrance": "1",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Explosives/Other",
+            "Categories": [
+                "Explosive",
+                "Grenade"
+            ],
+            "Qualities": [
+                {
+                    "Key": "BLAST",
+                    "Count": "6"
+                },
+                {
+                    "Key": "LIMITEDAMMO",
+                    "Count": "1"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "RANGEDMINE",
+        "Name": "Mine",
+        "Description": "Mine",
+        "Source": {
+            "_Page": "78",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Ranged Weapon",
+        "TimeHours": "4",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "425",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "true",
+        "WeaponProfile": {
+            "SkillKey": "MECH",
+            "Damage": "12",
+            "Crit": "3",
+            "RangeValue": "Engaged",
+            "Encumbrance": "3",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Explosives/Other",
+            "Categories": [
+                "Explosive"
+            ],
+            "Qualities": [
+                {
+                    "Key": "BLAST",
+                    "Count": "4"
+                },
+                {
+                    "Key": "LIMITEDAMMO",
+                    "Count": "1"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "LTSABERSTDH",
+        "Name": "Standard Lightsaber Hilt",
+        "Description": "Standard Lightsaber Hilt",
+        "Source": {
+            "_Page": "85",
+            "__text": "Endless Vigil"
+        },
+        "TempType": "Lightsaber",
+        "TimeHours": "6",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "100",
+        "MaterialRarity": "4",
+        "WeaponProfile": {
+            "SkillKey": "LTSABER",
+            "Damage": "0",
+            "Crit": "0",
+            "RangeValue": "Engaged",
+            "Encumbrance": "1",
+            "HP": "5",
+            "Rarity": "-1",
+            "Type": "Lightsaber",
+            "Hands": "whOneHanded",
+            "Categories": [
+                "Lightsaber"
+            ],
+            "NoMelee": "true"
+        }
+    },
+    {
+        "Key": "LTSABERPRESH",
+        "Name": "Precision Lightsaber Hilt",
+        "Description": "Precision Lightsaber Hilt",
+        "Source": {
+            "_Page": "85",
+            "__text": "Endless Vigil"
+        },
+        "TempType": "Lightsaber",
+        "TimeHours": "12",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "150",
+        "MaterialRarity": "5",
+        "WeaponProfile": {
+            "SkillKey": "LTSABER",
+            "Damage": "0",
+            "Crit": "0",
+            "RangeValue": "Engaged",
+            "Encumbrance": "1",
+            "HP": "3",
+            "Rarity": "-1",
+            "Type": "Lightsaber",
+            "Hands": "whOneHanded",
+            "Categories": [
+                "Lightsaber"
+            ],
+            "Qualities": [
+                {
+                    "Key": "ACCURATE",
+                    "Count": "1"
+                }
+            ],
+            "BaseMods": {
+                "Key": "DAMSUB",
+                "Count": "1"
+            },
+            "NoMelee": "true"
+        }
+    },
+    {
+        "Key": "LTSABERDEFH",
+        "Name": "Defensive Lightsaber Hilt",
+        "Description": "Defensive Lightsaber Hilt",
+        "Source": {
+            "_Page": "85",
+            "__text": "Endless Vigil"
+        },
+        "TempType": "Lightsaber",
+        "TimeHours": "12",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "300",
+        "MaterialRarity": "6",
+        "WeaponProfile": {
+            "SkillKey": "LTSABER",
+            "Damage": "0",
+            "Crit": "0",
+            "RangeValue": "Engaged",
+            "Encumbrance": "1",
+            "HP": "3",
+            "Rarity": "-1",
+            "Type": "Lightsaber",
+            "Hands": "whOneHanded",
+            "Categories": [
+                "Lightsaber"
+            ],
+            "Qualities": [
+                {
+                    "Key": "DEFENSIVE",
+                    "Count": "1"
+                }
+            ],
+            "BaseMods": {
+                "Key": "DAMSUB",
+                "Count": "1"
+            },
+            "NoMelee": "true"
+        }
+    },
+    {
+        "Key": "LTSABERDOUBLEH",
+        "Name": "Double-Bladed Lightsaber Hilt",
+        "Description": "Double-Bladed Lightsaber Hilt",
+        "Source": {
+            "_Page": "85",
+            "__text": "Endless Vigil"
+        },
+        "TempType": "Lightsaber",
+        "TimeHours": "12",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "300",
+        "MaterialRarity": "5",
+        "WeaponProfile": {
+            "SkillKey": "LTSABER",
+            "Damage": "0",
+            "Crit": "0",
+            "RangeValue": "Engaged",
+            "Encumbrance": "2",
+            "HP": "4",
+            "Rarity": "-1",
+            "Type": "Lightsaber",
+            "Hands": "whTwoHanded",
+            "AttachCostMult": "2",
+            "Categories": [
+                "Lightsaber"
+            ],
+            "Qualities": [
+                {
+                    "Key": "LINKED",
+                    "Count": "1"
+                },
+                {
+                    "Key": "UNWIELDY",
+                    "Count": "3"
+                }
+            ],
+            "NoMelee": "true"
+        }
+    },
+    {
+        "Key": "LTSABERPOLEH",
+        "Name": "Pole Lightsaber Hilt",
+        "Description": "Pole Lightsaber Hilt",
+        "Source": {
+            "_Page": "85",
+            "__text": "Endless Vigil"
+        },
+        "TempType": "Lightsaber",
+        "TimeHours": "12",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "150",
+        "MaterialRarity": "5",
+        "WeaponProfile": {
+            "SkillKey": "LTSABER",
+            "Damage": "0",
+            "Crit": "0",
+            "RangeValue": "Engaged",
+            "Encumbrance": "2",
+            "HP": "4",
+            "Rarity": "-1",
+            "Type": "Lightsaber",
+            "Hands": "whTwoHanded",
+            "Categories": [
+                "Lightsaber"
+            ],
+            "Qualities": [
+                {
+                    "Key": "CUMBERSOME",
+                    "Count": "3"
+                },
+                {
+                    "Key": "DEFENSIVE",
+                    "Count": "1"
+                }
+            ],
+            "NoMelee": "true"
+        }
+    },
+    {
+        "Key": "GADGETTOOLSIMP",
+        "Name": "Simple Tool",
+        "Description": "Simple Tool",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Gadget",
+        "TimeHours": "2",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "1",
+        "MaterialCost": "50",
+        "MaterialRarity": "1",
+        "MaterialRestricted": "false",
+        "TemplateSkill": {
+            "TypeValue": "stGeneral",
+            "SkillCount": "1"
+        },
+        "TemplateSkillRightTool": "true",
+        "GearProfile": {
+            "Encumbrance": "4",
+            "HP": "0",
+            "Type": "Tools/Electronics",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "This tool is the right tool for the job when making [templateSkill] checks."
+            }
+        }
+    },
+    {
+        "Key": "GADGETTOOLSPEC",
+        "Name": "Specialist Tool",
+        "Description": "Specialist Tool",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Gadget",
+        "TimeHours": "10",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "400",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "TemplateSkill": {
+            "TypeValue": "stGeneral",
+            "SkillCount": "1"
+        },
+        "TemplateSkillSuccess": "1",
+        "GearProfile": {
+            "Encumbrance": "8",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Tools/Electronics",
+            "BaseMods": {
+                "MiscDesc": "Add automatic [SU] to [templateSkill] checks when using this item."
+            }
+        }
+    },
+    {
+        "Key": "GADGETPREC",
+        "Name": "Precision Instrument",
+        "Description": "Precision Instrument",
+        "Source": {
+            "_Page": "84",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Gadget",
+        "TimeHours": "16",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "150",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "TemplateSkill": {
+            "TypeValue": "stGeneral",
+            "SkillCount": "1"
+        },
+        "TemplateSkillRemSetback": "2",
+        "GearProfile": {
+            "Encumbrance": "5",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Tools/Electronics",
+            "BaseMods": {
+                "MiscDesc": "Remove [SE][SE] from all [templateSkill] checks when using this item."
+            }
+        }
+    },
+    {
+        "Key": "CYBERPROS",
+        "Name": "Prosthetic Replacement",
+        "Description": "Prosthetic Replacement",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Cybernetic",
+        "TimeHours": "12",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "1000",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Cybernetics"
+        }
+    },
+    {
+        "Key": "CYBERAPPBR",
+        "Name": "Cybernetic Appendage (Brawn)",
+        "Description": "Cybernetic Appendage (Brawn)",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Cybernetic",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "5000",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "false",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Cybernetics",
+            "BaseMods": {
+                "Key": "BR",
+                "Count": "1"
+            }
+        }
+    },
+    {
+        "Key": "CYBERAPPAG",
+        "Name": "Cybernetic Appendage (Agility)",
+        "Description": "Cybernetic Appendage (Agility)",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Cybernetic",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "5000",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "false",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Cybernetics",
+            "BaseMods": {
+                "Key": "AG",
+                "Count": "1"
+            }
+        }
+    },
+    {
+        "Key": "CYBERIMP",
+        "Name": "Cybernetic Implant",
+        "Description": "Cybernetic Implant",
+        "Source": {
+            "_Page": "85",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Cybernetic",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "1500",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "false",
+        "TemplateSkill": {
+            "TypeValue": "stGeneral",
+            "SkillCount": "1"
+        },
+        "TemplateSkillRank": "1",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Rarity": "-1",
+            "Type": "Cybernetics",
+            "BaseMods": [
+                {
+                    "MiscDesc": "Gain one rank in [templateSkill]",
+                    "Key": "",
+                    "Count": "1"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "FORTTRENCH",
+        "Name": "Trench",
+        "Description": "Trench",
+        "Source": {
+            "_Page": "85",
+            "__text": "Forged in Battle"
+        },
+        "TempType": "ctFortification",
+        "TimeHours": "6",
+        "CheckSkills": "ATHL",
+        "CheckDifficulty": "2",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Trench",
+            "Silhouette": "2",
+            "VehicleType": "Structure",
+            "DefRanged": "3",
+            "Passengers": "6",
+            "SensorRangeValue": "None",
+            "Categories": {
+                "Category": "Fortification"
+            },
+            "Type": "Trench",
+            "Fortification": "true"
+        }
+    },
+    {
+        "Key": "FORTBUNKER",
+        "Name": "Bunker",
+        "Description": "Bunker",
+        "Source": {
+            "_Page": "86",
+            "__text": "Forged in Battle"
+        },
+        "TempType": "ctFortification",
+        "TimeHours": "36",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Bunker",
+            "Silhouette": "3",
+            "VehicleType": "Structure",
+            "Armor": "2",
+            "HullTrauma": "8",
+            "Passengers": "4",
+            "SensorRangeValue": "None",
+            "Categories": {
+                "Category": "Fortification"
+            },
+            "Type": "Bunker"
+        }
+    },
+    {
+        "Key": "FORTBLIND",
+        "Name": "Blind",
+        "Description": "Blind",
+        "Source": {
+            "_Page": "86",
+            "__text": "Forged in Battle"
+        },
+        "TempType": "ctFortification",
+        "TimeHours": "4",
+        "CheckSkills": "SURV",
+        "CheckDifficulty": "2",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Blind",
+            "Silhouette": "2",
+            "VehicleType": "Structure",
+            "Armor": "0",
+            "Passengers": "2",
+            "SensorRangeValue": "None",
+            "Categories": {
+                "Category": "Fortification"
+            },
+            "Type": "Blind",
+            "BaseMods": {
+                "Mod": {
+                    "MiscDesc": "Provides concealment equivalent to dense underbrush (Adds [SE][SE][SE] to any Ranged Light, Ranged Heavy, Gunnery, and Perception checks against concealed targets. Adds [BO][BO][BO] to any Stealth checks made by concealed characters)."
+                }
+            }
+        }
+    },
+    {
+        "Key": "VEHFRSPEEDERBIKE",
+        "Name": "Speeder Bike",
+        "Description": "Speeder Bike",
+        "Source": {
+            "_Page": "78",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "12",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "250",
+        "MaterialRarity": "1",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Speeder Bike",
+            "VehicleType": "Vehicle",
+            "Type": "Speeder Bike",
+            "Silhouette": "2",
+            "HullTrauma": "3",
+            "MaxAltitude": "15 meters",
+            "SensorRangeValue": "Close",
+            "Crew": "1",
+            "EncumbranceCapacity": "1",
+            "Passengers": "0",
+            "HP": "6",
+            "SinglePilot": "true",
+            "Categories": {
+                "Category": [
+                    "Land Vehicle",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRLANDSPEEDER",
+        "Name": "Landspeeder",
+        "Description": "Landspeeder",
+        "Source": {
+            "_Page": "78",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "24",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "500",
+        "MaterialRarity": "2",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Landspeeder",
+            "VehicleType": "Vehicle",
+            "Type": "Landspeeder",
+            "Silhouette": "2",
+            "HullTrauma": "6",
+            "MaxAltitude": "20 meters",
+            "SensorRangeValue": "Close",
+            "Crew": "1",
+            "EncumbranceCapacity": "5",
+            "Passengers": "2",
+            "HP": "8",
+            "SinglePilot": "true",
+            "Categories": {
+                "Category": [
+                    "Land Vehicle",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRAIRSPEEDER",
+        "Name": "Airspeeder",
+        "Description": "Airspeeder",
+        "Source": {
+            "_Page": "79",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "24",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "1000",
+        "MaterialRarity": "2",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Airspeeder",
+            "VehicleType": "Vehicle",
+            "Type": "Airspeeder",
+            "Silhouette": "2",
+            "HullTrauma": "5",
+            "MaxAltitude": "100 kilometers",
+            "SensorRangeValue": "Close",
+            "Crew": "1",
+            "EncumbranceCapacity": "5",
+            "Passengers": "2",
+            "HP": "8",
+            "SinglePilot": "true",
+            "Categories": {
+                "Category": [
+                    "Air Vehicle",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRWALKER",
+        "Name": "Walker",
+        "Description": "Walker",
+        "Source": {
+            "_Page": "79",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "72",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "5000",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Walker",
+            "VehicleType": "Vehicle",
+            "Type": "Walker",
+            "Silhouette": "3",
+            "HullTrauma": "15",
+            "SensorRangeValue": "Close",
+            "Crew": "1",
+            "EncumbranceCapacity": "2",
+            "Passengers": "0",
+            "HP": "9",
+            "SinglePilot": "true",
+            "Categories": {
+                "Category": [
+                    "Walker",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRSTARFIGHTER",
+        "Name": "Starfighter",
+        "Description": "Starfighter",
+        "Source": {
+            "_Page": "79",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "72",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "10000",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Starfighter",
+            "VehicleType": "Vehicle",
+            "Type": "Starfighter",
+            "Silhouette": "3",
+            "HullTrauma": "8",
+            "SensorRangeValue": "Close",
+            "Crew": "1",
+            "EncumbranceCapacity": "2",
+            "Passengers": "0",
+            "HP": "7",
+            "SinglePilot": "true",
+            "Starship": "true",
+            "Categories": {
+                "Category": [
+                    "Starship",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRFREIGHTER",
+        "Name": "Freighter",
+        "Description": "Freighter",
+        "Source": {
+            "_Page": "79",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "240",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "50000",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Freighter",
+            "VehicleType": "Vehicle",
+            "Type": "Freighter",
+            "Silhouette": "4",
+            "HullTrauma": "35",
+            "SensorRangeValue": "Close",
+            "Crew": "2",
+            "EncumbranceCapacity": "100",
+            "Passengers": "4",
+            "HP": "10",
+            "Starship": "true",
+            "Categories": {
+                "Category": [
+                    "Starship",
+                    "Non-Fighter Starship",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRSHUTTLE",
+        "Name": "Shuttle",
+        "Description": "Shuttle",
+        "Source": {
+            "_Page": "79",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "240",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "75000",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Shuttle",
+            "VehicleType": "Vehicle",
+            "Type": "Shuttle",
+            "Silhouette": "4",
+            "HullTrauma": "25",
+            "SensorRangeValue": "Short",
+            "Crew": "2",
+            "EncumbranceCapacity": "50",
+            "Passengers": "10",
+            "HP": "10",
+            "Starship": "true",
+            "Categories": {
+                "Category": [
+                    "Starship",
+                    "Non-Fighter Starship",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRCORVETTE",
+        "Name": "Corvette",
+        "Description": "Corvette",
+        "Source": {
+            "_Page": "80",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "480",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "500000",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Corvette",
+            "VehicleType": "Vehicle",
+            "Type": "Corvette",
+            "Silhouette": "5",
+            "HullTrauma": "45",
+            "SensorRangeValue": "Medium",
+            "Crew": "100 officers, pilots, and crew",
+            "EncumbranceCapacity": "500",
+            "Passengers": "200",
+            "HP": "12",
+            "Starship": "true",
+            "Categories": {
+                "Category": [
+                    "Starship",
+                    "Non-Fighter Starship",
+                    "Capital Ship",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRFRIGATE",
+        "Name": "Frigate",
+        "Description": "Frigate",
+        "Source": {
+            "_Page": "80",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "480",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "1000000",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "true",
+        "VehicleProfile": {
+            "Name": "Frigate",
+            "VehicleType": "Vehicle",
+            "Type": "Frigate",
+            "Silhouette": "6",
+            "HullTrauma": "80",
+            "SensorRangeValue": "Long",
+            "Crew": "500 officers, pilots, and crew",
+            "EncumbranceCapacity": "1000",
+            "Passengers": "250",
+            "HP": "15",
+            "Starship": "true",
+            "Categories": {
+                "Category": [
+                    "Starship",
+                    "Non-Fighter Starship",
+                    "Capital Ship",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRHVYCRUISER",
+        "Name": "Heavy Cruiser",
+        "Description": "Heavy Cruiser",
+        "Source": {
+            "_Page": "80",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "1200",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "2500000",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "true",
+        "VehicleProfile": {
+            "Name": "Heavy Cruiser",
+            "VehicleType": "Vehicle",
+            "Type": "Heavy Cruiser",
+            "Silhouette": "7",
+            "HullTrauma": "95",
+            "SensorRangeValue": "Long",
+            "Crew": "2,000 officers, pilots, and crew",
+            "EncumbranceCapacity": "5000",
+            "Passengers": "200",
+            "HP": "16",
+            "Starship": "true",
+            "Categories": {
+                "Category": [
+                    "Starship",
+                    "Non-Fighter Starship",
+                    "Capital Ship",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRDESTROYER",
+        "Name": "Destroyer",
+        "Description": "Destroyer",
+        "Source": {
+            "_Page": "80",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "1200",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "5",
+        "MaterialCost": "10000000",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "true",
+        "VehicleProfile": {
+            "Name": "Destroyer",
+            "VehicleType": "Vehicle",
+            "Type": "Destroyer",
+            "Silhouette": "8",
+            "HullTrauma": "125",
+            "SensorRangeValue": "Long",
+            "Crew": "30,000 officers, pilots, and crew",
+            "EncumbranceCapacity": "10000",
+            "Passengers": "5000",
+            "HP": "17",
+            "Starship": "true",
+            "Categories": {
+                "Category": [
+                    "Starship",
+                    "Non-Fighter Starship",
+                    "Capital Ship",
+                    "Crafted Vehicle"
+                ]
+            },
+            "BaseMods": ""
+        }
+    },
+    {
+        "Key": "VEHFRSTATION",
+        "Name": "Space Station",
+        "Description": "Space Station",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleFrame",
+        "TimeHours": "2400",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "5",
+        "MaterialCost": "50000000",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "false",
+        "VehicleProfile": {
+            "Name": "Space Station",
+            "VehicleType": "Vehicle",
+            "Type": "Space Station",
+            "Silhouette": "8",
+            "HullTrauma": "150",
+            "SensorRangeValue": "Long",
+            "Crew": "60,000 or more administrators, technicians, and laborers",
+            "EncumbranceCapacity": "100000",
+            "Passengers": "40000",
+            "HP": "50",
+            "Starship": "true",
+            "Stationary": "true",
+            "Categories": {
+                "Category": [
+                    "Starship",
+                    "Non-Fighter Starship",
+                    "Capital Ship",
+                    "Crafted Vehicle"
+                ]
+            }
+        }
+    },
+    {
+        "Key": "VEHENGSINGION",
+        "Name": "Single Ion Coil",
+        "Description": "Single Ion Coil",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleEngine",
+        "TimeHours": "24",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "1",
+        "MaterialCost": "500",
+        "MaterialRarity": "2",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTENGINESINGION"
+    },
+    {
+        "Key": "VEHENGELECTBAFF",
+        "Name": "Electron Baffled Engine",
+        "Description": "Electron Baffled Engine",
+        "Source": {
+            "_Page": "81",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleEngine",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "1000",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTENGINEELECBAFF"
+    },
+    {
+        "Key": "VEHENGIONTURBINE",
+        "Name": "Ion Turbine Engine",
+        "Description": "Ion Turbine Engine",
+        "Source": {
+            "_Page": "82",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleEngine",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "2000",
+        "MaterialRarity": "2",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTENGINEIONTURBINE"
+    },
+    {
+        "Key": "VEHENGFUSIALTHRUST",
+        "Name": "Fusial Thrust Engine",
+        "Description": "Fusial Thrust Engine",
+        "Source": {
+            "_Page": "82",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleEngine",
+        "TimeHours": "60",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "2500",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTENGINEFUSIALTHRUST"
+    },
+    {
+        "Key": "VEHENGREPCLUSTER",
+        "Name": "High-Performance Repulsor Cluster",
+        "Description": "High-Performance Repulsor Cluster",
+        "Source": {
+            "_Page": "82",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleEngine",
+        "TimeHours": "120",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "3000",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTENGINEREPCLUSTER"
+    },
+    {
+        "Key": "VEHENGIONDRIVEARRAY",
+        "Name": "Ion Drive Array",
+        "Description": "Ion Drive Array",
+        "Source": {
+            "_Page": "82",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleEngine",
+        "TimeHours": "120",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "5250",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTENGINEIONDRIVEARRAY"
+    },
+    {
+        "Key": "VEHHULLSLEEK",
+        "Name": "Sleek Carapace",
+        "Description": "Sleek Carapace",
+        "Source": {
+            "_Page": "82",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleHull",
+        "TimeHours": "24",
+        "TimePerSilhouette": "true",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "450",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTHULLSLEEK"
+    },
+    {
+        "Key": "VEHHULLEXPCAP",
+        "Name": "Expanded-Capacity Holds",
+        "Description": "Expanded-Capacity Holds",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleHull",
+        "TimeHours": "24",
+        "TimePerSilhouette": "true",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "500",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTHULLEXPCAP"
+    },
+    {
+        "Key": "VEHHULLLTARMOR",
+        "Name": "Lightly Armored Hull",
+        "Description": "Lightly Armored Hull",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleHull",
+        "TimeHours": "48",
+        "TimePerSilhouette": "true",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "500",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTHULLLTARMOR"
+    },
+    {
+        "Key": "VEHHULLLDEFPLATE",
+        "Name": "Deflective Plating",
+        "Description": "Deflective Plating",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleHull",
+        "TimeHours": "72",
+        "TimePerSilhouette": "true",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "700",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTHULLDEFPLATE"
+    },
+    {
+        "Key": "VEHHULLLCOMBATPLATE",
+        "Name": "Combat Plating",
+        "Description": "Combat Plating",
+        "Source": {
+            "_Page": "83",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleHull",
+        "TimeHours": "96",
+        "TimePerSilhouette": "true",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "1500",
+        "MaterialRarity": "7",
+        "MaterialRestricted": "false",
+        "AttachmentKey": "CRAFTHULLCOMBATPLATE"
+    },
+    {
+        "Key": "VEHASSEMBLY01",
+        "Name": "Vehicle Assembly - Silh. 0 or 1",
+        "Description": "Vehicle Assembly",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleAssembly",
+        "TimeHours": "24",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "SilhouetteLow": "0",
+        "SilhouetteHigh": "1"
+    },
+    {
+        "Key": "VEHASSEMBLY2",
+        "Name": "Vehicle Assembly - Silh. 2",
+        "Description": "Vehicle Assembly",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleAssembly",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "1000",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "SilhouetteLow": "2",
+        "SilhouetteHigh": "2"
+    },
+    {
+        "Key": "VEHASSEMBLY3",
+        "Name": "Vehicle Assembly - Silh. 3",
+        "Description": "Vehicle Assembly",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleAssembly",
+        "TimeHours": "120",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "10000",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "SilhouetteLow": "3",
+        "SilhouetteHigh": "3"
+    },
+    {
+        "Key": "VEHASSEMBLY4",
+        "Name": "Vehicle Assembly - Silh. 4",
+        "Description": "Vehicle Assembly",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleAssembly",
+        "TimeHours": "240",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "25000",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "SilhouetteLow": "4",
+        "SilhouetteHigh": "4",
+        "AdditionalResources": "A team of 5 or more"
+    },
+    {
+        "Key": "VEHASSEMBLY56",
+        "Name": "Vehicle Assembly - Silh. 5 or 6",
+        "Description": "Vehicle Assembly",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleAssembly",
+        "TimeHours": "1200",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "100000",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "SilhouetteLow": "5",
+        "SilhouetteHigh": "6",
+        "AdditionalResources": "A team of 100 or more"
+    },
+    {
+        "Key": "VEHASSEMBLY79",
+        "Name": "Vehicle Assembly - Silh. 7 to 9",
+        "Description": "Vehicle Assembly",
+        "Source": {
+            "_Page": "85",
+            "__text": "Fully Operational"
+        },
+        "TempType": "VehicleAssembly",
+        "TimeHours": "2400",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "5",
+        "MaterialCost": "2000000",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "SilhouetteLow": "7",
+        "SilhouetteHigh": "9",
+        "AdditionalResources": "A team of 5,000 or more"
+    },
+    {
+        "Key": "DROIDMONO",
+        "Name": "Monotask Chassis",
+        "Description": "",
+        "Source": {
+            "_Page": "80",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Droid",
+        "TimeHours": "24",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "600",
+        "MaterialRarity": "2",
+        "MaterialRestricted": "false",
+        "Droid": {
+            "Type": "Minion",
+            "Silhouette": "0",
+            "Characteristics": {
+                "CharCharacteristic": [
+                    {
+                        "Key": "BR",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "AG",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "INT",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "CUN",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "WIL",
+                        "Name": "Willpower",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "PR",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    }
+                ]
+            },
+            "Attributes": {
+                "SoakValue": {
+                    "PurchasedRanks": "1"
+                },
+                "WoundThreshold": {
+                    "PurchasedRanks": "0"
+                },
+                "StrainThreshold": "",
+                "DefenseRanged": "",
+                "DefenseMelee": "",
+                "ForceRating": ""
+            },
+            "Weapons": "",
+            "Armor": "",
+            "Abilities": {
+                "AvAbility": {
+                    "Name": "Droid",
+                    "Description": "Does not need to breathe, eat, or drink, and can survive in vacuum or underwater. Immune to poisons and toxins."
+                }
+            }
+        }
+    },
+    {
+        "Key": "DROIDLABOR",
+        "Name": "Labor Chassis",
+        "Description": "",
+        "Source": {
+            "_Page": "80",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Droid",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "2",
+        "MaterialCost": "3500",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "Droid": {
+            "Type": "Minion",
+            "Characteristics": {
+                "CharCharacteristic": [
+                    {
+                        "Key": "BR",
+                        "Rank": {
+                            "StartingRanks": "3"
+                        }
+                    },
+                    {
+                        "Key": "AG",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "INT",
+                        "Rank": {
+                            "StartingRanks": "2"
+                        }
+                    },
+                    {
+                        "Key": "CUN",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "WIL",
+                        "Name": "Willpower",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "PR",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    }
+                ]
+            },
+            "Attributes": {
+                "SoakValue": {
+                    "PurchasedRanks": "1"
+                },
+                "WoundThreshold": {
+                    "PurchasedRanks": "2"
+                },
+                "StrainThreshold": "",
+                "DefenseRanged": "",
+                "DefenseMelee": "",
+                "ForceRating": ""
+            },
+            "Weapons": "",
+            "Armor": "",
+            "Abilities": {
+                "AvAbility": {
+                    "Name": "Droid",
+                    "Description": "Does not need to breathe, eat, or drink, and can survive in vacuum or underwater. Immune to poisons and toxins."
+                }
+            }
+        }
+    },
+    {
+        "Key": "DROIDCOMBAT",
+        "Name": "Combat Chassis",
+        "Description": "",
+        "Source": {
+            "_Page": "80",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Droid",
+        "TimeHours": "48",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "3",
+        "MaterialCost": "3250",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "true",
+        "Droid": {
+            "Type": "Minion",
+            "Characteristics": {
+                "CharCharacteristic": [
+                    {
+                        "Key": "BR",
+                        "Rank": {
+                            "StartingRanks": "2"
+                        }
+                    },
+                    {
+                        "Key": "AG",
+                        "Rank": {
+                            "StartingRanks": "2"
+                        }
+                    },
+                    {
+                        "Key": "INT",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "CUN",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "WIL",
+                        "Name": "Willpower",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "PR",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    }
+                ]
+            },
+            "Attributes": {
+                "SoakValue": {
+                    "PurchasedRanks": "2"
+                },
+                "WoundThreshold": {
+                    "PurchasedRanks": "0"
+                },
+                "StrainThreshold": "",
+                "DefenseRanged": "",
+                "DefenseMelee": "",
+                "ForceRating": ""
+            },
+            "Weapons": "",
+            "Armor": "",
+            "Abilities": {
+                "AvAbility": {
+                    "Name": "Droid",
+                    "Description": "Does not need to breathe, eat, or drink, and can survive in vacuum or underwater. Immune to poisons and toxins."
+                }
+            }
+        }
+    },
+    {
+        "Key": "DROIDSPECIAL",
+        "Name": "Specialist Chassis",
+        "Description": "",
+        "Source": {
+            "_Page": "80",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Droid",
+        "TimeHours": "56",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "4",
+        "MaterialCost": "4500",
+        "MaterialRarity": "3",
+        "MaterialRestricted": "false",
+        "Droid": {
+            "Type": "Rival",
+            "Characteristics": {
+                "CharCharacteristic": [
+                    {
+                        "Key": "BR",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "AG",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "INT",
+                        "Rank": {
+                            "StartingRanks": "2"
+                        }
+                    },
+                    {
+                        "Key": "CUN",
+                        "Rank": {
+                            "StartingRanks": "2"
+                        }
+                    },
+                    {
+                        "Key": "WIL",
+                        "Rank": {
+                            "StartingRanks": "2"
+                        }
+                    },
+                    {
+                        "Key": "PR",
+                        "Rank": {
+                            "StartingRanks": "2"
+                        }
+                    }
+                ]
+            },
+            "Attributes": {
+                "SoakValue": {
+                    "PurchasedRanks": "2"
+                },
+                "WoundThreshold": {
+                    "PurchasedRanks": "0"
+                },
+                "StrainThreshold": "",
+                "DefenseRanged": "",
+                "DefenseMelee": "",
+                "ForceRating": ""
+            },
+            "Weapons": "",
+            "Armor": "",
+            "Abilities": {
+                "AvAbility": {
+                    "Name": "Droid",
+                    "Description": "Does not need to breathe, eat, or drink, and can survive in vacuum or underwater. Immune to poisons and toxins."
+                }
+            }
+        }
+    },
+    {
+        "Key": "DROIDADVCOM",
+        "Name": "Advanced Combat Chassis",
+        "Description": "",
+        "Source": {
+            "_Page": "80",
+            "__text": "Special Modifications"
+        },
+        "TempType": "Droid",
+        "TimeHours": "240",
+        "CheckSkills": "MECH",
+        "CheckDifficulty": "5",
+        "MaterialCost": "32500",
+        "MaterialRarity": "7",
+        "MaterialRestricted": "true",
+        "Droid": {
+            "Type": "Nemesis",
+            "Characteristics": {
+                "CharCharacteristic": [
+                    {
+                        "Key": "BR",
+                        "Rank": {
+                            "StartingRanks": "4"
+                        }
+                    },
+                    {
+                        "Key": "AG",
+                        "Rank": {
+                            "StartingRanks": "3"
+                        }
+                    },
+                    {
+                        "Key": "INT",
+                        "Rank": {
+                            "StartingRanks": "3"
+                        }
+                    },
+                    {
+                        "Key": "CUN",
+                        "Rank": {
+                            "StartingRanks": "3"
+                        }
+                    },
+                    {
+                        "Key": "WIL",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "PR",
+                        "Rank": {
+                            "StartingRanks": "1"
+                        }
+                    }
+                ]
+            },
+            "Attributes": {
+                "SoakValue": {
+                    "PurchasedRanks": "3"
+                },
+                "WoundThreshold": {
+                    "PurchasedRanks": "3"
+                },
+                "StrainThreshold": "",
+                "DefenseRanged": "",
+                "DefenseMelee": "",
+                "ForceRating": ""
+            },
+            "Weapons": "",
+            "Armor": "",
+            "Abilities": {
+                "AvAbility": {
+                    "Name": "Droid",
+                    "Description": "Does not need to breathe, eat, or drink, and can survive in vacuum or underwater. Immune to poisons and toxins."
+                }
+            }
+        }
+    },
+    {
+        "Key": "DROIDDIRLABOR",
+        "Name": "Labor Directives",
+        "Description": "Labor Directives - Droids with these directives are typically obsessed with their single area of expertise.",
+        "Source": {
+            "_Page": "82",
+            "__text": "Special Modifications"
+        },
+        "TempType": "DroidDirect",
+        "TimeHours": "8",
+        "CheckSkills": "COMP",
+        "CheckDifficulty": "1",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "DroidDirect": {
+            "SkillChoices": {
+                "SkillCount": "1",
+                "TypeValue": "stGeneral"
+            },
+            "SkillChoiceRanks": "2"
+        }
+    },
+    {
+        "Key": "DROIDDIRCOMBAT",
+        "Name": "Combat Directives",
+        "Description": "Combat Directives - Droids with these directives are typically used for security purposes.",
+        "Source": {
+            "_Page": "82",
+            "__text": "Special Modifications"
+        },
+        "TempType": "DroidDirect",
+        "TimeHours": "16",
+        "CheckSkills": "COMP",
+        "CheckDifficulty": "2",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "DroidDirect": {
+            "SkillChoices": {
+                "SkillCount": "3",
+                "TypeValue": "stCombat"
+            },
+            "SkillChoiceRanks": "1",
+            "Talents": {
+                "CharTalent": {
+                    "Key": "BOD",
+                    "Ranks": "1"
+                }
+            }
+        }
+    },
+    {
+        "Key": "DROIDDIRTRANS",
+        "Name": "Translation Directives",
+        "Description": "Translation Directives - Droids with these directives are typically used for etiquette and protocol.",
+        "Source": {
+            "_Page": "82",
+            "__text": "Special Modifications"
+        },
+        "TempType": "DroidDirect",
+        "TimeHours": "24",
+        "CheckSkills": "COMP",
+        "CheckDifficulty": "3",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "DroidDirect": {
+            "SkillChoices": {
+                "SkillCount": "3",
+                "TypeValue": "stKnowledge"
+            },
+            "SkillChoiceRanks": "1",
+            "Talents": {
+                "CharTalent": [
+                    {
+                        "Key": "CONV",
+                        "Ranks": "1"
+                    },
+                    {
+                        "Key": "KILL",
+                        "Ranks": "1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Key": "DROIDDIRREPAIR",
+        "Name": "Repair Directives",
+        "Description": "Repair Directives - Droids with these directives are typically used to repair machines.",
+        "Source": {
+            "_Page": "82",
+            "__text": "Special Modifications"
+        },
+        "TempType": "DroidDirect",
+        "TimeHours": "24",
+        "CheckSkills": "COMP",
+        "CheckDifficulty": "3",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "DroidDirect": {
+            "Skills": {
+                "CharSkill": [
+                    {
+                        "Key": "COMP",
+                        "Rank": {
+                            "PurchasedRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "MECH",
+                        "Rank": {
+                            "PurchasedRanks": "2"
+                        }
+                    }
+                ]
+            },
+            "Talents": {
+                "CharTalent": [
+                    {
+                        "Key": "GEARHD",
+                        "Ranks": "1"
+                    },
+                    {
+                        "Key": "SOLREP",
+                        "Ranks": "1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Key": "DROIDDIRNAV",
+        "Name": "Navigation Directives",
+        "Description": "Navigation Directives - Droids with these directives are typically used for astronavigation purposes.",
+        "Source": {
+            "_Page": "82",
+            "__text": "Special Modifications"
+        },
+        "TempType": "DroidDirect",
+        "TimeHours": "72",
+        "CheckSkills": "COMP",
+        "CheckDifficulty": "3",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "DroidDirect": {
+            "Skills": {
+                "CharSkill": [
+                    {
+                        "Key": "ASTRO",
+                        "Rank": {
+                            "PurchasedRanks": "2"
+                        }
+                    },
+                    {
+                        "Key": "COMP",
+                        "Rank": {
+                            "PurchasedRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "PILOTSP",
+                        "Rank": {
+                            "PurchasedRanks": "1"
+                        }
+                    }
+                ]
+            },
+            "Talents": {
+                "CharTalent": [
+                    {
+                        "Key": "GALMAP",
+                        "Ranks": "1"
+                    },
+                    {
+                        "Key": "TECHAPT",
+                        "Ranks": "1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Key": "DROIDDIRHEAL",
+        "Name": "Healing Directives",
+        "Description": "Healing Directives - Droids with these directives are typically used for medical purposes.",
+        "Source": {
+            "_Page": "82",
+            "__text": "Special Modifications"
+        },
+        "TempType": "DroidDirect",
+        "TimeHours": "72",
+        "CheckSkills": "COMP",
+        "CheckDifficulty": "4",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "DroidDirect": {
+            "Skills": {
+                "CharSkill": [
+                    {
+                        "Key": "XEN",
+                        "Rank": {
+                            "PurchasedRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "MED",
+                        "Rank": {
+                            "PurchasedRanks": "2"
+                        }
+                    }
+                ]
+            },
+            "Talents": {
+                "CharTalent": [
+                    {
+                        "Key": "BACT",
+                        "Ranks": "1"
+                    },
+                    {
+                        "Key": "SURG",
+                        "Ranks": "1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "Key": "DROIDDIRELIM",
+        "Name": "Elimination Directives",
+        "Description": "Elimination Directives - Droids with these directives are typically used for assasination.",
+        "Source": {
+            "_Page": "82",
+            "__text": "Special Modifications"
+        },
+        "TempType": "DroidDirect",
+        "TimeHours": "168",
+        "CheckSkills": "COMP",
+        "CheckDifficulty": "5",
+        "MaterialCost": "0",
+        "MaterialRarity": "0",
+        "MaterialRestricted": "false",
+        "DroidDirect": {
+            "SkillChoices": {
+                "SkillCount": "3",
+                "TypeValue": "stCombat"
+            },
+            "SkillChoiceRanks": "4",
+            "Skills": {
+                "CharSkill": [
+                    {
+                        "Key": "COOL",
+                        "Rank": {
+                            "PurchasedRanks": "2"
+                        }
+                    },
+                    {
+                        "Key": "XEN",
+                        "Rank": {
+                            "PurchasedRanks": "1"
+                        }
+                    },
+                    {
+                        "Key": "MECH",
+                        "Rank": {
+                            "PurchasedRanks": "2"
+                        }
+                    },
+                    {
+                        "Key": "STEAL",
+                        "Rank": {
+                            "PurchasedRanks": "2"
+                        }
+                    }
+                ]
+            },
+            "Talents": {
+                "CharTalent": [
+                    {
+                        "Key": "ADV",
+                        "Ranks": "2"
+                    },
+                    {
+                        "Key": "LETHALBL",
+                        "Ranks": "3"
+                    }
+                ]
+            },
+            "MakeNemesis": "true"
+        }
+    },
+    {
+        "Key": "ALCHPOACID",
+        "Name": "Acid",
+        "Description": "Acid",
+        "Source": {
+            "_Page": "81",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Potion",
+        "MaterialCost": "600",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "false",
+        "TimeHours": "2",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "2",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Potion",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "Target must make Hard ([DI][DI][DI]) Resilience check. If failed, takes 2 wound at start of turn for 3 rounds, plus 1 round per [TH] rolled."
+            }
+        }
+    },
+    {
+        "Key": "ALCHPOFIRE",
+        "Name": "Draught of Fire",
+        "Description": "Draught of Fire",
+        "Source": {
+            "_Page": "81",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Potion",
+        "MaterialCost": "400",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "false",
+        "TimeHours": "3",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "3",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Potion",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "For the next round (or 30 minutes), user's unarmed attacks gain Burn 4, or add +1 if Burn is already possessed."
+            }
+        }
+    },
+    {
+        "Key": "ALCHPOVIGOR",
+        "Name": "Elixir of Vigor",
+        "Description": "Elixir of Vigor",
+        "Source": {
+            "_Page": "81",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Potion",
+        "MaterialCost": "600",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "false",
+        "TimeHours": "4",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "3",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Potion",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "When consumed, Brawn is increased by 1 and Willpower is decreased by 1. This effect lasts until the end of the following round."
+            }
+        }
+    },
+    {
+        "Key": "ALCHPOHEAL",
+        "Name": "Healing Potion",
+        "Description": "Healing Potion",
+        "Source": {
+            "_Page": "81",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Potion",
+        "MaterialCost": "1000",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "false",
+        "TimeHours": "2",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "2",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Potion",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "When consumed, one Critical Injury of severity Hard ([DI][DI][DI]) or less is healed."
+            }
+        }
+    },
+    {
+        "Key": "ALCHPOPOI",
+        "Name": "Poison",
+        "Description": "Poison",
+        "Source": {
+            "_Page": "81",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Potion",
+        "MaterialCost": "500",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "TimeHours": "2",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "1",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Potion",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "Target must immediately make an Average ([DI][DI]) Resilience check. If failed, suffer 5 wounds plus 1 strain per [TH]."
+            }
+        }
+    },
+    {
+        "Key": "ALCHPOWILL",
+        "Name": "Potion of Wills",
+        "Description": "Potion of Wills",
+        "Source": {
+            "_Page": "81",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Potion",
+        "MaterialCost": "1000",
+        "MaterialRarity": "8",
+        "MaterialRestricted": "false",
+        "TimeHours": "6",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "4",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Potion",
+            "Rarity": "-1",
+            "BaseMods": [
+                {
+                    "MiscDesc": "Target must make an Average ([DI][DI]) Discipline check. If failed, Willpower is counted as 0 for remainder of encounter or 1 hour, increased once per [TH] rolled."
+                },
+                {
+                    "MiscDesc": "Cannot be applied to a weapon. Potion must be injested"
+                }
+            ]
+        }
+    },
+    {
+        "Key": "ALCHPOSTIM",
+        "Name": "Stimulant",
+        "Description": "Stimulant",
+        "Source": {
+            "_Page": "81",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Potion",
+        "MaterialCost": "400",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "TimeHours": "2",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "2",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Potion",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "When consumed, target increases strain threshold by 5 for remainder of encounter (or one hour)."
+            }
+        }
+    },
+    {
+        "Key": "ALCHPOWAT",
+        "Name": "Water of Life",
+        "Description": "Water of Life",
+        "Source": {
+            "_Page": "81",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Potion",
+        "MaterialCost": "1000",
+        "MaterialRarity": "10",
+        "MaterialRestricted": "false",
+        "TimeHours": "8",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "5",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Potion",
+            "Rarity": "-1",
+            "BaseMods": [
+                {
+                    "MiscDesc": "When consumed, target heals all wounds and strain they are currently suffering."
+                },
+                {
+                    "MiscDesc": "If target died during the current encounter, target makes a Daunting ([DI][DI][DI][DI]) Discipline or Resilience check. If successful, they come back to life and heal one Critical Injury."
+                },
+                {
+                    "MiscDesc": "If consumed while making a Force power check, suffer 1 Conflict and gain [LI][DA]. If making a Conjure check, add [LI][LI][DA][DA] instead."
+                }
+            ]
+        }
+    },
+    {
+        "Key": "ALCHPOWEAK",
+        "Name": "Weakening Potion",
+        "Description": "Weakening Potion",
+        "Source": {
+            "_Page": "81",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Potion",
+        "MaterialCost": "1000",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "false",
+        "TimeHours": "4",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "3",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Potion",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "Target must immediately make an Average ([DI][DI]) Resilience check. If failed, wound and strain threshold is reduced by half (rounding up) for remainder of encounter (or one hour), increased once per [TH] rolled."
+            }
+        }
+    },
+    {
+        "Key": "ALCHTALPOWER",
+        "Name": "Amulet of Power",
+        "Description": "Amulet of Power",
+        "Source": {
+            "_Page": "84",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Talisman",
+        "MaterialCost": "500",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "false",
+        "TimeHours": "4",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "3",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Talisman",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "User may employ talisman to roll 1 additional [FO] when making a Force power check or a skill check. The talisman then crumbles to dust."
+            }
+        }
+    },
+    {
+        "Key": "ALCHTALFEAR",
+        "Name": "Fetish of Fear",
+        "Description": "Fetish of Fear",
+        "Source": {
+            "_Page": "84",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Talisman",
+        "MaterialCost": "300",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "TimeHours": "2",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "2",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Talisman",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "Target an enemy attempting to move within engaged range to make an Average ([DI][DI]) Fear check as an out-of-turn incidental. If failed, target cannot perform the move maneuver."
+            }
+        }
+    },
+    {
+        "Key": "ALCHTALNEURAL",
+        "Name": "Neural Charm",
+        "Description": "Neural Charm",
+        "Source": {
+            "_Page": "84",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Talisman",
+        "MaterialCost": "1200",
+        "MaterialRarity": "7",
+        "MaterialRestricted": "false",
+        "TimeHours": "6",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "4",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Talisman",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "When user makes a Knowledge check, may suffer strain up to Intellect to add that many [BO] to check."
+            }
+        }
+    },
+    {
+        "Key": "ALCHTALPROT",
+        "Name": "Protective Amulet",
+        "Description": "Protective Amulet",
+        "Source": {
+            "_Page": "84",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Talisman",
+        "MaterialCost": "300",
+        "MaterialRarity": "4",
+        "MaterialRestricted": "false",
+        "TimeHours": "3",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "1",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Talisman",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "User may ignore environmental affects such as fire, acid, and corrosive atmosphere. They act as if in a standard gravitiy field, may breathe underwater and in a vacuum, and may ignore the Burn quality when hit by an attack."
+            }
+        }
+    },
+    {
+        "Key": "ALCHTALHEAL",
+        "Name": "Healing Accelerant",
+        "Description": "Healing Accelerant",
+        "Source": {
+            "_Page": "84",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Talisman",
+        "MaterialCost": "600",
+        "MaterialRarity": "5",
+        "MaterialRestricted": "false",
+        "TimeHours": "8",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "4",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Talisman",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "When recovering strain or wounds, may recover that amount plus 1 instead."
+            }
+        }
+    },
+    {
+        "Key": "ALCHTALSHIELD",
+        "Name": "Shield Amulet",
+        "Description": "Shield Amulet",
+        "Source": {
+            "_Page": "84",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Talisman",
+        "MaterialCost": "1000",
+        "MaterialRarity": "8",
+        "MaterialRestricted": "false",
+        "TimeHours": "5",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "4",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Talisman",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "When taking damage involving a Force power in some way, may choose to reduce damage taken by half (rounding up)."
+            },
+            "Mod": {
+                "MiscDesc": "May only be used once per session."
+            }
+        }
+    },
+    {
+        "Key": "ALCHTALFATE",
+        "Name": "Talisman of Fate",
+        "Description": "Talisman of Fate",
+        "Source": {
+            "_Page": "84",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Talisman",
+        "MaterialCost": "4000",
+        "MaterialRarity": "6",
+        "MaterialRestricted": "false",
+        "TimeHours": "10",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "3",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Talisman",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "When the GM flips a Destiny Point to upgrade the ability or difficulty of a skill check involving the user, the user may downgrade the difficulty of the check."
+            },
+            "Mod": {
+                "MiscDesc": "Talisman dissolves after a single use."
+            }
+        }
+    },
+    {
+        "Key": "ALCHTALRESIST",
+        "Name": "Token of Resistance",
+        "Description": "Token of Resistance",
+        "Source": {
+            "_Page": "84",
+            "__text": "Unlimited Power"
+        },
+        "TempType": "Talisman",
+        "MaterialCost": "1800",
+        "MaterialRarity": "9",
+        "MaterialRestricted": "false",
+        "TimeHours": "8",
+        "CheckSkills": [
+            "DISC",
+            "LORE"
+        ],
+        "CheckDifficulty": "5",
+        "GearProfile": {
+            "Encumbrance": "0",
+            "HP": "0",
+            "Type": "Alchemical Talisman",
+            "Rarity": "-1",
+            "BaseMods": {
+                "MiscDesc": "When user is targeted by an opposed social skill check where a Force power is involved, the opposing character rolls one fewer [FO]."
+            }
+        }
+    }
+]

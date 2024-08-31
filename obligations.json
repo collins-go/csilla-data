@@ -1,0 +1,429 @@
+[
+  {
+    "Key": "SCORE",
+    "Name": "A Score to Settle",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Dangerous Covenants"
+    }
+  },
+  {
+    "Key": "ADD",
+    "Name": "Addiction",
+    "Description": "",
+    "Source": {
+      "_Page": "39",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
+  },
+  {
+    "Key": "ADRENALINE",
+    "Name": "Adrenaline Rush",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Dangerous Covenants"
+    }
+  },
+  {
+    "Key": "ANTAG",
+    "Name": "Antagonist",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "BADREP",
+    "Name": "Bad Reputation",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "BASE",
+    "Name": "Base of Operation",
+    "Description": "",
+    "Source": {
+      "_Page": "82",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "BET",
+    "Name": "Betrayal",
+    "Description": "",
+    "Source": [
+      {
+        "_Page": "39",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "17",
+        "__text": "Fly Casual"
+      }
+    ]
+  },
+  {
+    "Key": "BLA",
+    "Name": "Blackmail",
+    "Description": "",
+    "Source": {
+      "_Page": "39",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
+  },
+  {
+    "Key": "BOU",
+    "Name": "Bounty",
+    "Description": "",
+    "Source": [
+      {
+        "_Page": "39",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "17",
+        "__text": "Far Horizons"
+      },
+      {
+        "_Page": "17",
+        "__text": "Fly Casual"
+      }
+    ]
+  },
+  {
+    "Key": "COLLATERAL",
+    "Name": "Collateral Accountability",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Dangerous Covenants"
+    }
+  },
+  {
+    "Key": "CONTRACT",
+    "Name": "Contract",
+    "Description": "",
+    "Source": {
+      "_Page": "18",
+      "__text": "Special Modifications"
+    }
+  },
+  {
+    "Key": "CONTRACTED",
+    "Name": "Contracted",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "CREW",
+    "Name": "Crew",
+    "Description": "",
+    "Source": {
+      "_Page": "18",
+      "__text": "Special Modifications"
+    }
+  },
+  {
+    "Key": "CRI",
+    "Name": "Criminal",
+    "Description": "",
+    "Source": [
+      {
+        "_Page": "39",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "17",
+        "__text": "Fly Casual"
+      }
+    ]
+  },
+  {
+    "Key": "DEBT",
+    "Name": "Debt",
+    "Description": "",
+    "Source": [
+      {
+        "_Page": "39",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "17",
+        "__text": "Far Horizons"
+      },
+      {
+        "_Page": "17",
+        "__text": "Fly Casual"
+      }
+    ]
+  },
+  {
+    "Key": "DISGRACED",
+    "Name": "Disgraced",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "DUT",
+    "Name": "Dutybound",
+    "Description": "",
+    "Source": {
+      "_Page": "39",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
+  },
+  {
+    "Key": "EXILED",
+    "Name": "Exiled",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "FAILEDREP",
+    "Name": "Failed Installation/Repair",
+    "Description": "",
+    "Source": {
+      "_Page": "18",
+      "__text": "Special Modifications"
+    }
+  },
+  {
+    "Key": "FAME",
+    "Name": "Fame",
+    "Description": "",
+    "Source": {
+      "_Page": "19",
+      "__text": "No Disintegrations"
+    }
+  },
+  {
+    "Key": "FAM",
+    "Name": "Family",
+    "Description": "",
+    "Source": [
+      {
+        "_Page": "39",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "17",
+        "__text": "Far Horizons"
+      },
+      {
+        "_Page": "17",
+        "__text": "Fly Casual"
+      }
+    ]
+  },
+  {
+    "Key": "FAV",
+    "Name": "Favor",
+    "Description": "",
+    "Source": [
+      {
+        "_Page": "39",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "17",
+        "__text": "Far Horizons"
+      },
+      {
+        "_Page": "17",
+        "__text": "Fly Casual"
+      }
+    ]
+  },
+  {
+    "Key": "FERV",
+    "Name": "Fervor",
+    "Description": "",
+    "Source": {
+      "_Page": "19",
+      "__text": "Enter the Unknown"
+    }
+  },
+  {
+    "Key": "FRONTIER",
+    "Name": "Frontier Justice",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "HIGHRISK",
+    "Name": "High Risk",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "KEEPERFAITH",
+    "Name": "Keeper of the Faith",
+    "Description": "",
+    "Source": {
+      "_Page": "19",
+      "__text": "No Disintegrations"
+    }
+  },
+  {
+    "Key": "NOTORIETY",
+    "Name": "Notoriety",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "OATH",
+    "Name": "Oath",
+    "Description": "",
+    "Source": {
+      "_Page": "39",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
+  },
+  {
+    "Key": "OBS",
+    "Name": "Obsession",
+    "Description": "",
+    "Source": {
+      "_Page": "39",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
+  },
+  {
+    "Key": "PACIFIST",
+    "Name": "Pacifist",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "PHILAND",
+    "Name": "Philanderer",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Far Horizons"
+    }
+  },
+  {
+    "Key": "RESP",
+    "Name": "Responsibility",
+    "Description": "",
+    "Source": [
+      {
+        "_Page": "39",
+        "__text": "Edge of the Empire Core Rulebook"
+      },
+      {
+        "_Page": "17",
+        "__text": "Far Horizons"
+      }
+    ]
+  },
+  {
+    "Key": "RULEBREAKER",
+    "Name": "Rule Breaker",
+    "Description": "",
+    "Source": {
+      "_Page": "19",
+      "__text": "No Disintegrations"
+    }
+  },
+  {
+    "Key": "SERVITUDE",
+    "Name": "Servitude",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "SPON",
+    "Name": "Sponsorship",
+    "Description": "",
+    "Source": {
+      "_Page": "19",
+      "__text": "Enter the Unknown"
+    }
+  },
+  {
+    "Key": "PRICENAME",
+    "Name": "The Price of a Name",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Dangerous Covenants"
+    }
+  },
+  {
+    "Key": "THRILLSEEK",
+    "Name": "Thrill Seeker",
+    "Description": "",
+    "Source": {
+      "_Page": "19",
+      "__text": "No Disintegrations"
+    }
+  },
+  {
+    "Key": "UNDERCONTRACT",
+    "Name": "Under Contract",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Fly Casual"
+    }
+  },
+  {
+    "Key": "UNFINBUS",
+    "Name": "Unfinished Business",
+    "Description": "",
+    "Source": {
+      "_Page": "18",
+      "__text": "Special Modifications"
+    }
+  },
+  {
+    "Key": "VIGILANTE",
+    "Name": "Vigilante",
+    "Description": "",
+    "Source": {
+      "_Page": "19",
+      "__text": "No Disintegrations"
+    }
+  },
+  {
+    "Key": "WITNESS",
+    "Name": "Witness Protection",
+    "Description": "",
+    "Source": {
+      "_Page": "17",
+      "__text": "Far Horizons"
+    }
+  }
+]

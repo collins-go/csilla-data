@@ -1,0 +1,657 @@
+[
+  {
+    "Key": "THEACE",
+    "Name": "Ace",
+    "Description": "",
+    "Source": {
+      "_Page": "64",
+      "__text": "Age of Rebellion Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Astrogation",
+        "Cool",
+        "Gunnery",
+        "Mechanics",
+        "Perception",
+        "Piloting (Planetary)",
+        "Piloting (Space)",
+        "Ranged (Light)"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "BEASTRIDER",
+        "DRIVER",
+        "GUNNER",
+        "HOTSHOT",
+        "PILOT",
+        "RIGGER"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "BOUNT",
+    "Name": "Bounty Hunter",
+    "Description": "",
+    "Source": {
+      "_Page": "56",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Athletics",
+        "Brawl",
+        "Perception",
+        "Piloting (Planetary)",
+        "Piloting (Space)",
+        "Ranged (Heavy)",
+        "Streetwise",
+        "Vigilance"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "ASSAS",
+        "GADG",
+        "MARTIALARTIST",
+        "OPERATOR",
+        "SKIPTRACER",
+        "SURVIVAL"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "CLONE",
+    "Name": "Clone Soldier",
+    "Description": "",
+    "Source": {
+      "_Page": "18",
+      "__text": "Rise of the Separatists"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Athletics",
+        "Brawl",
+        "Cool",
+        "Discipline",
+        "Medicine",
+        "Ranged (Heavy)",
+        "Ranged (Light)",
+        "Vigilance"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "ARCCOTR",
+        "CLONECOMMAND",
+        "CLONEOFF",
+        "CLONEPIL",
+        "CLONETRO",
+        "VETCOTR"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "COLO",
+    "Name": "Colonist",
+    "Description": "",
+    "Source": {
+      "_Page": "62",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Charm",
+        "Core Worlds",
+        "Deception",
+        "Education",
+        "Leadership",
+        "Lore",
+        "Negotiation",
+        "Streetwise"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "DOCTOR",
+        "ENTREPRENEUR",
+        "MARSHAL",
+        "PERFORMER",
+        "POLITICO",
+        "SCHOLAR"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "COMMANDER",
+    "Name": "Commander",
+    "Description": "",
+    "Source": {
+      "_Page": "70",
+      "__text": "Age of Rebellion Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Coercion",
+        "Cool",
+        "Discipline",
+        "Leadership",
+        "Perception",
+        "Ranged (Light)",
+        "Vigilance",
+        "Warfare"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "COMMODORE",
+        "FIGUREHEAD",
+        "INSTRUCTOR",
+        "SQUADLEADER",
+        "STRATEGIST",
+        "TACTICIAN"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "CONSULAR",
+    "Name": "Consular",
+    "Description": "",
+    "Source": {
+      "_Page": "66",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Cool",
+        "Discipline",
+        "Education",
+        "Leadership",
+        "Lore",
+        "Negotiation"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "ARBITER",
+        "ASCETIC",
+        "HEALER",
+        "NIMAN",
+        "SAGE",
+        "TEACHER"
+      ]
+    },
+    "Attributes": {
+      "ForceRating": "1"
+    },
+    "FreeRanks": "3"
+  },
+  {
+    "Key": "DIPLOMAT",
+    "Name": "Diplomat",
+    "Description": "",
+    "Source": {
+      "_Page": "76",
+      "__text": "Age of Rebellion Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Charm",
+        "Core Worlds",
+        "Deception",
+        "Leadership",
+        "Lore",
+        "Negotiation",
+        "Outer Rim",
+        "Xenology"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "ADVOCATE",
+        "AGITATOR",
+        "AMBASSADOR",
+        "ANALYST",
+        "PROPAGANDIST",
+        "QUARTERMASTER"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "ENGINEER",
+    "Name": "Engineer",
+    "Description": "",
+    "Source": {
+      "_Page": "82",
+      "__text": "Age of Rebellion Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Athletics",
+        "Computers",
+        "Education",
+        "Mechanics",
+        "Perception",
+        "Piloting (Space)",
+        "Ranged (Light)",
+        "Vigilance"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "DROIDSPEC",
+        "MECHANIC",
+        "SABOTEUR",
+        "SAPPER",
+        "SCIENTIST",
+        "SHIPWRIGHT"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "EXPLORER",
+    "Name": "Explorer",
+    "Description": "",
+    "Source": {
+      "_Page": "67",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Astrogation",
+        "Cool",
+        "Lore",
+        "Outer Rim",
+        "Perception",
+        "Piloting (Space)",
+        "Survival",
+        "Xenology"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "ARCHEOLOGIST",
+        "BGMHUNTER",
+        "DRIVER",
+        "FRINGER",
+        "SCOUT",
+        "TRADER"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "GUARD",
+    "Name": "Guardian",
+    "Description": "",
+    "Source": {
+      "_Page": "72",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Brawl",
+        "Cool",
+        "Discipline",
+        "Melee",
+        "Resilience",
+        "Vigilance"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "ARMORER",
+        "PEACE",
+        "PROTECT",
+        "SORESU",
+        "WARDEN",
+        "WARLEADER"
+      ]
+    },
+    "Attributes": {
+      "ForceRating": "1"
+    },
+    "FreeRanks": "3"
+  },
+  {
+    "Key": "HIREDGUN",
+    "Name": "Hired Gun",
+    "Description": "",
+    "Source": {
+      "_Page": "74",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Athletics",
+        "Brawl",
+        "Discipline",
+        "Melee",
+        "Piloting (Planetary)",
+        "Ranged (Light)",
+        "Resilience",
+        "Vigilance"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "BODYGUARD",
+        "DEMOLITIONIST",
+        "ENFORCER",
+        "HEAVY",
+        "MARAUDER",
+        "MERCENARY"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "JEDI",
+    "Name": "Jedi",
+    "Description": "",
+    "Source": "Rise of the Separatists",
+    "CareerSkills": {
+      "Key": [
+        "Athletics",
+        "Cool",
+        "Discipline",
+        "Lightsaber",
+        "Lore",
+        "Piloting (Space)"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "GENERALCOTR",
+        "JEDIKNIGHT",
+        "MASTERCOTR",
+        "PADAWAN"
+      ]
+    },
+    "Attributes": {
+      "ForceRating": "1"
+    },
+    "FreeRanks": "3"
+  },
+  {
+    "Key": "MYSTIC",
+    "Name": "Mystic",
+    "Description": "",
+    "Source": {
+      "_Page": "78",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Charm",
+        "Coercion",
+        "Lore",
+        "Outer Rim",
+        "Perception",
+        "Vigilance"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "ADVISOR",
+        "ALCHEMIST",
+        "MAGUS",
+        "MAKASHI",
+        "PROPHET",
+        "SEER"
+      ]
+    },
+    "Attributes": {
+      "ForceRating": "1"
+    },
+    "FreeRanks": "3"
+  },
+  {
+    "Key": "SEEKER",
+    "Name": "Seeker",
+    "Description": "",
+    "Source": {
+      "_Page": "84",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Piloting (Planetary)",
+        "Piloting (Space)",
+        "Ranged (Heavy)",
+        "Survival",
+        "Vigilance",
+        "Xenology"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "ATARU",
+        "EXECUTIONER",
+        "HERMIT",
+        "HUNTER",
+        "NAVIGATOR",
+        "PATH"
+      ]
+    },
+    "Attributes": {
+      "ForceRating": "1"
+    },
+    "FreeRanks": "3"
+  },
+  {
+    "Key": "SENTINEL",
+    "Name": "Sentinel",
+    "Description": "",
+    "Source": {
+      "_Page": "90",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Computers",
+        "Core Worlds",
+        "Deception",
+        "Perception",
+        "Skulduggery",
+        "Stealth"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "ARTISAN",
+        "INVESTIGATOR",
+        "RACER",
+        "SENTRY",
+        "SHADOW",
+        "SHIEN"
+      ]
+    },
+    "Attributes": {
+      "ForceRating": "1"
+    },
+    "FreeRanks": "3"
+  },
+  {
+    "Key": "SMUG",
+    "Name": "Smuggler",
+    "Description": "",
+    "Source": {
+      "_Page": "80",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Coordination",
+        "Deception",
+        "Perception",
+        "Piloting (Space)",
+        "Skulduggery",
+        "Streetwise",
+        "Underworld",
+        "Vigilance"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "CHARMER",
+        "GAMBLER",
+        "GUNSLINGER",
+        "PILOT",
+        "SCOUND",
+        "THIEF"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "SOLDIER",
+    "Name": "Soldier",
+    "Description": "",
+    "Source": {
+      "_Page": "88",
+      "__text": "Age of Rebellion Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Athletics",
+        "Brawl",
+        "Medicine",
+        "Melee",
+        "Ranged (Heavy)",
+        "Ranged (Light)",
+        "Survival",
+        "Warfare"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "COMMANDO",
+        "HEAVY",
+        "MEDIC",
+        "SHARPSHOOTER",
+        "TRAILBLAZER",
+        "VANGUARD"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "SPY",
+    "Name": "Spy",
+    "Description": "",
+    "Source": {
+      "_Page": "94",
+      "__text": "Age of Rebellion Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Computers",
+        "Cool",
+        "Coordination",
+        "Deception",
+        "Perception",
+        "Skulduggery",
+        "Stealth",
+        "Warfare"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "COURIER",
+        "INFILTRATOR",
+        "INTERROGATOR",
+        "SCOUT",
+        "SLEEPERAGENT",
+        "SLICER"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "TECHNICIAN",
+    "Name": "Technician",
+    "Description": "",
+    "Source": {
+      "_Page": "86",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Astrogation",
+        "Computers",
+        "Coordination",
+        "Discipline",
+        "Mechanics",
+        "Outer Rim",
+        "Perception",
+        "Piloting (Planetary)"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "CYBERTECH",
+        "DROIDTECH",
+        "MECHANIC",
+        "MODDER",
+        "OUTLAW",
+        "SLICER"
+      ]
+    },
+    "Attributes": "",
+    "FreeRanks": "4"
+  },
+  {
+    "Key": "WAR",
+    "Name": "Warrior",
+    "Description": "",
+    "Source": {
+      "_Page": "96",
+      "__text": "Force and Destiny Core Rulebook"
+    },
+    "CareerSkills": {
+      "Key": [
+        "Athletics",
+        "Brawl",
+        "Cool",
+        "Melee",
+        "Perception",
+        "Survival"
+      ]
+    },
+    "Specializations": {
+      "Key": [
+        "AGGRES",
+        "COLOSSUS",
+        "JUYO",
+        "SHIICHO",
+        "STARACE",
+        "STEELHAND"
+      ]
+    },
+    "Attributes": {
+      "ForceRating": "1"
+    },
+    "FreeRanks": "3"
+  }
+]
