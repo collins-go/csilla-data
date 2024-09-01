@@ -6,7 +6,15 @@
     "Categories": "",
     "Encumbrance": "1",
     "Price": "50",
-    "Soak": "1"
+    "Soak": "1",
+    "Restricted": "false",
+    "HP": "",
+    "Rarity": "",
+    "Defense": "",
+    "Source": "",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "AEG",
@@ -17,11 +25,17 @@
     "HP": "1",
     "Price": "500",
     "Rarity": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "Restricted": "false",
+    "Defense": "",
+    "Source": "",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "STEELSKIN",
-    "Name": "\"Steelskin\"Anti-Concussive Armor",
+    "Name": "\"Steelskin\" Anti-Concussive Armor",
     "Description": "",
     "Source": "Dangerous Covenants",
     "Categories": "Sealed",
@@ -34,18 +48,27 @@
       "Count": "1",
       "MiscDesc": "Add :setback:1279761015474753570 to all Brawn- and Agility-based checks. Reduce the duration of disoriented or staggered condition by 1 round."
     },
-    "Soak": "3"
+    "Soak": "3",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CHARGESUIT",
-    "Name": "\"Storm\"Charge Suit",
+    "Name": "\"Storm\" Charge Suit",
     "Description": "",
     "Source": "Dangerous Covenants",
     "Categories": "",
     "Encumbrance": "3",
     "Price": "2000",
     "Rarity": "6",
-    "Soak": "2"
+    "Soak": "2",
+    "Restricted": "false",
+    "HP": "",
+    "Defense": "",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MOUNTARMOR",
@@ -59,10 +82,13 @@
     "Rarity": "6",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Grants :boost:1279760567694790707:boost:1279760567694790707 to all Athletics skill checks made to climb or rappel"
+      "MiscDesc": "Grants :boost:1279760567694790707:boost:1279760567694790707 to all Athletics skill checks made to climb or rappel."
     },
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CRASHSUIT",
@@ -84,10 +110,11 @@
       }
     ],
     "Soak": "2",
-    "Source": [
-      "Enter the Unknown",
-      "Stay on Target"
-    ]
+    "Source": "Enter the Unknown, Stay on Target",
+    "Restricted": "false",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "UTILITYVEST",
@@ -101,7 +128,13 @@
     "BaseMods": {
       "Key": "ENCTADD",
       "Count": "2"
-    }
+    },
+    "Soak": "",
+    "Encumbrance": "",
+    "Restricted": "false",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "AC",
@@ -113,7 +146,12 @@
     "Price": "1000",
     "Rarity": "6",
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "Restricted": "false",
+    "Source": "",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "BEASTHIDE",
@@ -128,7 +166,12 @@
       "Count": "1",
       "MiscDesc": "Add :advantage:1279760566587490314 to Coercion checks and :threat:1279760886906490960 to Charm checks."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "BLASTVEST",
@@ -144,7 +187,11 @@
       "Count": "1",
       "MiscDesc": "Armor gains +2 soak when wearer suffers damage from a slugthrower or other physical projectile."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CATCHVEST",
@@ -159,7 +206,12 @@
       "Count": "1",
       "MiscDesc": "Has soak value of 2 against all energy-based weapons"
     },
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "ENVIROSUIT",
@@ -175,7 +227,11 @@
       "Count": "1",
       "MiscDesc": "Suffer :setback:1279761015474753570 to any Agility- or Perception-based checks"
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "HBA",
@@ -189,10 +245,10 @@
     "Restricted": "true",
     "Defense": "1",
     "Soak": "2",
-    "Source": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook"
-    ]
+    "Source": "Edge of the Empire Core Rulebook, Age of Rebellion Core Rulebook",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "HUTTSHELLARMOR",
@@ -216,7 +272,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Allows wearer to ignore the affects of Awkward and Ponderous abilities."
+        "MiscDesc": "Allows wearer to ignore the effects of Awkward and Ponderous abilities."
       },
       {
         "Count": "1",
@@ -224,7 +280,9 @@
       }
     ],
     "Defense": "2",
-    "Soak": "2"
+    "Soak": "2",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "LAM",
@@ -236,10 +294,12 @@
     "Price": "2500",
     "Rarity": "5",
     "Soak": "2",
-    "Source": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook"
-    ]
+    "Source": "Edge of the Empire Core Rulebook, Age of Rebellion Core Rulebook",
+    "Defense": "",
+    "Restricted": "false",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MIMETICSUIT",
@@ -263,7 +323,9 @@
       }
     },
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "FLAKVEST",
@@ -279,7 +341,11 @@
       "Count": "1",
       "MiscDesc": "Add +1 Soak against damage from the Blast quality."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "PAD",
@@ -289,7 +355,14 @@
     "Encumbrance": "2",
     "Price": "500",
     "Rarity": "1",
-    "Soak": "2"
+    "Soak": "2",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "Source": "",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "PDS",
@@ -300,10 +373,13 @@
     "Price": "10000",
     "Rarity": "8",
     "Defense": "2",
-    "Source": [
-      "Edge of the Empire Core Rulebook",
-      "Age of Rebellion Core Rulebook"
-    ]
+    "Source": "Edge of the Empire Core Rulebook, Age of Rebellion Core Rulebook",
+    "Soak": "",
+    "HP": "",
+    "Restricted": "false",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "NOMADCOAT",
@@ -324,11 +400,16 @@
         "MiscDesc": "Removes :setback:1279761015474753570 added to checks due to extreme cold"
       }
     ],
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MODARMORIII",
-    "Name": "Type III \"Berethron\"Personal Modular Armor",
+    "Name": "Type III \"Berethron\" Personal Modular Armor",
     "Description": "",
     "Source": "Suns of Fortune",
     "Categories": "",
@@ -338,7 +419,10 @@
     "Rarity": "6",
     "Restricted": "true",
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "FLIGHTTX3",
@@ -351,11 +435,15 @@
     "Price": "3000",
     "Rarity": "6",
     "Restricted": "true",
-    "Defense": "1"
+    "Defense": "1",
+    "Soak": "",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "POWARMOR",
-    "Name": "PX-11 \"Battlement\"Powered Armor",
+    "Name": "PX-11 \"Battlement\" Powered Armor",
     "Description": "",
     "Source": "Dangerous Covenants",
     "Categories": "Sealed",
@@ -379,7 +467,9 @@
       }
     ],
     "Defense": "1",
-    "Soak": "3"
+    "Soak": "3",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "PROTECTOR",
@@ -393,7 +483,10 @@
     "Rarity": "7",
     "Restricted": "true",
     "Defense": "1",
-    "Soak": "2"
+    "Soak": "2",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "RIOTARMOR",
@@ -417,7 +510,9 @@
       }
     ],
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "REINFENVIRO",
@@ -439,7 +534,11 @@
         "MiscDesc": "Add :boost:1279760567694790707 to Resilience checks to resist toxic atmospheres or airborne toxins."
       }
     ],
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "TAILOREDJACKET",
@@ -454,7 +553,12 @@
       "Count": "1",
       "MiscDesc": "Add :advantage:1279760566587490314 to any successful Charm, Deception, or Negotiation checks."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "SAKSHADOW",
@@ -476,7 +580,11 @@
         }
       }
     },
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "SMUGGLERSTRENCHCOAT",
@@ -498,7 +606,11 @@
       }
     ],
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "WINGCOMMANDER",
@@ -521,7 +633,10 @@
       }
     ],
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "RIDINGTACK",
@@ -541,7 +656,13 @@
         "Count": "1",
         "MiscDesc": "May ride a beast without suffering bareback penalty."
       }
-    ]
+    ],
+    "Soak": "",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CAPARIBEAST",
@@ -562,7 +683,12 @@
         "MiscDesc": "May ride a beast without suffering bareback penalty."
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "DESTRIBEAST",
@@ -584,7 +710,11 @@
         "MiscDesc": "May ride a beast without suffering bareback penalty."
       }
     ],
-    "Soak": "4"
+    "Soak": "4",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MEGAFAUNA",
@@ -606,7 +736,11 @@
         "MiscDesc": "May ride a beast without suffering bareback penalty."
       }
     ],
-    "Defense": "1"
+    "Defense": "1",
+    "Soak": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "BANAL",
@@ -618,7 +752,15 @@
     "BaseMods": {
       "Count": "1",
       "MiscDesc": "Opposing characters upgrade the difficulty of checks to identify wearer once."
-    }
+    },
+    "Soak": "",
+    "Encumbrance": "",
+    "HP": "",
+    "Rarity": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CARGOCL",
@@ -631,7 +773,14 @@
     "BaseMods": {
       "Count": "1",
       "MiscDesc": "Can carry three items of encumbrance 1 without it affecting encumbrance value."
-    }
+    },
+    "Soak": "",
+    "HP": "",
+    "Rarity": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "DIPROBE",
@@ -645,7 +794,13 @@
     "BaseMods": {
       "Count": "1",
       "MiscDesc": "Add :boost:1279760567694790707 to social checks claiming diplomatic authority, accessing classified data, and bypassing normal protocol."
-    }
+    },
+    "Soak": "",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "FLAREJACK",
@@ -660,7 +815,12 @@
       "Count": "1",
       "MiscDesc": "Once per encounter, can trigger flare charge. Everyone in short range makes Hard ([DI][DI][DI]) Vigilance check. Fail means staggered for 1 round, plus 1 round per :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "HAULHARN",
@@ -683,7 +843,10 @@
       }
     ],
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "HOLOCOST",
@@ -698,7 +861,12 @@
       "Count": "1",
       "MiscDesc": "Easy ([DI]) Computers check to record new garment, Daunting ([DI][DI][DI][DI]) Computers check to record facsimile of garment."
     },
-    "Defense": "1"
+    "Soak": "",
+    "HP": "",
+    "Defense": "1",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "LECOUT",
@@ -720,7 +888,11 @@
         "MiscDesc": "Can be heard clearly at considerable range."
       }
     ],
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "PERFATT",
@@ -733,7 +905,14 @@
     "BaseMods": {
       "Count": "1",
       "MiscDesc": "Add :boost:1279760567694790707 to checks to perform or attract attention."
-    }
+    },
+    "Soak": "",
+    "Encumbrance": "",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "POWCAPARM",
@@ -751,7 +930,9 @@
       "MiscDesc": "As maneuver, power up and add +1 defense and +1 soak, but lose free maneuver."
     },
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "RESPROBES",
@@ -766,7 +947,12 @@
       "Count": "1",
       "MiscDesc": "If wearer draws attention to himself, allies in medium range add :boost:1279760567694790707 to Perception, Skulduggery, and Stealth checks."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "SECSKIN",
@@ -782,7 +968,11 @@
       "MiscDesc": "Add :setback:1279761015474753570:setback:1279761015474753570 to Perception checks to notice second skin armor on the wearer."
     },
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "ARMROBE",
@@ -796,7 +986,10 @@
     "Rarity": "8",
     "Restricted": "true",
     "Defense": "1",
-    "Soak": "2"
+    "Soak": "2",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CONROBE",
@@ -811,7 +1004,12 @@
       "Count": "1",
       "MiscDesc": "Add :setback:1279761015474753570 to checks to notice or recognize an individual wearing concealing robes."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "BODYSUIT",
@@ -833,7 +1031,11 @@
         "Count": "1"
       }
     ],
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "LEVPOWARM",
@@ -936,7 +1138,9 @@
       }
     ],
     "Defense": "2",
-    "Soak": "2"
+    "Soak": "2",
+    "Restricted": "false",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "VERPFIBUARM",
@@ -955,11 +1159,15 @@
       "Count": "1",
       "MiscDesc": "Armor may be powered up/down as a maneuver. While powered up, gain +2 defenses. :advantage:1279760566587490314:advantage:1279760566587490314 or :triumph-1:1279760921266360471 from hostile Combat check can cause armor to run out of power. Cannot be powered up again until end of encounter."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CRESHARMOR",
-    "Name": "Cresh \"Luck\"Armor",
+    "Name": "Cresh \"Luck\" Armor",
     "Description": "",
     "Source": "Keeping the Peace",
     "Categories": [
@@ -982,7 +1190,11 @@
         }
       }
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "JEDIBA",
@@ -1013,7 +1225,9 @@
       }
     ],
     "Defense": "1",
-    "Soak": "2"
+    "Soak": "2",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "JEDITEMGUAARM",
@@ -1040,7 +1254,9 @@
       }
     ],
     "Defense": "2",
-    "Soak": "1"
+    "Soak": "1",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "JEDITRAINSUITW",
@@ -1060,7 +1276,11 @@
       "Count": "1",
       "MiscDesc": "Removing weights requires an Easy ([DI]) Mechanics check."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "HP": "",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "JEDITRAINSUIT",
@@ -1076,7 +1296,12 @@
     "Price": "400",
     "Rarity": "9",
     "Restricted": "true",
-    "Soak": "2"
+    "Soak": "2",
+    "HP": "",
+    "Defense": "",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "KOROHALFVEST",
@@ -1092,7 +1317,11 @@
       "MiscDesc": "When wearer suffers Critical Injury, armor suffers minor damage, or increases current damage by one step."
     },
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "KAVDANNPA",
@@ -1128,7 +1357,9 @@
       }
     ],
     "Defense": "2",
-    "Soak": "2"
+    "Soak": "2",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "RIOTARM",
@@ -1144,7 +1375,12 @@
     "HP": "2",
     "Price": "950",
     "Rarity": "4",
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "Restricted": "false",
+    "BaseMods": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CLOAKCOAT",
@@ -1164,7 +1400,10 @@
       "Count": "1",
       "MiscDesc": "Upgrade difficulty of checks to detect an individual wearing a cloaking coat using sensors or electronics twice. Droids with Intellect less than wearer's ranks in Computers are similarly affected."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MECHUTILSUIT",
@@ -1183,7 +1422,11 @@
       "Count": "1",
       "MiscDesc": "Counts as having a tool kit."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "N57",
@@ -1210,7 +1453,11 @@
       "Count": "1",
       "MiscDesc": "As a maneuver, may recharge energy weapon that has run out of ammo."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "P14",
@@ -1248,7 +1495,11 @@
         "MiscDesc": "When suffering strain to take an extra maneuver, suffer 1 additional strain."
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "REBELHEAVY",
@@ -1273,8 +1524,10 @@
       "Count": "1",
       "MiscDesc": "Equipped with a helmet-fitted breath mask and respirator."
     },
+    "Soak": "2",
     "Defense": "1",
-    "Soak": "2"
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "IMPHAZARD",
@@ -1302,7 +1555,10 @@
       "Count": "1",
       "MiscDesc": "Remove :setback:1279761015474753570:setback:1279761015474753570 due to darkness, smoke or similar environmental factors that obscure vision from the wearer's Perception, Vigilance, and combat checks."
     },
-    "Soak": "3"
+    "Soak": "3",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "ALLIANCELTSTEALTH",
@@ -1334,7 +1590,10 @@
         }
       }
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "SURVIVALARMOR",
@@ -1353,7 +1612,11 @@
       "Key": "ENCTADD",
       "Count": "1"
     },
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CHITIN",
@@ -1384,7 +1647,11 @@
         ]
       }
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "ANIPRO",
@@ -1408,8 +1675,12 @@
         "MiscDesc": "May ride a beast without suffering bareback penalty."
       }
     ],
+    "Soak": "1",
+    "HP": "",
     "Defense": "1",
-    "Soak": "1"
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "THINSUIT",
@@ -1429,9 +1700,15 @@
       "Count": "1",
       "MiscDesc": "Remove :setback:1279761015474753570:setback:1279761015474753570 from checks imposed by environment in which the user is currently operating."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "Encumbrance": "",
+    "HP": "",
+    "Defense": "",
+    "Restricted": "false",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
-  {
+   {
     "Key": "IMPSTORMCOMM",
     "Name": "Imperial Storm Commando Armor",
     "Description": "",
@@ -1466,7 +1743,10 @@
         "MiscDesc": "Adds :setback:1279761015474753570 to other characters' Perception checks to detect the wearer."
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "PITCREWCOV",
@@ -1491,7 +1771,10 @@
         "Count": "1"
       }
     ],
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "GSUIT",
@@ -1511,9 +1794,12 @@
     "Rarity": "3",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Wearer reduces strain cost to perfrom a second Pilot Only maneuver by 1."
+      "MiscDesc": "Wearer reduces strain cost to perform a second Pilot Only maneuver by 1."
     },
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "ZEPHYRSTEALTH",
@@ -1540,7 +1826,9 @@
       }
     },
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CRASHGEAR",
@@ -1562,7 +1850,10 @@
       "Count": "1",
       "MiscDesc": "Wearer ignores the effects of ongoing Critical Injuries on any Intellect- or Cunning-related checks, but still suffers from the injuries."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "ARMDROPSUIT",
@@ -1590,7 +1881,9 @@
       "MiscDesc": "While conscious and flight systems are engaged, wearer cannot suffer falling damage."
     },
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "HUNTTROPHARM",
@@ -1628,7 +1921,10 @@
         }
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MANDOARM",
@@ -1651,7 +1947,9 @@
     "Rarity": "8",
     "Restricted": "true",
     "Defense": "1",
-    "Soak": "2"
+    "Soak": "2",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "BIOGELSUIT",
@@ -1687,7 +1985,10 @@
         }
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "FORMCOUNARM",
@@ -1716,7 +2017,10 @@
         "MiscDesc": "Optionally, when wearing, add :advantage:1279760566587490314:advantage:1279760566587490314 to Coercion checks against people who hate or fear the Jedi."
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "INDFLDDISR",
@@ -1757,7 +2061,9 @@
         "Range": "Engaged"
       }
     ],
-    "Defense": "1"
+    "Defense": "1",
+    "Soak": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "REFBODYGL",
@@ -1785,7 +2091,10 @@
         "MiscDesc": "Original Soak value may be restored by making a successful Average ([DI][DI]) Mechanics check."
       }
     ],
-    "Soak": "3"
+    "Soak": "3",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "DIVESUIT",
@@ -1807,7 +2116,10 @@
       "Count": "1",
       "MiscDesc": "Wearer does not suffer movement penalties for traveling through water."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "ALLENGHELVEST",
@@ -1825,7 +2137,11 @@
       "Key": "DURA",
       "Count": "1"
     },
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "EODMKII",
@@ -1848,7 +2164,11 @@
     "BaseMods": {
       "MiscDesc": "Characters wearing this armor lose their free movement."
     },
-    "Soak": "4"
+    "Soak": "4",
+    "HP": "",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "FABPROT",
@@ -1867,13 +2187,17 @@
     "Rarity": "1",
     "BaseMods": [
       {
-        "MiscDesc": "Wearer ignores effects of fires or acides of rating 1 or 2."
+        "MiscDesc": "Wearer ignores effects of fires or acids of rating 1 or 2."
       },
       {
         "MiscDesc": "Has soak 3 against damage from Blast quality."
       }
     ],
-    "Soak": "1"
+    "Soak": "1",
+    "HP": "",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "PIONEER",
@@ -1892,7 +2216,10 @@
       "Key": "ENCTADD",
       "Count": "3"
     },
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "SKAKPRESS",
@@ -1913,14 +2240,17 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Allows Skakoans to breath in non-methane atmospheres."
+        "MiscDesc": "Allows Skakoans to breathe in non-methane atmospheres."
       },
       {
         "Count": "1",
         "MiscDesc": "Cannot acquire unless on Skako."
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CLIMBSUIT",
@@ -1945,7 +2275,10 @@
         "MiscDesc": "The Climbsuit also reduces damage and strain suffered from falling by 5 and reduces any related Critical Injury results from falling by 10."
       }
     ],
-    "Soak": "1"
+    "Soak": "1",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "SITHPAIN",
@@ -1963,7 +2296,11 @@
     "BaseMods": {
       "MiscDesc": "Wearer may suffer 1 wound as incidental to add :success:1279760614994087987 to next Discipline check that round. Must suffer 1 Conflict."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "HP": "",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "TIMBERCUIR",
@@ -1979,7 +2316,9 @@
     "Price": "4000",
     "Rarity": "5",
     "Defense": "1",
-    "Soak": "2"
+    "Soak": "2",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "WATERWEAVE",
@@ -1998,7 +2337,9 @@
       "MiscDesc": "When submerged, encumbrance changes to 0."
     },
     "Defense": "2",
-    "Soak": "1"
+    "Soak": "1",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "ANCBATARM",
@@ -2020,7 +2361,10 @@
       "Key": "DEFADDFORCE",
       "Count": "1"
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MK1KATARN",
@@ -2073,7 +2417,9 @@
       }
     ],
     "Defense": "1",
-    "Soak": "2"
+    "Soak": "2",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "PHASEIARC",
@@ -2114,7 +2460,9 @@
       }
     ],
     "Defense": "1",
-    "Soak": "2"
+    "Soak": "2",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "SCAVCLONE",
@@ -2137,7 +2485,10 @@
       "Count": "1",
       "MiscDesc": "All wearers of scavenged clone armor suffer :setback:1279761015474753570 to Coordination and Stealth checks while wearing it. Characters wearing scavenged clone armor may suffer one or more :setback:1279761015474753570 on interactions with Republic officials and representatives, at the GM's discretion."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "NOBREG",
@@ -2155,7 +2506,11 @@
     "BaseMods": {
       "Count": "1",
       "MiscDesc": "Downgrade difficulty of social checks to interact with nobility or subordinates once."
-    }
+    },
+    "Soak": "",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MKINIGHTSTALK",
@@ -2209,7 +2564,10 @@
         }
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MKIXMIM",
@@ -2240,7 +2598,9 @@
       }
     ],
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "JEDIRECONARMCOTR",
@@ -2263,7 +2623,9 @@
       }
     },
     "Defense": "1",
-    "Soak": "1"
+    "Soak": "1",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CLONEDIVE",
@@ -2281,9 +2643,12 @@
     "Restricted": "true",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Provides 12 hours of oxygen. During this time the wearer also has fresh water,nutrition supplements, and other biological necessities. While wearing this armor, the wearer does not suffer movement penalties for traveling through water and removesup to :setback:1279761015474753570 from Perception checks due to underwater conditions."
+      "MiscDesc": "Provides 12 hours of oxygen. During this time the wearer also has fresh water, nutrition supplements, and other biological necessities. While wearing this armor, the wearer does not suffer movement penalties for traveling through water and removes up to :setback:1279761015474753570 from Perception checks due to underwater conditions."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "CLONERECON",
@@ -2297,9 +2662,12 @@
     "Rarity": "6",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Wearer adds :boost:1279760567694790707 to Stealth checks. The suit incorporates visors with integrated thermal and low-light sensors, allowing wearer to remove :setback:1279761015474753570 from visual Percpetion checks they make."
+      "MiscDesc": "Wearer adds :boost:1279760567694790707 to Stealth checks. The suit incorporates visors with integrated thermal and low-light sensors, allowing wearer to remove :setback:1279761015474753570 from visual Perception checks they make."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "USERARMOR1",
@@ -2314,10 +2682,12 @@
     "Restricted": "true",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Includes an integrated comlink with scramble capable of using all standard Republic communications protocols. The survival pack incorporates emergency rations, a water filtration system, microfiber line, and distress beacon"
+      "MiscDesc": "Includes an integrated comlink with scramble capable of using all standard Republic communications protocols. The survival pack incorporates emergency rations, a water filtration system, microfiber line, and distress beacon."
     },
     "Defense": "1",
-    "Soak": "2"
+    "Soak": "2",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "PHASEIICLONE",
@@ -2333,11 +2703,14 @@
       "Count": "1",
       "MiscDesc": "Includes an integrated comlink with scramble capable of using all standard Republic communications protocols."
     },
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "GUNDSCAV",
-    "Name": "\"Gundark\"Scav-Suit",
+    "Name": "\"Gundark\" Scav-Suit",
     "Description": "",
     "Source": {
       "_Page": "56",
@@ -2368,8 +2741,10 @@
         "MiscDesc": "Removes :setback:1279761015474753570 imposed by cold-weather conditions on Perception checks."
       }
     ],
+    "Soak": "1",
     "Defense": "1",
-    "Soak": "1"
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "FLIGHTCF9",
@@ -2396,8 +2771,10 @@
         "MiscDesc": "Remove up to :setback:1279761015474753570 from Piloting checks added due to physical stress."
       }
     ],
+    "Soak": "1",
     "Defense": "1",
-    "Soak": "1"
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "HVYROBES",
@@ -2411,7 +2788,11 @@
     "Encumbrance": "1",
     "Price": "150",
     "Rarity": "2",
-    "Defense": "1"
+    "Defense": "1",
+    "Soak": "",
+    "HP": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "HT77COLDARM",
@@ -2445,11 +2826,14 @@
         "MiscDesc": "Removes :setback:1279761015474753570 imposed by cold-weather conditions on Perception checks."
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "MKIIINSARM",
-    "Name": "Mk II \"Hotspot\"Insulated Armor",
+    "Name": "Mk II \"Hotspot\" Insulated Armor",
     "Description": "",
     "Source": {
       "_Page": "57",
@@ -2479,7 +2863,10 @@
         "MiscDesc": "Attackers must spend one additional :advantage:1279760566587490314 to activate Burn quality and treat rating as one less."
       }
     ],
-    "Soak": "2"
+    "Soak": "2",
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "JEDICOMM",
@@ -2501,13 +2888,19 @@
     "Price": "5000",
     "Rarity": "8",
     "Restricted": "true",
+    "Soak": "2",
     "Defense": "1",
-    "Soak": "2"
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "PHASEICLONE",
     "Name": "Phase I Clone Trooper Armor",
     "Description": "",
+    "Source": {
+      "_Page": "58",
+      "__text": "Rise of the Separatists"
+    },
     "Categories": [
       "Full Body",
       "Hard",
@@ -2527,19 +2920,15 @@
       }
     ],
     "Soak": "2",
-    "Source": {
-      "_Page": "58",
-      "__text": "Rise of the Separatists"
-    }
+    "Defense": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": ""
   },
   {
     "Key": "FETTARMOR",
     "Name": "Boba Fett's Armor",
     "Description": "",
     "Source": "Gadgets and Gear",
-    "BuiltInAttachments": {
-      "Key": "EOS"
-    },
     "Categories": [
       "Full Body",
       "Heavy",
@@ -2547,114 +2936,21 @@
     ],
     "Encumbrance": "6",
     "Rarity": "10",
-    "UniqueItem": "true",
-    "BaseMods": [
-      {
-        "Count": "1",
-        "MiscDesc": "Rangefinder: Add automatic :advantage:1279760566587490314 on all integrated weapon attacks."
-      },
-      {
-        "Count": "1",
-        "MiscDesc": "Premeditated Contingency: Once per encounter as a maneuver, a character wearing Boba Fett's armor may make an Average ([DI][DI]) Vigilance check to draw any weapon or item of a rarity equal to or less than the total number of net :success:1279760614994087987 and :advantage:1279760566587490314 at the GM's discretion."
-      }
-    ],
-    "WeaponModifiers": [
-      {
-        "UnarmedName": "Flamethrower",
-        "SkillKey": "RANGLT",
-        "Damage": "5",
-        "Crit": "2",
-        "Qualities": [
-          {
-            "Key": "BLAST",
-            "Count": "2"
-          },
-          {
-            "Key": "BURN",
-            "Count": "2"
-          },
-          {
-            "Key": "PIERCE",
-            "Count": "2"
-          },
-          {
-            "Key": "VICIOUS",
-            "Count": "3"
-          }
-        ],
-        "RangeValue": "wrShort",
-        "Range": "Short"
-      },
-      {
-        "UnarmedName": "Jetpack Missile Tube",
-        "SkillKey": "GUNN",
-        "Damage": "20",
-        "Crit": "2",
-        "Qualities": [
-          {
-            "Key": "BLAST",
-            "Count": "10"
-          },
-          {
-            "Key": "BREACH",
-            "Count": "1"
-          },
-          {
-            "Key": "CUMBERSOME",
-            "Count": "3"
-          },
-          {
-            "Key": "GUIDED",
-            "Count": "3"
-          },
-          {
-            "Key": "LIMITEDAMMO",
-            "Count": "1"
-          },
-          {
-            "Key": "PREPARE",
-            "Count": "1"
-          }
-        ],
-        "RangeValue": "wrExtreme",
-        "Range": "Extreme"
-      },
-      {
-        "UnarmedName": "Whipcord",
-        "SkillKey": "RANGLT",
-        "Damage": "1",
-        "Qualities": [
-          {
-            "Key": "ENSNARE",
-            "Count": "3"
-          },
-          {
-            "Key": "KNOCKDOWN"
-          },
-          {
-            "Key": "LIMITEDAMMO",
-            "Count": "1"
-          }
-        ],
-        "RangeValue": "wrShort",
-        "Range": "Short"
-      }
-    ],
+    "Soak": "3",
     "Defense": "2",
-    "Soak": "3"
+    "HP": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": [
+      {
+        "Key": "EOS"
+      }
+    ]
   },
   {
     "Key": "VADERARMOR",
     "Name": "Darth Vader's Armor",
     "Description": "",
     "Source": "Gadgets and Gear",
-    "BuiltInAttachments": {
-      "Key": [
-        "EOS",
-        "INTMEDSYS",
-        "VACUUM"
-      ]
-    },
     "Categories": [
       "Full Body",
       "Sealed",
@@ -2665,12 +2961,20 @@
     ],
     "Encumbrance": "5",
     "Rarity": "10",
-    "UniqueItem": "true",
-    "BaseMods": {
-      "Count": "1",
-      "MiscDesc": "Peerless Armor: Once per encounter as an out-of-turn incidental, the wearer of Darth Vader's armor may spend a Destiny Point to increase the soak provided by this armor to + 6 until the end of the wearer's next turn."
-    },
+    "Soak": "2",
     "Defense": "1",
-    "Soak": "2"
+    "HP": "",
+    "WeaponModifiers": "",
+    "BuiltInAttachments": [
+      {
+        "Key": "EOS"
+      },
+      {
+        "Key": "INTMEDSYS"
+      },
+      {
+        "Key": "VACUUM"
+      }
+    ]
   }
 ]
