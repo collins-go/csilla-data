@@ -32,7 +32,7 @@
     "Restricted": "true",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add [SETBACK] to all Brawn- and Agility-based checks. Reduce the duration of disoriented or staggered condition by 1 round."
+      "MiscDesc": "Add :setback:1279761015474753570 to all Brawn- and Agility-based checks. Reduce the duration of disoriented or staggered condition by 1 round."
     },
     "Soak": "3"
   },
@@ -59,7 +59,7 @@
     "Rarity": "6",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Grants [BOOST][BOOST] to all Athletics skill checks made to climb or rappel"
+      "MiscDesc": "Grants :boost:1279760567694790707:boost:1279760567694790707 to all Athletics skill checks made to climb or rappel"
     },
     "Defense": "1",
     "Soak": "1"
@@ -126,7 +126,7 @@
     "Rarity": "2",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add [ADVANTAGE] to Coercion checks and [THREAT] to Charm checks."
+      "MiscDesc": "Add :advantage:1279760566587490314 to Coercion checks and :threat:1279760886906490960 to Charm checks."
     },
     "Soak": "1"
   },
@@ -173,7 +173,7 @@
     "Rarity": "2",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Suffer [SETBACK] to any Agility- or Perception-based checks"
+      "MiscDesc": "Suffer :setback:1279761015474753570 to any Agility- or Perception-based checks"
     },
     "Soak": "2"
   },
@@ -321,7 +321,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Removes [SETBACK] added to checks due to extreme cold"
+        "MiscDesc": "Removes :setback:1279761015474753570 added to checks due to extreme cold"
       }
     ],
     "Soak": "1"
@@ -375,7 +375,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Remove [SETBACK][SETBACK] from Perception, Vigilance, and combat checks imposed by darkness, smoke, or similar environmental factors that obscure vision."
+        "MiscDesc": "Remove :setback:1279761015474753570:setback:1279761015474753570 from Perception, Vigilance, and combat checks imposed by darkness, smoke, or similar environmental factors that obscure vision."
       }
     ],
     "Defense": "1",
@@ -432,11 +432,11 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Removes [SETBACK] imposed by environmental conditions."
+        "MiscDesc": "Removes :setback:1279761015474753570 imposed by environmental conditions."
       },
       {
         "Count": "1",
-        "MiscDesc": "Add [BOOST] to Resilience checks to resist toxic atmospheres or airborne toxins."
+        "MiscDesc": "Add :boost:1279760567694790707 to Resilience checks to resist toxic atmospheres or airborne toxins."
       }
     ],
     "Soak": "1"
@@ -452,7 +452,7 @@
     "Rarity": "7",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add [ADVANTAGE] to any successful Charm, Deception, or Negotiation checks."
+      "MiscDesc": "Add :advantage:1279760566587490314 to any successful Charm, Deception, or Negotiation checks."
     },
     "Soak": "2"
   },
@@ -468,7 +468,7 @@
     "Rarity": "8",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Grants [BOOST][BOOST] to Stealth checks.",
+      "MiscDesc": "Grants :boost:1279760567694790707:boost:1279760567694790707 to Stealth checks.",
       "DieModifiers": {
         "DieModifier": {
           "SkillKey": "STEAL",
@@ -644,7 +644,7 @@
     "Rarity": "6",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add [BOOST] to social checks claiming diplomatic authority, accessing classified data, and bypassing normal protocol."
+      "MiscDesc": "Add :boost:1279760567694790707 to social checks claiming diplomatic authority, accessing classified data, and bypassing normal protocol."
     }
   },
   {
@@ -658,7 +658,7 @@
     "Rarity": "8",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Once per encounter, can trigger flare charge. Everyone in short range makes Hard ([DI][DI][DI]) Vigilance check. Fail means staggered for 1 round, plus 1 round per [TH][TH][TH]."
+      "MiscDesc": "Once per encounter, can trigger flare charge. Everyone in short range makes Hard ([DI][DI][DI]) Vigilance check. Fail means staggered for 1 round, plus 1 round per :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960."
     },
     "Soak": "1"
   },
@@ -713,7 +713,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add [BO] to social checks involving large groups of listeners."
+        "MiscDesc": "Add :boost:1279760567694790707 to social checks involving large groups of listeners."
       },
       {
         "Count": "1",
@@ -732,7 +732,7 @@
     "Rarity": "4",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add [BO] to checks to perform or attract attention."
+      "MiscDesc": "Add :boost:1279760567694790707 to checks to perform or attract attention."
     }
   },
   {
@@ -764,7 +764,7 @@
     "Rarity": "5",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "If wearer draws attention to himself, allies in medium range add [BO] to Perception, Skulduggery, and Stealth checks."
+      "MiscDesc": "If wearer draws attention to himself, allies in medium range add :boost:1279760567694790707 to Perception, Skulduggery, and Stealth checks."
     },
     "Soak": "1"
   },
@@ -779,7 +779,7 @@
     "Rarity": "7",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add [SE][SE] to Perception checks to notice second skin armor on the wearer."
+      "MiscDesc": "Add :setback:1279761015474753570:setback:1279761015474753570 to Perception checks to notice second skin armor on the wearer."
     },
     "Defense": "1",
     "Soak": "1"
@@ -809,7 +809,7 @@
     "Rarity": "2",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add [SETBACK] to checks to notice or recognize an individual wearing concealing robes."
+      "MiscDesc": "Add :setback:1279761015474753570 to checks to notice or recognize an individual wearing concealing robes."
     },
     "Soak": "1"
   },
@@ -868,11 +868,11 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Reduces the difficulty of Resilience checks made to resist the effects extreme cold by one. Removes up to [SETBACK][SETBACK] added to checks due to extreme cold."
+        "MiscDesc": "Reduces the difficulty of Resilience checks made to resist the effects extreme cold by one. Removes up to :setback:1279761015474753570:setback:1279761015474753570 added to checks due to extreme cold."
       },
       {
         "Count": "1",
-        "MiscDesc": "Removes up to [SETBACK][SETBACK] added to all Perception, Vigilance, and combat skill checks due to darkness, smoke, or other environmental effects that obscure vision."
+        "MiscDesc": "Removes up to :setback:1279761015474753570:setback:1279761015474753570 added to all Perception, Vigilance, and combat skill checks due to darkness, smoke, or other environmental effects that obscure vision."
       },
       {
         "Key": "BR",
@@ -953,7 +953,7 @@
     "Rarity": "5",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Armor may be powered up/down as a maneuver. While powered up, gain +2 defenses. [AD][AD] or [TR] from hostile Combat check can cause armor to run out of power. Cannot be powered up again until end of encounter."
+      "MiscDesc": "Armor may be powered up/down as a maneuver. While powered up, gain +2 defenses. :advantage:1279760566587490314:advantage:1279760566587490314 or :triumph-1:1279760921266360471 from hostile Combat check can cause armor to run out of power. Cannot be powered up again until end of encounter."
     },
     "Soak": "1"
   },
@@ -974,7 +974,7 @@
     "Rarity": "5",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add automatic [AD] to Vigilance checks.",
+      "MiscDesc": "Add automatic :advantage:1279760566587490314 to Vigilance checks.",
       "DieModifiers": {
         "DieModifier": {
           "SkillKey": "VIGIL",
@@ -1005,7 +1005,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Wearing Jedi Battle Armor fitted for someone else adds [SE][SE] to all combat checks."
+        "MiscDesc": "Wearing Jedi Battle Armor fitted for someone else adds :setback:1279761015474753570:setback:1279761015474753570 to all combat checks."
       },
       {
         "Count": "1",
@@ -1120,11 +1120,11 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Remove [SE] caused by darkness, smoke, or other environmental factors that might affect vision from Perception, Vigilance, and Combat checks."
+        "MiscDesc": "Remove :setback:1279761015474753570 caused by darkness, smoke, or other environmental factors that might affect vision from Perception, Vigilance, and Combat checks."
       },
       {
         "Count": "1",
-        "MiscDesc": "Gain [BO] to resist the effects of radiation."
+        "MiscDesc": "Gain :boost:1279760567694790707 to resist the effects of radiation."
       }
     ],
     "Defense": "2",
@@ -1237,7 +1237,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Add [BO][BO] to Resilience checks to resist heat, cold, radiation, or other hostile environmental conditions."
+        "MiscDesc": "Add :boost:1279760567694790707:boost:1279760567694790707 to Resilience checks to resist heat, cold, radiation, or other hostile environmental conditions."
       },
       {
         "Count": "1",
@@ -1300,7 +1300,7 @@
     "Restricted": "true",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Remove [SE][SE] due to darkness, smoke or similar environmental factors that obscure vision from the wearer's Perception, Vigilance, and combat checks."
+      "MiscDesc": "Remove :setback:1279761015474753570:setback:1279761015474753570 due to darkness, smoke or similar environmental factors that obscure vision from the wearer's Perception, Vigilance, and combat checks."
     },
     "Soak": "3"
   },
@@ -1326,7 +1326,7 @@
     "Restricted": "true",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Adds [BO] to the wearer's Stealth checks.",
+      "MiscDesc": "Adds :boost:1279760567694790707 to the wearer's Stealth checks.",
       "DieModifiers": {
         "DieModifier": {
           "SkillKey": "STEAL",
@@ -1370,7 +1370,7 @@
     "Rarity": "6",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add [ADVANTAGE] to Coercion checks and [THREAT] to Charm checks.",
+      "MiscDesc": "Add :advantage:1279760566587490314 to Coercion checks and :threat:1279760886906490960 to Charm checks.",
       "DieModifiers": {
         "DieModifier": [
           {
@@ -1427,7 +1427,7 @@
     "Rarity": "6",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Remove [SE][SE] from checks imposed by environment in which the user is currently operating."
+      "MiscDesc": "Remove :setback:1279761015474753570:setback:1279761015474753570 from checks imposed by environment in which the user is currently operating."
     },
     "Soak": "1"
   },
@@ -1459,11 +1459,11 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "While wearing storm commando armor, a character removes [SE] due to darkness, smoke, or similar environmental factors that obscure vision from all Perception, Vigilance, and combat checks."
+        "MiscDesc": "While wearing storm commando armor, a character removes :setback:1279761015474753570 due to darkness, smoke, or similar environmental factors that obscure vision from all Perception, Vigilance, and combat checks."
       },
       {
         "Count": "1",
-        "MiscDesc": "Adds [SE] to other characters' Perception checks to detect the wearer."
+        "MiscDesc": "Adds :setback:1279761015474753570 to other characters' Perception checks to detect the wearer."
       }
     ],
     "Soak": "2"
@@ -1609,7 +1609,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Wearer suffers [SE] to Charm checks.",
+        "MiscDesc": "Wearer suffers :setback:1279761015474753570 to Charm checks.",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "CHARM",
@@ -1619,7 +1619,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Wearer gains [BO][BO] to Coercion checks due to armor's intimidating appearance.",
+        "MiscDesc": "Wearer gains :boost:1279760567694790707:boost:1279760567694790707 to Coercion checks due to armor's intimidating appearance.",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "COERC",
@@ -1672,7 +1672,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Adds [SE] to any Brawn- or Agility-based skill checks.",
+        "MiscDesc": "Adds :setback:1279761015474753570 to any Brawn- or Agility-based skill checks.",
         "DieModifiers": {
           "DieModifier": [
             {
@@ -1709,11 +1709,11 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "When wearing, add [AD][AD] to negotiation checks against people who hold Jedi in high regard."
+        "MiscDesc": "When wearing, add :advantage:1279760566587490314:advantage:1279760566587490314 to negotiation checks against people who hold Jedi in high regard."
       },
       {
         "Count": "1",
-        "MiscDesc": "Optionally, when wearing, add [AD][AD] to Coercion checks against people who hate or fear the Jedi."
+        "MiscDesc": "Optionally, when wearing, add :advantage:1279760566587490314:advantage:1279760566587490314 to Coercion checks against people who hate or fear the Jedi."
       }
     ],
     "Soak": "2"
@@ -1774,7 +1774,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add [SE][SE] to Vigilance and Perception checks to notice the body glove."
+        "MiscDesc": "Add :setback:1279761015474753570:setback:1279761015474753570 to Vigilance and Perception checks to notice the body glove."
       },
       {
         "Count": "1",
@@ -1961,7 +1961,7 @@
     "Rarity": "9",
     "Restricted": "true",
     "BaseMods": {
-      "MiscDesc": "Wearer may suffer 1 wound as incidental to add [SU] to next Discipline check that round. Must suffer 1 Conflict."
+      "MiscDesc": "Wearer may suffer 1 wound as incidental to add :success:1279760614994087987 to next Discipline check that round. Must suffer 1 Conflict."
     },
     "Soak": "2"
   },
@@ -2057,7 +2057,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Removes [SE] from Perception and Survival checks",
+        "MiscDesc": "Removes :setback:1279761015474753570 from Perception and Survival checks",
         "DieModifiers": {
           "DieModifier": [
             {
@@ -2104,7 +2104,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Removes [SE] from all Perception checks",
+        "MiscDesc": "Removes :setback:1279761015474753570 from all Perception checks",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "PERC",
@@ -2135,7 +2135,7 @@
     "Restricted": "true",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "All wearers of scavenged clone armor suffer [SE] to Coordination and Stealth checks while wearing it. Characters wearing scavenged clone armor may suffer one or more [SE] on interactions with Republic officials and representatives, at the GM's discretion."
+      "MiscDesc": "All wearers of scavenged clone armor suffer :setback:1279761015474753570 to Coordination and Stealth checks while wearing it. Characters wearing scavenged clone armor may suffer one or more :setback:1279761015474753570 on interactions with Republic officials and representatives, at the GM's discretion."
     },
     "Soak": "2"
   },
@@ -2173,7 +2173,7 @@
     "Restricted": "true",
     "BaseMods": [
       {
-        "MiscDesc": "Wearer adds automatic [SU] to Stealth checks.",
+        "MiscDesc": "Wearer adds automatic :success:1279760614994087987 to Stealth checks.",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "STEAL",
@@ -2182,7 +2182,7 @@
         }
       },
       {
-        "MiscDesc": "Wearer adds automatic [TH] to social skill checks.",
+        "MiscDesc": "Wearer adds automatic :threat:1279760886906490960 to social skill checks.",
         "DieModifiers": {
           "DieModifier": [
             {
@@ -2236,7 +2236,7 @@
         }
       },
       {
-        "MiscDesc": "GM may spend [TH][TH][TH] or [DE] to cause the power pack to run out."
+        "MiscDesc": "GM may spend :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to cause the power pack to run out."
       }
     ],
     "Defense": "1",
@@ -2254,7 +2254,7 @@
     "Rarity": "8",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Add [BO] to stealth checks while wearing Jedi Recon Armor.",
+      "MiscDesc": "Add :boost:1279760567694790707 to stealth checks while wearing Jedi Recon Armor.",
       "DieModifiers": {
         "DieModifier": {
           "SkillKey": "STEAL",
@@ -2281,7 +2281,7 @@
     "Restricted": "true",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Provides 12 hours of oxygen. During this time the wearer also has fresh water,nutrition supplements, and other biological necessities. While wearing this armor, the wearer does not suffer movement penalties for traveling through water and removesup to [SE] from Perception checks due to underwater conditions."
+      "MiscDesc": "Provides 12 hours of oxygen. During this time the wearer also has fresh water,nutrition supplements, and other biological necessities. While wearing this armor, the wearer does not suffer movement penalties for traveling through water and removesup to :setback:1279761015474753570 from Perception checks due to underwater conditions."
     },
     "Soak": "2"
   },
@@ -2297,7 +2297,7 @@
     "Rarity": "6",
     "BaseMods": {
       "Count": "1",
-      "MiscDesc": "Wearer adds [BO] to Stealth checks. The suit incorporates visors with integrated thermal and low-light sensors, allowing wearer to remove [SE] from visual Percpetion checks they make."
+      "MiscDesc": "Wearer adds :boost:1279760567694790707 to Stealth checks. The suit incorporates visors with integrated thermal and low-light sensors, allowing wearer to remove :setback:1279761015474753570 from visual Percpetion checks they make."
     },
     "Soak": "2"
   },
@@ -2353,7 +2353,7 @@
     "Rarity": "6",
     "BaseMods": [
       {
-        "MiscDesc": "Adds [BO] to Perception checks.",
+        "MiscDesc": "Adds :boost:1279760567694790707 to Perception checks.",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "PERC",
@@ -2362,10 +2362,10 @@
         }
       },
       {
-        "MiscDesc": "Adds [BO][BO] to checks to avoid adverse effects of cold temperatures."
+        "MiscDesc": "Adds :boost:1279760567694790707:boost:1279760567694790707 to checks to avoid adverse effects of cold temperatures."
       },
       {
-        "MiscDesc": "Removes [SE] imposed by cold-weather conditions on Perception checks."
+        "MiscDesc": "Removes :setback:1279761015474753570 imposed by cold-weather conditions on Perception checks."
       }
     ],
     "Defense": "1",
@@ -2393,7 +2393,7 @@
         "MiscDesc": "Includes a built-in respirator."
       },
       {
-        "MiscDesc": "Remove up to [SE] from Piloting checks added due to physical stress."
+        "MiscDesc": "Remove up to :setback:1279761015474753570 from Piloting checks added due to physical stress."
       }
     ],
     "Defense": "1",
@@ -2439,10 +2439,10 @@
         "MiscDesc": "Comes with built-in comlink."
       },
       {
-        "MiscDesc": "Adds [BO][BO] to checks to avoid adverse effects of cold temperatures."
+        "MiscDesc": "Adds :boost:1279760567694790707:boost:1279760567694790707 to checks to avoid adverse effects of cold temperatures."
       },
       {
-        "MiscDesc": "Removes [SE] imposed by cold-weather conditions on Perception checks."
+        "MiscDesc": "Removes :setback:1279761015474753570 imposed by cold-weather conditions on Perception checks."
       }
     ],
     "Soak": "2"
@@ -2473,10 +2473,10 @@
         "MiscDesc": "Comes with built-in comlink."
       },
       {
-        "MiscDesc": "Adds [BO][BO] to checks to avoid adverse effects of extreme heat or toxic gas."
+        "MiscDesc": "Adds :boost:1279760567694790707:boost:1279760567694790707 to checks to avoid adverse effects of extreme heat or toxic gas."
       },
       {
-        "MiscDesc": "Attackers must spend one additional [AD] to activate Burn quality and treat rating as one less."
+        "MiscDesc": "Attackers must spend one additional :advantage:1279760566587490314 to activate Burn quality and treat rating as one less."
       }
     ],
     "Soak": "2"
@@ -2523,7 +2523,7 @@
         "MiscDesc": "Provides all benefits of a comlink"
       },
       {
-        "MiscDesc": "Wearer suffers [SE] to Coordination checks until acclimated to armor."
+        "MiscDesc": "Wearer suffers :setback:1279761015474753570 to Coordination checks until acclimated to armor."
       }
     ],
     "Soak": "2",
@@ -2551,11 +2551,11 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Rangefinder: Add automatic [AD] on all integrated weapon attacks."
+        "MiscDesc": "Rangefinder: Add automatic :advantage:1279760566587490314 on all integrated weapon attacks."
       },
       {
         "Count": "1",
-        "MiscDesc": "Premeditated Contingency: Once per encounter as a maneuver, a character wearing Boba Fett's armor may make an Average ([DI][DI]) Vigilance check to draw any weapon or item of a rarity equal to or less than the total number of net [SU] and [AD] at the GM's discretion."
+        "MiscDesc": "Premeditated Contingency: Once per encounter as a maneuver, a character wearing Boba Fett's armor may make an Average ([DI][DI]) Vigilance check to draw any weapon or item of a rarity equal to or less than the total number of net :success:1279760614994087987 and :advantage:1279760566587490314 at the GM's discretion."
       }
     ],
     "WeaponModifiers": [
