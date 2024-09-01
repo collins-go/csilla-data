@@ -1525,7 +1525,10 @@
       "Key": "KAVDANNPA",
       "Name": "Kav-Dann Power Armor",
       "Description": "",
-      "Source": "Keeping the Peace",
+        "Source": {
+          "_Page": "",
+          "__text": "Keeping the Peace"
+    },
       "Categories": [
         "Sealed",
         "Hard Full Body",
@@ -1563,7 +1566,10 @@
       "Key": "RIOTARM",
       "Name": "Riot Armor",
       "Description": "",
-      "Source": "Keeping the Peace",
+    "Source": {
+      "_Page": "",
+      "__text": "Keeping the Peace"
+    },
       "Categories": [
         "Half Body",
         "Heavy",
