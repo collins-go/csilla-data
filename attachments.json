@@ -17,7 +17,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Add [SETBACK] to all Mechanics checks when performing maintenance on this weapon. "
+        "MiscDesc": "Add :setback:1279761015474753570 to all Mechanics checks when performing maintenance on this weapon. "
       }
     ],
     "AddedMods": [
@@ -33,7 +33,9 @@
         "Key": "PIERCE",
         "Count": "1"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "BALHILT",
@@ -61,7 +63,9 @@
         "Key": "ACCURATE",
         "Count": "1"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "BLASTACT",
@@ -93,7 +97,9 @@
         "Key": "PIERCE",
         "Count": "2"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "BIPOD",
@@ -111,7 +117,15 @@
         "Key": "CUMBERSOME",
         "Count": "-2"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "BOWREC",
@@ -136,7 +150,8 @@
         "Key": "AUTOFIRE",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "BOWACC",
@@ -165,7 +180,8 @@
         "Key": "PIERCE",
         "Count": "2"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "FFS",
@@ -191,7 +207,10 @@
         "Count": "1",
         "MiscDesc": "Decreases the difficulty of checks to conceal the weapon by one."
       }
-    ]
+    ],
+    "Rarity": "",
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "FAG",
@@ -207,7 +226,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Decreases the additional difficulty of making Ranged (Heavy) checks with this weapon while engaged to an additional [DIFFICULTY] (rather than [DIFFICULTY][DIFFICULTY]). "
+        "MiscDesc": "Decreases the additional difficulty of making Ranged (Heavy) checks with this weapon while engaged to an additional :difficulty:1279760984621191210 (rather than :difficulty:1279760984621191210:difficulty:1279760984621191210). "
       }
     ],
     "AddedMods": [
@@ -219,7 +238,9 @@
         "Key": "ACCURATE",
         "Count": "1"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "MB",
@@ -251,7 +272,9 @@
         "Key": "ACCURATE",
         "Count": "2"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "MME",
@@ -275,7 +298,9 @@
         "Key": "PIERCE",
         "Count": "2"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "MOS",
@@ -291,7 +316,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Removes up to [SETBACK][SETBACK] on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision. "
+        "MiscDesc": "Removes up to :setback:1279761015474753570:setback:1279761015474753570 on any checks to use this weapon due to smoke, darkness, or other environmental conditions that obstruct vision. "
       }
     ],
     "AddedMods": [
@@ -299,7 +324,9 @@
         "Key": "PERC",
         "Count": "2"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "SB",
@@ -327,7 +354,9 @@
         "Key": "BLAST",
         "Count": "2"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "SE",
@@ -345,7 +374,15 @@
         "Key": "VICIOUS",
         "Count": "1"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "SWC",
@@ -359,7 +396,21 @@
       {
         "Key": "SUPERIOR"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "SHB",
@@ -386,7 +437,9 @@
       {
         "Key": "QUICKDR"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "UBGL",
@@ -423,7 +476,8 @@
         "Key": "LIMITEDAMMO",
         "Count": "5"
       }
-    ]
+    ],
+    "Source": ""
   },
   {
     "Key": "UBFP",
@@ -466,7 +520,14 @@
         "Range": "Short",
         "Name": "Flame Projector"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": ""
   },
   {
     "Key": "TOS",
@@ -484,7 +545,15 @@
         "Key": "DIFFSUBLONGEXT",
         "Count": "1"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "TRIPOD",
@@ -508,7 +577,9 @@
         "Key": "CUMBERSOME",
         "Count": "-2"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "WEPSLING",
@@ -530,7 +601,10 @@
       {
         "Key": "QUICKDR"
       }
-    ]
+    ],
+    "Rarity": "",
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "WEPHARN",
@@ -555,7 +629,9 @@
         "Key": "BRA",
         "Count": "1"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "WEIGHTHEAD",
@@ -584,7 +660,9 @@
         "Key": "CONCUSSIVE",
         "Count": "1"
       }
-    ]
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "CW",
@@ -598,7 +676,21 @@
       {
         "Key": "CORTOSIS"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "TSS",
@@ -611,9 +703,23 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Reduces the difficulty of Resilience checks made to resist the effects of fire and extreme heat by one. Removes up to [SETBACK][SETBACK] added to checks due to extreme heat or fire. "
+        "MiscDesc": "Reduces the difficulty of Resilience checks made to resist the effects of fire and extreme heat by one. Removes up to :setback:1279761015474753570:setback:1279761015474753570 added to checks due to extreme heat or fire. "
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "HEAT",
@@ -626,9 +732,23 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Reduces the difficulty of Resilience checks made to resist the effects extreme cold by one. Removes up to [SETBACK][SETBACK] added to checks due to extreme cold. "
+        "MiscDesc": "Reduces the difficulty of Resilience checks made to resist the effects extreme cold by one. Removes up to :setback:1279761015474753570:setback:1279761015474753570 added to checks due to extreme cold. "
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "EOS",
@@ -641,7 +761,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Removes up to [SETBACK][SETBACK] added to all Perception, Vigilance, and combat skill checks due to darkness, smoke, or other environmental effects that obscure vision. "
+        "MiscDesc": "Removes up to :setback:1279761015474753570:setback:1279761015474753570 added to all Perception, Vigilance, and combat skill checks due to darkness, smoke, or other environmental effects that obscure vision. "
       }
     ],
     "AddedMods": [
@@ -649,7 +769,15 @@
         "Key": "VIGIL",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "SES",
@@ -674,7 +802,15 @@
         "Key": "BRA",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "OCS",
@@ -705,7 +841,15 @@
         "Key": "STEAL",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "SACUST",
@@ -720,7 +864,21 @@
         "Key": "SUPERIOR",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "VACUUM",
@@ -734,7 +892,21 @@
       {
         "MiscDesc": "Allows the user to ignore the effects of vacuum or poisonous atmospheric environments for up to 10 minutes. "
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "ECDA",
@@ -754,7 +926,21 @@
         "Count": "1"
       }
     ],
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "ECMSUITE",
@@ -777,7 +963,15 @@
         "Count": "1",
         "MiscDesc": "Increase difficulty by one with Guided quality"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "HCC",
@@ -811,7 +1005,10 @@
         "Key": "SSTRAINADD",
         "Count": "1"
       }
-    ]
+    ],
+    "Rarity": "",
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "RSG",
@@ -832,7 +1029,15 @@
         "Key": "DEFZONEADD",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "SMUG",
@@ -859,6 +1064,12 @@
     "Source": [
       "Edge of the Empire Core Rulebook",
       "Force and Destiny Core Rulebook"
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
     ]
   },
   {
@@ -882,7 +1093,15 @@
       }
     ],
     "MinSize": "5",
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "HYPERDRIVE",
@@ -904,7 +1123,15 @@
         "Count": "2"
       }
     ],
-    "MustHaveHyperdrive": "true"
+    "MustHaveHyperdrive": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "ATA",
@@ -933,7 +1160,15 @@
         "Key": "TRUEAIM",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "JURYRIGGEDA",
@@ -954,7 +1189,28 @@
         "Key": "ENCSUB2",
         "Count": "1"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "BaseMods": [
+      {
+        "Key": "DAMADD",
+        "Count": "1"
+      },
+      {
+        "Count": "1",
+        "MiscDesc": "Add :setback:1279761015474753570 to all Mechanics checks when performing maintenance on this weapon."
+      }
+    ],
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "JURYRIGGEDW",
@@ -979,7 +1235,28 @@
         "Key": "QUALADVSUB",
         "Count": "1"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "BaseMods": [
+      {
+        "Key": "DAMADD",
+        "Count": "1"
+      },
+      {
+        "Count": "1",
+        "MiscDesc": "Add :setback:1279761015474753570 to all Mechanics checks when performing maintenance on this weapon."
+      }
+    ],
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Source": "",
+    "Restricted": false
   },
   {
     "Key": "ANQ36",
@@ -996,9 +1273,22 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Choose one target and make [B]Average ([DI][DI]) Computers check[b]. If successful, combat checks against target are upgraded once. [SU][SU][SU] or [TR] allows additional target. "
+        "MiscDesc": "Choose one target and make [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b]. If successful, combat checks against target are upgraded once. :success:1279760614994087987:success:1279760614994087987:success:1279760614994087987 or :triumph-1:1279760921266360471 allows additional target. "
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MODBKACCPOUCH",
@@ -1021,7 +1311,15 @@
         "Key": "ENCTADD",
         "Count": "2"
       }
-    ]
+    ],
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ENGACCESS",
@@ -1038,9 +1336,22 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Anyone working on internal systems, such as power systems, hyperdrive, computers, sensors, gain [BOOST] to Mechanics and Computer checks due to the ease of reaching such typically hidden systems. "
+        "MiscDesc": "Anyone working on internal systems, such as power systems, hyperdrive, computers, sensors, gain :boost:1279760567694790707 to Mechanics and Computer checks due to the ease of reaching such typically hidden systems. "
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "M77TRANQ",
@@ -1053,9 +1364,24 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Upon hit, target must make [B]Average ([DIFFICULTY][DIFFICULTY]) Resilience check[b]. If fail, target takes 5 strain, plus 2 strain per [THREAT]. GM may use [DESPAIR] to make target check again next round at increased difficulty."
+        "MiscDesc": "Upon hit, target must make [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Resilience check[b]. If fail, target takes 5 strain, plus 2 strain per :threat:1279760886906490960. GM may use :despair:1279760580332355607 to make target check again next round at increased difficulty."
       }
-    ]
+    ],
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PTA",
@@ -1070,7 +1396,20 @@
       {
         "MiscDesc": "When making auto-fire attack, do not increase difficulty by 1. "
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "OEWM",
@@ -1095,7 +1434,20 @@
         "Count": "4"
       }
     ],
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "BOARDTUBE",
@@ -1119,7 +1471,13 @@
         "Count": "4"
       }
     ],
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ]
   },
   {
     "Key": "FOGGEN",
@@ -1140,9 +1498,16 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Provides concealment that adds [SETBACK][SETBACK][SETBACK]."
+        "MiscDesc": "Provides concealment that adds :setback:1279761015474753570:setback:1279761015474753570:setback:1279761015474753570."
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "GENELOCK",
@@ -1164,7 +1529,14 @@
         "Count": "1",
         "MiscDesc": "Self-Destruct. Inflicts one critical hit if unauthorized user tries to use locked weapon. Weapon is destroyed."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "LASERSIGHT",
@@ -1183,7 +1555,14 @@
         "Key": "ADVADD",
         "Count": "1"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PISTOLGRIP",
@@ -1204,13 +1583,20 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Add [SETBACK] to any combat check made when firing one-handed."
+        "MiscDesc": "Add :setback:1279761015474753570 to any combat check made when firing one-handed."
       },
       {
         "Key": "RANGEREDMED",
         "Count": "1"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MISSILESYS",
@@ -1237,7 +1623,14 @@
         "Key": "ENCADD",
         "Count": "3"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "WRISTMOUNT",
@@ -1256,7 +1649,14 @@
         "Count": "1",
         "MiscDesc": "Weapon can be worn on the wrist, freeing user's hands."
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "INTMEDSYS",
@@ -1274,7 +1674,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "All Medicine checks made to heal wearer gain [BOOST]."
+        "MiscDesc": "All Medicine checks made to heal wearer gain :boost:1279760567694790707."
       },
       {
         "Key": "ENCADD",
@@ -1286,7 +1686,14 @@
         "Key": "HEALPLUSONE",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HANDSFREEWEAP",
@@ -1302,7 +1709,20 @@
         "Count": "1",
         "MiscDesc": "Mounts single weapon on armor. User can aim and fire without using his hands. Use \"Notes\"feature to specify which weapon is mounted."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MULTICOMLINK",
@@ -1317,7 +1737,21 @@
         "Count": "1",
         "MiscDesc": "A long range comlink is integrated into helmet."
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "INTSCAN",
@@ -1335,7 +1769,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Adds [BOOST] to Perception checks to detect movement or hidden enemies."
+        "MiscDesc": "Adds :boost:1279760567694790707 to Perception checks to detect movement or hidden enemies."
       }
     ],
     "AddedMods": [
@@ -1343,7 +1777,14 @@
         "Key": "PERC",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "RANGEFIND",
@@ -1365,7 +1806,14 @@
         "Key": "SNIPSHOT",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "TARGCOMP",
@@ -1379,14 +1827,21 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add [BOOST] to all Ranged attacks at long or extreme range."
+        "MiscDesc": "Add :boost:1279760567694790707 to all Ranged attacks at long or extreme range."
       }
     ],
     "AddedMods": [
       {
         "Key": "NATMAR"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "REPENH",
@@ -1403,7 +1858,20 @@
         "MiscDesc": "As a maneuver, suffer 1 system strain to add +1 maximum speed for one round."
       }
     ],
-    "MaxSize": "2"
+    "MaxSize": "2",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "UPGFIRE",
@@ -1418,7 +1886,22 @@
         "Count": "1"
       }
     ],
-    "MaxSize": "2"
+    "MaxSize": "2",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AUGBUFF",
@@ -1440,7 +1923,15 @@
         "Count": "2"
       }
     ],
-    "MaxSize": "2"
+    "MaxSize": "2",
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MANTHRUST",
@@ -1458,7 +1949,20 @@
       }
     ],
     "MaxSize": "2",
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "POISONRES",
@@ -1511,7 +2015,14 @@
         "Key": "ADVADDINIT",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "BLASTSUPP",
@@ -1529,7 +2040,13 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds [SETBACK][SETBACK] to Perception or Vigilance checks made to locate a concealed shooter firing silenced blaster."
+        "MiscDesc": "Adds :setback:1279761015474753570:setback:1279761015474753570 to Perception or Vigilance checks made to locate a concealed shooter firing silenced blaster."
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
       }
     ]
   },
@@ -1560,7 +2077,14 @@
         "Key": "SSTRAINADD",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "OVRCHARGEV",
@@ -1579,6 +2103,12 @@
       {
         "Count": "1",
         "MiscDesc": "As incidental, weapon gains Prepare 1 quality and +4 damage for next attack. After firing, weapon runs out of ammo."
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
       }
     ]
   },
@@ -1600,9 +2130,16 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Reduce [AD] required to hit with second weapon when two-weapon fighting by 1."
+        "MiscDesc": "Reduce :advantage:1279760566587490314 required to hit with second weapon when two-weapon fighting by 1."
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SETTRIGGER",
@@ -1619,15 +2156,16 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Automatic [SU][TH] to the first combat check made with this weapon each encounter."
+        "MiscDesc": "Automatic :success:1279760614994087987:threat:1279760886906490960 to the first combat check made with this weapon each encounter."
       }
     ],
     "AddedMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds [SU] to the first combat check made with this weapon each encounter"
+        "MiscDesc": "Adds :success:1279760614994087987 to the first combat check made with this weapon each encounter"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "UNDERSCATTER",
@@ -1674,6 +2212,12 @@
         "Range": "Short",
         "Name": "Scattergun"
       }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
     ]
   },
   {
@@ -1710,7 +2254,9 @@
           }
         }
       }
-    ]
+    ],
+    "HP": "",
+    "Restricted": false
   },
   {
     "Key": "PILOTBRAIN",
@@ -1759,7 +2305,15 @@
           ]
         }
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AX108BUZZER",
@@ -1819,7 +2373,14 @@
         "Range": "Medium",
         "Name": "Surface-Defense Blaster Cannon"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CLOAKSMUGG",
@@ -1847,7 +2408,13 @@
       }
     ],
     "MinEnc": "25",
-    "Source": "Fly Casual"
+    "Source": "Fly Casual",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ]
   },
   {
     "Key": "INTBROAD",
@@ -1863,7 +2430,20 @@
         "Count": "1",
         "MiscDesc": "Increases the strain threshold of each crewmember by 1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "NIGHTCOAT",
@@ -1886,6 +2466,12 @@
         "Count": "1",
         "MiscDesc": "Reduce the ship's silhouette by 1 in combat"
       }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
     ]
   },
   {
@@ -1902,7 +2488,20 @@
         "Count": "1",
         "MiscDesc": "Upgrades ability of Charm, Deception, and Negotiation checks while aboard once."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "RAPIDCARGOEVAC",
@@ -1917,13 +2516,19 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Make an [B]Average ([DI][DI]) Mechanics check[b] as an action while in the cockpit or cargo bay to eject everything currently stored in the cargo hold."
+        "MiscDesc": "Make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b] as an action while in the cockpit or cargo bay to eject everything currently stored in the cargo hold."
       }
     ],
     "AddedMods": [
       {
         "Count": "1",
         "MiscDesc": "May instead be activated as an action without making a check Mod."
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
       }
     ]
   },
@@ -1941,6 +2546,18 @@
       {
         "Count": "1",
         "MiscDesc": "Increases the difficulty of checks to detect this vessel by two while it is traveling at speed 3 or lower."
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
       }
     ]
   },
@@ -1965,7 +2582,20 @@
         "Key": "PASSADD",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CURVEDHILT",
@@ -1982,7 +2612,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds automatic [ADVANTAGE] to successful Lightsaber combat checks when engaged with a single opponent."
+        "MiscDesc": "Adds automatic :advantage:1279760566587490314 to successful Lightsaber combat checks when engaged with a single opponent."
       }
     ],
     "AddedMods": [
@@ -1990,7 +2620,8 @@
         "Key": "DEFENSIVE",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "BLASTDAMP",
@@ -2037,9 +2668,16 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Remove up to [SETBACK][SETBACK] on any checks to use this weapon due to darkness"
+        "MiscDesc": "Remove up to :setback:1279761015474753570:setback:1279761015474753570 on any checks to use this weapon due to darkness"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SHADOWSHEATH",
@@ -2057,7 +2695,19 @@
         "MiscDesc": "Increases the difficulty of any checks made to detect the sheath or the weapon it holds by two"
       }
     ],
-    "MaxEnc": "2"
+    "MaxEnc": "2",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ]
   },
   {
     "Key": "STUNPULSE",
@@ -2082,7 +2732,8 @@
         "Key": "STUN",
         "Count": "3"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "BARABLS",
@@ -2163,7 +2814,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "When making a Force power check as part of a combat check, may spend [FORCEPOINT] to recover 2 strain."
+        "MiscDesc": "When making a Force power check as part of a combat check, may spend:forcedark:1279760590604341272 or :forcelight:1279761067660279822 to recover 2 strain."
       }
     ],
     "AddedMods": [
@@ -2245,7 +2896,14 @@
         "Count": "1",
         "MiscDesc": "May change blade length once per encounter as an incidental. Next attack that turn ignores target's melee defense."
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "EXTHILT",
@@ -2270,7 +2928,8 @@
         "Key": "VICIOUS",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "ILUM",
@@ -2527,7 +3186,14 @@
       {
         "Key": "SUPERIOR"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "TRAINEMIT",
@@ -2552,7 +3218,14 @@
       {
         "Key": "STUNDAMAGE"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "BIOFEED",
@@ -2574,7 +3247,14 @@
         "Key": "RAPREC",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ENERDISP",
@@ -2590,7 +3270,20 @@
         "Count": "1",
         "MiscDesc": "When reducing strain damage by soak, count soak as two higher"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HELMETSCAN",
@@ -2604,9 +3297,22 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds a general purpose scanner to the user’s helmet. The scanner allows the user to remove [SETBACK] imposed on any checks due to darkness or environmental conditions such as smoke or fog. It also allows the user to detect heat sources and motion within medium range. "
+        "MiscDesc": "Adds a general purpose scanner to the user\u2019s helmet. The scanner allows the user to remove :setback:1279761015474753570 imposed on any checks due to darkness or environmental conditions such as smoke or fog. It also allows the user to detect heat sources and motion within medium range. "
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HELMETCOM",
@@ -2621,7 +3327,21 @@
         "Count": "1",
         "MiscDesc": "A long-range comlink is integrated into the helmet"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "UCA",
@@ -2646,7 +3366,14 @@
     "Source": [
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PHYSCOUNT",
@@ -2660,20 +3387,27 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds [SETBACK] to all Gunnery checks made using misiles, rockets, or torpedoes targeting the starship."
+        "MiscDesc": "Adds :setback:1279761015474753570 to all Gunnery checks made using misiles, rockets, or torpedoes targeting the starship."
       }
     ],
     "AddedMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds [SETBACK] to all Gunnery checks made using misiles, rockets, or torpedoes targeting the starship."
+        "MiscDesc": "Adds :setback:1279761015474753570 to all Gunnery checks made using misiles, rockets, or torpedoes targeting the starship."
       },
       {
         "Count": "1",
         "MiscDesc": "Increase difficulty by 1 when making checks triggered by the Guided quality."
       }
     ],
-    "MaxSize": "10"
+    "MaxSize": "10",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "GRAVMINE",
@@ -2696,7 +3430,14 @@
         "MiscDesc": "Increase deployable range to short"
       }
     ],
-    "MaxSize": "10"
+    "MaxSize": "10",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ASTROMECH",
@@ -2719,7 +3460,14 @@
         "MiscDesc": "Automated droid ejection system"
       }
     ],
-    "MaxSize": "10"
+    "MaxSize": "10",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HARDCIRC",
@@ -2742,7 +3490,14 @@
         "Count": "2"
       }
     ],
-    "MaxSize": "10"
+    "MaxSize": "10",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HULLREINF",
@@ -2766,7 +3521,14 @@
       }
     ],
     "MaxSize": "10",
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "RAM",
@@ -2789,7 +3551,14 @@
         "MiscDesc": "Add 1 more defense when instigating a collision."
       }
     ],
-    "MaxSize": "10"
+    "MaxSize": "10",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SLAVECIRC",
@@ -2816,7 +3585,14 @@
         "MiscDesc": "Allows ship or vehicle to autonomously use its weapon systems using owner's appropriate skill."
       }
     ],
-    "MaxSize": "10"
+    "MaxSize": "10",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HNPA",
@@ -2831,7 +3607,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Transmissions sent with this attachment can reach any facility that has access to interstellar communications. Transmissions can be intercepted with a [B]Hard ([DI][DI][DI]) Computers check[b], provided someone is aware of the transmission."
+        "MiscDesc": "Transmissions sent with this attachment can reach any facility that has access to interstellar communications. Transmissions can be intercepted with a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b], provided someone is aware of the transmission."
       }
     ],
     "AddedMods": [
@@ -2841,7 +3617,13 @@
       },
       {
         "Count": "2",
-        "MiscDesc": "Add [BO] to intercept HoloNet traffic"
+        "MiscDesc": "Add :boost:1279760567694790707 to intercept HoloNet traffic"
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
       }
     ]
   },
@@ -2857,10 +3639,23 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add [BO] to all Charm, Deception, and Negotiation checks made against passengers within the vehicle. Checks made against passengers who are accustomed to opulence and luxury have up to [SE][SE] removed instead."
+        "MiscDesc": "Add :boost:1279760567694790707 to all Charm, Deception, and Negotiation checks made against passengers within the vehicle. Checks made against passengers who are accustomed to opulence and luxury have up to [SE][SE] removed instead."
       }
     ],
-    "PricePassMult": "true"
+    "PricePassMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ASEA",
@@ -2875,7 +3670,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Only the intended recipient can detect a transmission sent with this attachment without a [B]Hard ([DI][DI][DI]) Computers check[b]."
+        "MiscDesc": "Only the intended recipient can detect a transmission sent with this attachment without a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b]."
       },
       {
         "Count": "1",
@@ -2891,6 +3686,12 @@
         "Count": "2",
         "MiscDesc": "Add [SE] to enemy interception or deciphering check"
       }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
     ]
   },
   {
@@ -2905,7 +3706,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Can replicate up to three different planetary environments, one at a time. When making Charm or Negotiation checks against members of species native to replicated environment, add an automatic [AD][AD] to pool."
+        "MiscDesc": "Can replicate up to three different planetary environments, one at a time. When making Charm or Negotiation checks against members of species native to replicated environment, add an automatic :advantage:1279760566587490314:advantage:1279760566587490314 to pool."
       }
     ],
     "AddedMods": [
@@ -2913,7 +3714,14 @@
         "Count": "2",
         "MiscDesc": "Additional planetary environment"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ECMSUITETALLANX",
@@ -2937,7 +3745,22 @@
         "Count": "1",
         "MiscDesc": "Immediately notifies all ships in a star system or within 100 kilometers if planetside to the ship or vehicle's existence."
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "GIMMELSTEALTH",
@@ -2961,6 +3784,20 @@
       {
         "Count": "1",
         "MiscDesc": "All power for shields and weapons must be rerouted to device for it to work. Rerouting takes one action."
+      }
+    ],
+    "Price": "",
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
       }
     ]
   },
@@ -2987,7 +3824,8 @@
         "Key": "ACCURATE",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "SIGRED",
@@ -3004,7 +3842,20 @@
         "MiscDesc": "Increase the difficulty checks using scanners to search for this weapon by 2. Add [SE] to all Mechanics checks to perform maintenance on this weapon."
       }
     ],
-    "MaxEnc": "3"
+    "MaxEnc": "3",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CCARRAY",
@@ -3052,19 +3903,20 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Once per turn, spend a maneuver to add Vicious +3 to weapon until end of round. [TH][TH][TH] or [DE] causes weapon to cease functioning until end of encounter."
+        "MiscDesc": "Once per turn, spend a maneuver to add Vicious +3 to weapon until end of round. :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 causes weapon to cease functioning until end of encounter."
       }
     ],
     "AddedMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add automatic [AD] to combat checks with this weapon"
+        "MiscDesc": "Add automatic :advantage:1279760566587490314 to combat checks with this weapon"
       },
       {
         "Count": "1",
         "MiscDesc": "Activate as an incidental instead of a maneuver"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "FORRESON",
@@ -3120,7 +3972,8 @@
         "Key": "DISORIENT",
         "Count": "2"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "MAGTETH",
@@ -3142,7 +3995,14 @@
         "Key": "QUICKDR",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "KIMBER",
@@ -3216,7 +4076,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "When used with the Parry talent, add [BO] to next combat check made against attacker before the end of the next round."
+        "MiscDesc": "When used with the Parry talent, add :boost:1279760567694790707 to next combat check made against attacker before the end of the next round."
       }
     ],
     "AddedMods": [
@@ -3251,7 +4111,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "When wielder suffers hit from Melee, Brawl, or Lightsaber combat check, may spend [TH][TH] or [DE] to cause attacker to suffer 3 strain, ignoring soak."
+        "MiscDesc": "When wielder suffers hit from Melee, Brawl, or Lightsaber combat check, may spend :threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to cause attacker to suffer 3 strain, ignoring soak."
       }
     ],
     "AddedMods": [
@@ -3262,7 +4122,8 @@
       {
         "Key": "DEFSTA"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "ARMSPIKE",
@@ -3280,7 +4141,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "When wearer suffers a hit from a Melee, Brawl, or Lightsaber combat check, may spend [TH][TH][TH] or [DE] to inflict one hit for 6 damage on attacker."
+        "MiscDesc": "When wearer suffers a hit from a Melee, Brawl, or Lightsaber combat check, may spend :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to inflict one hit for 6 damage on attacker."
       }
     ],
     "AddedMods": [
@@ -3291,7 +4152,14 @@
       {
         "Key": "INTIM"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "QUICKSHED",
@@ -3305,9 +4173,22 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "As a maneuver, wearer by shed the armor. Armor must be reassembled before donning again, requiring several minutes and an [B]Average ([DI][DI]) Mechanics check[b]."
+        "MiscDesc": "As a maneuver, wearer by shed the armor. Armor must be reassembled before donning again, requiring several minutes and an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b]."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "LOWFRIC",
@@ -3334,7 +4215,14 @@
         "Key": "COORD",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "KIIRCOAT",
@@ -3357,7 +4245,14 @@
         "Count": "2",
         "MiscDesc": "Decrease the difficulty of Resilience checks made to resist the effects of fire and extreme heat by 1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HARDENED",
@@ -3374,7 +4269,20 @@
         "Count": "1",
         "MiscDesc": "Prevents deactivation of power armor by electromagnetic or ion weapons."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "REFSHAD",
@@ -3389,7 +4297,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add automatic [AD] to Stealth checks",
+        "MiscDesc": "Add automatic :advantage:1279760566587490314 to Stealth checks",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "STEAL",
@@ -3406,6 +4314,12 @@
       {
         "Count": "2",
         "MiscDesc": "Add [SE] to Perception checks to see wearer"
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
       }
     ]
   },
@@ -3425,19 +4339,26 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "When suffering hit from Melee, Brawl, or Lightsaber combat check, may spend [TH][TH] or [DE] to disorient attacker for 2 rounds."
+        "MiscDesc": "When suffering hit from Melee, Brawl, or Lightsaber combat check, may spend :threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to disorient attacker for 2 rounds."
       }
     ],
     "AddedMods": [
       {
         "Count": "1",
-        "MiscDesc": "May spend [TH][TH][TH] or [DE] to immobilize attacker for 1 rounds"
+        "MiscDesc": "May spend :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to immobilize attacker for 1 rounds"
       },
       {
         "Count": "1",
-        "MiscDesc": "May spend [DE] to stagger attacker for 1 rounds"
+        "MiscDesc": "May spend :despair:1279760580332355607 to stagger attacker for 1 rounds"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "REACPLAT",
@@ -3463,7 +4384,14 @@
         "Key": "ENCSUB",
         "Count": "3"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "LTSABERCONST",
@@ -3491,7 +4419,21 @@
         "Key": "ENCADD",
         "Count": "4"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "BaseMods": [
+      {
+        "Key": "DAMADD",
+        "Count": "1"
+      },
+      {
+        "Count": "1",
+        "MiscDesc": "Add :setback:1279761015474753570 to all Mechanics checks when performing maintenance on this weapon."
+      }
+    ],
+    "Rarity": "",
+    "Restricted": false
   },
   {
     "Key": "SLICCOMP",
@@ -3512,7 +4454,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Add automatic [AD] to Computers checks made to slice enemy ships' systems."
+        "MiscDesc": "Add automatic :advantage:1279760566587490314 to Computers checks made to slice enemy ships' systems."
       }
     ],
     "AddedMods": [
@@ -3525,7 +4467,14 @@
         "Count": "1"
       }
     ],
-    "MustBeStarship": "true"
+    "MustBeStarship": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SECTRANSP",
@@ -3543,11 +4492,11 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Crew can switch to the secondary transponder as an action, making an [B]Average ([DI][DI]) Computers check[b]."
+        "MiscDesc": "Crew can switch to the secondary transponder as an action, making an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b]."
       },
       {
         "Count": "1",
-        "MiscDesc": "An observer who scans the ship can detect discrepancies indicating the presence of a secondary transponder with a [B]Daunting ([DI][DI][DI][DI]) Computers check[b]."
+        "MiscDesc": "An observer who scans the ship can detect discrepancies indicating the presence of a secondary transponder with a [B]Daunting (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b]."
       }
     ],
     "AddedMods": [
@@ -3560,7 +4509,13 @@
         "MiscDesc": "Add one additional ship identity"
       }
     ],
-    "MustBeStarship": "true"
+    "MustBeStarship": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ]
   },
   {
     "Key": "SECMEAS",
@@ -3585,7 +4540,15 @@
         "MiscDesc": "Add [SE] to Computers and Skulduggery checks made to gain unauthorized access to their ship"
       }
     ],
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "OVERCHIONENG",
@@ -3619,7 +4582,14 @@
       }
     ],
     "MustBeStarship": "true",
-    "MaxSize": "3"
+    "MaxSize": "3",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PSEUDCLOAK",
@@ -3648,6 +4618,12 @@
       {
         "Count": "2",
         "MiscDesc": "Add [SE] to combat checks targetting ship at Short range or further"
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
       }
     ]
   },
@@ -3685,7 +4661,15 @@
           }
         }
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "LASFOCUS",
@@ -3702,11 +4686,24 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add automatic [AD] to combat checks made with the ship's laser cannons and turbolasers."
+        "MiscDesc": "Add automatic :advantage:1279760566587490314 to combat checks made with the ship's laser cannons and turbolasers."
       }
     ],
     "MustBeStarship": "true",
-    "PriceWeponCatMult": "Laser"
+    "PriceWeponCatMult": "Laser",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ENCRYCOMP",
@@ -3730,7 +4727,15 @@
         "Count": "2",
         "MiscDesc": "Add [SE] to Computers checks made to slice the ship's computer systems"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ENHREPULS",
@@ -3766,7 +4771,14 @@
         "Count": "1"
       }
     ],
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AMPHIBMOD",
@@ -3791,7 +4803,14 @@
       }
     ],
     "MaxSize": "6",
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "DECOYBUOY",
@@ -3812,7 +4831,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Buoy can be programmed with a specific transponder code with a [B]Hard ([DI][DI][DI]) Computers check[b]."
+        "MiscDesc": "Buoy can be programmed with a specific transponder code with a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b]."
       },
       {
         "Count": "1",
@@ -3820,7 +4839,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "A character operating ship sensors must make a [B]Hard ([DI][DI][DI]) Computers check[b] to identify that the buoy is not an actual ship."
+        "MiscDesc": "A character operating ship sensors must make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b] to identify that the buoy is not an actual ship."
       },
       {
         "Count": "1",
@@ -3831,6 +4850,13 @@
       {
         "Count": "2",
         "MiscDesc": "Add [SE] to Computers checks to identify the buoy"
+      }
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
       }
     ]
   },
@@ -3864,7 +4890,14 @@
         "Key": "SPEEDADD",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "USERATTACH3",
@@ -3895,7 +4928,14 @@
         "Key": "HYPERDRIVESUB5",
         "Count": "4"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AD15SHIELD",
@@ -3923,7 +4963,14 @@
         "Key": "DEFZONEADD",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AD15MICROTHRUST",
@@ -3951,7 +4998,14 @@
         "Key": "HANDLINGADD",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AD15HYPER",
@@ -3982,7 +5036,14 @@
         "Key": "HYPERDRIVESUB5",
         "Count": "4"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AD15CARGOPOS",
@@ -4010,7 +5071,14 @@
         "Key": "PASSADD2",
         "Count": "3"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ALLTERLEGS",
@@ -4045,7 +5113,8 @@
       }
     ],
     "MaxSize": "6",
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "Restricted": false
   },
   {
     "Key": "RADSHIELD",
@@ -4062,7 +5131,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add [BO][BO] to Resilience checks to resist radiation."
+        "MiscDesc": "Add :boost:1279760567694790707:boost:1279760567694790707 to Resilience checks to resist radiation."
       }
     ],
     "AddedMods": [
@@ -4070,7 +5139,14 @@
         "Count": "2",
         "MiscDesc": "Increase armor's soak by 1 against damage caused by radiation"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "REINFGAUNT",
@@ -4109,7 +5185,14 @@
         "Name": "Reinforced Gauntlets"
       }
     ],
-    "MinSoak": "2"
+    "MinSoak": "2",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "INTSLICGEAR",
@@ -4134,7 +5217,14 @@
         "Key": "TECHAPT",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "IONSHIELD",
@@ -4160,7 +5250,14 @@
         "MiscDesc": "Increase ranged and melee defense by 1 against weapons with Ion quality"
       }
     ],
-    "MinSoak": "2"
+    "MinSoak": "2",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CUSTOMFIT",
@@ -4185,7 +5282,14 @@
         "Count": "2",
         "MiscDesc": "Remove an additional [SE] from Athletics and Stealth checks"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "INTASCGEAR",
@@ -4202,13 +5306,26 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "As an action, may make an [B]Average ([DI][DI]) Ranged (Light) check[b] to secure grappling hook to an object within medium range and reel in cord."
+        "MiscDesc": "As an action, may make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Ranged (Light) check[b] to secure grappling hook to an object within medium range and reel in cord."
       },
       {
         "Count": "1",
-        "MiscDesc": "May pull another character aloft by making an [B]Easy ([DI]) Athletics check[b]."
+        "MiscDesc": "May pull another character aloft by making an [B]Easy (:difficulty:1279760984621191210) Athletics check[b]."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "VIBBAY",
@@ -4260,7 +5377,8 @@
         "Range": "Engaged",
         "Name": "Vibro-Bayonet"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "AMPHMOD",
@@ -4289,7 +5407,14 @@
         "Count": "2",
         "MiscDesc": "Increase oxegen supply by two hours"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "STRIPDOWN",
@@ -4321,7 +5446,8 @@
         "Key": "ENCSUB",
         "Count": "2"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "GRAPNEL",
@@ -4342,13 +5468,20 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "As an action, may make an [B]Average ([DI][DI]) Ranged (Light) check[b] to secure grappling hook to an object within medium range and reel in cord."
+        "MiscDesc": "As an action, may make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Ranged (Light) check[b] to secure grappling hook to an object within medium range and reel in cord."
       },
       {
         "Count": "1",
-        "MiscDesc": "May pull another character aloft by making an [B]Average ([DI][DI]) Athletics check[b]."
+        "MiscDesc": "May pull another character aloft by making an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Athletics check[b]."
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "IONBLAST",
@@ -4401,7 +5534,8 @@
         "Range": "Short",
         "Name": "Secondary Ion Blaster"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "SONICSCOPE",
@@ -4437,7 +5571,8 @@
         "Key": "PRECAIM",
         "Count": "2"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "RAPRECXC",
@@ -4468,7 +5603,8 @@
         "Key": "SUBQUALINACCURATE",
         "Count": "2"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "REMSAFFEAT",
@@ -4488,11 +5624,18 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds [BO] to first combat check during an encounter."
+        "MiscDesc": "Adds :boost:1279760567694790707 to first combat check during an encounter."
       },
       {
         "Count": "1",
-        "MiscDesc": "GM may spend [TH][TH] to cause misfire. Weapon runs out of ammo and inflicts 4 strain on wielder."
+        "MiscDesc": "GM may spend :threat:1279760886906490960:threat:1279760886906490960 to cause misfire. Weapon runs out of ammo and inflicts 4 strain on wielder."
+      }
+    ],
+    "HP": "",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
       }
     ]
   },
@@ -4514,9 +5657,16 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "When GM spends [DE] or [TH] to cause the weapon to run out of ammo, it requires an additional [TH]."
+        "MiscDesc": "When GM spends :despair:1279760580332355607 or :threat:1279760886906490960 to cause the weapon to run out of ammo, it requires an additional :threat:1279760886906490960."
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "OVERACTMOD",
@@ -4540,7 +5690,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "GM may spend [TH][TH] to damage weapon by one step."
+        "MiscDesc": "GM may spend :threat:1279760886906490960:threat:1279760886906490960 to damage weapon by one step."
       }
     ],
     "AddedMods": [
@@ -4548,7 +5698,8 @@
         "Key": "DAMADD",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "GYROSTAB",
@@ -4581,7 +5732,8 @@
         "Key": "BAR",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "INTSCAN2",
@@ -4605,7 +5757,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Wielder adds automatic [AD][AD] to Initiative checks while weapon is drawn."
+        "MiscDesc": "Wielder adds automatic :advantage:1279760566587490314:advantage:1279760566587490314 to Initiative checks while weapon is drawn."
       }
     ],
     "AddedMods": [
@@ -4613,7 +5765,8 @@
         "Count": "2",
         "MiscDesc": "Remove [SE] from Initiative checks"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "CUSTGRIP",
@@ -4642,7 +5795,14 @@
         "Key": "ACCURATE",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "USERATTACH2",
@@ -4667,7 +5827,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "GM may spend [DE][DE] to cause blaster to explode, destroying blaster and inflicting automatic Critical Injury on wielder."
+        "MiscDesc": "GM may spend :despair:1279760580332355607:despair:1279760580332355607 to cause blaster to explode, destroying blaster and inflicting automatic Critical Injury on wielder."
       }
     ],
     "AddedMods": [
@@ -4695,7 +5855,20 @@
         "Key": "REMQUALLIMITEDAMMO",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "IONTHRUSTSHAPEDNOZ",
@@ -4720,7 +5893,15 @@
         "Key": "PIERCE",
         "Count": "5"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MULTIGOOGASCART",
@@ -4750,7 +5931,14 @@
         "Key": "DISORIENT",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "RIVETGUNBALBAR",
@@ -4777,7 +5965,14 @@
         "Key": "SUBQUALINACCURATE",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SELFREPSYS",
@@ -4794,14 +5989,27 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Once per encounter as a maneuver, can have armor attempt to repair itself or assist in a repair. Counts as Intellect 2 and Mechanics 2 ([PR][PR])."
+        "MiscDesc": "Once per encounter as a maneuver, can have armor attempt to repair itself or assist in a repair. Counts as Intellect 2 and Mechanics 2 (:proficiency:1279760961695256718:proficiency:1279760961695256718)."
       },
       {
         "Count": "1",
         "MiscDesc": "There is no cost to repair armor, whether using the automatic feature, or personally repairing."
       }
     ],
-    "MinDefense": "1"
+    "MinDefense": "1",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HOLOTANK",
@@ -4824,13 +6032,20 @@
     "AddedMods": [
       {
         "Count": "2",
-        "MiscDesc": "Add [AD] to Mass Combat checks when acting force commander is on board this ship"
+        "MiscDesc": "Add :advantage:1279760566587490314 to Mass Combat checks when acting force commander is on board this ship"
       },
       {
         "Count": "1",
         "MiscDesc": "Upgrade the ability of checks when determining Initiative once"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "TACCOMM",
@@ -4859,7 +6074,14 @@
         "Count": "1",
         "MiscDesc": "Allies benefiting from Situational Awareness remove [SE] on Perception and Vigilance checks"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "BRAUD",
@@ -4881,10 +6103,18 @@
     "AddedMods": [
       {
         "Count": "2",
-        "MiscDesc": "Add [AD] to Leadership checks made by characters within the briefing auditorium"
+        "MiscDesc": "Add :advantage:1279760566587490314 to Leadership checks made by characters within the briefing auditorium"
       }
     ],
-    "MinSize": "5"
+    "MinSize": "5",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ELCOUNTCOUNT",
@@ -4901,7 +6131,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Make a [B]Hard ([DI][DI][DI]) Computers check[b] to cancel all effects of an electronic countermeasures suite."
+        "MiscDesc": "Make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b] to cancel all effects of an electronic countermeasures suite."
       }
     ],
     "AddedMods": [
@@ -4909,7 +6139,14 @@
         "Count": "1",
         "MiscDesc": "Decrease difficulty of the Computers check by 1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "THEATCOMM",
@@ -4932,13 +6169,20 @@
     "AddedMods": [
       {
         "Count": "2",
-        "MiscDesc": "Gain an additional [AD] on Mass Combat checks"
+        "MiscDesc": "Gain an additional :advantage:1279760566587490314 on Mass Combat checks"
       },
       {
         "Count": "1",
         "MiscDesc": "Remove [SE] from Mass Combat checks"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MILMODBACKSTO",
@@ -4958,7 +6202,20 @@
         "Key": "ENCTADD",
         "Count": "3"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MILMODBACKSEN",
@@ -4976,7 +6233,7 @@
     "Encumbrance": "2",
     "BaseMods": [
       {
-        "MiscDesc": "Adds [AD] to Vigilance checks.",
+        "MiscDesc": "Adds :advantage:1279760566587490314 to Vigilance checks.",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "VIGIL",
@@ -4984,7 +6241,20 @@
           }
         }
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MILMODBACKOXY",
@@ -5004,7 +6274,20 @@
       {
         "MiscDesc": "Adds additional twelve hours of oxygen when connected to any rebreather, breath mask, or sealed suit."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MILMODBACKPOW",
@@ -5025,9 +6308,22 @@
         "MiscDesc": "May recharge a depleted piece of equipment as an action, or a droid or larger piece of machinery in two hours."
       },
       {
-        "MiscDesc": "Once per encounter, wearer may ignore an \"out of ammo\"[DE] result in the same manner as an Extra Reload."
+        "MiscDesc": "Once per encounter, wearer may ignore an \"out of ammo\":despair:1279760580332355607 result in the same manner as an Extra Reload."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MILMODBACKCOM",
@@ -5050,7 +6346,20 @@
       {
         "MiscDesc": "Adds [SE][SE] to checks made to unscramble the unit's signal."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "GALPATRES",
@@ -5073,7 +6382,7 @@
         "Count": "1"
       },
       {
-        "MiscDesc": "Adds automatic [TH][TH] to all combat checks made using this weapon."
+        "MiscDesc": "Adds automatic :threat:1279760886906490960:threat:1279760886906490960 to all combat checks made using this weapon."
       }
     ],
     "AddedMods": [
@@ -5085,7 +6394,8 @@
         "Key": "PIERCE",
         "Count": "2"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "MILMODBACKTEMP",
@@ -5105,7 +6415,20 @@
       {
         "MiscDesc": "Removes up to [SE][SE] from checks to resist extreme heat or cold."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "BEAMSPLIT",
@@ -5161,7 +6484,14 @@
       {
         "MiscDesc": "Remove [SE] added by the Called Shot use of the Aim maneuver from Ranged Light and Ranged Heavy checks."
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "XV09",
@@ -5181,9 +6511,23 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Pacified beasts gain [BOOST] to any [B]Displine Checks[b]."
+        "MiscDesc": "Pacified beasts gain :boost:1279760567694790707 to any [B]Displine Checks[b]."
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ENHHYPSH",
@@ -5208,7 +6552,14 @@
         "Count": "2",
         "MiscDesc": "Remove [SE] from Astrogation checks made to navigate the ship through hyperspace"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PODENGINE",
@@ -5230,7 +6581,20 @@
         "Key": "SETSPEED4",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PODSHIELD",
@@ -5258,7 +6622,14 @@
         "Key": "DEFZONEADD",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PODCONTCAB",
@@ -5280,7 +6651,20 @@
         "Key": "SETHANDM1",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PODCOILS",
@@ -5308,7 +6692,14 @@
         "Key": "ADDALT50",
         "Count": "3"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PODREICOWL",
@@ -5332,7 +6723,15 @@
         "Count": "1",
         "MiscDesc": "Reduce Critical Hit result from collision by 20"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "POSFORDEB",
@@ -5352,13 +6751,26 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Ejects debris into the air behind podracer. Any racer within close range and behind must make a [B]Hard ([DI][DI][DI]) Piloting (Planetary) check[b] to avoid debris. Failure reduces speed by 1 for 2 rounds, plus 1 round per [TH]. [TH][TH][TH] or [DE] can inflict Critical Hit on target vehicle."
+        "MiscDesc": "Ejects debris into the air behind podracer. Any racer within close range and behind must make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Piloting (Planetary) check[b] to avoid debris. Failure reduces speed by 1 for 2 rounds, plus 1 round per :threat:1279760886906490960. :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 can inflict Critical Hit on target vehicle."
       },
       {
         "Count": "1",
         "MiscDesc": "May only be used once per race."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PODHAND",
@@ -5386,7 +6798,14 @@
         "Key": "HANDLINGADD",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PODEJECT",
@@ -5406,9 +6825,22 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "To eject, make an [B]Average ([DI][DI]) Piloting (Planetary) check[b] as an out-of-turn incidental. On success, pilot is ejected unharmed. On failure, pilot suffers vehicle speed in strain, plus one Critical Injury. GM can spend [TH][TH] or [DE] to cause wounds to be suffered instead."
+        "MiscDesc": "To eject, make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Piloting (Planetary) check[b] as an out-of-turn incidental. On success, pilot is ejected unharmed. On failure, pilot suffers vehicle speed in strain, plus one Critical Injury. GM can spend :threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to cause wounds to be suffered instead."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "COLLAVOID",
@@ -5430,7 +6862,20 @@
         "Count": "1",
         "MiscDesc": "Reduce silhouette by 1 for purposes of determining difficulty of Piloting checks."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARACLOUD",
@@ -5481,7 +6926,23 @@
         "Range": "Close",
         "Name": "Light Auto-Blaster"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARAAIR",
@@ -5533,7 +6994,23 @@
         "Range": "Close",
         "Name": "Light Blaster Cannon"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARABIKE",
@@ -5597,7 +7074,23 @@
         "Range": "Long",
         "Name": "Light Repeating Blaster"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARAWHEEL",
@@ -5653,7 +7146,17 @@
         "Range": "Close",
         "Name": "Medium Laser Cannon"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARAMEDTRANS",
@@ -5708,7 +7211,17 @@
         "Range": "Close",
         "Name": "Medium Laser Cannon"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARALTFREIGHT",
@@ -5777,7 +7290,23 @@
         "Range": "Close",
         "Name": "Quad Laser Cannon"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARASHUTTLE",
@@ -5833,7 +7362,23 @@
         "Range": "Close",
         "Name": "Light Laser Cannon"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARABULK",
@@ -5892,7 +7437,17 @@
         "Range": "Short",
         "Name": "Heavy Laser Cannon"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARAYACHT",
@@ -5955,7 +7510,23 @@
         "Range": "Close",
         "Name": "Light Laser Cannon"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ETAAN",
@@ -6052,7 +7623,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Wielder may spend [AD][AD][AD][AD] or [TR] to prevent the target from using the Parry talent to reduce damage from this attack."
+        "MiscDesc": "Wielder may spend :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 or :triumph-1:1279760921266360471 to prevent the target from using the Parry talent to reduce damage from this attack."
       }
     ],
     "AddedMods": [
@@ -6096,7 +7667,8 @@
         "Key": "DEFLECTION",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "SHIENREVGRIP",
@@ -6115,7 +7687,7 @@
     "HP": "1",
     "BaseMods": [
       {
-        "MiscDesc": "Wielder adds [AD] to all Lightsaber (Cunning) checks, but adds [TH] to all other Lightsaber checks. ",
+        "MiscDesc": "Wielder adds :advantage:1279760566587490314 to all Lightsaber (Cunning) checks, but adds :threat:1279760886906490960 to all other Lightsaber checks. ",
         "DieModifiers": {
           "DieModifier": [
             {
@@ -6151,7 +7723,14 @@
           ]
         }
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "OVERPOWERCELL",
@@ -6171,9 +7750,16 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Wielder can spend [AD] from combat checks to increase damage by 1. GM can spend [TH][TH] to decrease damage by 1."
+        "MiscDesc": "Wielder can spend :advantage:1279760566587490314 from combat checks to increase damage by 1. GM can spend :threat:1279760886906490960:threat:1279760886906490960 to decrease damage by 1."
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PISTOLHILT",
@@ -6205,7 +7791,17 @@
         "Range": "Short",
         "Name": "Built-In Blaster Pistol"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "RIDINGTACK",
@@ -6227,7 +7823,21 @@
         "Count": "1",
         "MiscDesc": "Characters may ride beast without suffering bareback riding penalties."
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AD1SSHIELD",
@@ -6255,7 +7865,14 @@
         "Key": "DEFZONEADD",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AD1SHYPER8",
@@ -6286,7 +7903,14 @@
         "Key": "HYPERDRIVESUB5",
         "Count": "4"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AD1SCARGOPOD",
@@ -6314,7 +7938,14 @@
         "Key": "PASSADD2",
         "Count": "3"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AD1SMICROTHRUST",
@@ -6342,7 +7973,14 @@
         "Key": "HANDLINGADD",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SLUGSUPP",
@@ -6364,6 +8002,12 @@
       {
         "Count": "1",
         "MiscDesc": "Adds [SE][SE] to Perception or Vigilance checks made to locate a concealed shooter firing a silenced slugthrower."
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
       }
     ]
   },
@@ -6393,7 +8037,8 @@
         "Key": "PRECAIM",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "VARPCRYST",
@@ -6433,7 +8078,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "When spending [TR] to inflict Critical Injury, may spend additional [TR] to automatically inflict Maimed Critical Injury."
+        "MiscDesc": "When spending :triumph-1:1279760921266360471 to inflict Critical Injury, may spend additional :triumph-1:1279760921266360471 to automatically inflict Maimed Critical Injury."
       }
     ],
     "AddedMods": [
@@ -6482,7 +8127,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Add automatic [AD] to checks made to location position, navigate terrain, or find power sources or active technology."
+        "MiscDesc": "Add automatic :advantage:1279760566587490314 to checks made to location position, navigate terrain, or find power sources or active technology."
       }
     ],
     "AddedMods": [
@@ -6517,7 +8162,20 @@
       {
         "MiscDesc": "Upgrades ability of Resiliance and Survival checks made in dry or hot environments due to scarcity of water twice."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SADDLEBAGS",
@@ -6538,7 +8196,21 @@
         "Key": "ENCTADD",
         "Count": "4"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PASSFOLSUIT",
@@ -6556,7 +8228,20 @@
       {
         "MiscDesc": "Add [SE] to Perception or Vigilance checks made to detect a character wearing this armor in appropriate environment."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AD1SHYPER4",
@@ -6587,7 +8272,14 @@
         "Key": "HYPERDRIVESUB5",
         "Count": "4"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PODENGINEBOOST",
@@ -6613,7 +8305,20 @@
         "Key": "SSTRAINSUB",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ENVADAPTKIT",
@@ -6635,7 +8340,14 @@
         "Count": "1",
         "MiscDesc": "Prevents a weapon from breaking down as a result of a specific type of environment."
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ENXCITER",
@@ -6660,7 +8372,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "GM may spend [DE][DE] to cause blaster to explode, destroying blaster and inflicting automatic Critical Injury on wielder."
+        "MiscDesc": "GM may spend :despair:1279760580332355607:despair:1279760580332355607 to cause blaster to explode, destroying blaster and inflicting automatic Critical Injury on wielder."
       }
     ],
     "AddedMods": [
@@ -6700,7 +8412,14 @@
         "Key": "SPEEDADD",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "DAMPEMIT",
@@ -6728,7 +8447,8 @@
         "Count": "2",
         "MiscDesc": "Stun Damage +1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "MODBKACCPOUCH3",
@@ -6755,7 +8475,15 @@
         "Key": "ENCTADD",
         "Count": "3"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MODCARGOCONT",
@@ -6785,7 +8513,15 @@
         "Count": "10"
       }
     ],
-    "MinSize": "2"
+    "MinSize": "2",
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HUNTBARREL",
@@ -6848,7 +8584,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Pilot or gunner may make an [B]Average ([DI][DI]) Mechanics check[b] to deploy a mine anywhere within close range."
+        "MiscDesc": "Pilot or gunner may make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b] to deploy a mine anywhere within close range."
       }
     ],
     "AddedMods": [
@@ -6861,7 +8597,13 @@
         "MiscDesc": "Increase mine capacity by 1"
       }
     ],
-    "MustBeStarship": "true"
+    "MustBeStarship": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ]
   },
   {
     "Key": "CONTFIELD",
@@ -6883,10 +8625,22 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Operator can attack prisoner. Prisoner must make a [B]Hard ([DI][DI][DI]) Resilience check[b] and suffers 1 damage per [FA] and one [TH] may be used to inflict 1 strain."
+        "MiscDesc": "Operator can attack prisoner. Prisoner must make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Resilience check[b] and suffers 1 damage per :failure:1279760586783326319 and one :threat:1279760886906490960 may be used to inflict 1 strain."
       }
     ],
-    "MinSize": "4"
+    "MinSize": "4",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ]
   },
   {
     "Key": "ENPRISONLOCK",
@@ -6911,7 +8665,14 @@
         "Count": "4",
         "MiscDesc": "Support for one additional prisoner."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MICROROCKARMMOUNT",
@@ -6957,6 +8718,12 @@
         "Range": "Short",
         "Name": "Micro-Rocket Launcher"
       }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
     ]
   },
   {
@@ -7000,7 +8767,14 @@
         "Key": "SSTRAINADD",
         "Count": "3"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MICROROCKRACK",
@@ -7081,7 +8855,8 @@
         "Key": "THRCANCEL",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "SHOCKPULSEMIT",
@@ -7114,7 +8889,8 @@
         "Key": "DISORIENT",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "REPASSLIFT",
@@ -7143,7 +8919,14 @@
         "Key": "ATHL",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MICROROCKGUIDE",
@@ -7176,7 +8959,8 @@
         "Key": "ACCURATE",
         "Count": "2"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "MICROROCKBOOST",
@@ -7212,7 +8996,8 @@
         "Key": "SUBQUALINACCURATE",
         "Count": "2"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "TRACKSYS",
@@ -7245,7 +9030,14 @@
         "Key": "SURV",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "INTHOLST",
@@ -7278,7 +9070,14 @@
       {
         "Key": "QUICKDR"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARALAND",
@@ -7333,7 +9132,23 @@
         "Range": "Close",
         "Name": "Medium Laser Cannon"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PARAWALK",
@@ -7381,7 +9196,23 @@
         "Range": "Close",
         "Name": "Medium Laser Cannon"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "BLADEDRAIN",
@@ -7402,11 +9233,11 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "When making a combat check targeting an opponent with a lightsaber, character may spend [TR] to reduce opponent's lightsaber's base damage by one for remainder of encounter."
+        "MiscDesc": "When making a combat check targeting an opponent with a lightsaber, character may spend :triumph-1:1279760921266360471 to reduce opponent's lightsaber's base damage by one for remainder of encounter."
       },
       {
         "Count": "1",
-        "MiscDesc": "[TH][TH][TH] causes blade to collapse. Cannot be reignited until character's next turn."
+        "MiscDesc": ":threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 causes blade to collapse. Cannot be reignited until character's next turn."
       }
     ],
     "AddedMods": [
@@ -7443,7 +9274,8 @@
         "Key": "STUN",
         "Count": "2"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "HILTMASK",
@@ -7461,15 +9293,18 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds [FA][FA] to any attempt to find or identify the lightsaber as a lightsaber."
+        "MiscDesc": "Adds :failure:1279760586783326319:failure:1279760586783326319 to any attempt to find or identify the lightsaber as a lightsaber."
       }
     ],
     "AddedMods": [
       {
         "Count": "2",
-        "MiscDesc": "Increase number of [FA] by 1"
+        "MiscDesc": "Increase number of :failure:1279760586783326319 by 1"
       }
-    ]
+    ],
+    "Price": "",
+    "Rarity": "",
+    "Restricted": false
   },
   {
     "Key": "STUNONLYBLASTER",
@@ -7504,7 +9339,16 @@
         "-Page": "167",
         "#text": "Force and Destiny Core Rulebook"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CORRUPTCRYS",
@@ -7545,11 +9389,11 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "When character wielding this lightsaber makes a Force check, add [DA] to the check."
+        "MiscDesc": "When character wielding this lightsaber makes a Force check, add :forcedark:1279760590604341272] to the check."
       },
       {
         "Count": "1",
-        "MiscDesc": "When wielder's Morality rises to 70 or more, [DA] is no longer added to Force checks, and the crystal loses the Vicious quality."
+        "MiscDesc": "When wielder's Morality rises to 70 or more, :forcedark:1279760590604341272] is no longer added to Force checks, and the crystal loses the Vicious quality."
       }
     ],
     "AddedMods": [
@@ -7570,7 +9414,8 @@
         "Count": "2"
       }
     ],
-    "IsCrystal": "true"
+    "IsCrystal": "true",
+    "Price": ""
   },
   {
     "Key": "STUNBLAST",
@@ -7621,7 +9466,18 @@
         "Range": "Short",
         "Name": "Stun Blaster"
       }
-    ]
+    ],
+    "BaseMods": [
+      {
+        "Key": "DAMADD",
+        "Count": "1"
+      },
+      {
+        "Count": "1",
+        "MiscDesc": "Add :setback:1279761015474753570 to all Mechanics checks when performing maintenance on this weapon."
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SEEKERCRYS",
@@ -7658,7 +9514,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Force-sensitive wielders my add [AD][AD] to Perception or Vigilance checks to detect a hidden being within short range."
+        "MiscDesc": "Force-sensitive wielders my add :advantage:1279760566587490314:advantage:1279760566587490314 to Perception or Vigilance checks to detect a hidden being within short range."
       }
     ],
     "AddedMods": [
@@ -7712,7 +9568,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "If a combat check results in a [DE], GM may cause crystal to shatter."
+        "MiscDesc": "If a combat check results in a :despair:1279760580332355607, GM may cause crystal to shatter."
       }
     ],
     "AddedMods": [
@@ -7725,7 +9581,8 @@
         "Count": "2"
       }
     ],
-    "IsCrystal": "true"
+    "IsCrystal": "true",
+    "Price": ""
   },
   {
     "Key": "SOLARICRYS",
@@ -7785,7 +9642,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Reduce cost of Improved Reflect by [TH]"
+        "MiscDesc": "Reduce cost of Improved Reflect by :threat:1279760886906490960"
       }
     ],
     "IsCrystal": "true"
@@ -7802,11 +9659,11 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "When rolling for initiative, or attacking with its Insatiable Maw, a space slug rolls a [B]Coordination skill check[b], counting as having Coordination 3 and Agility 1 ([PR][AB][AB])."
+        "MiscDesc": "When rolling for initiative, or attacking with its Insatiable Maw, a space slug rolls a [B]Coordination skill check[b], counting as having Coordination 3 and Agility 1 (:proficiency:1279760961695256718:ability:1279760565388181598:ability:1279760565388181598)."
       },
       {
         "Count": "1",
-        "MiscDesc": "A starship of silhouette 5 or lower attacked by a space slug, regardless of whether or not the attack hit, must make a [B]Hard ([DI][DI][DI]) Piloting (Space) check[b] to avoid being swallowed. If swallowed, ship suffers 10 hull trauma daily from being digested."
+        "MiscDesc": "A starship of silhouette 5 or lower attacked by a space slug, regardless of whether or not the attack hit, must make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Piloting (Space) check[b] to avoid being swallowed. If swallowed, ship suffers 10 hull trauma daily from being digested."
       },
       {
         "Count": "1",
@@ -7838,7 +9695,23 @@
         "Range": "Close",
         "Name": "Insatiable Maw"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "DROIDBRAINDETON",
@@ -7860,7 +9733,15 @@
         "Count": "1",
         "MiscDesc": "Explosive's detonator is controlled by a droid brain that can activate under any predetermined circumstance."
       }
-    ]
+    ],
+    "HP": "",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "DROIDTARGET",
@@ -7898,13 +9779,14 @@
     "AddedMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add [BO] to one Ranged combat check per encounter"
+        "MiscDesc": "Add :boost:1279760567694790707 to one Ranged combat check per encounter"
       },
       {
         "Count": "1",
-        "MiscDesc": "Suffer 3 strain to remove [DE] from Ranged combat check"
+        "MiscDesc": "Suffer 3 strain to remove :despair:1279760580332355607 from Ranged combat check"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "GRENCLING",
@@ -7924,7 +9806,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Grenade immediately adheres to its target and requires an [B]Average ([DI][DI]) Athletics check[b] to remove."
+        "MiscDesc": "Grenade immediately adheres to its target and requires an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Athletics check[b] to remove."
       }
     ],
     "AddedMods": [
@@ -7936,7 +9818,9 @@
         "Count": "2",
         "MiscDesc": "Increase difficulty to remove adhered grenade once"
       }
-    ]
+    ],
+    "HP": "",
+    "Restricted": false
   },
   {
     "Key": "PROXDET",
@@ -7958,7 +9842,15 @@
         "Count": "1",
         "MiscDesc": "Weapon detonates when a silhouette 1 or higher creature comes within short or engaged range, as determined when placed."
       }
-    ]
+    ],
+    "HP": "",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ORDIMPELL",
@@ -7995,7 +9887,9 @@
         "MiscDesc": "Add ten-meter maximum altitude."
       }
     ],
-    "MaxEnc": "3"
+    "MaxEnc": "3",
+    "HP": "",
+    "Restricted": false
   },
   {
     "Key": "AUTOWEAPMOUNT",
@@ -8028,7 +9922,14 @@
         "Key": "MOUNTADDL",
         "Count": "2"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "DROIDBRAINDEF",
@@ -8053,7 +9954,14 @@
         "Count": "1",
         "MiscDesc": "Increase Defense by 1 when taking Guarded Stance maneuver."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "REPULSPACK",
@@ -8086,7 +9994,14 @@
         "Count": "1",
         "MiscDesc": "Increase Handling by 1."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "UTILARM",
@@ -8107,7 +10022,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Adds [BO] to Mechanics checks.",
+        "MiscDesc": "Adds :boost:1279760567694790707 to Mechanics checks.",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "MECH",
@@ -8119,7 +10034,7 @@
     "AddedMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds [BO] to Mechanics checks.",
+        "MiscDesc": "Adds :boost:1279760567694790707 to Mechanics checks.",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "MECH",
@@ -8131,7 +10046,14 @@
         "Count": "1",
         "MiscDesc": "May spend 1 strain to gain an additional free maneuver per turn (still limited to two maneuvers per turn)."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ARMCOMCORE",
@@ -8153,7 +10075,21 @@
         "Count": "1",
         "MiscDesc": "Computer core remains intact even if the ship suffers a \"Vaporized\"Critical Hit."
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "OVERCHSHIELD",
@@ -8170,9 +10106,22 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Once per encounter, can make an [B]Average([DI][DI]) Mechanics check[b] to overcharge shields, adding 2 to all defense zones for 1 round + 1 round per [AD]. If [TH][TH] or [DE] is rolled, shields burn out and stop working until repaired."
+        "MiscDesc": "Once per encounter, can make an [B]Average(:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b] to overcharge shields, adding 2 to all defense zones for 1 round + 1 round per :advantage:1279760566587490314. If :threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 is rolled, shields burn out and stop working until repaired."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "PLASMADRILL",
@@ -8239,7 +10188,14 @@
         "Range": "Close",
         "Name": "Plasma Drill"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "REINARMPLATE",
@@ -8269,7 +10225,14 @@
         "Count": "3"
       }
     ],
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "REPULSBOOST",
@@ -8296,7 +10259,14 @@
       }
     ],
     "MaxSize": "4",
-    "PriceSizeMult": "true"
+    "PriceSizeMult": "true",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SENSBAFF",
@@ -8321,6 +10291,12 @@
       {
         "Count": "2",
         "MiscDesc": "Add [SE] on Gunnery checks targetting vessel"
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
       }
     ]
   },
@@ -8358,7 +10334,8 @@
     "Source": {
       "-Page": "81",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTENGINEELECBAFF",
@@ -8402,7 +10379,8 @@
     "Source": {
       "-Page": "81",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTENGINEIONTURBINE",
@@ -8446,7 +10424,8 @@
     "Source": {
       "-Page": "82",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTENGINEFUSIALTHRUST",
@@ -8486,7 +10465,8 @@
     "Source": {
       "-Page": "82",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTENGINEREPCLUSTER",
@@ -8534,7 +10514,8 @@
     "Source": {
       "-Page": "82",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTENGINEIONDRIVEARRAY",
@@ -8578,7 +10559,8 @@
     "Source": {
       "-Page": "82",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTHULLSLEEK",
@@ -8614,7 +10596,8 @@
     "Source": {
       "-Page": "82",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTHULLEXPCAP",
@@ -8654,7 +10637,8 @@
     "Source": {
       "-Page": "83",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTHULLLTARMOR",
@@ -8698,7 +10682,8 @@
     "Source": {
       "-Page": "83",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTHULLDEFPLATE",
@@ -8738,7 +10723,8 @@
     "Source": {
       "-Page": "83",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CRAFTHULLCOMBATPLATE",
@@ -8778,7 +10764,8 @@
     "Source": {
       "-Page": "83",
       "#text": "Fully Operational"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "EODMKIILOAD",
@@ -8797,7 +10784,21 @@
     "Source": {
       "-Page": "43",
       "#text": "Fully Operational"
-    }
+    },
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "EODMKIIDATALINK",
@@ -8816,7 +10817,21 @@
     "Source": {
       "-Page": "43",
       "#text": "Fully Operational"
-    }
+    },
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "FLICKERPHASE",
@@ -8857,7 +10872,8 @@
         "Key": "DAMADD",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "COMLINKBUG",
@@ -8875,7 +10891,21 @@
         "Count": "1",
         "MiscDesc": "Broadcasts all incoming and outgoing signals from a comlink to a remote listener at medium range."
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HOLOSHELL",
@@ -8893,13 +10923,19 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Provides a ship or vehicle with a holographic disguise. A [B]Daunting ([DI][DI][DI][DI]) Perception check[b] is required to see through the disguise at a distance. Physical examination immediately detects the disguise."
+        "MiscDesc": "Provides a ship or vehicle with a holographic disguise. A [B]Daunting (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception check[b] is required to see through the disguise at a distance. Physical examination immediately detects the disguise."
       }
     ],
     "AddedMods": [
       {
         "Count": "2",
         "MiscDesc": "Add one additional disguise to the database"
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
       }
     ]
   },
@@ -8920,7 +10956,20 @@
         "Count": "1",
         "MiscDesc": "Adds [SE][SE] to all checks to detect this ship audibly while it is in atmosphere."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "SPOOFSCAN",
@@ -8934,17 +10983,33 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Characters attempting such an alteration must make a [B]Hard ([DI][DI][DI]) Mechanics check[b]. This adds [SE] to Perception checks that operators using a scanning device make to detect the item. They may spend [TR] from the Mechanics check to have the difficulty of such detection checks upgraded once."
+        "MiscDesc": "Characters attempting such an alteration must make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b]. This adds [SE] to Perception checks that operators using a scanning device make to detect the item. They may spend :triumph-1:1279760921266360471 from the Mechanics check to have the difficulty of such detection checks upgraded once."
       },
       {
         "Count": "1",
-        "MiscDesc": "Each net [SU] from the check for reducing a weapon's energy output also reduces its damage by one, to a minimum of 1. Characters may spend [TR] from the Mechanics check to halve this reduction in damage, rounding up."
+        "MiscDesc": "Each net :success:1279760614994087987 from the check for reducing a weapon's energy output also reduces its damage by one, to a minimum of 1. Characters may spend :triumph-1:1279760921266360471 from the Mechanics check to halve this reduction in damage, rounding up."
       },
       {
         "Count": "1",
         "MiscDesc": "Only weapons that use energy-based attacks or other advanced devices can have their energy output reduced or signature concealed. This means that slugthrowers and traditional explosive devices cannot be modified in this fashion. In addition, items that require extensive power (such as repeating blasters) cannot have their energy signature reduced."
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HIDCOMPARMOR",
@@ -8962,11 +11027,11 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "To make this change, he must spend a number of hours equal to the armor's encumbrance and make a [B]Hard ([DI][DI][DI]) Mechanics check[b]. Each [SU] or [TR] provides one encumbrance point's worth of hidden space in the armor. The armor cannot gain more encumbrance points for hiding objects than the suit's own encumbrance value, and items concealed in this way do not count towards the user's encumbrance threshold. Add [SE][SE] to all Perception checks made to notice items hidden in this manner."
+        "MiscDesc": "To make this change, he must spend a number of hours equal to the armor's encumbrance and make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b]. Each :success:1279760614994087987 or :triumph-1:1279760921266360471 provides one encumbrance point's worth of hidden space in the armor. The armor cannot gain more encumbrance points for hiding objects than the suit's own encumbrance value, and items concealed in this way do not count towards the user's encumbrance threshold. Add [SE][SE] to all Perception checks made to notice items hidden in this manner."
       },
       {
         "Count": "1",
-        "MiscDesc": "No matter how many [SU] are rolled, though, a suit of armor cannot conceal any single item with an encumbrance value greater than 2."
+        "MiscDesc": "No matter how many :success:1279760614994087987 are rolled, though, a suit of armor cannot conceal any single item with an encumbrance value greater than 2."
       },
       {
         "Count": "1",
@@ -8974,9 +11039,25 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "For every two encumbrance points' worth of concealed space created, an armor's soak is reduced by one. However, each net [AD] on the initial Mechanics check to modify the armor cancels out one point of soak reduction."
+        "MiscDesc": "For every two encumbrance points' worth of concealed space created, an armor's soak is reduced by one. However, each net :advantage:1279760566587490314 on the initial Mechanics check to modify the armor cancels out one point of soak reduction."
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "THISSCOIL",
@@ -8998,7 +11079,14 @@
     "Source": {
       "-Page": "54",
       "#text": "Unlimited Power"
-    }
+    },
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "THOLOHILT",
@@ -9021,13 +11109,20 @@
         "Count": "2"
       },
       {
-        "MiscDesc": "GM may spend [TH][TH][TH][TH] or [DE] to damage weapon by one step"
+        "MiscDesc": "GM may spend :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to damage weapon by one step"
       }
     ],
     "Source": {
       "-Page": "54",
       "#text": "Unlimited Power"
-    }
+    },
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "WALKHILT",
@@ -9046,7 +11141,7 @@
         "Count": "1"
       },
       {
-        "MiscDesc": "Unless ignited, lightsaber is indistinguishable from ordinary walking stick. Must pass [B]Formidable ([DI][DI][DI][DI][DI]) Perception[b] or [B]Vigilance check[b] to notice."
+        "MiscDesc": "Unless ignited, lightsaber is indistinguishable from ordinary walking stick. Must pass [B]Formidable (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception[b] or [B]Vigilance check[b] to notice."
       }
     ],
     "AddedMods": [
@@ -9057,7 +11152,8 @@
     "Source": {
       "-Page": "55",
       "#text": "Unlimited Power"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "UNSTKYBER",
@@ -9096,10 +11192,16 @@
         "MiscDesc": "May spend maneuver to increase Force rating by 1. Persists until extra [FO] is used to fuel a Force power."
       },
       {
-        "MiscDesc": "GM may spend [TH][TH][TH][TH] or [DE] to cause lightsaber to sputter and fail. Lightsaber cannot be reignited for one hour."
+        "MiscDesc": "GM may spend :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to cause lightsaber to sputter and fail. Lightsaber cannot be reignited for one hour."
       }
     ],
-    "IsCrystal": "true"
+    "IsCrystal": "true",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ]
   },
   {
     "Key": "TAINTNIGHT",
@@ -9265,7 +11367,8 @@
         "Key": "PIERCE",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "FUSIONSHUNT",
@@ -9285,9 +11388,16 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Activating or deactivating the fusion shunt requires a maneuver. If the Iightsaber is used as a weapon while the shunt is active, all combat checks suffer [TH][TH][TH], but the weapon's Breach quality increases by 1. While the fusion shunt is active, the llghtsaber can slice through obstacles with ease, destroying or cutting through barriers and other inanimate targets at twice the normal rate. Exact details are up to GM's discretion, but in general, hardened security doors and reinforced walls should withstand two to three rounds of cutting, with other obstacles being dealt with in a corresponding time frame"
+        "MiscDesc": "Activating or deactivating the fusion shunt requires a maneuver. If the Iightsaber is used as a weapon while the shunt is active, all combat checks suffer :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960, but the weapon's Breach quality increases by 1. While the fusion shunt is active, the llghtsaber can slice through obstacles with ease, destroying or cutting through barriers and other inanimate targets at twice the normal rate. Exact details are up to GM's discretion, but in general, hardened security doors and reinforced walls should withstand two to three rounds of cutting, with other obstacles being dealt with in a corresponding time frame"
       }
-    ]
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "BIOSUPPORT",
@@ -9306,7 +11416,20 @@
         "Count": "1",
         "MiscDesc": "When the wearer heals strain at the end of an encounter, they also heal 1 wound. If they suffered any wounds during the encounter In addition, the first time in an encounter that the character's current wounds exceed half their wound threshold, the armor automatically applies a stimpack to the character."
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ZOPHIS",
@@ -9346,7 +11469,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "When this weapon's Sunder quality is activated by spending one or more [AD], the damage suffered by the targeted item automatically increases by one step. GM may spend [TH][TH][TH][TH] or [DE] to cause the crystal's resonance to temporarily interrupt the power flow, disabling the weapon until the end of the wielder's next turn. "
+        "MiscDesc": "When this weapon's Sunder quality is activated by spending one or more :advantage:1279760566587490314, the damage suffered by the targeted item automatically increases by one step. GM may spend :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to cause the crystal's resonance to temporarily interrupt the power flow, disabling the weapon until the end of the wielder's next turn. "
       }
     ],
     "AddedMods": [
@@ -9355,7 +11478,8 @@
         "Count": "2"
       }
     ],
-    "IsCrystal": "true"
+    "IsCrystal": "true",
+    "Restricted": false
   },
   {
     "Key": "ARMINS",
@@ -9379,7 +11503,7 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Armor inserts can be noticed by making an [B]Average ([DI][DI]) Perception check[b]."
+        "MiscDesc": "Armor inserts can be noticed by making an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception check[b]."
       }
     ],
     "AddedMods": [
@@ -9393,12 +11517,20 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Perception check difficulty increased to [B]Hard ([DI][DI][DI])[b]."
+        "MiscDesc": "Perception check difficulty increased to [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210)[b]."
       }
     ],
     "MaxSoak": "1",
     "ForceMinDefense": "true",
-    "ForceMaxDefense": "true"
+    "ForceMaxDefense": "true",
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CLOAKDEV",
@@ -9419,14 +11551,27 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Must make a [B]Daunting ([DI][DI][DI][DI]) Perception[b] or [B]Vigilance check[b] to spot a cloaked ship"
+        "MiscDesc": "Must make a [B]Daunting (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception[b] or [B]Vigilance check[b] to spot a cloaked ship"
       },
       {
         "Count": "1",
         "MiscDesc": "Cloaked ship has speed reduced by half (rounded up) and cannot use active sensors, comms, or weapons"
       }
     ],
-    "MinSize": "3"
+    "MinSize": "3",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "COMPONENT",
@@ -9443,10 +11588,23 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Allows a weapon to be broken into pieces and disguised as other items. A character must make a [B]Formidable ([DI][DI][DI][DI][DI]) Mechanics[b] or [B]Skulduggery check[b] to deduce the items are weapon parts."
+        "MiscDesc": "Allows a weapon to be broken into pieces and disguised as other items. A character must make a [B]Formidable (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics[b] or [B]Skulduggery check[b] to deduce the items are weapon parts."
       }
     ],
-    "MaxEnc": "2"
+    "MaxEnc": "2",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HIDCOMP",
@@ -9462,7 +11620,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds a small hidden compartment to a personal item. Finding compartment requires a [B]Hard ([DI][DI][DI]) Perception check[b]."
+        "MiscDesc": "Adds a small hidden compartment to a personal item. Finding compartment requires a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception check[b]."
       }
     ],
     "AddedMods": [
@@ -9470,7 +11628,15 @@
         "Count": "1",
         "MiscDesc": "Upgrade difficulty of Perception check once"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HOLOCONV",
@@ -9497,7 +11663,9 @@
         "Count": "2",
         "MiscDesc": "Add one additional alter ego to database"
       }
-    ]
+    ],
+    "HP": "",
+    "Restricted": false
   },
   {
     "Key": "LIGHTFR",
@@ -9522,7 +11690,14 @@
         "Key": "ENCSUB",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "MOBLISTEN",
@@ -9546,7 +11721,20 @@
         "MiscDesc": "Provides extra audio, video, and holographic capabilities"
       }
     ],
-    "MinSize": "3"
+    "MinSize": "3",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "RETGARROTE",
@@ -9574,7 +11762,21 @@
         "Range": "Engaged",
         "Name": "Retractable Garrote"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "REFLADAPSKIN",
@@ -9604,13 +11806,19 @@
     "AddedMods": [
       {
         "Count": "2",
-        "MiscDesc": "Add [BO][BO] to all Stealth checks",
+        "MiscDesc": "Add :boost:1279760567694790707:boost:1279760567694790707 to all Stealth checks",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "STEAL",
             "BoostCount": "2"
           }
         }
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
       }
     ]
   },
@@ -9630,17 +11838,23 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Weapon cannot be detected by standard weapon-detecting technologies. Advanced scanner operators must make a [B]Hard ([DI][DI][DI]) Computers check[b] to find the weaopn."
+        "MiscDesc": "Weapon cannot be detected by standard weapon-detecting technologies. Advanced scanner operators must make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b] to find the weaopn."
       },
       {
         "Count": "1",
-        "MiscDesc": "GM may spend [TH][TH] or [DE] on a combat check to cause major damage to weapon, making it inoperable."
+        "MiscDesc": "GM may spend :threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 on a combat check to cause major damage to weapon, making it inoperable."
       }
     ],
     "AddedMods": [
       {
         "Key": "ENCSUB",
         "Count": "1"
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
       }
     ]
   },
@@ -9668,6 +11882,12 @@
         "Count": "1",
         "MiscDesc": "Further upgrades ability of all opposed Stealth checks made against sensor and scanner operators once more"
       }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
     ]
   },
   {
@@ -9687,6 +11907,18 @@
       {
         "Count": "1",
         "MiscDesc": "Increase difficulty of checks to detect vehicle using passive sensors by 2 and active sensors by 1 while travelling at speed 3 or lower"
+      }
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
       }
     ]
   },
@@ -9713,7 +11945,13 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "GM may spend [TH][TH][TH] or [DE] from a combat check involving an overcharged shot to cause weapon to explode and deal full damage to shooter."
+        "MiscDesc": "GM may spend :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 from a combat check involving an overcharged shot to cause weapon to explode and deal full damage to shooter."
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
       }
     ]
   },
@@ -9733,7 +11971,21 @@
         "Count": "1",
         "MiscDesc": "Allows user to take still images and record holos unobtrusively"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "STEALTHFGEN",
@@ -9759,7 +12011,14 @@
         "MiscDesc": "Add [SE] to opposed Perception checks to spot the wearer"
       }
     ],
-    "MaxEnc": "7"
+    "MaxEnc": "7",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ]
   },
   {
     "Key": "SELFDEST",
@@ -9787,7 +12046,15 @@
         "Count": "1",
         "MiscDesc": "Increase explosive range to short"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "BOOTBLADE",
@@ -9831,7 +12098,15 @@
         "Range": "Engaged",
         "Name": "Retractable Fighting Blade"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CONCCLIMBCORD",
@@ -9849,7 +12124,21 @@
         "Count": "1",
         "MiscDesc": "Grants user a length of climbing cord with grappling hook. This counts as the Right Tool for the Job for climbing and repelling."
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "DARTGUN",
@@ -9887,7 +12176,21 @@
         "Range": "Short",
         "Name": "Dart Gun"
       }
-    ]
+    ],
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "JUMPBOOTS",
@@ -9917,7 +12220,14 @@
         "MiscDesc": "Allows wearer to fly (see page 214 of the [B]Age of Rebellion[b] Core Rulebook) for a total of 1 minute or 3 rounds"
       }
     ],
-    "MaxEnc": "4"
+    "MaxEnc": "4",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "RETWEAPSYS",
@@ -9938,9 +12248,22 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Discovering hidden weapon requires a [B]Hard ([DI][DI][DI]) Perception check[b] and thorough search of vehicle"
+        "MiscDesc": "Discovering hidden weapon requires a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception check[b] and thorough search of vehicle"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AMPCHAMBER",
@@ -9973,7 +12296,8 @@
         "Key": "BLAST",
         "Count": "5"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "BAYONET",
@@ -9987,7 +12311,24 @@
     "Price": "50",
     "Rarity": "1",
     "HP": "1",
-    "Encumbrance": "1"
+    "Encumbrance": "1",
+    "BaseMods": [
+      {
+        "Key": "DAMADD",
+        "Count": "1"
+      },
+      {
+        "Count": "1",
+        "MiscDesc": "Add :setback:1279761015474753570 to all Mechanics checks when performing maintenance on this weapon."
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HAIRTRIGGER",
@@ -10016,7 +12357,8 @@
         "Key": "SUBQUALINACCURATE",
         "Count": "1"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "CLONEEB",
@@ -10030,7 +12372,7 @@
     "BaseMods": [
       {
         "Count": "1",
-        "MiscDesc": "Adds [BO] to sight-based Perception checks and removes up to [SE] from Perception checks due to distance or low-light conditions."
+        "MiscDesc": "Adds :boost:1279760567694790707 to sight-based Perception checks and removes up to [SE] from Perception checks due to distance or low-light conditions."
       }
     ],
     "AddedMods": [
@@ -10038,7 +12380,14 @@
         "Key": "PERC",
         "Count": "1"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ARMORSAW",
@@ -10084,7 +12433,20 @@
         "Range": "Engaged",
         "Name": "Vibrosaw"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "ARMSHIELD",
@@ -10114,7 +12476,14 @@
         "Key": "DEFLECTION",
         "Count": "3"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "WRISTBLADES",
@@ -10149,7 +12518,14 @@
         "Range": "Engaged",
         "Name": "Retractable Wrist Blades"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "WHIPCORD",
@@ -10179,7 +12555,20 @@
         "Range": "Short",
         "Name": "Whipcord"
       }
-    ]
+    ],
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CATFAIL",
@@ -10195,7 +12584,17 @@
         "Count": "1",
         "MiscDesc": "Once modified this way, the lightsaber no longer functions normally. Instead, when the lightsaber is activated, it begins to overload. At the end of the following round, the lightsaber detonates, dealing 20 damage with the Breach 1 and Vicious 4 item qualities to all characters and objects within short range. The lightsaber, but not its kyber crystal, is destroyed in the process."
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CHRISTOPHCRYS",
@@ -10243,7 +12642,8 @@
         "Count": "2"
       }
     ],
-    "IsCrystal": "true"
+    "IsCrystal": "true",
+    "Restricted": false
   },
   {
     "Key": "MANDOCHAMB",
@@ -10280,7 +12680,8 @@
         "Count": "1",
         "MiscDesc": "Increase Range"
       }
-    ]
+    ],
+    "Restricted": false
   },
   {
     "Key": "ASCENGUN",
@@ -10296,13 +12697,13 @@
     "Encumbrance": "1",
     "BaseMods": [
       {
-        "MiscDesc": "User may fire ascension gun at an anchor point within medium range with an [B]Easy ([DI]) Ranged Light[b] or [B]Coordination check[b], adding [SE] for precise placement. May asend one range band every round."
+        "MiscDesc": "User may fire ascension gun at an anchor point within medium range with an [B]Easy (:difficulty:1279760984621191210) Ranged Light[b] or [B]Coordination check[b], adding [SE] for precise placement. May asend one range band every round."
       }
     ],
     "AddedMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add [BO] to checks to fire ascension gun"
+        "MiscDesc": "Add :boost:1279760567694790707 to checks to fire ascension gun"
       },
       {
         "Count": "1",
@@ -10312,7 +12713,8 @@
     "Source": {
       "-Page": "61",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CEREADORN",
@@ -10350,7 +12752,15 @@
     "Source": {
       "-Page": "65",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "AUGVIBROMOTOR",
@@ -10392,7 +12802,8 @@
     "Source": {
       "-Page": "61",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "CLONEFIRE",
@@ -10419,7 +12830,8 @@
     "Source": {
       "-Page": "61",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "PHYSENH",
@@ -10434,7 +12846,7 @@
         "MiscDesc": "Reduce strain suffered involuntarily by 1, to minimum of 1."
       },
       {
-        "MiscDesc": "Adds [BO] to all Athletics, Coordination, and Resilience checks.",
+        "MiscDesc": "Adds :boost:1279760567694790707 to all Athletics, Coordination, and Resilience checks.",
         "DieModifiers": {
           "DieModifier": [
             {
@@ -10470,7 +12882,14 @@
     "Source": {
       "-Page": "65",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "THONTIIN",
@@ -10501,7 +12920,7 @@
         "Key": "SUNDER"
       },
       {
-        "MiscDesc": "Once per encounter, ignore effects of an [B]Easy ([DI])[b] Critical Injury."
+        "MiscDesc": "Once per encounter, ignore effects of an [B]Easy (:difficulty:1279760984621191210)[b] Critical Injury."
       }
     ],
     "AddedMods": [
@@ -10518,7 +12937,8 @@
     "Source": {
       "-Page": "63",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "COMBTEST",
@@ -10529,7 +12949,7 @@
     "Rarity": "3",
     "BaseMods": [
       {
-        "MiscDesc": "Add [BO] to Discipline checks.",
+        "MiscDesc": "Add :boost:1279760567694790707 to Discipline checks.",
         "DieModifiers": {
           "DieModifier": {
             "SkillKey": "DISC",
@@ -10541,13 +12961,21 @@
     "AddedMods": [
       {
         "Count": "1",
-        "MiscDesc": "Add [BO] to check to resist fear."
+        "MiscDesc": "Add :boost:1279760567694790707 to check to resist fear."
       }
     ],
     "Source": {
       "-Page": "62",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "HP": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "CORTFOR",
@@ -10575,7 +13003,8 @@
     "Source": {
       "-Page": "62",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "HYPERMOD4",
@@ -10612,7 +13041,14 @@
     "Source": {
       "-Page": "82",
       "#text": "Fully Operational"
-    }
+    },
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "HYPERMOD8",
@@ -10649,7 +13085,14 @@
     "Source": {
       "-Page": "82",
       "#text": "Fully Operational"
-    }
+    },
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "INSFIRMECH",
@@ -10664,7 +13107,7 @@
     "HP": "1",
     "BaseMods": [
       {
-        "MiscDesc": "Increases [AD] or [TH] cost of any effect that damages the weapon (such as Sunder) by one."
+        "MiscDesc": "Increases :advantage:1279760566587490314 or :threat:1279760886906490960 cost of any effect that damages the weapon (such as Sunder) by one."
       },
       {
         "Key": "PREPARE",
@@ -10684,7 +13127,8 @@
     "Source": {
       "-Page": "62",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "IONEMIT",
@@ -10708,7 +13152,14 @@
     "Source": {
       "-Page": "63",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "AddedMods": [
+      {
+        "Key": "DefaultMod",
+        "Count": "0"
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "IONFOCCOIL",
@@ -10726,7 +13177,7 @@
         "MiscDesc": "Increases damage by +2 versus droids."
       },
       {
-        "MiscDesc": "Opponents may spend [TH][TH] or [DE] to damage weapon by one step."
+        "MiscDesc": "Opponents may spend :threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 to damage weapon by one step."
       }
     ],
     "AddedMods": [
@@ -10740,13 +13191,14 @@
       },
       {
         "Count": "1",
-        "MiscDesc": "Increases [TH] required to backfire by 1"
+        "MiscDesc": "Increases :threat:1279760886906490960 required to backfire by 1"
       }
     ],
     "Source": {
       "-Page": "62",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "Restricted": false
   },
   {
     "Key": "SQUADTACT",
@@ -10758,7 +13210,7 @@
     "HP": "1",
     "BaseMods": [
       {
-        "MiscDesc": "Add [BO] to Perception and Vigilance checks while within medium range of one or more allies also using armor with this attachment."
+        "MiscDesc": "Add :boost:1279760567694790707 to Perception and Vigilance checks while within medium range of one or more allies also using armor with this attachment."
       },
       {
         "MiscDesc": "Includes integrated comlink."
@@ -10777,7 +13229,14 @@
     "Source": {
       "-Page": "65",
       "#text": "Rise of the Separatists"
-    }
+    },
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   },
   {
     "Key": "TEMPLECLASSCARGO",
@@ -10819,6 +13278,16 @@
         "Count": "3",
         "MiscDesc": "Passenger Compartments"
       }
-    ]
+    ],
+    "Price": "",
+    "HP": "",
+    "Rarity": "",
+    "CategoryLimit": [
+      {
+        "Key": "DefaultLimit",
+        "Value": 0
+      }
+    ],
+    "Restricted": false
   }
 ]
