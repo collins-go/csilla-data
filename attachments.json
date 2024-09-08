@@ -1163,10 +1163,10 @@
       }
     ],
     "MinEncumCap": "25",
-    "Source": [
-      "Edge of the Empire Core Rulebook",
-      "Force and Destiny Core Rulebook"
-    ],
+    "Source": {
+      "_Page": "",
+      "__text": "Edge of the Empire Core Rulebook"
+    },
     "CategoryLimit": [
       {
         "Key": "DefaultLimit",
@@ -3663,10 +3663,10 @@
         "Count": "2"
       }
     ],
-    "Source": [
-      "Age of Rebellion Core Rulebook",
-      "Force and Destiny Core Rulebook"
-    ],
+    "Source": {
+      "_Page": "",
+      "__text": "Age of Rebellion Core Rulebook"
+    },
     "CategoryLimit": [
       {
         "Key": "DefaultLimit",
@@ -9722,20 +9722,10 @@
         "Key": "PRICEHALF"
       }
     ],
-    "Source": [
-      {
-        "-Page": "160",
-        "#text": "Edge of the Empire Core Rulebook"
+    "Source":{
+        "_Page": "160",
+        "__text": "Edge of the Empire Core Rulebook"
       },
-      {
-        "-Page": "174",
-        "#text": "Age of Rebellion Core Rulebook"
-      },
-      {
-        "-Page": "167",
-        "#text": "Force and Destiny Core Rulebook"
-      }
-    ],
     "Price": "",
     "HP": "",
     "AddedMods": [
