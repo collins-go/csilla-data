@@ -5,7 +5,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "1750",
     "Rarity": "4",
@@ -46,7 +48,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Melee"
+      {
+        "Key": "Melee"
+      }
     ],
     "Price": "1500",
     "Rarity": "5",
@@ -79,7 +83,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Light)"
+      {
+        "Key": "Ranged (Light)"
+      }
     ],
     "Price": "500",
     "Rarity": "4",
@@ -116,7 +122,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "100",
     "Rarity": "1",
@@ -149,7 +157,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Bowcaster"
+      {
+        "Key": "Bowcaster"
+      }
     ],
     "Price": "500",
     "Rarity": "3",
@@ -178,7 +188,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Bowcaster"
+      {
+        "Key": "Bowcaster"
+      }
     ],
     "Price": "250",
     "Rarity": "4",
@@ -207,7 +219,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Light)"
+      {
+        "Key": "Ranged (Light)"
+      }
     ],
     "Price": "25",
     "HP": "1",
@@ -239,7 +253,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "250",
     "Rarity": "1",
@@ -272,7 +288,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "1200",
     "Rarity": "4",
@@ -309,7 +327,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Melee"
+      {
+        "Key": "Melee"
+      }
     ],
     "Price": "1000",
     "Rarity": "5",
@@ -338,7 +358,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "2000",
     "Rarity": "3",
@@ -367,7 +389,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "1725",
     "Rarity": "4",
@@ -400,7 +424,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Melee"
+      {
+        "Key": "Melee"
+      }
     ],
     "Price": "50",
     "Rarity": "1",
@@ -460,7 +486,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Light)"
+      {
+        "Key": "Ranged (Light)"
+      }
     ],
     "Price": "250",
     "Rarity": "4",
@@ -492,7 +520,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "2000",
     "Rarity": "5",
@@ -533,7 +563,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "3000",
     "Rarity": "4",
@@ -586,7 +618,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "250",
     "Rarity": "1",
@@ -615,7 +649,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Gunnery"
+      {
+        "Key": "Gunnery"
+      }
     ],
     "Price": "100",
     "Rarity": "3",
@@ -644,7 +680,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "100",
     "HP": "1",
@@ -672,8 +710,12 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)",
-      "Gunnery"
+      {
+        "Key": "Ranged (Heavy)"
+      },
+      {
+        "Key": "Gunnery"
+      }
     ],
     "Price": "500",
     "Rarity": "2",
@@ -702,8 +744,12 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Melee",
-      "Brawl"
+      {
+        "Key": "Melee"
+      },
+      {
+        "Key": "Brawl"
+      }
     ],
     "Price": "250",
     "Rarity": "3",
@@ -1075,7 +1121,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Non-Fighter Starship"
+      {
+        "Key": "Non-Fighter Starship"
+      }
     ],
     "Price": "1000",
     "HP": "2",
@@ -1163,10 +1211,10 @@
       }
     ],
     "MinEncumCap": "25",
-    "Source": {
-      "_Page": "",
-      "__text": "Edge of the Empire Core Rulebook"
-    },
+    "Source": [
+      "Edge of the Empire Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ],
     "CategoryLimit": [
       {
         "Key": "DefaultLimit",
@@ -1627,11 +1675,21 @@
     },
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Air Vehicle",
-      "Land Vehicle",
-      "Tracked Vehicle",
-      "Walker",
-      "Wheeled Vehicle"
+      {
+        "Key": "Air Vehicle"
+      },
+      {
+        "Key": "Land Vehicle"
+      },
+      {
+        "Key": "Tracked Vehicle"
+      },
+      {
+        "Key": "Walker"
+      },
+      {
+        "Key": "Wheeled Vehicle"
+      }
     ],
     "Price": "2750",
     "Rarity": "2",
@@ -1692,7 +1750,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "500",
     "Rarity": "5",
@@ -1721,7 +1781,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "400",
     "Rarity": "3",
@@ -1758,7 +1820,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "3000",
     "Rarity": "6",
@@ -1795,7 +1859,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Light)"
+      {
+        "Key": "Ranged (Light)"
+      }
     ],
     "Price": "275",
     "Rarity": "5",
@@ -2160,8 +2226,12 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Brawl",
-      "Melee"
+      {
+        "Key": "Brawl"
+      },
+      {
+        "Key": "Melee"
+      }
     ],
     "Price": "400",
     "Rarity": "5",
@@ -2226,7 +2296,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Light)"
+      {
+        "Key": "Ranged (Light)"
+      }
     ],
     "Price": "750",
     "Rarity": "5",
@@ -2294,7 +2366,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "1500",
     "Rarity": "6",
@@ -2323,10 +2397,18 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Brawl",
-      "Lightsaber",
-      "Melee",
-      "Ranged (Light)"
+      {
+        "Key": "Brawl"
+      },
+      {
+        "Key": "Lightsaber"
+      },
+      {
+        "Key": "Melee"
+      },
+      {
+        "Key": "Ranged (Light)"
+      }
     ],
     "Price": "300",
     "Rarity": "3",
@@ -2355,7 +2437,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "450",
     "Rarity": "4",
@@ -2384,7 +2468,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "750",
     "Rarity": "5",
@@ -2440,7 +2526,9 @@
     },
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Starship"
+      {
+        "Key": "Starship"
+      }
     ],
     "Price": "7500",
     "Rarity": "6",
@@ -2847,7 +2935,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "1000",
     "Rarity": "6",
@@ -2876,7 +2966,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "750",
     "Rarity": "5",
@@ -2909,7 +3001,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "700",
     "Rarity": "5",
@@ -2971,7 +3065,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Melee"
+      {
+        "Key": "Melee"
+      }
     ],
     "Price": "250",
     "Rarity": "5",
@@ -3000,7 +3096,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "15000",
     "Rarity": "7",
@@ -3050,7 +3148,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "12000",
     "Rarity": "9",
@@ -3099,7 +3199,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "14000",
     "Rarity": "7",
@@ -3153,7 +3255,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "4500",
     "Rarity": "6",
@@ -3182,7 +3286,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "3800",
     "Rarity": "7",
@@ -3211,7 +3317,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "9000",
     "Rarity": "10",
@@ -3261,7 +3369,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "15000",
     "Rarity": "10",
@@ -3310,7 +3420,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "9600",
     "Rarity": "8",
@@ -3360,7 +3472,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "10000",
     "Rarity": "10",
@@ -3413,7 +3527,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "18000",
     "Rarity": "10",
@@ -3462,7 +3578,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "5000",
     "Rarity": "6",
@@ -3490,7 +3608,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "100",
     "Rarity": "6",
@@ -3663,10 +3783,10 @@
         "Count": "2"
       }
     ],
-    "Source": {
-      "_Page": "",
-      "__text": "Age of Rebellion Core Rulebook"
-    },
+    "Source": [
+      "Age of Rebellion Core Rulebook",
+      "Force and Destiny Core Rulebook"
+    ],
     "CategoryLimit": [
       {
         "Key": "DefaultLimit",
@@ -4150,7 +4270,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "500",
     "Rarity": "4",
@@ -4212,7 +4334,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "1500",
     "Rarity": "8",
@@ -4245,8 +4369,12 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Brawl",
-      "Melee"
+      {
+        "Key": "Brawl"
+      },
+      {
+        "Key": "Melee"
+      }
     ],
     "Price": "500",
     "Rarity": "5",
@@ -4279,7 +4407,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "1000",
     "Rarity": "8",
@@ -4308,7 +4438,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "200",
     "Rarity": "4",
@@ -4374,7 +4506,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "6500",
     "Rarity": "8",
@@ -4418,7 +4552,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "16000",
     "Rarity": "9",
@@ -4471,7 +4607,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Melee"
+      {
+        "Key": "Melee"
+      }
     ],
     "Price": "800",
     "Rarity": "5",
@@ -4796,7 +4934,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "AddedMods": [
       {
@@ -5186,8 +5326,12 @@
     },
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Air Vehicle",
-      "Starship"
+      {
+        "Key": "Air Vehicle"
+      },
+      {
+        "Key": "Starship"
+      }
     ],
     "Price": "1000",
     "Rarity": "5",
@@ -5486,8 +5630,12 @@
     },
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Air Vehicle",
-      "Starship"
+      {
+        "Key": "Air Vehicle"
+      },
+      {
+        "Key": "Starship"
+      }
     ],
     "Price": "3000",
     "Rarity": "5",
@@ -5733,7 +5881,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "500",
     "Rarity": "3",
@@ -5822,7 +5972,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "250",
     "Rarity": "4",
@@ -5855,7 +6007,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "500",
     "Rarity": "3",
@@ -5889,7 +6043,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "400",
     "Rarity": "6",
@@ -5943,7 +6099,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "1500",
     "Rarity": "8",
@@ -5980,7 +6138,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "750",
     "Rarity": "7",
@@ -6012,7 +6172,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "250",
     "Rarity": "2",
@@ -6045,7 +6207,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "100",
     "Rarity": "5",
@@ -6074,7 +6238,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "650",
     "Rarity": "7",
@@ -6107,8 +6273,12 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)",
-      "Gunnery"
+      {
+        "Key": "Ranged (Heavy)"
+      },
+      {
+        "Key": "Gunnery"
+      }
     ],
     "Price": "1000",
     "Rarity": "6",
@@ -6141,7 +6311,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "675",
     "Rarity": "5",
@@ -6210,7 +6382,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "1500",
     "Rarity": "6",
@@ -6767,7 +6941,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Light)"
+      {
+        "Key": "Ranged (Light)"
+      }
     ],
     "Price": "1000",
     "Rarity": "5",
@@ -6840,7 +7016,9 @@
     "Restricted": "true",
     "HP": "3",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "BaseMods": [
       {
@@ -6874,7 +7052,9 @@
     "Rarity": "4",
     "HP": "1",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "BaseMods": [
       {
@@ -7498,8 +7678,12 @@
     },
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Tracked Vehicle",
-      "Wheeled Vehicle"
+      {
+        "Key": "Tracked Vehicle"
+      },
+      {
+        "Key": "Wheeled Vehicle"
+      }
     ],
     "BaseMods": [
       {
@@ -7564,7 +7748,9 @@
     },
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Medium Transport"
+      {
+        "Key": "Medium Transport"
+      }
     ],
     "BaseMods": [
       {
@@ -7786,7 +7972,9 @@
     },
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Bulk Transport"
+      {
+        "Key": "Bulk Transport"
+      }
     ],
     "BaseMods": [
       {
@@ -7937,7 +8125,9 @@
     "Rarity": "9",
     "Restricted": "true",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "HP": "1",
     "BaseMods": [
@@ -7998,7 +8188,9 @@
     "Rarity": "9",
     "Restricted": "true",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "HP": "1",
     "BaseMods": [
@@ -8043,7 +8235,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "4000",
     "Rarity": "8",
@@ -8076,7 +8270,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "100",
     "Rarity": "6",
@@ -8138,7 +8334,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "500",
     "Rarity": "6",
@@ -8167,7 +8365,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "BaseMods": [
       {
@@ -8388,7 +8588,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "100",
     "Rarity": "4",
@@ -8417,7 +8619,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "1000",
     "Rarity": "6",
@@ -8446,7 +8650,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "14000",
     "Rarity": "9",
@@ -8499,7 +8705,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "12500",
     "Rarity": "8",
@@ -8726,7 +8934,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "100",
     "Rarity": "2",
@@ -8755,7 +8965,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "1500",
     "Rarity": "6",
@@ -8827,7 +9039,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "2000",
     "Rarity": "7",
@@ -8929,7 +9143,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "1200",
     "Rarity": "4",
@@ -9182,7 +9398,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "1200",
     "Rarity": "6",
@@ -9235,7 +9453,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "900",
     "Rarity": "4",
@@ -9264,8 +9484,12 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Brawl",
-      "Melee"
+      {
+        "Key": "Brawl"
+      },
+      {
+        "Key": "Melee"
+      }
     ],
     "Price": "1500",
     "Rarity": "5",
@@ -9334,7 +9558,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Micro-Rocket"
+      {
+        "Key": "Micro-Rocket"
+      }
     ],
     "Price": "50",
     "Rarity": "4",
@@ -9368,7 +9594,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Micro-Rocket"
+      {
+        "Key": "Micro-Rocket"
+      }
     ],
     "Price": "25",
     "Rarity": "2",
@@ -9620,7 +9848,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "4000",
     "Rarity": "9",
@@ -9653,8 +9883,12 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Melee",
-      "Lightsaber"
+      {
+        "Key": "Melee"
+      },
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "3000",
     "Rarity": "2",
@@ -9683,7 +9917,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "HP": "1",
     "BaseMods": [
@@ -9708,7 +9944,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Rarity": "1",
     "BaseMods": [
@@ -9722,10 +9960,20 @@
         "Key": "PRICEHALF"
       }
     ],
-    "Source":{
-        "_Page": "160",
-        "__text": "Edge of the Empire Core Rulebook"
+    "Source": [
+      {
+        "-Page": "160",
+        "#text": "Edge of the Empire Core Rulebook"
       },
+      {
+        "-Page": "174",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      {
+        "-Page": "167",
+        "#text": "Force and Destiny Core Rulebook"
+      }
+    ],
     "Price": "",
     "HP": "",
     "AddedMods": [
@@ -9746,7 +9994,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Rarity": "9",
     "Restricted": "true",
@@ -9813,7 +10063,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "750",
     "Rarity": "5",
@@ -9875,7 +10127,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "16000",
     "Rarity": "9",
@@ -9925,7 +10179,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Rarity": "10",
     "Restricted": "true",
@@ -9980,7 +10236,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "16000",
     "Rarity": "9",
@@ -10112,8 +10370,12 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Explosive",
-      "Grenade"
+      {
+        "Key": "Explosive"
+      },
+      {
+        "Key": "Grenade"
+      }
     ],
     "Price": "1000",
     "Rarity": "4",
@@ -10142,7 +10404,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "3200",
     "Rarity": "5",
@@ -10187,8 +10451,12 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Explosive",
-      "Grenade"
+      {
+        "Key": "Explosive"
+      },
+      {
+        "Key": "Grenade"
+      }
     ],
     "Price": "70",
     "Rarity": "2",
@@ -10221,8 +10489,12 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Grenade",
-      "Explosive"
+      {
+        "Key": "Grenade"
+      },
+      {
+        "Key": "Explosive"
+      }
     ],
     "Price": "120",
     "Rarity": "3",
@@ -10251,8 +10523,12 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Explosive",
-      "Grenade"
+      {
+        "Key": "Explosive"
+      },
+      {
+        "Key": "Grenade"
+      }
     ],
     "Price": "500",
     "Rarity": "4",
@@ -10695,7 +10971,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "500",
     "Rarity": "2",
@@ -10732,7 +11010,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "1000",
     "Rarity": "3",
@@ -10777,7 +11057,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "2000",
     "Rarity": "2",
@@ -10822,7 +11104,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "2500",
     "Rarity": "4",
@@ -10863,7 +11147,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "3000",
     "Rarity": "4",
@@ -10912,7 +11198,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "5250",
     "Rarity": "5",
@@ -10957,7 +11245,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "450",
     "Rarity": "3",
@@ -10994,7 +11284,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "500",
     "Rarity": "2",
@@ -11035,7 +11327,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "500",
     "Rarity": "4",
@@ -11080,7 +11374,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "700",
     "Rarity": "5",
@@ -11121,7 +11417,9 @@
     "Description": "",
     "Type": "Vehicle",
     "CategoryLimit": [
-      "Crafted Vehicle"
+      {
+        "Key": "Crafted Vehicle"
+      }
     ],
     "Price": "1500",
     "Rarity": "7",
@@ -11232,7 +11530,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "5000",
     "Rarity": "4",
@@ -11454,7 +11754,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "5500",
     "Rarity": "5",
@@ -11483,7 +11785,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "8000",
     "Rarity": "7",
@@ -11519,7 +11823,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "2500",
     "Rarity": "6",
@@ -11554,7 +11860,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "16000",
     "Rarity": "10",
@@ -11602,7 +11910,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "13000",
     "Rarity": "10",
@@ -11658,7 +11968,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "8000",
     "Rarity": "7",
@@ -11722,7 +12034,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "4000",
     "Rarity": "5",
@@ -11769,7 +12083,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "2000",
     "Rarity": "6",
@@ -11830,7 +12146,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "11000",
     "Rarity": "10",
@@ -12037,7 +12355,9 @@
     },
     "Type": "Gear",
     "CategoryLimit": [
-      "Holoprojector"
+      {
+        "Key": "Holoprojector"
+      }
     ],
     "Price": "600",
     "Rarity": "6",
@@ -12321,7 +12641,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "1100",
     "Rarity": "7",
@@ -12664,7 +12986,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "350",
     "Rarity": "4",
@@ -12701,7 +13025,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Heavy)"
+      {
+        "Key": "Ranged (Heavy)"
+      }
     ],
     "Price": "50",
     "Rarity": "1",
@@ -12735,7 +13061,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged (Light)"
+      {
+        "Key": "Ranged (Light)"
+      }
     ],
     "Price": "250",
     "Rarity": "2",
@@ -12993,7 +13321,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "BaseMods": [
       {
@@ -13022,7 +13352,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "11000",
     "Rarity": "8",
@@ -13074,7 +13406,9 @@
     },
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "250",
     "Rarity": "5",
@@ -13111,7 +13445,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "500",
     "Rarity": "4",
@@ -13190,8 +13526,12 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Melee",
-      "Brawl"
+      {
+        "Key": "Melee"
+      },
+      {
+        "Key": "Brawl"
+      }
     ],
     "Price": "500",
     "Rarity": "4",
@@ -13233,7 +13573,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "250",
     "Rarity": "7",
@@ -13319,7 +13661,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "9000",
     "Rarity": "9",
@@ -13405,7 +13749,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Melee"
+      {
+        "Key": "Melee"
+      }
     ],
     "Price": "8000",
     "Rarity": "8",
@@ -13522,7 +13868,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "1000",
     "Rarity": "7",
@@ -13558,7 +13906,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Lightsaber"
+      {
+        "Key": "Lightsaber"
+      }
     ],
     "Price": "4000",
     "Rarity": "6",
@@ -13589,7 +13939,9 @@
     "Description": "",
     "Type": "Weapon",
     "CategoryLimit": [
-      "Ranged"
+      {
+        "Key": "Ranged"
+      }
     ],
     "Price": "800",
     "Rarity": "5",
