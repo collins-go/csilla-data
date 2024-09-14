@@ -3,7 +3,7 @@
     "Key": "ADV",
     "Name": "Adversary",
     "Description": "Upgrade the difficulty of any combat check targeting this character once per rank of Adversary.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -48,7 +48,7 @@
     "Key": "BACT",
     "Name": "Bacta Specialist",
     "Description": "Patients recover 1 additional wound per rank of Bacta Specialist when they recover wounds from bacta tanks or long term care.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -63,7 +63,7 @@
     "Name": "Barrage",
     "Description": "Add 1 damage per rank of Barrage to 1 hit of successful attack while using Ranged (Heavy) or Gunnery skills at long or extreme range.",
     "Source": "Edge of the Empire Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -74,8 +74,7 @@
       "_Page": "132",
       "__text": "Edge of the Empire Core Rulebook"
     },
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -83,21 +82,21 @@
     "Key": "BLO",
     "Name": "Blooded",
     "Description": "Add :boost:1279760567694790707 per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "BOD",
     "Name": "Body Guard",
     "Description": "Once per round, perform the Body Guard maneuver to guard an engaged character. Suffer a number of strain no greater than ranks of Body Guard, then until the beginning of the next turn upgrade the difficulty of combat checks targeting the character by that number.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
     "Key": "BRA",
     "Name": "Brace",
     "Description": "Perform the Brace maneuver to remove :setback:1279761015474753570 per rank of Brace from next Action. This may only remove :setback:1279761015474753570 added by environmental circumstances.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
@@ -110,21 +109,21 @@
     "Key": "BYP",
     "Name": "Bypass Security",
     "Description": "Remove :setback:1279761015474753570 per rank of Bypass Security from checks made to disable a security device or open a locked door.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "COD",
     "Name": "Codebreaker",
     "Description": "Remove :setback:1279761015474753570 per rank in Codebreaker from checks to break codes or decrypt communications. Decrease difficulty of checks to break codes or decrypt communications by 1.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "COM",
     "Name": "Command",
     "Description": "Add :boost:1279760567694790707 per rank of Command when making Leadership checks. Affected targets add :boost:1279760567694790707 to Discipline checks for next 24 hours.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": {
@@ -137,23 +136,12 @@
     "Key": "CONF",
     "Name": "Confidence",
     "Description": "May decrease difficulty of Discipline checks to avoid fear by 1 per rank of Confidence.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
-    "Source": [
-      {
-        "_Page": "133",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "144",
-        "__text": "Age of Rebellion Core Rulebook"
-      },
-      {
-        "_Page": "141",
-        "__text": "Force and Destiny Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "133",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "CONT",
@@ -165,7 +153,7 @@
     "Key": "CONV",
     "Name": "Convincing Demeanor",
     "Description": "Remove :setback:1279761015474753570 per rank of Convincing Demeanor from any Deception or Skulduggery checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -202,7 +190,7 @@
     "Key": "DEADACC",
     "Name": "Deadly Accuracy",
     "Description": "When acquired, choose 1 combat skill. Add damage equal to ranks in that skill to one hit of successful attack made using that skill.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "SkillChoice": {
       "SkillCount": "1",
@@ -215,7 +203,7 @@
     "Key": "DEDI",
     "Name": "Dedication",
     "Description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "CharacteristicChoices": {
       "CharacteristicChoice": {
@@ -227,25 +215,18 @@
     "Key": "DEFDRI",
     "Name": "Defensive Driving",
     "Description": "Increase defense of vehicle or starship being piloted by 1 per rank of Defensive Driving.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
-    "Source": [
-      {
-        "_Page": "134",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "145",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "134",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "DEFSLI",
     "Name": "Defensive Slicing",
     "Description": "When defending computer systems, add :setback:1279761015474753570 per rank of Defensive Slicing to opponent's checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -258,35 +239,35 @@
     "Key": "DEFSTA",
     "Name": "Defensive Stance",
     "Description": "Once per round, may perform Defensive Stance maneuver and suffer a number of strain to upgrade difficulty of all incoming melee attacks by an equal number. Strain suffered this way cannot exceed ranks in Defensive Stance.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
     "Key": "DISOR",
     "Name": "Disorient",
     "Description": "After hitting with combat check, may spend :advantage:1279760566587490314:advantage:1279760566587490314 to disorient target for number of rounds equal to ranks in Disorient.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "DODGE",
     "Name": "Dodge",
     "Description": "When targeted by combat check, may perform a Dodge incidental to suffer a number of strain no greater than ranks of Dodge, then upgrade the difficulty of the check by that number.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
     "Key": "DURA",
     "Name": "Durable",
     "Description": "May reduce any Critical Injury suffered by 10 per rank of Durable to a minimum of 1.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "ENDUR",
     "Name": "Enduring",
     "Description": "Gain +1 soak value.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Attributes": {
       "SoakValue": "1"
@@ -296,32 +277,25 @@
     "Key": "EXTRACK",
     "Name": "Expert Tracker",
     "Description": "Remove :setback:1279761015474753570 per rank of Expert Tracker from checks to find tracks or track targets. Decrease time to track a target by half.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "FAMSUNS",
     "Name": "Familiar Suns",
     "Description": "Once per session, may perform a Familiar Suns maneuver; make a [B] Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Outer Rim)[b] or [B](Core Worlds) check[b] to reveal the current type of planetary environment and other useful information.",
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Maneuver",
-    "Source": [
-      {
-        "_Page": "135",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "146",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "135",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "FERSTR",
     "Name": "Feral Strength",
     "Description": "Add 1 damage per rank of Feral Strength to one hit of successful attacks made using Brawl or Melee skills.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Damage": {
       "Bonus": "1",
@@ -349,7 +323,7 @@
     "Key": "FINETUN",
     "Name": "Fine Tuning",
     "Description": "When reducing the amount of system strain a starship or vehicle suffers, reduce 1 additional strain per rank of Fine Tuning.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -362,7 +336,7 @@
     "Key": "FORCERAT",
     "Name": "Force Rating",
     "Description": "Gain +1 Force Rating.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Attributes": {
       "ForceRating": "1"
@@ -373,7 +347,7 @@
     "Key": "FRENZ",
     "Name": "Frenzied Attack",
     "Description": "When making a Melee or Brawl check, suffer a number of strain to upgrade the attack an equal number of times. The strain suffered may not exceed ranks in Frenzied Attack.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
@@ -398,7 +372,7 @@
     "Key": "GALMAP",
     "Name": "Galaxy Mapper",
     "Description": "Remove :setback:1279761015474753570 per rank of Galaxy Mapper from Astrogation checks. Astrogation checks take half normal time.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": {
@@ -411,7 +385,7 @@
     "Key": "GEARHD",
     "Name": "Gearhead",
     "Description": "Remove :setback:1279761015474753570 per rank of Gearhead from Mechanics checks. Half the credit cost to add mods to attachments.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": {
@@ -424,7 +398,7 @@
     "Key": "GRIT",
     "Name": "Grit",
     "Description": "Gain +1 strain threshold",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Attributes": {
       "StrainThreshold": "1"
@@ -434,20 +408,13 @@
     "Key": "HARDHD",
     "Name": "Hard Headed",
     "Description": "When staggered or disoriented, perform the Hard Headed action; make a  [B]Daunting (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Discipline check[b] to remove status. Difficulty reduced per rank of Hard Headed.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Action",
-    "Source": [
-      {
-        "_Page": "136",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "148",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "136",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "HARDHDIMP",
@@ -471,7 +438,7 @@
     "Key": "HIDD",
     "Name": "Hidden Storage",
     "Description": "Gain hidden storage in vehicles or equipment that holds items with total encumbrance equal to ranks in Hidden Storage.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -484,14 +451,14 @@
     "Key": "HUNT",
     "Name": "Hunter",
     "Description": "Add :boost:1279760567694790707 per rank of Hunter to all checks when interacting with beast or animals (including combat checks). Add +10 to Critical Injury results against beasts or animals per rank of Hunter.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "INDIS",
     "Name": "Indistinguishable",
     "Description": "Upgrade difficulty of checks to identify character once per rank of Indistinguishable.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -513,19 +480,12 @@
     "Key": "INSPRHET",
     "Name": "Inspiring Rhetoric",
     "Description": "Take the Inspiring Rhetoric action; making an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check[b]. Each :success:1279760614994087987, 1 ally within close range recovers 1 strain. Spend :advantage:1279760566587490314 to cause 1 affected ally to recover 1 additional strain.",
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Action",
-    "Source": [
-      {
-        "_Page": "137",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "149",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "137",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "INSPRHETIMP",
@@ -555,14 +515,14 @@
     "Key": "INTIM",
     "Name": "Intimidating",
     "Description": "May suffer a number of strain to downgrade difficulty of Coercion checks, or upgrade difficulty when targeted by Coercion checks, by an equal number. Strain suffered this way cannot exceed ranks in Intimidating.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
     "Key": "INVENT",
     "Name": "Inventor",
     "Description": "When constructing new items or modifying existing attachments, add :boost:1279760567694790707 or remove :setback:1279761015474753570 per rank of Inventor.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -575,7 +535,7 @@
     "Key": "JURY",
     "Name": "Jury Rigged",
     "Description": "Choose 1 weapon, armor, or other item and give it a permanent improvement while it remains in use.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "JuryRigged": "true"
   },
@@ -583,7 +543,7 @@
     "Key": "KILL",
     "Name": "Kill With Kindness",
     "Description": "Remove :setback:1279761015474753570 per rank of Kill with Kindness from all Charm and Leadership checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -608,14 +568,14 @@
     "Key": "KNOWSOM",
     "Name": "Know Somebody",
     "Description": "Once per session, when attempting to purchase a legally available item, reduce its rarity by 1 per rank of Know Somebody.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
     "Key": "KNOWSPEC",
     "Name": "Knowledge Specialization",
     "Description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend :triumph-1:1279760921266360471 result to gain additional successes equal to ranks in Knowledge Specialization.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "SkillChoice": {
       "SkillCount": "1",
@@ -626,19 +586,12 @@
     "Key": "KNOWSCH",
     "Name": "Known Schematic",
     "Description": "Once per session, may perform the Known Schematic maneuver; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Education) check[b]. Success grants familiarity with a building or ship's design.",
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Maneuver",
-    "Source": [
-      {
-        "_Page": "138",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "151",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "138",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "LETSRIDE",
@@ -650,7 +603,7 @@
     "Key": "LETHALBL",
     "Name": "Lethal Blows",
     "Description": "Add +10 per rank of Lethal Blows to any Critical Injury results inflicted on opponents.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -669,23 +622,12 @@
     "Key": "MASSHAD",
     "Name": "Master of Shadows",
     "Description": "Once per round, suffer 2 strain to decrease difficulty of next Stealth or Skulduggery check by one.",
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Incidental",
-    "Source": [
-      {
-        "_Page": "138",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "151",
-        "__text": "Age of Rebellion Core Rulebook"
-      },
-      {
-        "_Page": "146",
-        "__text": "Force and Destiny Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "138",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "MASPIL",
@@ -775,37 +717,23 @@
     "Key": "NATROG",
     "Name": "Natural Rogue",
     "Description": "Once per session, may reroll any 1 Skulduggery or Stealth check.",
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Incidental",
-    "Source": [
-      {
-        "_Page": "139",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "153",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "139",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "NATSCH",
     "Name": "Natural Scholar",
     "Description": "Once per session, may reroll any 1 Knowledge skill check.",
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Incidental",
-    "Source": [
-      {
-        "_Page": "139",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "153",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "139",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "NATTIN",
@@ -817,14 +745,14 @@
     "Key": "NOBFOOL",
     "Name": "Nobody's Fool",
     "Description": "May upgrade difficulty of incoming Charm, Coercion, or Deception checks once per rank of Nobody's Fool.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "OUTDOOR",
     "Name": "Outdoorsman",
     "Description": "Remove :setback:1279761015474753570 per rank of Outdoorsman from checks to move through terrain or manage environmental effects. Decrease overland travel times by half.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -839,7 +767,7 @@
     "Key": "PLAUSDEN",
     "Name": "Plausible Deniability",
     "Description": "Remove :setback:1279761015474753570 per rank of Plausible Deniability from all Coercion and Deception checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -858,7 +786,7 @@
     "Key": "POINTBL",
     "Name": "Point Blank",
     "Description": "Add 1 damage per rank of Point Blank to damage of one hit of successful attack while using Ranged (Heavy) or Ranged (Light) skills at short range or engaged.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -866,7 +794,7 @@
     "Name": "Precise Aim",
     "Description": "Once per round, may perform Precise Aim maneuver. Suffer a number of strain no greater than ranks in Precise Aim, then reduce target's melee and ranged defense by that number.",
     "Source": "Edge of the Empire Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
@@ -886,21 +814,21 @@
     "Key": "QUICKST",
     "Name": "Quick Strike",
     "Description": "Add :boost:1279760567694790707 per rank of Quick Strike to combat checks against targets that have not acted yet this encounter.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "RAPREA",
     "Name": "Rapid Reaction",
     "Description": "Suffer a number of strain to add an equal number of :success:1279760614994087987 to initiative checks. Strain suffered cannot exceed ranks in Rapid Reaction.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
     "Key": "RAPREC",
     "Name": "Rapid Recovery",
     "Description": "When healing strain after an encounter, heal 1 additional strain per rank of Rapid Recovery.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -913,27 +841,20 @@
     "Key": "SURG",
     "Name": "Surgeon",
     "Description": "When making a Medicine check to help a character heal wounds, the target heals 1 additional wound per rank of Surgeon.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "RESOLVE",
     "Name": "Resolve",
     "Description": "When a character involuntarily suffers strain, he suffers 1 less strain per tank of Resolve to a minimum of 1.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "LessStrain": "1",
-    "Source": [
-      {
-        "_Page": "142",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "155",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "142",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "STIMAP",
@@ -951,7 +872,7 @@
     "Key": "TOUGH",
     "Name": "Toughened",
     "Description": "Gain +2 wound threshold.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Attributes": {
       "WoundThreshold": "2"
@@ -967,7 +888,7 @@
     "Key": "STALK",
     "Name": "Stalker",
     "Description": "Add :boost:1279760567694790707 per rank of Stalker to all Stealth and Coordination checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -992,25 +913,18 @@
     "Key": "SNIPSHOT",
     "Name": "Sniper Shot",
     "Description": "Before making a non-thrown ranged attack, may  perform a Sniper Shot maneuver to increase the weapon's range by 1 range band per rank in Sniper Shot. Upgrade the difficulty of the attack by 1 per range band increase.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
     "Key": "SPARECL",
     "Name": "Spare Clip",
     "Description": "Cannot run out of ammo due to :despair:1279760580332355607. Items with Limited Ammo quality run out of ammo as normal.",
-    "Custom": "CustomItem",
     "ActivationValue": "Passive",
-    "Source": [
-      {
-        "_Page": "143",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "157",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "143",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "STUNBL",
@@ -1022,7 +936,7 @@
     "Key": "TINK",
     "Name": "Tinkerer",
     "Description": "May add 1 additional hard point to a number of items equal to ranks in Tinkerer. Each item may only be modified once.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "AddlHP": "1"
   },
@@ -1060,7 +974,7 @@
     "Key": "WELLROUND",
     "Name": "Well Rounded",
     "Description": "Choose any 2 skills. They permanently become career skills.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "ChooseCareerSkills": {
       "SkillCount": "2",
@@ -1083,21 +997,21 @@
     "Key": "RESPSCHOL",
     "Name": "Respected Scholar",
     "Description": "May downgrade difficulty of checks to interact with institutes of learning by one level per rank of Respected Scholar.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "SPKBIN",
     "Name": "Speaks Binary",
     "Description": "When directing NPC droids, may grant them :boost:1279760567694790707 per rank of Speaks Binary on checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "RESEARCH",
     "Name": "Researcher",
     "Description": "Remove :setback:1279761015474753570 per rank of Researcher from all Knowledge checks. Reserching a subject takes half the time.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": {
@@ -1116,7 +1030,7 @@
     "Key": "STRSMART",
     "Name": "Street Smarts",
     "Description": "Remove :setback:1279761015474753570 per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -1135,7 +1049,7 @@
     "Key": "SKILLJOCK",
     "Name": "Skilled Jockey",
     "Description": "Remove :setback:1279761015474753570 per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -1154,7 +1068,7 @@
     "Key": "SHORTCUT",
     "Name": "Short Cut",
     "Description": "During a chase; add :boost:1279760567694790707 per rank in Shortcut to any checks made to catch or escape an opponent.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -1167,25 +1081,18 @@
     "Key": "WHEEL",
     "Name": "Wheel and Deal",
     "Description": "When selling good legally, gain 10% more credits per rank of Wheel and Deal.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
-    "Source": [
-      {
-        "_Page": "145",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "159",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "145",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "SMOOTHTALK",
     "Name": "Smooth Talker",
     "Description": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation. When making checks with that skill spend :triumph-1:1279760921266360471 to gain additional :success:1279760614994087987 equal to ranks in Smooth Talker.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "SkillChoice": {
       "TypeValue": "stGeneral",
@@ -1205,14 +1112,14 @@
     "Key": "SIDESTEP",
     "Name": "Side Step",
     "Description": "Once per round, may perform Side Step maneuver and suffer a number of strain to upgrade difficulty of all incoming ranged attacks by an equal number for the next round. Strain suffered this way cannot exceed ranks in Side Step.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
     "Key": "SECWIND",
     "Name": "Second Wind",
     "Description": "Once per encounter, may use Second Wind incidental to heal strain equal to ranks in Second Wind.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
@@ -1225,7 +1132,7 @@
     "Key": "TRUEAIM",
     "Name": "True Aim",
     "Description": "Once per round, may perform a True Aim maneuver to gain benefits of aiming and upgrade combat check once per rank of True Aim.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
@@ -1238,7 +1145,7 @@
     "Key": "SOLREP",
     "Name": "Solid Repairs",
     "Description": "The character repairs +1 hull trauma per rank of Solid Repairs whenever he repairs a starship or vehicle.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -1246,14 +1153,14 @@
     "Name": "Utinni!",
     "Description": "Remove :setback:1279761015474753570 per rank of Utinni! from checks to find or scavenge items or gear. Such checks take half the time.",
     "Source": "Edge of the Empire Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "TECHAPT",
     "Name": "Technical Aptitude",
     "Description": "Reduces time needed to complete Computer-related tasks by 25% per rank.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -1266,7 +1173,7 @@
     "Key": "UNCANSENS",
     "Name": "Uncanny Senses",
     "Description": "Add :boost:1279760567694790707 per rank of Uncanny Senses to all Perception checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": {
@@ -1280,7 +1187,7 @@
     "Key": "UNCANREAC",
     "Name": "Uncanny Reactions",
     "Description": "Add :boost:1279760567694790707 per rank of Uncanny Reactions to all Vigilance checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": {
@@ -1340,21 +1247,14 @@
     "Key": "SUPREF",
     "Name": "Superior Reflexes",
     "Description": "Gain +1 melee defense",
-    "Custom": "CustomItem",
     "ActivationValue": "Passive",
     "Attributes": {
       "DefenseMelee": "1"
     },
-    "Source": [
-      {
-        "_Page": "144",
-        "__text": "Edge of the Empire Core Rulebook"
-      },
-      {
-        "_Page": "157",
-        "__text": "Age of Rebellion Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "144",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "PIN",
@@ -1424,7 +1324,7 @@
     "Name": "Sound Investments",
     "Description": "At the start of each session, gain 100 credits for each rank of Sound Investments.",
     "Source": "Age of Rebellion Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -1435,8 +1335,7 @@
       "_Page": "148",
       "__text": "Age of Rebellion Core Rulebook"
     },
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Maneuver"
   },
@@ -1466,7 +1365,7 @@
     "Name": "Good Cop",
     "Description": "May spend :advantage:1279760566587490314:advantage:1279760566587490314 from a Charm or Negotiation check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Good Cop.",
     "Source": "Far Horizons",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -1488,19 +1387,16 @@
     "Name": "Distracting Behavior",
     "Description": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until the beginning of next turn, equal number of NPC's suffer :threat:1279760886906490960 on checks. Range increases with additional ranks.",
     "Source": "Far Horizons",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
     "Key": "CONGENIAL",
     "Name": "Congenial",
     "Description": "May suffer a number of strain to downgrade difficulty of Charm or Negotiation checks or upgrade difficulty when target by Charm or Negotiation checks, by an equal number Strain suffered this way cannot exceed ranks in Congenial.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
-    "Source": [
-      "Far Horizons",
-      "Fly Casual"
-    ]
+    "Source": "Far Horizons"
   },
   {
     "Key": "NATATHL",
@@ -1545,8 +1441,7 @@
       "_Page": "154",
       "__text": "Age of Rebellion Core Rulebook"
     },
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "ItemChanges": {
       "ItemChange": [
@@ -1574,7 +1469,7 @@
     "Name": "Selective Detonation",
     "Description": "When using a weapon with the Blast quality spend :advantage:1279760566587490314 to exclude 1 target that would be affected by the explosion, up to ranks in Selective Detonation.",
     "Source": "Age of Rebellion Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
@@ -1582,7 +1477,7 @@
     "Name": "Steady Nerves",
     "Description": "Remove :setback:1279761015474753570 per rank of Steady Nerves from Cool or Skulduggery checks.",
     "Source": "Dangerous Covenants",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -1630,16 +1525,13 @@
     "Name": "Master Grenadier",
     "Description": "Decrease the :advantage:1279760566587490314 cost to activate the Blast quality on any weapon used by 1 to a minimum of 1.",
     "ActivationValue": "Passive",
-    "Source": [
-      "Age of Rebellion Core Rulebook",
-      "Dangerous Covenants"
-    ]
+    "Source": "Age of Rebellion Core Rulebook"
   },
   {
     "Key": "FEARSOME",
     "Name": "Fearsome",
     "Description": "When an adversary becomes engaged with the character, the character may force the adversary to make a fear check, with the difficulty equal to the character's ranks in Fearsome.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -1668,7 +1560,7 @@
     "Name": "Burly",
     "Description": "Reduce any weilded weapon's Cumbersome quality and Encumberance rating by a nyumber equal to ranks in Burly to a minimum of 1.",
     "Source": "Dangerous Covenants",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -1697,7 +1589,7 @@
     "Name": "Disarming Smile",
     "Description": "Take the Disarming Smile action; succeed at an opposed Charm check to lower all defenses of a target by ranks in Disarming Smile until the end of the encounter.",
     "Source": "Fly Casual",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
@@ -1726,19 +1618,16 @@
     "Name": "Up the Ante",
     "Description": "When gambling win 10% more credits per rank of Up the Ante.",
     "Source": "Fly Casual",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
     "Key": "SECCHANCE",
     "Name": "Second Chances",
     "Description": "Once per encounter choose a number of positive dice equal to ranks in Second Changes and reroll them.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
-    "Source": [
-      "Stay on Target",
-      "Fly Casual"
-    ]
+    "Source": "Stay on Target"
   },
   {
     "Key": "FORTFAVORBOLD",
@@ -1752,10 +1641,7 @@
     "Name": "Clever Solution",
     "Description": "Once per session, make one skill check using Cunning rather than the characteristic linked to that skill.",
     "ActivationValue": "Active",
-    "Source": [
-      "Age of Rebellion Core Rulebook",
-      "Fly Casual"
-    ]
+    "Source": "Age of Rebellion Core Rulebook"
   },
   {
     "Key": "DOUBLEORNOTHING",
@@ -1817,8 +1703,7 @@
     "Key": "COMMPRES",
     "Name": "Commanding Presence",
     "Description": "Remove :setback:1279761015474753570 per rank of Commanding Presence from Leadership and Cool checks.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -1832,16 +1717,10 @@
         }
       ]
     },
-    "Source": [
-      {
-        "_Page": "144",
-        "__text": "Age of Rebellion Core Rulebook"
-      },
-      {
-        "_Page": "140",
-        "__text": "Force and Destiny Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "144",
+      "__text": "Age of Rebellion Core Rulebook"
+    }
   },
   {
     "Key": "COORDASS",
@@ -1895,7 +1774,7 @@
     "Name": "Overwhelm Defenses",
     "Description": "Upon unsuccessful attack with a starship or vehicle weapon, may spend :advantage:1279760566587490314:advantage:1279760566587490314 per rank of Overwhelm Defenses. Reduce the defense in the targeted zone by 1 for every :advantage:1279760566587490314:advantage:1279760566587490314 spent.",
     "Source": "Age of Rebellion Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
@@ -1917,7 +1796,7 @@
     "Name": "Physical Training",
     "Description": "Add :boost:1279760567694790707 per rank of Physical Training to Athletics and Resilience checks.",
     "Source": "Age of Rebellion Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -1976,7 +1855,6 @@
       "_Page": "158",
       "__text": "Age of Rebellion Core Rulebook"
     },
-    "Custom": "CustomItem",
     "ActivationValue": "Passive",
     "ChooseCareerSkills": {
       "NewSkills": {
@@ -1996,7 +1874,6 @@
       "_Page": "159",
       "__text": "Age of Rebellion Core Rulebook"
     },
-    "Custom": "CustomItem",
     "ActivationValue": "Passive",
     "ChooseCareerSkills": {
       "NewSkills": {
@@ -2042,7 +1919,7 @@
     "Name": "Beast Wrangler",
     "Description": "Add :boost:1279760567694790707 per rank of Beast Wrangler to checks to tame or wrangle creatures.",
     "Source": "Stay on Target",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -2050,7 +1927,7 @@
     "Name": "Expert Handler",
     "Description": "Remove :setback:1279761015474753570 per rank of Expert Handler from Survival checks made to ride beasts.",
     "Source": "Stay on Target",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -2086,7 +1963,7 @@
     "Name": "High-G Training",
     "Description": "When a starship or vehicle being piloted would suffer system strain, may suffer strain up to ranks in High-G Training to prevent an equal amount of system strain.",
     "Source": "Stay on Target",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active"
   },
   {
@@ -2122,7 +1999,7 @@
     "Name": "Larger Project",
     "Description": "Signature Vehicle can have a silhouette 1 larger per rank of Larger Project.",
     "Source": "Stay on Target",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Rigger": {
       "SilhouetteAdd": "1"
@@ -2157,7 +2034,7 @@
     "Name": "Overstocked Ammo",
     "Description": "Increase the value of the Limited Ammo quality of any weapons mounted on Signature Vehicle by 1 per rank of Overstocked Ammo.",
     "Source": "Stay on Target",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Rigger": {
       "ChooseWeapon": "true",
@@ -2174,7 +2051,7 @@
     "Name": "Tuned Maneuvering Thrusters",
     "Description": "Increase the handling of Signature Vehicle by 1 per rank of Tuned Maneuvering Thrusters.",
     "Source": "Stay on Target",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Rigger": {
       "BaseMods": {
@@ -2190,7 +2067,7 @@
     "Name": "Bolstered Armor",
     "Description": "Increase the armor value of Signature Vehicle by 1 per rank of Bolstered Armor.",
     "Source": "Stay on Target",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Rigger": {
       "BaseMods": {
@@ -2206,7 +2083,7 @@
     "Name": "Customized Cooling Unit",
     "Description": "Increase the system strain threshold of Signature Vehicle by 2 per rank of Customized Cooling Unit.",
     "Source": "Stay on Target",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Rigger": {
       "BaseMods": {
@@ -2222,7 +2099,7 @@
     "Name": "Fortified Vacuum Seal",
     "Description": "Increase the hull trauma threshold of Signature Vehicle by 1 per rank of Fortified Vacuum Seal.",
     "Source": "Stay on Target",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Rigger": {
       "BaseMods": {
@@ -2260,7 +2137,7 @@
     "Name": "Supporting Evidence",
     "Description": "When assisting an ally with a Charm, Deception, Leadership, or Negotiation check, add automatic :advantage:1279760566587490314 per rank of Supporting Evidence.",
     "Source": "Desperate Allies",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -2288,19 +2165,12 @@
     "Key": "ENCWORD",
     "Name": "Encouraging Words",
     "Description": "After an engaged ally fails a check, may suffer 1 strain to assist that ally's next check this encounter as an out of turn incidental.",
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
-    "Source": [
-      {
-        "_Page": "33",
-        "__text": "Desperate Allies"
-      },
-      {
-        "_Page": "28",
-        "__text": "Disciples of Harmony"
-      }
-    ]
+    "Source": {
+      "_Page": "33",
+      "__text": "Desperate Allies"
+    }
   },
   {
     "Key": "BLACKMAIL",
@@ -2321,17 +2191,13 @@
     "Name": "Contingency Plan",
     "Description": "Spend 1 Destiny Point to recover strain equal to Cunning rating.",
     "ActivationValue": "Active",
-    "Source": [
-      "Force and Destiny Core Rulebook",
-      "Desperate Allies"
-    ]
+    "Source": "Force and Destiny Core Rulebook"
   },
   {
     "Key": "SLEIGHTMIND",
     "Name": "Sleight of Mind",
     "Description": "Add :boost:1279760567694790707 to all Stealth checks unless the opposition is immune to Force powers.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": {
@@ -2340,16 +2206,10 @@
       }
     },
     "ForceTalent": "true",
-    "Source": [
-      {
-        "_Page": "156",
-        "__text": "Age of Rebellion Core Rulebook"
-      },
-      {
-        "_Page": "152",
-        "__text": "Force and Destiny Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "156",
+      "__text": "Age of Rebellion Core Rulebook"
+    }
   },
   {
     "Key": "INVIG",
@@ -2367,7 +2227,6 @@
       "_Page": "147",
       "__text": "Age of Rebellion Core Rulebook"
     },
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -2376,10 +2235,7 @@
     "Name": "Valuable Facts",
     "Description": "Once per encounter, perform a Valuable Facts action: make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge check[b]. If successful, add :triumph-1:1279760921266360471 to one ally's skill check during the enounter.",
     "ActivationValue": "Active",
-    "Source": [
-      "Force and Destiny Core Rulebook",
-      "Desperate Allies"
-    ]
+    "Source": "Force and Destiny Core Rulebook"
   },
   {
     "Key": "RESEARCHIMP",
@@ -2414,7 +2270,7 @@
     "Name": "Positive Spin",
     "Description": "Whenever any character's Duty would increase, it increases by an additional 1 per rank of Positive Spin.",
     "Source": "Desperate Allies",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -2446,7 +2302,6 @@
       "_Page": "33",
       "__text": "Desperate Allies"
     },
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -2469,7 +2324,7 @@
     "Name": "Idealist",
     "Description": "Spend 1 stain to add an :advantage:1279760566587490314 on a skill check.",
     "Source": "Jewel of Yavin",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -2477,7 +2332,7 @@
     "Name": "Healing Trance",
     "Description": "Commit :force:1279761086429659146. For every full encounter :force:1279761086429659146 remains committed, heal 1 wound per rank of Healing Trance.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true"
   },
@@ -2486,7 +2341,7 @@
     "Name": "Physician",
     "Description": "When making a Medicine check to help a character heal wounds, the target heals 1 additional strain per rank of Physician.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -2524,20 +2379,13 @@
     "Key": "PARRY",
     "Name": "Parry",
     "Description": "When hit by a melee attack, suffer 3 strain to reduce damage by 2 plus ranks in Parry.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
-    "Source": [
-      {
-        "_Page": "149",
-        "__text": "Force and Destiny Core Rulebook"
-      },
-      {
-        "_Page": "35",
-        "__text": "No Disintegrations"
-      }
-    ]
+    "Source": {
+      "_Page": "149",
+      "__text": "Force and Destiny Core Rulebook"
+    }
   },
   {
     "Key": "PARRYIMP",
@@ -2554,8 +2402,7 @@
       "_Page": "150",
       "__text": "Force and Destiny Core Rulebook"
     },
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "OOT Incidental"
@@ -2565,7 +2412,7 @@
     "Name": "Defensive Training",
     "Description": "When wielding a Lightsaber, Melee, or Brawl weapon, the weapon gains the Defensive quality with a rating equal to ranks in Defensive Training.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -2603,7 +2450,7 @@
     "Name": "Center of Being",
     "Description": "Take a Center of Being maneuver. Until the beginning of next turn, attacks against the character increase their critical rating by 1 per rank of Center of Being.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true"
   },
@@ -2631,7 +2478,6 @@
       "_Page": "149",
       "__text": "Force and Destiny Core Rulebook"
     },
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Action"
@@ -2679,7 +2525,7 @@
     "Name": "Force Protection",
     "Description": "Perform the Force Protection maneuver; suffer 1 strain and commit :force:1279761086429659146 up to ranks of Force Protection. Increase soak by number of :force:1279761086429659146 committed until beginning of next turn. Suffer 1 strain every turn :force:1279761086429659146 remains committed.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true"
   },
@@ -2763,7 +2609,7 @@
     "Name": "Feint",
     "Description": "Spend :triumph-1:1279760921266360471 or :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 generated on a missed  melee attack to upgrade difficulty of opponent's next attack targeting character by ranks in Feint.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -2787,7 +2633,7 @@
     "Name": "Keen Eyed",
     "Description": "Remove :setback:1279761015474753570 per rank of Keen Eyed from Perception and Vigilance checks. Decrease time to search a specific area by half.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -2807,7 +2653,7 @@
     "Name": "Forewarning",
     "Description": "Perform the Forewarning action. All allies within medium range increase defense by character's Force rating until they act in the encounter.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true"
   },
@@ -2823,8 +2669,7 @@
     "Key": "CONDITIONED",
     "Name": "Conditioned",
     "Description": "Remove :setback:1279761015474753570 per rank of Conditioned from Athletics and Coordination check. Reduce the damage and strain suffered from falling by 1 per rank of Conditioned.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -2838,16 +2683,10 @@
         }
       ]
     },
-    "Source": [
-      {
-        "_Page": "141",
-        "__text": "Force and Destiny Core Rulebook"
-      },
-      {
-        "_Page": "34",
-        "__text": "Forged in Battle"
-      }
-    ]
+    "Source": {
+      "_Page": "141",
+      "__text": "Force and Destiny Core Rulebook"
+    }
   },
   {
     "Key": "ATARU",
@@ -2868,7 +2707,7 @@
     "Name": "Hawk Bat Swoop",
     "Description": "Take the Hawk Bat Swoop action. Perform a Lightsaber (Agility) combat check against target within short range, adding :force:1279761086429659146 no greater than Force rating. Spend :force:1279761086429659146 to engage target and spend :force:1279761086429659146 to add :advantage:1279760566587490314 to check.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true"
   },
@@ -3086,7 +2925,7 @@
     "Name": "Prey on the Weak",
     "Description": "Add +1 damage to one hit of successful combat checks against disoriented targets per rank of Prey on the Weak.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -3140,7 +2979,7 @@
     "Name": "Intuitive Evasion",
     "Description": "Perform the Intuitive Evasion maneuver; suffer 1 strain and commit :force:1279761086429659146 up to ranks of Intuitive Evasion. Upgrade difficulty of combat checks targeting starship or vehicle by equal amount. Suffer 1 strain every round :force:1279761086429659146 remains committed.",
     "Source": "Force and Destiny Core Rulebook",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true"
   },
@@ -3165,7 +3004,7 @@
     "Name": "Suppressing Fire",
     "Description": "The character and each ally within short range may spend :advantage:1279760566587490314 on their failed combat checks to inflict one strain on the target per rank of Supressing Fire. Each character can only activate this effect once per round.",
     "Source": "Keeping the Peace",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -3190,7 +3029,7 @@
     "Name": "Prime Positions",
     "Description": "When this character or an ally in short range takes cover, he increases soak against ranged attacks by 1 per rank of Prim Positions until he leaves that cover.",
     "Source": "Keeping the Peace",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -3205,19 +3044,12 @@
     "Key": "PRECSTR",
     "Name": "Precision Strike",
     "Description": "When this character inflicts a Critical Injury with a Brawl, Melee, or Lightsaber weapon, may suffer 1 strain to change the result to any [B]Easy (:difficulty:1279760984621191210)[b] Critical Injury result.",
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
-    "Source": [
-      {
-        "_Page": "31",
-        "__text": "Keeping the Peace"
-      },
-      {
-        "_Page": "35",
-        "__text": "No Disintegrations"
-      }
-    ]
+    "Source": {
+      "_Page": "31",
+      "__text": "Keeping the Peace"
+    }
   },
   {
     "Key": "GRAPPLE",
@@ -3272,7 +3104,6 @@
     "Name": "Cunning Stunt",
     "Description": "Use Cunning instead of Presence for Cool checks.",
     "Source": "User Data",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "SkillChars": {
       "SkillChar": {
@@ -3286,7 +3117,6 @@
     "Name": "Finesse",
     "Description": "Use Agility instead of Brawn for Brawl or Melee checks.",
     "Source": "User Data",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "SkillChars": {
       "SkillChar": [
@@ -3382,7 +3212,7 @@
       "_Page": "34",
       "__text": "Special Modifications"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "AddlCyber": "1"
   },
@@ -3394,7 +3224,7 @@
       "_Page": "34",
       "__text": "Special Modifications"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -3416,7 +3246,7 @@
       "_Page": "34",
       "__text": "Special Modifications"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -3438,7 +3268,7 @@
       "_Page": "34",
       "__text": "Special Modifications"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -3449,7 +3279,7 @@
       "_Page": "34",
       "__text": "Special Modifications"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -3493,7 +3323,7 @@
       "_Page": "34",
       "__text": "Lead by Example"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -3505,7 +3335,7 @@
       "_Page": "34",
       "__text": "Lead by Example"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -3611,7 +3441,7 @@
       "_Page": "35",
       "__text": "Forged in Battle"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -3725,7 +3555,6 @@
       "_Page": "30",
       "__text": "Endless Vigil"
     },
-    "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -3761,7 +3590,6 @@
       "_Page": "30",
       "__text": "Endless Vigil"
     },
-    "Custom": "CustomItem",
     "ActivationValue": "Passive"
   },
   {
@@ -3815,16 +3643,10 @@
     "Name": "Shortcut (Improved)",
     "Description": "When engaging in a chase or race, may suffer 2 strain to add :success:1279760614994087987 equal to ranks in Shortcut to the check.",
     "ActivationValue": "Active",
-    "Source": [
-      {
-        "_Page": "31",
-        "__text": "Savage Spirits"
-      },
-      {
-        "_Page": "31",
-        "__text": "Endless Vigil"
-      }
-    ]
+    "Source": {
+      "_Page": "31",
+      "__text": "Savage Spirits"
+    }
   },
   {
     "Key": "PLANMAP",
@@ -3834,7 +3656,7 @@
       "_Page": "31",
       "__text": "Savage Spirits"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -3842,16 +3664,10 @@
     "Name": "One with Nature",
     "Description": "When in the wilderness, the character may make a [B]Simple (-) Survival check[b] instead of Discipline or Cool to recover starin at the end of an encounter.",
     "ActivationValue": "Passive",
-    "Source": [
-      {
-        "_Page": "31",
-        "__text": "Savage Spirits"
-      },
-      {
-        "_Page": "35",
-        "__text": "Forged in Battle"
-      }
-    ]
+    "Source": {
+      "_Page": "31",
+      "__text": "Savage Spirits"
+    }
   },
   {
     "Key": "MINDMAT",
@@ -3916,7 +3732,7 @@
       "_Page": "34",
       "__text": "No Disintegrations"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "ItemChanges": {
       "ItemChange": {
@@ -4010,7 +3826,7 @@
       "_Page": "34",
       "__text": "No Disintegrations"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -4102,7 +3918,7 @@
       "_Page": "85",
       "__text": "Stay on Target"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -4133,7 +3949,7 @@
       "_Page": "83",
       "__text": "Stay on Target"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -4144,7 +3960,7 @@
       "_Page": "83",
       "__text": "Stay on Target"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -4155,7 +3971,7 @@
       "_Page": "83",
       "__text": "Stay on Target"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -4163,8 +3979,7 @@
     "Name": "Tenacious",
     "Description": "Upgrade the number of advantages needed to score a critical hit\nagainst the target a number of times equal to his ranks in Tenacious. Also, reduce a Critical Injury result he suffers by 10 per rank of Tenacious",
     "Source": "User Data",
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -4183,7 +3998,7 @@
     "Key": "SAVVYNEG",
     "Name": "Savvy Negotiator",
     "Description": "Remove :setback:1279761015474753570 per rank of Savvy Negotiator from all Negotiation and Streetwise checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -4238,7 +4053,7 @@
     "Key": "SKILLEDTEACH",
     "Name": "Skilled Teacher",
     "Description": "If an ally at short range has lower ranks in a skill than the character, the character may perform a Skilled Teacher incidental to suffer a number of strain no greater than ranks of Skilled Teacher, then add an equal number of :success:1279760614994087987 to ally's next check.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
     "Source": {
@@ -4261,7 +4076,7 @@
     "Key": "CRUCPOINT",
     "Name": "Crucial Point",
     "Description": "Once per session, the character may introduce to negotiations and one potential concession that an opponent will do nearly anything to obtain.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental",
     "Source": {
@@ -4353,7 +4168,6 @@
     "Name": "Soresu Technique",
     "Description": "When making a Lightsaber skill check, the character may use Intellect instead of Brawn.",
     "Source": "Force and Destiny Core Rulebook",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "SkillChars": {
       "SkillChar": {
@@ -4377,7 +4191,7 @@
     "Key": "CONSTSPEC",
     "Name": "Construction Specialist",
     "Description": "Remove :setback:1279761015474753570 equal to ranks in Construction Specialist from checks to construct defenses, positions, fortifications, and similar projects.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "30",
@@ -4388,7 +4202,7 @@
     "Key": "CREATDES",
     "Name": "Creative Design",
     "Description": "As part of resolving a successful crafting check, the character may also apply a result equivalent to spending a number of :advantage:1279760566587490314 equal to his ranks in Creative Design. The GM may then apply a result equivalent to spending that same number of :threat:1279760886906490960.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "30",
@@ -4410,7 +4224,7 @@
     "Key": "DESFLAW",
     "Name": "Design Flaw",
     "Description": "When making a combat check with a personal scale weapon against a droid, may add :advantage:1279760566587490314 equal to ranks of Design Flaw.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental",
     "Source": {
@@ -4422,7 +4236,7 @@
     "Key": "DOCKEXP",
     "Name": "Dockyard Expertise",
     "Description": "May make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Education) check[b] when at a space dock, if successful, the cost and time for repairs is reduced by 25% per rank of Dockyard Expertise.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4478,7 +4292,7 @@
     "Key": "REPPATCHSPEC",
     "Name": "Repair Patch Specialization",
     "Description": "Whenever using an emergency repair patch, the target heals an additional wound per rank of Repair Patch Specialization.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "31",
@@ -4515,7 +4329,6 @@
       "_Page": "30",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
   },
@@ -4527,7 +4340,6 @@
       "_Page": "30",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4539,7 +4351,6 @@
       "_Page": "30",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Action"
@@ -4552,7 +4363,6 @@
       "_Page": "30",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4564,7 +4374,6 @@
       "_Page": "30",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Maneuver"
@@ -4577,8 +4386,7 @@
       "_Page": "31",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4590,7 +4398,6 @@
       "_Page": "31",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "ForceTalent": "true",
     "Conflict": "1"
@@ -4603,7 +4410,6 @@
       "_Page": "31",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Conflict": "1",
@@ -4617,7 +4423,6 @@
       "_Page": "31",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental"
@@ -4630,7 +4435,6 @@
       "_Page": "31",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4642,7 +4446,6 @@
       "_Page": "31",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental"
@@ -4655,8 +4458,7 @@
       "_Page": "30",
       "__text": "Knights of Fate"
     },
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Conflict": "1",
@@ -4670,7 +4472,6 @@
       "_Page": "32",
       "__text": "Unlimited Power"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -4682,8 +4483,7 @@
       "_Page": "32",
       "__text": "Unlimited Power"
     },
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Conflict": "1",
@@ -4697,7 +4497,6 @@
       "_Page": "32",
       "__text": "Unlimited Power"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Action"
@@ -4710,7 +4509,6 @@
       "_Page": "32",
       "__text": "Unlimited Power"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Action"
@@ -4723,7 +4521,6 @@
       "_Page": "33",
       "__text": "Unlimited Power"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Conflict": "1",
@@ -4737,7 +4534,6 @@
       "_Page": "33",
       "__text": "Unlimited Power"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental"
@@ -4750,7 +4546,6 @@
       "_Page": "111",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -4762,8 +4557,7 @@
       "_Page": "111",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -4786,7 +4580,6 @@
       "_Page": "111",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -4798,7 +4591,6 @@
       "_Page": "111",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -4809,8 +4601,7 @@
       "_Page": "112",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4822,7 +4613,6 @@
       "_Page": "112",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4834,7 +4624,6 @@
       "_Page": "112",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -4845,7 +4634,6 @@
       "_Page": "112",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -4856,7 +4644,6 @@
       "_Page": "112",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4868,8 +4655,7 @@
       "_Page": "112",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": {
@@ -4886,7 +4672,6 @@
       "_Page": "112",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -4898,7 +4683,6 @@
       "_Page": "113",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Maneuver"
   },
@@ -4910,7 +4694,6 @@
       "_Page": "113",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -4922,7 +4705,6 @@
       "_Page": "113",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4934,7 +4716,6 @@
       "_Page": "114",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -4945,7 +4726,6 @@
       "_Page": "115",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -4956,7 +4736,6 @@
       "_Page": "115",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -4967,7 +4746,6 @@
       "_Page": "115",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4979,7 +4757,6 @@
       "_Page": "115",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -4991,7 +4768,6 @@
       "_Page": "115",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5002,7 +4778,6 @@
       "_Page": "116",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5013,7 +4788,6 @@
       "_Page": "116",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5025,7 +4799,6 @@
       "_Page": "116",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental"
   },
@@ -5037,8 +4810,7 @@
       "_Page": "111",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5050,7 +4822,6 @@
       "_Page": "115",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "ChooseCareerSkills": {
       "NewSkills": {
@@ -5067,7 +4838,6 @@
       "_Page": "115",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "ChooseCareerSkills": {
       "NewSkills": {
@@ -5083,7 +4853,6 @@
       "_Page": "113",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5094,7 +4863,6 @@
       "_Page": "113",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5105,26 +4873,18 @@
       "_Page": "111",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
     "Key": "STIMSPEC",
     "Name": "Stimpack Specialization",
     "Description": "Stimpacks heal 1 additional wound per rank of Stimpack Specialization.",
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
-    "Source": [
-      {
-        "_Page": "157",
-        "__text": "Age of Rebellion Core Rulebook"
-      },
-      {
-        "_Page": "152",
-        "__text": "Force and Destiny Core Rulebook"
-      }
-    ]
+    "Source": {
+      "_Page": "157",
+      "__text": "Age of Rebellion Core Rulebook"
+    }
   },
   {
     "Key": "PREPBOARD",
@@ -5134,7 +4894,6 @@
       "_Page": "115",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5146,7 +4905,6 @@
       "_Page": "30",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5157,8 +4915,7 @@
       "_Page": "32",
       "__text": "Far Horizons"
     },
-    "Custom": "CustomItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -5169,7 +4926,6 @@
       "_Page": "30",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5181,7 +4937,6 @@
       "_Page": "30",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5193,19 +4948,17 @@
       "_Page": "30",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
   {
     "Key": "EXHAUSTQUEST",
     "Name": "Exhaustive Questioning",
-    "Description": "Whenever a character makes a successful social skill check against a captured enemy within short range, may reduce that enemy’s strain threshold by 2 for the remainder of the session and can spend :advantage:1279760566587490314 to inflict 1 strain.",
+    "Description": "Whenever a character makes a successful social skill check against a captured enemy within short range, may reduce that enemy\u2019s strain threshold by 2 for the remainder of the session and can spend :advantage:1279760566587490314 to inflict 1 strain.",
     "Source": {
       "_Page": "30",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5217,7 +4970,6 @@
       "_Page": "30",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5228,7 +4980,6 @@
       "_Page": "31",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5239,7 +4990,6 @@
       "_Page": "31",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5251,7 +5001,6 @@
       "_Page": "31",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5263,7 +5012,6 @@
       "_Page": "31",
       "__text": "Cyphers and Masks"
     },
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "ChooseCareerSkills": {
       "NewSkills": {
@@ -5279,7 +5027,6 @@
     "Name": "One Person's Trash",
     "Description": "May make a Perception check in order to locate a particular item at no cost in a location with potential salvage. The difficulty of the check is determined by the item's rarity.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5288,7 +5035,6 @@
     "Name": "Ordinance Saturation",
     "Description": "When the character or certain aillies activate the Blast quality of a planetary scale weapon, all ships or vehicles within close range of the target suffer damage equal to the weapon's blast quality.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5296,7 +5042,6 @@
     "Name": "Translation Error",
     "Description": "Once per encounter, the character may remove :despair:1279760580332355607 from the results of a social skill check they make.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5305,7 +5050,6 @@
     "Name": "Ravage",
     "Description": "Once per encounter, the character may suffer 3 strain to add :force:1279761086429659146 up to their Force rating to a combat check targeting an engaged opponent.  The character may spend :force:1279761086429659146 to add :success:1279760614994087987 or :advantage:1279760566587490314 to the check results.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Conflict": "1",
@@ -5316,7 +5060,6 @@
     "Name": "Beginner's Luck",
     "Description": "Once per session when the character makes a check, may add :success:1279760614994087987 equal to the number of light side Destiny Points in the Destiny pool to the results.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
   },
@@ -5325,7 +5068,6 @@
     "Name": "Side by Side",
     "Description": "While the character and one or more engaged allies are wielding lightsabers, add :threat:1279760886906490960 to all combat checks that target the character or those allies.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
   },
@@ -5334,7 +5076,6 @@
     "Name": "Lateral Thinking",
     "Description": "Once per encounter, spend one Destiny Point to force an enemy to reroll a successful check targeting the character.  Does not Require a Destiny Point if the enemy is a droid.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5343,7 +5084,6 @@
     "Name": "Natural Trooper",
     "Description": "Once per session, may re-roll any one Gunnery or Ranged (Heavy) check.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5352,8 +5092,7 @@
     "Name": "Clanker Killer",
     "Description": "Before rolling a combat check that targets a droid, remove :boost:1279760567694790707 up to the character's ranks in Clanker Killer from the pool and add an equal number of :success:1279760614994087987 or :advantage:1279760566587490314 to the results.",
     "Source": "User Data",
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5362,7 +5101,6 @@
     "Name": "Natural Operator",
     "Description": "Once per session, may re-roll any 1 Piloting check.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5371,7 +5109,6 @@
     "Name": "Scrap -Em!",
     "Description": "On a successful attack, may suffer 2 strain and select allies up to ranks in Leadership, who add :boost:1279760567694790707 to attacks against the target until the character's next turn.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5380,7 +5117,6 @@
     "Name": "Clever Negotiators",
     "Description": "Jawas may use Cunning instead of Presence when making Negotiation checks.",
     "Source": "Allies and Adversaries",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "SkillChars": {
       "SkillChar": {
@@ -5429,7 +5165,7 @@
     "Key": "INNERPEACE",
     "Name": "Inner Peace",
     "Description": "Once per encounter, convert a number of dark side Destiny Points equal to ranks in Inner Peace to light side Destiny Points and reduce Conflict gained this session.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Incidental",
     "Source": {
@@ -5480,7 +5216,6 @@
     "Name": "Natural Commando",
     "Description": "Once per session, the character may reroll one Ranged (Light) or Stealth check.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5489,7 +5224,6 @@
     "Name": "Rapid Fire",
     "Description": "May add the Auto-fire quality to a Ranged (Light) combat check.  After resolving the attack, the weapon runs out of ammo.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5498,7 +5232,6 @@
     "Name": "Tactical Evasion",
     "Description": "Upgrade the difficulty of ranged combat checks targeting the character a number of times equal to the number of maneuvers they performed to move during this round.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5506,7 +5239,6 @@
     "Name": "Get the Drop",
     "Description": "Once per session, the character and any number of allies in the encounter may add :success:1279760614994087987 equal to the character's ranks in Stealth to their checks to determine initiative order.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5515,7 +5247,6 @@
     "Name": "Ingrained Loyalty",
     "Description": "When the character makes a leadership check targeting one or more clones, the may change the result of one :challenge:1279760574699278406 to any non-blank face.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5524,7 +5255,6 @@
     "Name": "Enduring Presence",
     "Description": "Once per session, the character may upgrade a Mass Combat check even if the character is not present or is prevented from communicating with their troops.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5533,7 +5263,6 @@
     "Name": "Tactical Planning",
     "Description": "Once per session, the character may substitute a Knowledge (Warfare) skill check for another skill check.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5542,7 +5271,6 @@
     "Name": "Practiced Strategist",
     "Description": "Once per session, may make an [B]opposed Knowledge (Warfare) check[b] against a leader of enemy forces to gain a narrative advantage.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5551,7 +5279,6 @@
     "Name": "At Any Cost",
     "Description": "May suffer a Critical Injury to reroll a Mass Combat check.  At the GM's discretion, may sacrifice an item or individual of personal significance instead.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5560,7 +5287,6 @@
     "Name": "Clanker Killer (Improved)",
     "Description": "Decreases the critical rating of Brawl and Melee attacks targeting droids by 1 per rank of Clanker Killer, to a minimum of 1.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5568,7 +5294,6 @@
     "Name": "Known Programming",
     "Description": "Once per session, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Vigilance check[b] to upgrade the difficulty of a certain droid model's checks against the character, plus one ally per :success:1279760614994087987 after the first, once for the rest of the encounter.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5577,7 +5302,6 @@
     "Name": "Known Programming (Improved)",
     "Description": "Allies affected by Known Programming also upgrade the ability of their checks targeting the chosen droid model once.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5585,7 +5309,6 @@
     "Name": "Survivor's Instincts",
     "Description": "Once per session when the character suffers a Critical Injury, spend 1 Destiny Point.  Then, the attacker must roll two results for the Critical Injury and the player chooses which will apply to their character.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5594,7 +5317,6 @@
     "Name": "Fall Back!",
     "Description": "While engaged with an opponent, the character may suffer a number of strain up to their Leadership to allow an equal number of allies engaged with that opponent to immeditately disengage as an out-of-turn incidental.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5603,7 +5325,6 @@
     "Name": "Stand Firm",
     "Description": "As an action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check[b]. Choose one ally per :success:1279760614994087987, who increase their wound threshold by the character's Presence until the end of the encounter.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5612,7 +5333,6 @@
     "Name": "Natural Champion",
     "Description": "Once per session, may reroll any 1 Leadership or Lightsaber check.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5621,7 +5341,6 @@
     "Name": "Stand Firm (Improved)",
     "Description": "Stand Firm action also increases affected allies strain threshold by an amount equal to the character's Presence rating.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5629,7 +5348,6 @@
     "Name": "Inspiring Kill",
     "Description": "The character may spend 1 Destiny Point to take the Inspiring Kill maneuver after incapacitating or inflicting a Critical Injury.  Roll :force:1279761086429659146 no greater than Force rating, and spend :force:1279761086429659146 to heal 2 strain from each ally within medium range.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Conflict": "1",
@@ -5640,7 +5358,6 @@
     "Name": "Knowledge is Strength",
     "Description": "Once per session when making a check, the character may increase their Force rating by their ranks in Knowledge (Warfare).",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Conflict": "1",
@@ -5651,7 +5368,6 @@
     "Name": "Exemplar of the Republic",
     "Description": "Add :force:1279761086429659146 to mass combat check up to Force rating and spend :force:1279761086429659146 to add :success:1279760614994087987 or :advantage:1279760566587490314 to the results.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental"
@@ -5661,7 +5377,6 @@
     "Name": "Preemptive Intervention",
     "Description": "Immediately after an opponent moves to engage an ally within short range, the character may spend one Destiny Point to engage that opponent as an out-of-turn incidental.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental"
@@ -5671,7 +5386,6 @@
     "Name": "Center of Being (Supreme)",
     "Description": "When the character performs the Center of Being maneuver, the effects apply to ranged attacks as well.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
   },
@@ -5680,7 +5394,6 @@
     "Name": "Powerful Ally",
     "Description": "The character may spend a Destiny Point to use the basic version of a Force power they have not purchased or apply the effects of a control upgrade to a power they have purchased.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental"
@@ -5690,7 +5403,6 @@
     "Name": "There Is No Try",
     "Description": "Once per session before an ally rolls the dice for a check, the character may spend 1 Destiny Point to allow the ally to automatically succeed at the check with one :success:1279760614994087987 and no other results.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "OOT Incidental"
@@ -5700,7 +5412,6 @@
     "Name": "Master of the Order",
     "Description": "The character can spend 2 Destiny Points during a single action.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental"
@@ -5710,7 +5421,6 @@
     "Name": "Bound Together",
     "Description": "Perform the Bound Together maneuver.  Until the character's next turn, when the character or an ally within short range suffers strain, they reduce the amount by the current number of light side Destiny Points.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Maneuver"
@@ -5720,7 +5430,6 @@
     "Name": "Flows Through All Things",
     "Description": "The character may perform a maneuver to recover strain equal to their Force rating.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Maneuver"
@@ -5730,7 +5439,6 @@
     "Name": "Nobody's Fool (Improved)",
     "Description": "May spend :despair:1279760580332355607 or :threat:1279760886906490960:threat:1279760886906490960 from an incoming Charm, Coercion, or Deception check to inflict strain on the opponent equal to the character's ranks in Nobody's Fool.",
     "Source": "Rise of the Separatists",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5739,7 +5447,6 @@
     "Name": "Jetpack Expertise",
     "Description": "The character may spend :advantage:1279760566587490314 from their checks to remove 1 system strain from their jetpack. (They may choose this effect multiple times when spending :advantage:1279760566587490314)",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5748,7 +5455,6 @@
     "Name": "Death From Above",
     "Description": "Once per encounter, inflict 1 system strain on jetpack and make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Piloting check.[b] For each :success:1279760614994087987, one adversary in short range is knocked prone.  May spend :triumph-1:1279760921266360471 to stagger one affected target.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5757,7 +5463,6 @@
     "Name": "Momentum",
     "Description": "The character deals additional damage with their first hit equal to the number of range bands they moved during the current round.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5765,7 +5470,6 @@
     "Name": "Side Step (Improved)",
     "Description": "When the character performs a Side Step maneuver, until the start of their next turn, they may spend :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 from an attacker's check to inflict one hit with a ranged weapon they are wielding.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5774,7 +5478,6 @@
     "Name": "To the Death",
     "Description": "Once per session, suffer strain up to Willpower and add +10 per strain suffered to critical rolls the character inflicts or suffers until the end of the encounter.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5783,7 +5486,6 @@
     "Name": "Hit and Run",
     "Description": "After the character completes an attack targeting an opponent they are engaged with, they may immediately move to short range using a jetpack.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5792,7 +5494,6 @@
     "Name": "Coven",
     "Description": "May take the Coven maneuver. On the character's next Force power check, they may reroll one :force:1279761086429659146 for each ally with Coven within short range.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental"
@@ -5802,7 +5503,6 @@
     "Name": "Ichor Reserve",
     "Description": "Once per session as a maneuver, the character may suffer 2 strain to increase Force rating by 1 until the end of the encounter.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Maneuver"
@@ -5812,7 +5512,6 @@
     "Name": "Ichor Transfusion",
     "Description": "Once per encounter, the character may perform the Ichor Transfusion maneuver to heal any number of strain by suffering that number of wounds +1. The character may instead heal any number of wounds by suffering that number of strain +1.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Maneuver"
   },
@@ -5821,7 +5520,6 @@
     "Name": "Ichor Blade",
     "Description": "The character chooses one Melee or Brawl weapon they possess, which gains the Cortosis and Pierce 2 qualities and reduces its critical rating by 1 to a minimum of 1. If the weapon is ever lost or destroyed, the character can apply Ichor Blade to a new weapon.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5829,7 +5527,6 @@
     "Name": "Ichor Blade (Improved)",
     "Description": "The chosen weapon also gains the Sunder and Defensive 1 qualities, and increases its damage by 2.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5837,7 +5534,6 @@
     "Name": "Summon Item",
     "Description": "As a maneuver, the character can summon or dismiss a ritually prepared item.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Maneuver"
   },
@@ -5846,7 +5542,6 @@
     "Name": "Witchcraft",
     "Description": "The character gains Force rating 1.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive",
     "Attributes": {
       "ForceRating": "1"
@@ -5857,7 +5552,6 @@
     "Name": "Blather",
     "Description": "Take the Blather action, making a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Charm or Deception check[b]. If successful, one adversary per :success:1279760614994087987 is Disoriented for rounds equal to the character's Presence.  The character may spend :triumph-1:1279760921266360471 to Stagger one affected target.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5866,7 +5560,6 @@
     "Name": "Diplomatic Immunity",
     "Description": "As an out-of-turn incidental, the character spends one Destiny Point and adversaries cannot choose them as the target of a combat check until the end of their next turn.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5875,7 +5568,6 @@
     "Name": "Resource Allocation",
     "Description": "At the beginning of a Mass Combat, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Charm or Negotiation check[b] to increase their force's strength by one step for the duration of the encounter.  May spend :triumph-1:1279760921266360471 from the check to upgrade the ability of their force's first Mass Combat check.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5884,8 +5576,7 @@
     "Name": "Savvy",
     "Description": "The character adds :boost:1279760567694790707 to Charm and Negotiation checks per rank of Savvy.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -5905,7 +5596,6 @@
     "Name": "Lead from the Front",
     "Description": "After succeeding on a Leadership check or other check to inspire, lead, or rally an audience, the character may spend 1 Destiny Point to upgrade the ability of the next combat check made by all allies within short range.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5914,7 +5604,6 @@
     "Name": "Lead from the Back",
     "Description": "Once per round, may spend 1 Destiny Point to redirect a successful attack against the character to an allied NPC.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5923,7 +5612,6 @@
     "Name": "Droid Commander",
     "Description": "Once per encounter, may perform Field Commander as a maneuver instead of an action. All affected allies must be droids.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Active",
     "Activation": "Incidental"
   },
@@ -5932,7 +5620,6 @@
     "Name": "Cruel Commander",
     "Description": "May use ranks in Coercion to upgrade Mass Combat checks instead of ranks in Leadership.",
     "Source": "Collapse of the Republic",
-    "Custom": "AddedItem",
     "ActivationValue": "Passive"
   },
   {
@@ -5943,8 +5630,7 @@
       "_Page": "116",
       "__text": "Dawn of Rebellion"
     },
-    "Custom": "AddedItem",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Action"
   },
@@ -5964,7 +5650,7 @@
     "Key": "ALCARTS",
     "Name": "Alchemical Arts",
     "Description": "After making a check to craft a potion or talisman, may suffer strain up to twice ranks in Alchemical Arts. For every two strain, add :forcelight:1279761067660279822 or :forcedark:1279760590604341272 to results.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental",
@@ -6114,7 +5800,7 @@
     "Key": "FIRESUP",
     "Name": "Fire Support",
     "Description": "After the character makes a successful combat check using a vehicle weapon, the next ally to make a check adds :boost:1279760567694790707 equal to ranks in Fire Support.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "39",
@@ -6147,7 +5833,7 @@
     "Key": "FIRSTBRO",
     "Name": "First Among Brothers",
     "Description": "When the character makes a check that does not generate any :threat:1279760886906490960, the check gains :advantage:1279760566587490314 equal to ranks in First Among Brothers.  The character may only spend these additional :advantage:1279760566587490314 to affect allied clones.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "39",
@@ -6224,7 +5910,7 @@
     "Key": "KNOWWEAK",
     "Name": "Know Their Weakness",
     "Description": "Once per session, may perform the Know Their Weakness action and choose one target within close range; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception check[b] to downgrade the difficulty of social skill checks against target once per rank of Know Their Weakness until the end of the session.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -6240,7 +5926,7 @@
       "_Page": "33",
       "__text": "Desperate Allies"
     },
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive"
   },
   {
@@ -6258,7 +5944,7 @@
     "Key": "LEVER",
     "Name": "Leverage",
     "Description": "The character removes :setback:1279761015474753570 per rank of Leverage from their Cool and Negotiation checks.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -6326,7 +6012,7 @@
     "Key": "OVERWAURA",
     "Name": "Overwhelming Aura",
     "Description": "Commit :force:1279761086429659146. Add :advantage:1279760566587490314 to social checks equal to :force:1279761086429659146 committed. Add :threat:1279760886906490960 to equal :force:1279761086429659146 commited to enemy social checks in short range.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Maneuver",
@@ -6396,7 +6082,7 @@
     "Key": "RESPDEL",
     "Name": "Respected Delegate",
     "Description": "Downgrade the difficulty of social skill checks made to interact with government institutions outside of homeworld a number of times equal to ranks in Respected Delegate.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "42",
@@ -6417,7 +6103,7 @@
     "Key": "SECRETLORE",
     "Name": "Secret Lore",
     "Description": "Remove :setback:1279761015474753570 per rank or Secret Lore from all Knowledge (Lore) checks. Reduce the difficulty of all Knowledge (Lore) checks by 1.",
-    "Ranked": "true",
+    "Ranked": true,
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -6523,4 +6209,3 @@
     }
   }
 ]
-
