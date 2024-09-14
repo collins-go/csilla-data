@@ -3,13 +3,19 @@
     "Key": "FLAW",
     "Name": "A Failure of Character",
     "Description": "",
-    "Source": "Edge of the Empire Core Rulebook"
+    "Source": {
+      "_Page": "",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "HIGH",
     "Name": "A Higher Calling",
     "Description": "",
-    "Source": "Edge of the Empire Core Rulebook"
+    "Source": {
+      "_Page": "",
+      "__text": "Edge of the Empire Core Rulebook"
+    }    
   },
   {
     "Key": "ACADEMIC",
@@ -33,7 +39,10 @@
     "Key": "ANCIENTORDER",
     "Name": "Ancient Order",
     "Description": "",
-    "Source": "Keeping the Peace"
+    "Source": {
+      "_Page": "",
+      "__text": "Keeping the Peace"
+    }
   },
   {
     "Key": "ANTIQ",
@@ -75,7 +84,10 @@
     "Key": "BATTLEADER",
     "Name": "Battlefield Leader",
     "Description": "",
-    "Source": "Keeping the Peace"
+    "Source": {
+      "_Page": "",
+      "__text": "Keeping the Peace"
+    }
   },
   {
     "Key": "BORNENG",
@@ -99,7 +111,10 @@
     "Key": "SOTBUSH",
     "Name": "Bush Pilot",
     "Description": "",
-    "Source": "Stay on Target"
+    "Source": {
+      "_Page": "",
+      "__text": "Stay on Target"
+    }
   },
   {
     "Key": "CITSOLD",
@@ -114,7 +129,10 @@
     "Key": "SOTCLONEWARS",
     "Name": "Clone Wars Veteran",
     "Description": "",
-    "Source": "Stay on Target"
+    "Source": {
+      "_Page": "",
+      "__text": "Stay on Target"
+    }
   },
   {
     "Key": "CONARTIST",
@@ -141,8 +159,7 @@
     "Source": {
       "_Page": "13",
       "__text": "Knights of Fate"
-    },
-    "Custom": "AddedItem"
+    }
   },
   {
     "Key": "CYNIC",
@@ -184,7 +201,10 @@
     "Key": "DISSART",
     "Name": "Dissident Artist",
     "Description": "",
-    "Source": "Desperate Allies"
+    "Source": {
+      "_Page": "",
+      "__text": "Desperate Allies"
+    }
   },
   {
     "Key": "ECCENTRIC",
@@ -217,7 +237,10 @@
     "Key": "SOTENTERTAINER",
     "Name": "Entertainer",
     "Description": "",
-    "Source": "Stay on Target"
+    "Source": {
+      "_Page": "",
+      "__text": "Stay on Target"
+    }
   },
   {
     "Key": "ENTREPRENEUR",
@@ -242,16 +265,10 @@
     "Name": "Ex-Military",
     "Description": "",
     "Custom": "CustomItem",
-    "Source": [
-      {
+    "Source": {
         "_Page": "13",
         "__text": "Fly Casual"
-      },
-      {
-        "_Page": "14",
-        "__text": "Knights of Fate"
-      }
-    ]
+    }
   },
   {
     "Key": "EXILE",
@@ -284,7 +301,10 @@
     "Key": "FLEEEMP",
     "Name": "Fleeing the Empire",
     "Description": "",
-    "Source": "Force and Destiny Core Rulebook"
+    "Source": {
+      "_Page": "",
+      "__text": "Edge of the Empire Core Rulebook"
+    }
   },
   {
     "Key": "FREERUNNER",
@@ -293,8 +313,7 @@
     "Source": {
       "_Page": "12",
       "__text": "Cyphers and Masks"
-    },
-    "Custom": "AddedItem"
+    }
   },
   {
     "Key": "GANGL",
@@ -318,13 +337,19 @@
     "Key": "SOTIMPDEF",
     "Name": "Imperial Defector",
     "Description": "",
-    "Source": "Stay on Target"
+     "Source": {
+      "_Page": "",
+      "__text": "Stay on Target"
+    }
   },
   {
     "Key": "IMPOUT",
     "Name": "Imperial Outcast",
     "Description": "",
-    "Source": "Desperate Allies"
+    "Source": {
+      "_Page": "",
+      "__text": "Desperate Allies"
+    }
   },
   {
     "Key": "INITMONEY",
@@ -339,7 +364,10 @@
     "Key": "INDUST",
     "Name": "Industrialist",
     "Description": "",
-    "Source": "Desperate Allies"
+    "Source": {
+      "_Page": "",
+      "__text": "Desperate Allies"
+    }
   },
   {
     "Key": "JOURNEYMAN",
@@ -391,16 +419,10 @@
     "Name": "Mercenary",
     "Description": "",
     "Custom": "CustomItem",
-    "Source": [
-      {
+    "Source": {
         "_Page": "15",
         "__text": "Forged in Battle"
-      },
-      {
-        "_Page": "14",
-        "__text": "Knights of Fate"
-      }
-    ]
+    }
   },
   {
     "Key": "MILITARY",
@@ -415,7 +437,10 @@
     "Key": "MINVOICE",
     "Name": "Minority Voice",
     "Description": "",
-    "Source": "Desperate Allies"
+    "Source": {
+      "_Page": "",
+      "__text": "Desperate Allies"
+    }
   },
   {
     "Key": "OFFICIAL",
@@ -439,7 +464,10 @@
     "Key": "OUTAGENT",
     "Name": "Outlaw Agent",
     "Description": "",
-    "Source": "Keeping the Peace"
+    "Source": {
+      "_Page": "",
+      "__text": "Keeping the Peace"
+    }
   },
   {
     "Key": "PEACETURNEDTOWAR",
@@ -457,8 +485,7 @@
     "Source": {
       "_Page": "14",
       "__text": "Cyphers and Masks"
-    },
-    "Custom": "AddedItem"
+    }
   },
   {
     "Key": "POLITICALEXP",
@@ -482,7 +509,10 @@
     "Key": "SOTPROTOTYPE",
     "Name": "Prototype Tester",
     "Description": "",
-    "Source": "Stay on Target"
+    "Source": {
+      "_Page": "",
+      "__text": "Stay on Target"
+    }
   },
   {
     "Key": "PSYCHOLOGIST",
@@ -491,8 +521,7 @@
     "Source": {
       "_Page": "14",
       "__text": "Cyphers and Masks"
-    },
-    "Custom": "AddedItem"
+    }
   },
   {
     "Key": "QUESTER",
@@ -606,27 +635,20 @@
     "Key": "ACCREB",
     "Name": "The Accidental Rebel",
     "Description": "",
-    "Source": "Age of Rebellion Core Rulebook"
+    "Source": {
+      "_Page": "",
+      "__text": "Age of Rebellion Core Rulebook"
+    }
   },
   {
     "Key": "AVENGER",
     "Name": "The Avenger",
     "Description": "",
     "Custom": "CustomItem",
-    "Source": [
-      {
+    "Source": {
         "_Page": "14",
         "__text": "Dangerous Covenants"
-      },
-      {
-        "_Page": "12",
-        "__text": "Forged in Battle"
-      },
-      {
-        "_Page": "12",
-        "__text": "Knights of Fate"
       }
-    ]
   },
   {
     "Key": "FAILLEAD",
@@ -677,7 +699,10 @@
     "Key": "NEWREC",
     "Name": "The New Recruit",
     "Description": "",
-    "Source": "Age of Rebellion Core Rulebook"
+    "Source": {
+      "_Page": "",
+      "__text": "Age of Rebellion Core Rulebook"
+    }
   },
   {
     "Key": "OPPOR",
@@ -692,7 +717,10 @@
     "Key": "SEARCHINS",
     "Name": "The Searching Insurgent",
     "Description": "",
-    "Source": "Age of Rebellion Core Rulebook"
+    "Source": {
+      "_Page": "",
+      "__text": "Age of Rebellion Core Rulebook"
+    }
   },
   {
     "Key": "THRILLHUNT",
@@ -707,7 +735,10 @@
     "Key": "ULTAB",
     "Name": "Ultimate Abilities",
     "Description": "",
-    "Source": "Force and Destiny Core Rulebook"
+    "Source": {
+      "_Page": "",
+      "__text": "Force and Destiny Core Rulebook"
+    }
   },
   {
     "Key": "UNDTECH",
@@ -722,16 +753,10 @@
     "Key": "WANDERER",
     "Name": "Wanderer",
     "Description": "",
-    "Source": [
-      {
+    "Source": {
         "_Page": "18",
         "__text": "Enter the Unknown"
-      },
-      {
-        "_Page": "15",
-        "__text": "Savage Spirits"
       }
-    ]
   },
   {
     "Key": "WANDDIP",
@@ -746,13 +771,19 @@
     "Key": "WAYFARER",
     "Name": "Wayfarer",
     "Description": "",
-    "Source": "Keeping the Peace"
+    "Source": {
+      "_Page": "",
+      "__text": "Keep the Peace"
+    }
   },
   {
     "Key": "GREATPOW",
     "Name": "With Great Power...",
     "Description": "",
-    "Source": "Force and Destiny Core Rulebook"
+    "Source": {
+      "_Page": "",
+      "__text": "Force and Destiny Core Rulebook"
+    }
   },
   {
     "Key": "WRONG",
