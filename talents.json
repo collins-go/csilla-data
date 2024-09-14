@@ -41,7 +41,7 @@
   {
     "Key": "BADM",
     "Name": "Bad Motivator",
-    "Description": "Once per game session, may take a Bad Motivator action; make a [B]Hard ([DI][DI][DI]) Mechanics check[b] to cause one targeted device to spontaneously fail.",
+    "Description": "Once per game session, may take a Bad Motivator action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b] to cause one targeted device to spontaneously fail.",
     "ActivationValue": "Active"
   },
   {
@@ -54,7 +54,7 @@
   {
     "Key": "BAL",
     "Name": "Balance",
-    "Description": "When the character heals strain at the end of the encounter, he may add [FO] per Force Rating. He recovers additional strain equal to [LI] generated.",
+    "Description": "When the character heals strain at the end of the encounter, he may add :force:1279761086429659146 per Force Rating. He recovers additional strain equal to :forcelight:1279761067660279822 generated.",
     "ActivationValue": "Active",
     "ForceTalent": "true"
   },
@@ -82,7 +82,7 @@
   {
     "Key": "BLO",
     "Name": "Blooded",
-    "Description": "Add [BO] per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1.",
+    "Description": "Add :boost:1279760567694790707 per rank of Blooded to all checks to resist or recover from poisons, venoms, or toxins. Reduce duration of ongoing poisons by 1 round per rank of Blooded to a minimum of 1.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -123,7 +123,7 @@
   {
     "Key": "COM",
     "Name": "Command",
-    "Description": "Add [BO] per rank of Command when making Leadership checks. Affected targets add [BO] to Discipline checks for next 24 hours.",
+    "Description": "Add :boost:1279760567694790707 per rank of Command when making Leadership checks. Affected targets add :boost:1279760567694790707 to Discipline checks for next 24 hours.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -158,7 +158,7 @@
   {
     "Key": "CONT",
     "Name": "Contraption",
-    "Description": "Once per session, take Contraption action; make a [B] Hard ([DI][DI][DI]) Mechanics check[b] to fashion a device to solve a current problem using just the tools and parts on hand.",
+    "Description": "Once per session, take Contraption action; make a [B] Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b] to fashion a device to solve a current problem using just the tools and parts on hand.",
     "ActivationValue": "Active"
   },
   {
@@ -264,7 +264,7 @@
   {
     "Key": "DISOR",
     "Name": "Disorient",
-    "Description": "After hitting with combat check, may spend [AD][AD] to disorient target for number of rounds equal to ranks in Disorient.",
+    "Description": "After hitting with combat check, may spend :advantage:1279760566587490314:advantage:1279760566587490314 to disorient target for number of rounds equal to ranks in Disorient.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -302,7 +302,7 @@
   {
     "Key": "FAMSUNS",
     "Name": "Familiar Suns",
-    "Description": "Once per session, may perform a Familiar Suns maneuver; make a [B] Hard ([DI][DI][DI]) Knowledge (Outer Rim)[b] or [B](Core Worlds) check[b] to reveal the current type of planetary environment and other useful information.",
+    "Description": "Once per session, may perform a Familiar Suns maneuver; make a [B] Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Outer Rim)[b] or [B](Core Worlds) check[b] to reveal the current type of planetary environment and other useful information.",
     "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Maneuver",
@@ -336,13 +336,13 @@
   {
     "Key": "FLDCOMM",
     "Name": "Field Commander",
-    "Description": "Take the Field Commander action; make a [B]Average ([DI][DI]) Leadership check[b]. A number of allies equal to Presence may immediately suffer 1 strain to perform 1 free maneuver.",
+    "Description": "Take the Field Commander action; make a [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check[b]. A number of allies equal to Presence may immediately suffer 1 strain to perform 1 free maneuver.",
     "ActivationValue": "Active"
   },
   {
     "Key": "FLDCOMMIMP",
     "Name": "Field Commander (Improved)",
-    "Description": "Field Commander action affects allies equal to double Presence, and may spend [TR] to allow allies to suffer 1 strain and perform 1 free action instead.",
+    "Description": "Field Commander action affects allies equal to double Presence, and may spend :triumph-1:1279760921266360471 to allow allies to suffer 1 strain and perform 1 free action instead.",
     "ActivationValue": "Passive"
   },
   {
@@ -379,13 +379,13 @@
   {
     "Key": "FULLTH",
     "Name": "Full Throttle",
-    "Description": "Take a Full Throttle action; make a [B]Hard ([DI][DI][DI]) Piloting check[b] to increase a vehicle's top speed by 1 for a number of rounds equal to Cunning.",
+    "Description": "Take a Full Throttle action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Piloting check[b] to increase a vehicle's top speed by 1 for a number of rounds equal to Cunning.",
     "ActivationValue": "Active"
   },
   {
     "Key": "FULLTHIMP",
     "Name": "Full Throttle (Improved)",
-    "Description": "Suffer 1 strain to attempt Full Throttle as a maneuver and decrease its difficultly to [B]Average ([DI][DI])[b].",
+    "Description": "Suffer 1 strain to attempt Full Throttle as a maneuver and decrease its difficultly to [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210)[b].",
     "ActivationValue": "Active"
   },
   {
@@ -433,7 +433,7 @@
   {
     "Key": "HARDHD",
     "Name": "Hard Headed",
-    "Description": "When staggered or disoriented, perform the Hard Headed action; make a  [B]Daunting ([DI][DI][DI][DI]) Discipline check[b] to remove status. Difficulty reduced per rank of Hard Headed.",
+    "Description": "When staggered or disoriented, perform the Hard Headed action; make a  [B]Daunting (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Discipline check[b] to remove status. Difficulty reduced per rank of Hard Headed.",
     "Custom": "CustomItem",
     "Ranked": "true",
     "ActivationValue": "Active",
@@ -458,7 +458,7 @@
   {
     "Key": "HEIGHT",
     "Name": "Heightened Awareness",
-    "Description": "Allies within close range add [BO] to Perception or Vigilance checks. Engaged allies add [BO][BO].",
+    "Description": "Allies within close range add :boost:1279760567694790707 to Perception or Vigilance checks. Engaged allies add :boost:1279760567694790707:boost:1279760567694790707.",
     "ActivationValue": "Passive"
   },
   {
@@ -483,7 +483,7 @@
   {
     "Key": "HUNT",
     "Name": "Hunter",
-    "Description": "Add [BO] per rank of Hunter to all checks when interacting with beast or animals (including combat checks). Add +10 to Critical Injury results against beasts or animals per rank of Hunter.",
+    "Description": "Add :boost:1279760567694790707 per rank of Hunter to all checks when interacting with beast or animals (including combat checks). Add +10 to Critical Injury results against beasts or animals per rank of Hunter.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -512,7 +512,7 @@
   {
     "Key": "INSPRHET",
     "Name": "Inspiring Rhetoric",
-    "Description": "Take the Inspiring Rhetoric action; making an [B]Average ([DI][DI]) Leadership check[b]. Each [SU], 1 ally within close range recovers 1 strain. Spend [AD] to cause 1 affected ally to recover 1 additional strain.",
+    "Description": "Take the Inspiring Rhetoric action; making an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check[b]. Each :success:1279760614994087987, 1 ally within close range recovers 1 strain. Spend :advantage:1279760566587490314 to cause 1 affected ally to recover 1 additional strain.",
     "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Action",
@@ -530,7 +530,7 @@
   {
     "Key": "INSPRHETIMP",
     "Name": "Inspiring Rhetoric (Improved)",
-    "Description": "Each ally affected by Inspiring Rhetoric gains [BO] on all skill checks for a number of rounds equal to ranks in Leadership.",
+    "Description": "Each ally affected by Inspiring Rhetoric gains :boost:1279760567694790707 on all skill checks for a number of rounds equal to ranks in Leadership.",
     "ActivationValue": "Passive"
   },
   {
@@ -561,7 +561,7 @@
   {
     "Key": "INVENT",
     "Name": "Inventor",
-    "Description": "When constructing new items or modifying existing attachments, add [BO] or remove [SE] per rank of Inventor.",
+    "Description": "When constructing new items or modifying existing attachments, add :boost:1279760567694790707 or remove [SE] per rank of Inventor.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -601,7 +601,7 @@
   {
     "Key": "KNOCK",
     "Name": "Knockdown",
-    "Description": "After hitting with a melee attack, may spend [TR] to knock the target prone.",
+    "Description": "After hitting with a melee attack, may spend :triumph-1:1279760921266360471 to knock the target prone.",
     "ActivationValue": "Passive"
   },
   {
@@ -614,7 +614,7 @@
   {
     "Key": "KNOWSPEC",
     "Name": "Knowledge Specialization",
-    "Description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend [TR] result to gain additional successes equal to ranks in Knowledge Specialization.",
+    "Description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend :triumph-1:1279760921266360471 result to gain additional successes equal to ranks in Knowledge Specialization.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "SkillChoice": {
@@ -625,7 +625,7 @@
   {
     "Key": "KNOWSCH",
     "Name": "Known Schematic",
-    "Description": "Once per session, may perform the Known Schematic maneuver; make a [B]Hard ([DI][DI][DI]) Knowledge (Education) check[b]. Success grants familiarity with a building or ship's design.",
+    "Description": "Once per session, may perform the Known Schematic maneuver; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Education) check[b]. Success grants familiarity with a building or ship's design.",
     "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "Maneuver",
@@ -696,13 +696,13 @@
   {
     "Key": "MASSLIC",
     "Name": "Master Slicer",
-    "Description": "Once per round, may take a Master Sliver incidental to suffer 2 strain and decrease difficulty of Computers or other slicing checks by 1 to a minimum of [B]Easy ([DI])[b].",
+    "Description": "Once per round, may take a Master Sliver incidental to suffer 2 strain and decrease difficulty of Computers or other slicing checks by 1 to a minimum of [B]Easy (:difficulty:1279760984621191210)[b].",
     "ActivationValue": "Active"
   },
   {
     "Key": "MASSTAR",
     "Name": "Master Starhopper",
-    "Description": "Once per round, suffer 2 strain to decrease the difficulty of next Astrogation check by 1 to a minimum of [B]Easy ([DI])[b].",
+    "Description": "Once per round, suffer 2 strain to decrease the difficulty of next Astrogation check by 1 to a minimum of [B]Easy (:difficulty:1279760984621191210)[b].",
     "ActivationValue": "Active"
   },
   {
@@ -830,7 +830,7 @@
   {
     "Key": "OVEREM",
     "Name": "Overwhelm Emotions",
-    "Description": "May add [FO] per Force Rating to Charm, Coercion, or Deception checks. [LI] and [DA] add [SU] to some checks and [FA] to others.",
+    "Description": "May add :force:1279761086429659146 per Force Rating to Charm, Coercion, or Deception checks. :forcelight:1279761067660279822 and :forcedark:1279760590604341272 add :success:1279760614994087987 to some checks and :failure:1279760586783326319 to others.",
     "Source": "Edge of the Empire Core Rulebook",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -885,14 +885,14 @@
   {
     "Key": "QUICKST",
     "Name": "Quick Strike",
-    "Description": "Add [BO] per rank of Quick Strike to combat checks against targets that have not acted yet this encounter.",
+    "Description": "Add :boost:1279760567694790707 per rank of Quick Strike to combat checks against targets that have not acted yet this encounter.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
   {
     "Key": "RAPREA",
     "Name": "Rapid Reaction",
-    "Description": "Suffer a number of strain to add an equal number of [SU] to initiative checks. Strain suffered cannot exceed ranks in Rapid Reaction.",
+    "Description": "Suffer a number of strain to add an equal number of :success:1279760614994087987 to initiative checks. Strain suffered cannot exceed ranks in Rapid Reaction.",
     "Ranked": "true",
     "ActivationValue": "Active"
   },
@@ -906,7 +906,7 @@
   {
     "Key": "REDUNSYS",
     "Name": "Redundant Systems",
-    "Description": "Once per session, may take a Redundant Systems action; make an [B]Easy ([DI]) Mechanics check[b] to harvest components from a functioning device to repair a broken one without breaking the first device.",
+    "Description": "Once per session, may take a Redundant Systems action; make an [B]Easy (:difficulty:1279760984621191210) Mechanics check[b] to harvest components from a functioning device to repair a broken one without breaking the first device.",
     "ActivationValue": "Active"
   },
   {
@@ -938,13 +938,13 @@
   {
     "Key": "STIMAP",
     "Name": "Stim Application",
-    "Description": "Take the Stim Application Action; make an [B]Average ([DI][DI]) Medicine check[b]. If successful 1 engaged ally increases 1 characteristic by 1 for the remained of the encounter and suffers 4 strain.",
+    "Description": "Take the Stim Application Action; make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Medicine check[b]. If successful 1 engaged ally increases 1 characteristic by 1 for the remained of the encounter and suffers 4 strain.",
     "ActivationValue": "Active"
   },
   {
     "Key": "STIMAPIMP",
     "Name": "Stim Application (Improved)",
-    "Description": "When performing Stim Application Action, may increase difficulty of check to [B]Hard ([DI][DI][DI])[b], and target only suffers 1 strain.",
+    "Description": "When performing Stim Application Action, may increase difficulty of check to [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210)[b], and target only suffers 1 strain.",
     "ActivationValue": "Active"
   },
   {
@@ -960,13 +960,13 @@
   {
     "Key": "STIMAPSUP",
     "Name": "Stim Application (Supreme)",
-    "Description": "When performing ther Stim Application Action, spend [TR] to increase an additional Characteristic by 1.",
+    "Description": "When performing ther Stim Application Action, spend :triumph-1:1279760921266360471 to increase an additional Characteristic by 1.",
     "ActivationValue": "Passive"
   },
   {
     "Key": "STALK",
     "Name": "Stalker",
-    "Description": "Add [BO] per rank of Stalker to all Stealth and Coordination checks.",
+    "Description": "Add :boost:1279760567694790707 per rank of Stalker to all Stealth and Coordination checks.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -998,7 +998,7 @@
   {
     "Key": "SPARECL",
     "Name": "Spare Clip",
-    "Description": "Cannot run out of ammo due to [DE]. Items with Limited Ammo quality run out of ammo as normal.",
+    "Description": "Cannot run out of ammo due to :despair:1279760580332355607. Items with Limited Ammo quality run out of ammo as normal.",
     "Custom": "CustomItem",
     "ActivationValue": "Passive",
     "Source": [
@@ -1029,7 +1029,7 @@
   {
     "Key": "STUNBLIMP",
     "Name": "Stunning Blow (Improved)",
-    "Description": "When dealing strain damage with Melee or Brawl checks, may spend [TR] to stagger target for 1 round per [TR]",
+    "Description": "When dealing strain damage with Melee or Brawl checks, may spend :triumph-1:1279760921266360471 to stagger target for 1 round per :triumph-1:1279760921266360471",
     "ActivationValue": "Active"
   },
   {
@@ -1047,7 +1047,7 @@
   {
     "Key": "SCATH",
     "Name": "Scathing Tirade",
-    "Description": "Take a Scathing Tirade action; make an [B] Average ([DI][DI]) Coercion check[b]. Each [SU] causes one enemy in short range to suffer 1 strain. Spend [AD] to cause 1 affected enemy to suffer 1 additional strain.",
+    "Description": "Take a Scathing Tirade action; make an [B] Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Coercion check[b]. Each :success:1279760614994087987 causes one enemy in short range to suffer 1 strain. Spend :advantage:1279760566587490314 to cause 1 affected enemy to suffer 1 additional strain.",
     "ActivationValue": "Active"
   },
   {
@@ -1089,7 +1089,7 @@
   {
     "Key": "SPKBIN",
     "Name": "Speaks Binary",
-    "Description": "When directing NPC droids, may grant them [BO] per rank of Speaks Binary on checks.",
+    "Description": "When directing NPC droids, may grant them :boost:1279760567694790707 per rank of Speaks Binary on checks.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -1153,7 +1153,7 @@
   {
     "Key": "SHORTCUT",
     "Name": "Short Cut",
-    "Description": "During a chase; add [BO] per rank in Shortcut to any checks made to catch or escape an opponent.",
+    "Description": "During a chase; add :boost:1279760567694790707 per rank in Shortcut to any checks made to catch or escape an opponent.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -1184,7 +1184,7 @@
   {
     "Key": "SMOOTHTALK",
     "Name": "Smooth Talker",
-    "Description": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation. When making checks with that skill spend [TR] to gain additional [SU] equal to ranks in Smooth Talker.",
+    "Description": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation. When making checks with that skill spend :triumph-1:1279760921266360471 to gain additional :success:1279760614994087987 equal to ranks in Smooth Talker.",
     "Ranked": "true",
     "ActivationValue": "Active",
     "SkillChoice": {
@@ -1259,13 +1259,13 @@
   {
     "Key": "SKILLSLIC",
     "Name": "Skilled Slicer",
-    "Description": "When making a Computers check may spend [TR] to make further Computers checks within this system as maneuvers.",
+    "Description": "When making a Computers check may spend :triumph-1:1279760921266360471 to make further Computers checks within this system as maneuvers.",
     "ActivationValue": "Active"
   },
   {
     "Key": "UNCANSENS",
     "Name": "Uncanny Senses",
-    "Description": "Add [BO] per rank of Uncanny Senses to all Perception checks.",
+    "Description": "Add :boost:1279760567694790707 per rank of Uncanny Senses to all Perception checks.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -1279,7 +1279,7 @@
   {
     "Key": "UNCANREAC",
     "Name": "Uncanny Reactions",
-    "Description": "Add [BO] per rank of Uncanny Reactions to all Vigilance checks.",
+    "Description": "Add :boost:1279760567694790707 per rank of Uncanny Reactions to all Vigilance checks.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -1300,7 +1300,7 @@
   {
     "Key": "SENSDEMO",
     "Name": "Sense Emotions",
-    "Description": "Add [BO] to all Charm, Coercion, and Deception checks unless the target is immune to Force powers.",
+    "Description": "Add :boost:1279760567694790707 to all Charm, Coercion, and Deception checks unless the target is immune to Force powers.",
     "ActivationValue": "Passive",
     "DieModifiers": {
       "DieModifier": [
@@ -1323,7 +1323,7 @@
   {
     "Key": "TOUCH",
     "Name": "Touch of Fate",
-    "Description": "Once per session, add [BO][BO] to any 1 check.",
+    "Description": "Once per session, add :boost:1279760567694790707:boost:1279760567694790707 to any 1 check.",
     "ActivationValue": "Active",
     "ForceTalent": "true"
   },
@@ -1359,21 +1359,21 @@
   {
     "Key": "PIN",
     "Name": "Pin",
-    "Description": "Take Pin action; make an [B]Opposed athletics check[b] to immobilize an engaged opponent until the end of the character's next turn. Spend [TR] to extend duration one round.",
+    "Description": "Take Pin action; make an [B]Opposed athletics check[b] to immobilize an engaged opponent until the end of the character's next turn. Spend :triumph-1:1279760921266360471 to extend duration one round.",
     "Source": "Enter the Unknown",
     "ActivationValue": "Active"
   },
   {
     "Key": "MUSEUMWORTHY",
     "Name": "Museum Worthy",
-    "Description": "Once per session, take Museum Worthy action, make a [B]Hard ([DI][DI][DI]) Knowledge (Education) check[b] to ascetain information regarding a relic, ruin, or piece of history.",
+    "Description": "Once per session, take Museum Worthy action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Education) check[b] to ascetain information regarding a relic, ruin, or piece of history.",
     "Source": "Enter the Unknown",
     "ActivationValue": "Active"
   },
   {
     "Key": "HUNTERQUARRY",
     "Name": "Hunter's Quarry",
-    "Description": "Take Hunter's Quarry action, make a [B]Hard ([DI][DI][DI]) Survival check[b] to upgrade the ability of all attacks made against a target at long range until the end of the character's next turn.",
+    "Description": "Take Hunter's Quarry action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Survival check[b] to upgrade the ability of all attacks made against a target at long range until the end of the character's next turn.",
     "Source": "Enter the Unknown",
     "ActivationValue": "Active"
   },
@@ -1450,7 +1450,7 @@
   {
     "Key": "BOUGHT",
     "Name": "Bought Info",
-    "Description": "Instead of making a Knowledge check, may take a Bought Info action; spend credits equal to 50 times the difficulty of the check to pass with one [SU].",
+    "Description": "Instead of making a Knowledge check, may take a Bought Info action; spend credits equal to 50 times the difficulty of the check to pass with one :success:1279760614994087987.",
     "Source": "Age of Rebellion Core Rulebook",
     "ActivationValue": "Active"
   },
@@ -1464,7 +1464,7 @@
   {
     "Key": "GOODCOP",
     "Name": "Good Cop",
-    "Description": "May spend [AD][AD] from a Charm or Negotiation check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Good Cop.",
+    "Description": "May spend :advantage:1279760566587490314:advantage:1279760566587490314 from a Charm or Negotiation check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Good Cop.",
     "Source": "Far Horizons",
     "Ranked": "true",
     "ActivationValue": "Passive"
@@ -1472,21 +1472,21 @@
   {
     "Key": "UNRELSKEP",
     "Name": "Unrelenting Skeptic",
-    "Description": "When targeted by a Deception check, the character automatically adds [FA] to the check equal to ranks in Vigilance.",
+    "Description": "When targeted by a Deception check, the character automatically adds :failure:1279760586783326319 to the check equal to ranks in Vigilance.",
     "ActivationValue": "Passive",
     "Source": "Far Horizons"
   },
   {
     "Key": "UNRELSKEPIMP",
     "Name": "Unrelenting Skeptic (Improved)",
-    "Description": "When targeted by a Deception check that fails, may spend 1 Destiny Point to add [DE] to results.",
+    "Description": "When targeted by a Deception check that fails, may spend 1 Destiny Point to add :despair:1279760580332355607 to results.",
     "Source": "Far Horizons",
     "ActivationValue": "Active"
   },
   {
     "Key": "DISBEH",
     "Name": "Distracting Behavior",
-    "Description": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until the beginning of next turn, equal number of NPC's suffer [TH] on checks. Range increases with additional ranks.",
+    "Description": "Make a Distracting Behavior maneuver and suffer strain no greater than ranks in Cunning. Until the beginning of next turn, equal number of NPC's suffer :threat:1279760886906490960 on checks. Range increases with additional ranks.",
     "Source": "Far Horizons",
     "Ranked": "true",
     "ActivationValue": "Active"
@@ -1512,14 +1512,14 @@
   {
     "Key": "DISBEHIMP",
     "Name": "Distracting Behavior (Improved)",
-    "Description": "The Distracting Behavior maneuver inflicts [TH][TH] on NPC's checks when NPC's target character's allies.",
+    "Description": "The Distracting Behavior maneuver inflicts :threat:1279760886906490960:threat:1279760886906490960 on NPC's checks when NPC's target character's allies.",
     "Source": "Far Horizons",
     "ActivationValue": "Passive"
   },
   {
     "Key": "BIGGESTFAN",
     "Name": "Biggest Fan",
-    "Description": "Once per session, may take a Biggest Fan action; make a [B]Hard ([DI][DI][DI]) Charm check[b] to turn one NPC into the character's biggest fan.",
+    "Description": "Once per session, may take a Biggest Fan action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Charm check[b] to turn one NPC into the character's biggest fan.",
     "Source": "Far Horizons",
     "ActivationValue": "Active"
   },
@@ -1533,7 +1533,7 @@
   {
     "Key": "COORDODGE",
     "Name": "Coordination Dodge",
-    "Description": "When targeted by a combat check, may spend 1 Destiny Point to add [FA] equal to ranks in Coordination to check.",
+    "Description": "When targeted by a combat check, may spend 1 Destiny Point to add :failure:1279760586783326319 equal to ranks in Coordination to check.",
     "Source": "Far Horizons",
     "ActivationValue": "Active"
   },
@@ -1572,7 +1572,7 @@
   {
     "Key": "SELDETON",
     "Name": "Selective Detonation",
-    "Description": "When using a weapon with the Blast quality spend [AD] to exclude 1 target that would be affected by the explosion, up to ranks in Selective Detonation.",
+    "Description": "When using a weapon with the Blast quality spend :advantage:1279760566587490314 to exclude 1 target that would be affected by the explosion, up to ranks in Selective Detonation.",
     "Source": "Age of Rebellion Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Active"
@@ -1614,21 +1614,21 @@
   {
     "Key": "IMPDET",
     "Name": "Improvised Detonation",
-    "Description": "Once per session, make a [B]Hard ([DI][DI][DI]) Mechanics check[b] to perform the Improvised Detonation action and build an explosive device, dealing damage equal to ranks in Intellect + ranks in Mechanics + [SU].",
+    "Description": "Once per session, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b] to perform the Improvised Detonation action and build an explosive device, dealing damage equal to ranks in Intellect + ranks in Mechanics + :success:1279760614994087987.",
     "Source": "Dangerous Covenants",
     "ActivationValue": "Active"
   },
   {
     "Key": "IMPDETIMP",
     "Name": "Improvised Detonation (Improved)",
-    "Description": "Reduce the difficulty of Improvis Detonation to [B]Average ([DI][DI]) and increase damage to twice ranks in Mechanics.",
+    "Description": "Reduce the difficulty of Improvis Detonation to [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) and increase damage to twice ranks in Mechanics.",
     "Source": "Dangerous Covenants",
     "ActivationValue": "Passive"
   },
   {
     "Key": "MASGREN",
     "Name": "Master Grenadier",
-    "Description": "Decrease the [AD] cost to activate the Blast quality on any weapon used by 1 to a minimum of 1.",
+    "Description": "Decrease the :advantage:1279760566587490314 cost to activate the Blast quality on any weapon used by 1 to a minimum of 1.",
     "ActivationValue": "Passive",
     "Source": [
       "Age of Rebellion Core Rulebook",
@@ -1652,7 +1652,7 @@
   {
     "Key": "LOOM",
     "Name": "Loom",
-    "Description": "When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds [AD] per rank in Coercion to the ally's check.",
+    "Description": "When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds :advantage:1279760566587490314 per rank in Coercion to the ally's check.",
     "Source": "Dangerous Covenants",
     "ActivationValue": "Passive"
   },
@@ -1688,7 +1688,7 @@
   {
     "Key": "HEAVYHITTER",
     "Name": "Heavy Hitter",
-    "Description": "Once per session, spend [TR] on a successful Ranged (Heavy) or Gunnery check to add the Breach 1 quality to the attack, or increase an existing Breach rating by 1.",
+    "Description": "Once per session, spend :triumph-1:1279760921266360471 on a successful Ranged (Heavy) or Gunnery check to add the Breach 1 quality to the attack, or increase an existing Breach rating by 1.",
     "Source": "Dangerous Covenants",
     "ActivationValue": "Active"
   },
@@ -1710,14 +1710,14 @@
   {
     "Key": "JUSTKID",
     "Name": "Just Kidding!",
-    "Description": "Once per round as an incidental spend 1 Destiny Point to ignore [DE] generated on a social check by the character or any ally in short range.",
+    "Description": "Once per round as an incidental spend 1 Destiny Point to ignore :despair:1279760580332355607 generated on a social check by the character or any ally in short range.",
     "Source": "Fly Casual",
     "ActivationValue": "Active"
   },
   {
     "Key": "DONTSHOOT",
     "Name": "Don't Shoot!",
-    "Description": "Once per session as an action, make a [B]Hard ([DI][DI][DI]) Charm check[b]. On a success, cannot be target of combat checks until the end of the encounter or until making a combat check.",
+    "Description": "Once per session as an action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Charm check[b]. On a success, cannot be target of combat checks until the end of the encounter or until making a combat check.",
     "Source": "Fly Casual",
     "ActivationValue": "Active"
   },
@@ -1760,14 +1760,14 @@
   {
     "Key": "DOUBLEORNOTHING",
     "Name": "Double or Nothing",
-    "Description": "Suffer 2 strain to perform the Double or Nothing incidental to increase the difficulty of the next check by one. Then, after canceling opposing symbols, double the amount of remaining [AD]",
+    "Description": "Suffer 2 strain to perform the Double or Nothing incidental to increase the difficulty of the next check by one. Then, after canceling opposing symbols, double the amount of remaining :advantage:1279760566587490314",
     "Source": "Fly Casual",
     "ActivationValue": "Active"
   },
   {
     "Key": "DOUBLEORNOTHINGIMP",
     "Name": "Double or Nothing (Improved)",
-    "Description": "When performing the Double or Nothing incidental, after canceling opposing symbols, also double the amount of remaining [SU].",
+    "Description": "When performing the Double or Nothing incidental, after canceling opposing symbols, also double the amount of remaining :success:1279760614994087987.",
     "Source": "Fly Casual",
     "ActivationValue": "Passive"
   },
@@ -1809,7 +1809,7 @@
   {
     "Key": "DOUBLEORNOTHINGSUP",
     "Name": "Double or Nothing (Supreme)",
-    "Description": "When performing the Double or Nothing incidental, also double the number of [TR] and [DE].",
+    "Description": "When performing the Double or Nothing incidental, also double the number of :triumph-1:1279760921266360471 and :despair:1279760580332355607.",
     "Source": "Fly Casual",
     "ActivationValue": "Passive"
   },
@@ -1846,14 +1846,14 @@
   {
     "Key": "COORDASS",
     "Name": "Coordinated Assault",
-    "Description": "Take the Coordinated Assault maneuver; a number of engaged allies equal to Leadership ranks add [AD] to combat checks until beginning of the next turn. Range increases per rank of Coordinated Assault.",
+    "Description": "Take the Coordinated Assault maneuver; a number of engaged allies equal to Leadership ranks add :advantage:1279760566587490314 to combat checks until beginning of the next turn. Range increases per rank of Coordinated Assault.",
     "Source": "Age of Rebellion Core Rulebook",
     "ActivationValue": "Active"
   },
   {
     "Key": "DEPSHOT",
     "Name": "Debilitating Shot",
-    "Description": "Upon successful attack with a starship or vehicle weapon, may spend [AD][AD] to reduce the maximum speed of the target by 1 until the end of the next round.",
+    "Description": "Upon successful attack with a starship or vehicle weapon, may spend :advantage:1279760566587490314:advantage:1279760566587490314 to reduce the maximum speed of the target by 1 until the end of the next round.",
     "Source": "Age of Rebellion Core Rulebook",
     "ActivationValue": "Active"
   },
@@ -1880,7 +1880,7 @@
   {
     "Key": "MASLEAD",
     "Name": "Master Leader",
-    "Description": "Once per round, suffer 2 strain to decrease difficulty of the next Leadership check by one, to a minimum of [B]Easy ([DI]).[b]",
+    "Description": "Once per round, suffer 2 strain to decrease difficulty of the next Leadership check by one, to a minimum of [B]Easy (:difficulty:1279760984621191210).[b]",
     "Source": "Age of Rebellion Core Rulebook",
     "ActivationValue": "Active"
   },
@@ -1893,7 +1893,7 @@
   {
     "Key": "OVERDEF",
     "Name": "Overwhelm Defenses",
-    "Description": "Upon unsuccessful attack with a starship or vehicle weapon, may spend [AD][AD] per rank of Overwhelm Defenses. Reduce the defense in the targeted zone by 1 for every [AD][AD] spent.",
+    "Description": "Upon unsuccessful attack with a starship or vehicle weapon, may spend :advantage:1279760566587490314:advantage:1279760566587490314 per rank of Overwhelm Defenses. Reduce the defense in the targeted zone by 1 for every :advantage:1279760566587490314:advantage:1279760566587490314 spent.",
     "Source": "Age of Rebellion Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Active"
@@ -1901,7 +1901,7 @@
   {
     "Key": "INCITE",
     "Name": "Incite Rebellion",
-    "Description": "Once per session, may take an Incite Rebellion action; make a [B]Hard ([DI][DI][DI]) Coercion check[b] to cause a number of beings up to ranks in Coercion to become rebellious until the end of the encounter.",
+    "Description": "Once per session, may take an Incite Rebellion action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Coercion check[b] to cause a number of beings up to ranks in Coercion to become rebellious until the end of the encounter.",
     "Source": "Age of Rebellion Core Rulebook",
     "ActivationValue": "Active"
   },
@@ -1915,7 +1915,7 @@
   {
     "Key": "PHYSTRAIN",
     "Name": "Physical Training",
-    "Description": "Add [BO] per rank of Physical Training to Athletics and Resilience checks.",
+    "Description": "Add :boost:1279760567694790707 per rank of Physical Training to Athletics and Resilience checks.",
     "Source": "Age of Rebellion Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Passive",
@@ -1942,7 +1942,7 @@
   {
     "Key": "ITSNOTTHATBAD",
     "Name": "It's Not that Bad",
-    "Description": "Once per session when an ally would suffer a Critical Injury, may take an It's Not That Bad action; make a [B]Hard ([DI][DI][DI]) Medicine check[b] to stop the ally from gaining the Critical Injury.",
+    "Description": "Once per session when an ally would suffer a Critical Injury, may take an It's Not That Bad action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Medicine check[b] to stop the ally from gaining the Critical Injury.",
     "Source": "Age of Rebellion Core Rulebook",
     "ActivationValue": "Active"
   },
@@ -2040,7 +2040,7 @@
   {
     "Key": "BEASTWRANG",
     "Name": "Beast Wrangler",
-    "Description": "Add [BO] per rank of Beast Wrangler to checks to tame or wrangle creatures.",
+    "Description": "Add :boost:1279760567694790707 per rank of Beast Wrangler to checks to tame or wrangle creatures.",
     "Source": "Stay on Target",
     "Ranked": "true",
     "ActivationValue": "Passive"
@@ -2056,14 +2056,14 @@
   {
     "Key": "SPUR",
     "Name": "Spur",
-    "Description": "Take a Spur action; make a [B]Hard ([DI][DI][DI]) Survival check[b] to increase a beast's top speed by 1. The beast suffers 2 strain every round it stays spurred.",
+    "Description": "Take a Spur action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Survival check[b] to increase a beast's top speed by 1. The beast suffers 2 strain every round it stays spurred.",
     "Source": "Stay on Target",
     "ActivationValue": "Active"
   },
   {
     "Key": "SPURIMP",
     "Name": "Spur (Improved)",
-    "Description": "Suffer 1 strain to attempt Spur as a maneuver and decrease its difficult to [B]Average ([DI][DI]).[b]",
+    "Description": "Suffer 1 strain to attempt Spur as a maneuver and decrease its difficult to [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210).[b]",
     "Source": "Stay on Target",
     "ActivationValue": "Active"
   },
@@ -2077,7 +2077,7 @@
   {
     "Key": "SOOTHTONE",
     "Name": "Soothing Tone",
-    "Description": "Take a Soothing Tone action; make an [B]Average ([DI][DI]) Knowledge (Xenology) check[b] to allow a beast to recover strain equal to [SU].",
+    "Description": "Take a Soothing Tone action; make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Xenology) check[b] to allow a beast to recover strain equal to :success:1279760614994087987.",
     "Source": "Stay on Target",
     "ActivationValue": "Active"
   },
@@ -2092,7 +2092,7 @@
   {
     "Key": "CORSEND",
     "Name": "Corellian Sendoff",
-    "Description": "Take a Correllin Sendoff action targeting two ships or vehicles at Close range; make a [B]Hard ([DI][DI][DI]) Cool check[b] to cause the targets to suffer a minor collision.",
+    "Description": "Take a Correllin Sendoff action targeting two ships or vehicles at Close range; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Cool check[b] to cause the targets to suffer a minor collision.",
     "Source": "Stay on Target",
     "ActivationValue": "Active"
   },
@@ -2113,7 +2113,7 @@
   {
     "Key": "SHOWBOAT",
     "Name": "Showboat",
-    "Description": "When making a check in a starship or vehicle, may suffer 2 strain to gain [TR] on success or [DE] on failure.",
+    "Description": "When making a check in a starship or vehicle, may suffer 2 strain to gain :triumph-1:1279760921266360471 on success or :despair:1279760580332355607 on failure.",
     "Source": "Stay on Target",
     "ActivationValue": "Active"
   },
@@ -2258,7 +2258,7 @@
   {
     "Key": "SUPPEVI",
     "Name": "Supporting Evidence",
-    "Description": "When assisting an ally with a Charm, Deception, Leadership, or Negotiation check, add automatic [AD] per rank of Supporting Evidence.",
+    "Description": "When assisting an ally with a Charm, Deception, Leadership, or Negotiation check, add automatic :advantage:1279760566587490314 per rank of Supporting Evidence.",
     "Source": "Desperate Allies",
     "Ranked": "true",
     "ActivationValue": "Passive"
@@ -2266,21 +2266,21 @@
   {
     "Key": "DISCREDIT",
     "Name": "Discredit",
-    "Description": "Once per encounter, take the Discredit action, make a [B]Hard ([DI][DI][DI]) Deception check[b] to upgrade the difficulty of one character's social checks once, plus once for every [AD][AD], until of the encounter.",
+    "Description": "Once per encounter, take the Discredit action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Deception check[b] to upgrade the difficulty of one character's social checks once, plus once for every :advantage:1279760566587490314:advantage:1279760566587490314, until of the encounter.",
     "Source": "Desperate Allies",
     "ActivationValue": "Active"
   },
   {
     "Key": "TWISTWORD",
     "Name": "Twisted Words",
-    "Description": "When an incoming social check generates [TH][TH] or [DE], may suffer 1 strain as an incidental to inflict strain equal to ranks in Coercion on speaker.",
+    "Description": "When an incoming social check generates :threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607, may suffer 1 strain as an incidental to inflict strain equal to ranks in Coercion on speaker.",
     "Source": "Desperate Allies",
     "ActivationValue": "Active"
   },
   {
     "Key": "PLAUSDENIMP",
     "Name": "Plausible Deniability (Improved)",
-    "Description": "Take an Improved Plausible Deniability action makes a [B]Hard ([DI][DI][DI]) Coercion check[b] to convince one bystander per rank of Plausible Deniability to depart quietly.",
+    "Description": "Take an Improved Plausible Deniability action makes a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Coercion check[b] to convince one bystander per rank of Plausible Deniability to depart quietly.",
     "Source": "Desperate Allies",
     "ActivationValue": "Active"
   },
@@ -2312,7 +2312,7 @@
   {
     "Key": "INTERJECT",
     "Name": "Interjection",
-    "Description": "After another character makes a social check, suffer 3 strain to take an interjection incidental make an [B]Average ([DI][DI]) Vigilance check[b] to add [SU] or [FA] equal to [SU], and [AD] or [TH] equal to [AD] to the check.",
+    "Description": "After another character makes a social check, suffer 3 strain to take an interjection incidental make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Vigilance check[b] to add :success:1279760614994087987 or :failure:1279760586783326319 equal to :success:1279760614994087987, and :advantage:1279760566587490314 or :threat:1279760886906490960 equal to :advantage:1279760566587490314 to the check.",
     "Source": "Desperate Allies",
     "ActivationValue": "Active"
   },
@@ -2329,7 +2329,7 @@
   {
     "Key": "SLEIGHTMIND",
     "Name": "Sleight of Mind",
-    "Description": "Add [BO] to all Stealth checks unless the opposition is immune to Force powers.",
+    "Description": "Add :boost:1279760567694790707 to all Stealth checks unless the opposition is immune to Force powers.",
     "Custom": "CustomItem",
     "Ranked": "true",
     "ActivationValue": "Passive",
@@ -2354,7 +2354,7 @@
   {
     "Key": "INVIG",
     "Name": "Invigorate",
-    "Description": "Once per encounter, may add [FO] to a check using Brawn or Agility made by an ally in short range [LI] add [SU] and [DA] add [TH].",
+    "Description": "Once per encounter, may add :force:1279761086429659146 to a check using Brawn or Agility made by an ally in short range :forcelight:1279761067660279822 add :success:1279760614994087987 and :forcedark:1279760590604341272 add :threat:1279760886906490960.",
     "Source": "Age of Rebellion Core Rulebook",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -2374,7 +2374,7 @@
   {
     "Key": "VALFACT",
     "Name": "Valuable Facts",
-    "Description": "Once per encounter, perform a Valuable Facts action: make an [B]Average ([DI][DI]) Knowledge check[b]. If successful, add [TR] to one ally's skill check during the enounter.",
+    "Description": "Once per encounter, perform a Valuable Facts action: make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge check[b]. If successful, add :triumph-1:1279760921266360471 to one ally's skill check during the enounter.",
     "ActivationValue": "Active",
     "Source": [
       "Force and Destiny Core Rulebook",
@@ -2384,7 +2384,7 @@
   {
     "Key": "RESEARCHIMP",
     "Name": "Researcher (Improved)",
-    "Description": "On a successful Knowledge check, character and allies gain automatic [AD] per rank of Researcher on checks to act on those facts until the end of his next turn.",
+    "Description": "On a successful Knowledge check, character and allies gain automatic :advantage:1279760566587490314 per rank of Researcher on checks to act on those facts until the end of his next turn.",
     "Source": "Desperate Allies",
     "ActivationValue": "Passive"
   },
@@ -2405,7 +2405,7 @@
   {
     "Key": "THORASS",
     "Name": "Thorough Assessment",
-    "Description": "Once per session, take a Thorough Assessment action: make a [B]Hard ([DI][DI][DI]) Knowledge check[b] to gain Boost dice equal to [SU] that can be distributed during the encounter.",
+    "Description": "Once per session, take a Thorough Assessment action: make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge check[b] to gain Boost dice equal to :success:1279760614994087987 that can be distributed during the encounter.",
     "Source": "Desperate Allies",
     "ActivationValue": "Active"
   },
@@ -2420,14 +2420,14 @@
   {
     "Key": "POSSPINIMP",
     "Name": "Positive Spin (Improved)",
-    "Description": "Once per session, if no PC's Duty triggered, make a [B]Daunting ([DI][DI][DI][DI]) Charm check[b] with the difficulty decreased once rank of Positive Spin to have one PC's Duty trigger.",
+    "Description": "Once per session, if no PC's Duty triggered, make a [B]Daunting (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Charm check[b] with the difficulty decreased once rank of Positive Spin to have one PC's Duty trigger.",
     "Source": "Desperate Allies",
     "ActivationValue": "Active"
   },
   {
     "Key": "BADPRESS",
     "Name": "Bad Press",
-    "Description": "Once per session, choose an organization and make a [B]Hard ([DI][DI][DI]) Deception check[b]. On success, organization members have their wound thresholds reduced by 1, plus 1 per [SU][SU][SU], until the end of the session.",
+    "Description": "Once per session, choose an organization and make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Deception check[b]. On success, organization members have their wound thresholds reduced by 1, plus 1 per :success:1279760614994087987:success:1279760614994087987:success:1279760614994087987, until the end of the session.",
     "Source": "Desperate Allies",
     "ActivationValue": "Active"
   },
@@ -2460,14 +2460,14 @@
   {
     "Key": "SITAWARE",
     "Name": "Situational Awareness",
-    "Description": "Allies with short range of the vehicle add [BO] to their Perception and Vigilance checks. Allies within close range add [BO][BO] instead.",
+    "Description": "Allies with short range of the vehicle add :boost:1279760567694790707 to their Perception and Vigilance checks. Allies within close range add :boost:1279760567694790707:boost:1279760567694790707 instead.",
     "Source": "Age of Rebellion Core Rulebook",
     "ActivationValue": "Passive"
   },
   {
     "Key": "IDEALIST",
     "Name": "Idealist",
-    "Description": "Spend 1 stain to add an [AD] on a skill check.",
+    "Description": "Spend 1 stain to add an :advantage:1279760566587490314 on a skill check.",
     "Source": "Jewel of Yavin",
     "Ranked": "true",
     "ActivationValue": "Passive"
@@ -2475,7 +2475,7 @@
   {
     "Key": "HEALTRANCE",
     "Name": "Healing Trance",
-    "Description": "Commit [FO]. For every full encounter [FO] remains committed, heal 1 wound per rank of Healing Trance.",
+    "Description": "Commit :force:1279761086429659146. For every full encounter :force:1279761086429659146 remains committed, heal 1 wound per rank of Healing Trance.",
     "Source": "Force and Destiny Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Active",
@@ -2507,7 +2507,7 @@
   {
     "Key": "CALMAURA",
     "Name": "Calming Aura",
-    "Description": "When an opponent targets character with a Force power, reduce [FP] generated by 1.",
+    "Description": "When an opponent targets character with a Force power, reduce :force:1279761086429659146 generated by 1.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -2542,7 +2542,7 @@
   {
     "Key": "PARRYIMP",
     "Name": "Parry (Improved)",
-    "Description": "When parrying a hit that generate [DE] or [TH][TH][TH], may hit attacker once with Lightsaber, Brawl, or Melee weapon (dealing base damage) after original attack resolves.",
+    "Description": "When parrying a hit that generate :despair:1279760580332355607 or :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960, may hit attacker once with Lightsaber, Brawl, or Melee weapon (dealing base damage) after original attack resolves.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active"
   },
@@ -2585,7 +2585,7 @@
   {
     "Key": "SUMDJEM",
     "Name": "Sum Djem",
-    "Description": "May spend [TR] or [AD][AD] with a successful Lightsaber check to disarm opponent.",
+    "Description": "May spend :triumph-1:1279760921266360471 or :advantage:1279760566587490314:advantage:1279760566587490314 with a successful Lightsaber check to disarm opponent.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -2593,7 +2593,7 @@
   {
     "Key": "DRAWCLOSER",
     "Name": "Draw Closer",
-    "Description": "Perform Draw Closer action; make a Lightsaber (Willpower) combat check against one silhouette 1 target within medium range, adding [FO] no greater than Force rating to check. Spend [FP] to move target one range band closer or to add [SU] to check.",
+    "Description": "Perform Draw Closer action; make a Lightsaber (Willpower) combat check against one silhouette 1 target within medium range, adding :force:1279761086429659146 no greater than Force rating to check. Spend :force:1279761086429659146 to move target one range band closer or to add :success:1279760614994087987 to check.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2610,7 +2610,7 @@
   {
     "Key": "FORCEASSAULT",
     "Name": "Force Assault",
-    "Description": "Spend [TR] or [AD][AD][AD] on a missed Lightsaber (Willpower) combat check to immediately perform Move Force power action as maneuver.",
+    "Description": "Spend :triumph-1:1279760921266360471 or :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 on a missed Lightsaber (Willpower) combat check to immediately perform Move Force power action as maneuver.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -2626,7 +2626,7 @@
   {
     "Key": "ONEUNI",
     "Name": "One With the Universe",
-    "Description": "Once per session, mediate, then perform One with the Universe action; make [B]Average ([DI][DI]) Astrogation check[b]. If successful, add [LI] to all Force power checks in next encounter. If successful with [TH], add [DA] instead.",
+    "Description": "Once per session, mediate, then perform One with the Universe action; make [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Astrogation check[b]. If successful, add :forcelight:1279761067660279822 to all Force power checks in next encounter. If successful with :threat:1279760886906490960, add :forcedark:1279760590604341272 instead.",
     "Source": {
       "_Page": "149",
       "__text": "Force and Destiny Core Rulebook"
@@ -2655,7 +2655,7 @@
   {
     "Key": "ENHLEAD",
     "Name": "Enhanced Leader",
-    "Description": "When making a Leadership check, add [FO] no greater than Force rating. Spend [FP] to add [SU] or [AD] to the result.",
+    "Description": "When making a Leadership check, add :force:1279761086429659146 no greater than Force rating. Spend :force:1279761086429659146 to add :success:1279760614994087987 or :advantage:1279760566587490314 to the result.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -2669,7 +2669,7 @@
   {
     "Key": "UNITYASSAULT",
     "Name": "Unity Assault",
-    "Description": "If a missed combat check generates [TR] or [AD][AD][AD], may spend to perform Force power targeting allies as a maneuver.",
+    "Description": "If a missed combat check generates :triumph-1:1279760921266360471 or :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314, may spend to perform Force power targeting allies as a maneuver.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2677,7 +2677,7 @@
   {
     "Key": "FORCEPROT",
     "Name": "Force Protection",
-    "Description": "Perform the Force Protection maneuver; suffer 1 strain and commit [FO] up to ranks of Force Protection. Increase soak by number of [FO] committed until beginning of next turn. Suffer 1 strain every turn [FO] remains committed.",
+    "Description": "Perform the Force Protection maneuver; suffer 1 strain and commit :force:1279761086429659146 up to ranks of Force Protection. Increase soak by number of :force:1279761086429659146 committed until beginning of next turn. Suffer 1 strain every turn :force:1279761086429659146 remains committed.",
     "Source": "Force and Destiny Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Active",
@@ -2709,7 +2709,7 @@
   {
     "Key": "STRATFORM",
     "Name": "Strategic Form",
-    "Description": "May take the Strategic Form action, making a [B]Hard ([DI][DI][DI]) Lightsaber check[b] rolling [FO] no greater than Force rating. If successful, 1 target within short range may only attack character for 1 round. Spend [FP] to extend effects for 1 target for 1 round.",
+    "Description": "May take the Strategic Form action, making a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Lightsaber check[b] rolling :force:1279761086429659146 no greater than Force rating. If successful, 1 target within short range may only attack character for 1 round. Spend :force:1279761086429659146 to extend effects for 1 target for 1 round.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2754,14 +2754,14 @@
   {
     "Key": "DUELTRAIN",
     "Name": "Duelist's Training",
-    "Description": "Add [BO] to Melee and Lightsaber checks when engaged with only one opponent.",
+    "Description": "Add :boost:1279760567694790707 to Melee and Lightsaber checks when engaged with only one opponent.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive"
   },
   {
     "Key": "FEINT",
     "Name": "Feint",
-    "Description": "Spend [TR] or [AD][AD][AD] generated on a missed  melee attack to upgrade difficulty of opponent's next attack targeting character by ranks in Feint.",
+    "Description": "Spend :triumph-1:1279760921266360471 or :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 generated on a missed  melee attack to upgrade difficulty of opponent's next attack targeting character by ranks in Feint.",
     "Source": "Force and Destiny Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Passive"
@@ -2769,7 +2769,7 @@
   {
     "Key": "MAKFIN",
     "Name": "Makashi Finish",
-    "Description": "Take the Makashi Finish action; Perform a Lightsaber (Presence) combat check against engaged target, adding [FO] no greater than Force rating. Spend [FP] to add +10 to any resulting Critical Injury rolls.",
+    "Description": "Take the Makashi Finish action; Perform a Lightsaber (Presence) combat check against engaged target, adding :force:1279761086429659146 no greater than Force rating. Spend :force:1279761086429659146 to add +10 to any resulting Critical Injury rolls.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2777,7 +2777,7 @@
   {
     "Key": "MAKFLOUR",
     "Name": "Makashi Flourish",
-    "Description": "Once per encounter, perform Makashi Flourish action. Make an [B]Average ([DI][DI]) Lightsaber (Presence) check[b]. 1 engaged opponent suffers strain equal to [SU], and heal an equal amount of strain.",
+    "Description": "Once per encounter, perform Makashi Flourish action. Make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Lightsaber (Presence) check[b]. 1 engaged opponent suffers strain equal to :success:1279760614994087987, and heal an equal amount of strain.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2866,7 +2866,7 @@
   {
     "Key": "HAWKSWOOP",
     "Name": "Hawk Bat Swoop",
-    "Description": "Take the Hawk Bat Swoop action. Perform a Lightsaber (Agility) combat check against target within short range, adding [FO] no greater than Force rating. Spend [FP] to engage target and spend [FP] to add [AD] to check.",
+    "Description": "Take the Hawk Bat Swoop action. Perform a Lightsaber (Agility) combat check against target within short range, adding :force:1279761086429659146 no greater than Force rating. Spend :force:1279761086429659146 to engage target and spend :force:1279761086429659146 to add :advantage:1279760566587490314 to check.",
     "Source": "Force and Destiny Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Active",
@@ -2883,7 +2883,7 @@
   {
     "Key": "SABERTHROW",
     "Name": "Saber Throw",
-    "Description": "Perform Saber Throw action; make Lightsaber combat check as ranged attack at target within medium range, adding [FO] no greater than Force rating. Must spend [FP] and succeed to hit target; spend [FP] to have weapon return to hand.",
+    "Description": "Perform Saber Throw action; make Lightsaber combat check as ranged attack at target within medium range, adding :force:1279761086429659146 no greater than Force rating. Must spend :force:1279761086429659146 and succeed to hit target; spend :force:1279761086429659146 to have weapon return to hand.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2891,7 +2891,7 @@
   {
     "Key": "INTUITSHOT",
     "Name": "Intuitive Shot",
-    "Description": "When maing a Ranged (Heavy) or Range (Light) combat check, add [FO] no greater than Force rating to the check. May spend [FP] to add [SU] or [AD].",
+    "Description": "When maing a Ranged (Heavy) or Range (Light) combat check, add :force:1279761086429659146 no greater than Force rating to the check. May spend :force:1279761086429659146 to add :success:1279760614994087987 or :advantage:1279760566587490314.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -2911,7 +2911,7 @@
   {
     "Key": "ANIMALEMP",
     "Name": "Animal Empathy",
-    "Description": "When making checks to handle or tame animals, add [FO] no greater than Force rating to the check. Spend [FP] to add [SU] or [AD] to the check.",
+    "Description": "When making checks to handle or tame animals, add :force:1279761086429659146 no greater than Force rating to the check. Spend :force:1279761086429659146 to add :success:1279760614994087987 or :advantage:1279760566587490314 to the check.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -2927,7 +2927,7 @@
   {
     "Key": "MENTBOND",
     "Name": "Mental Bond",
-    "Description": "May perform the Mental Bond action. Commit [FO]. While committed, may communicate with bonded animal at long range and see and hear through its senses.",
+    "Description": "May perform the Mental Bond action. Commit :force:1279761086429659146. While committed, may communicate with bonded animal at long range and see and hear through its senses.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2935,7 +2935,7 @@
   {
     "Key": "QUICKMOVE",
     "Name": "Quick Movement",
-    "Description": "Suffer 2 strain to perform the Quick Movement incidental; add [FO] no greater than Force rating to next check. May spend [FP][FP] to perform one additional Move maneuver after action.",
+    "Description": "Suffer 2 strain to perform the Quick Movement incidental; add :force:1279761086429659146 no greater than Force rating to next check. May spend :force:1279761086429659146:force:1279761086429659146 to perform one additional Move maneuver after action.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2959,7 +2959,7 @@
   {
     "Key": "IMBUEITEM",
     "Name": "Imbue Item",
-    "Description": "Take the Imbue Item maneuver; suffer 1 strain and commit [FO] to grant one weapon, piece of armor, or item an improvement while [FO] remains committed. Suffer 1 strain every round [FO] remains committed.",
+    "Description": "Take the Imbue Item maneuver; suffer 1 strain and commit :force:1279761086429659146 to grant one weapon, piece of armor, or item an improvement while :force:1279761086429659146 remains committed. Suffer 1 strain every round :force:1279761086429659146 remains committed.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2967,14 +2967,14 @@
   {
     "Key": "MASTART",
     "Name": "Master Artisan",
-    "Description": "Once per round, may take the Master Artisan Incidental; suffer 2 strain to decrease the difficulty of next Mechanics check by 1, to a minimum of [B]Easy ([DI])[b].",
+    "Description": "Once per round, may take the Master Artisan Incidental; suffer 2 strain to decrease the difficulty of next Mechanics check by 1, to a minimum of [B]Easy (:difficulty:1279760984621191210)[b].",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active"
   },
   {
     "Key": "INTUITIMP",
     "Name": "Intuitive Improvements",
-    "Description": "When making check to craft or repair item, may add [FO] no greater than Force rating to check. Spend [FP][FP] to increase hard points by 1, to max of +2.",
+    "Description": "When making check to craft or repair item, may add :force:1279761086429659146 no greater than Force rating to check. Spend :force:1279761086429659146:force:1279761086429659146 to increase hard points by 1, to max of +2.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "HPPerItem": "2",
@@ -2983,7 +2983,7 @@
   {
     "Key": "COMPTECH",
     "Name": "Comprehend Technology",
-    "Description": "Take Comprehend Technology action; make an [B]Average ([DI][DI]) Knowledge (Education) check[b] to use Force rating as ranks in skills to use a single item.",
+    "Description": "Take Comprehend Technology action; make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Education) check[b] to use Force rating as ranks in skills to use a single item.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2999,7 +2999,7 @@
   {
     "Key": "SLIPMIND",
     "Name": "Slippery Minded",
-    "Description": "If under the effects of a Force power, perform the Slippery Minded action; make a [B]Hard ([DI][DI][DI]) Deception check[b] to immediately end effects of power.",
+    "Description": "If under the effects of a Force power, perform the Slippery Minded action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Deception check[b] to immediately end effects of power.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -3007,7 +3007,7 @@
   {
     "Key": "NOWYOUSEE",
     "Name": "Now You See Me",
-    "Description": "Once per session, take Now You See Me action. Make a [B]Hard ([DI][DI][DI]) Deception check[b] to make a number of NPC's equal to Cunning within medium range forget about character.",
+    "Description": "Once per session, take Now You See Me action. Make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Deception check[b] to make a number of NPC's equal to Cunning within medium range forget about character.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -3029,7 +3029,7 @@
   {
     "Key": "COUNTERST",
     "Name": "Counterstrike",
-    "Description": "When an attack misses the character and generates [DE] or [TH][TH], may upgrade next Lightsaber (Cunning) check against attacker during encounter once.",
+    "Description": "When an attack misses the character and generates :despair:1279760580332355607 or :threat:1279760886906490960:threat:1279760886906490960, may upgrade next Lightsaber (Cunning) check against attacker during encounter once.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -3037,7 +3037,7 @@
   {
     "Key": "REFLECTIMP",
     "Name": "Reflect (Improved)",
-    "Description": "When reflecting a hit that generated [DE] or [TH][TH][TH] may hit one target in medium range with the same damage as the initial hit, after original attack resolves.",
+    "Description": "When reflecting a hit that generated :despair:1279760580332355607 or :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 may hit one target in medium range with the same damage as the initial hit, after original attack resolves.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -3061,7 +3061,7 @@
   {
     "Key": "DISRUPSTRIKE",
     "Name": "Disruptive Strike",
-    "Description": "Perform Disruptive Strike action; make a Lightsaber (Cunning) combat check, adding [FO] no greater than Force rating. Spend [FP] to add [FA] to the next combat check the target makes.",
+    "Description": "Perform Disruptive Strike action; make a Lightsaber (Cunning) combat check, adding :force:1279761086429659146 no greater than Force rating. Spend :force:1279761086429659146 to add :failure:1279760586783326319 to the next combat check the target makes.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -3077,7 +3077,7 @@
   {
     "Key": "DRIVEBACK",
     "Name": "Drive Back",
-    "Description": "The Inquisitor may spend [TR] or [AD][AD][AD] on a missed Brawl, Melee, or Lightsaber combat check to force target to make a move maneuver in a direction of the Inquisitor's choice.",
+    "Description": "The Inquisitor may spend :triumph-1:1279760921266360471 or :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 on a missed Brawl, Melee, or Lightsaber combat check to force target to make a move maneuver in a direction of the Inquisitor's choice.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive"
   },
@@ -3092,7 +3092,7 @@
   {
     "Key": "TERRIFY",
     "Name": "Terrify",
-    "Description": "Take the Terrify action; make a [B]Hard ([DI][DI][DI]) Coercion check[b], adding [FO] no greater than Force rating. Disorient one target within medium range per [SU]. Spend [AD][AD] to extend duration and spend [FP] to immobilize affected target.",
+    "Description": "Take the Terrify action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Coercion check[b], adding :force:1279761086429659146 no greater than Force rating. Disorient one target within medium range per :success:1279760614994087987. Spend :advantage:1279760566587490314:advantage:1279760566587490314 to extend duration and spend :force:1279761086429659146 to immobilize affected target.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -3100,7 +3100,7 @@
   {
     "Key": "TERRIFYIMP",
     "Name": "Terrify (Improved)",
-    "Description": "Reduce the difficulty of Terrify's check to [B]Average ([DI][DI])[b] and may spend [TR] to stagger an affected target.",
+    "Description": "Reduce the difficulty of Terrify's check to [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210)[b] and may spend :triumph-1:1279760921266360471 to stagger an affected target.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -3108,7 +3108,7 @@
   {
     "Key": "AAO",
     "Name": "Against All Odds",
-    "Description": "When incapacitated, perform Against All Odds action; making [B] Hard ([DI][DI][DI]) Resilience check[b] with [FO] equal to Force rating. Heal wounds equal to [SU], spend [FP] to add [SU].",
+    "Description": "When incapacitated, perform Against All Odds action; making [B] Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Resilience check[b] with :force:1279761086429659146 equal to Force rating. Heal wounds equal to :success:1279760614994087987, spend :force:1279761086429659146 to add :success:1279760614994087987.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -3116,7 +3116,7 @@
   {
     "Key": "MULTOPP",
     "Name": "Multiple Opponents",
-    "Description": "Add [BO] to Lightsaber, Brawl, and Melee checks when engaged with multiple opponents.",
+    "Description": "Add :boost:1279760567694790707 to Lightsaber, Brawl, and Melee checks when engaged with multiple opponents.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive"
   },
@@ -3130,7 +3130,7 @@
   {
     "Key": "SARSWEEP",
     "Name": "Sarlacc Sweep",
-    "Description": "Increase difficulty of Lightsaber check by 1 to perform Sarlacc Sweep action. May spend [AD][AD] to hit additional engaged targets.",
+    "Description": "Increase difficulty of Lightsaber check by 1 to perform Sarlacc Sweep action. May spend :advantage:1279760566587490314:advantage:1279760566587490314 to hit additional engaged targets.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -3138,7 +3138,7 @@
   {
     "Key": "INTUITEVA",
     "Name": "Intuitive Evasion",
-    "Description": "Perform the Intuitive Evasion maneuver; suffer 1 strain and commit [FO] up to ranks of Intuitive Evasion. Upgrade difficulty of combat checks targeting starship or vehicle by equal amount. Suffer 1 strain every round [FO] remains committed.",
+    "Description": "Perform the Intuitive Evasion maneuver; suffer 1 strain and commit :force:1279761086429659146 up to ranks of Intuitive Evasion. Upgrade difficulty of combat checks targeting starship or vehicle by equal amount. Suffer 1 strain every round :force:1279761086429659146 remains committed.",
     "Source": "Force and Destiny Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Active",
@@ -3147,7 +3147,7 @@
   {
     "Key": "INTUITSTRIKE",
     "Name": "Intuitive Strike",
-    "Description": "When making a combat check with a planetary scale weapon, add [FO] no greater than Force rating to the check. Spend [FP][FP] to add [SU] or [AD].",
+    "Description": "When making a combat check with a planetary scale weapon, add :force:1279761086429659146 no greater than Force rating to the check. Spend :force:1279761086429659146:force:1279761086429659146 to add :success:1279760614994087987 or :advantage:1279760566587490314.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -3155,7 +3155,7 @@
   {
     "Key": "DEFCIRCLE",
     "Name": "Defensive Circle",
-    "Description": "May take the Defensive Circle action, making a [B]Hard ([DI][DI][DI]) Lightsaber (Intellect) check[b]. The character, plus one ally within short range per [SU], gains X defense until the beginning of next turn. X equals 1, plus 1 per [AD][AD].",
+    "Description": "May take the Defensive Circle action, making a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Lightsaber (Intellect) check[b]. The character, plus one ally within short range per :success:1279760614994087987, gains X defense until the beginning of next turn. X equals 1, plus 1 per :advantage:1279760566587490314:advantage:1279760566587490314.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -3163,7 +3163,7 @@
   {
     "Key": "SUPPRFIRE",
     "Name": "Suppressing Fire",
-    "Description": "The character and each ally within short range may spend [AD] on their failed combat checks to inflict one strain on the target per rank of Supressing Fire. Each character can only activate this effect once per round.",
+    "Description": "The character and each ally within short range may spend :advantage:1279760566587490314 on their failed combat checks to inflict one strain on the target per rank of Supressing Fire. Each character can only activate this effect once per round.",
     "Source": "Keeping the Peace",
     "Ranked": "true",
     "ActivationValue": "Passive"
@@ -3171,7 +3171,7 @@
   {
     "Key": "PROPAIM",
     "Name": "Prophetic Aim",
-    "Description": "While benefiting from an Aim maneuver, [DE] from the character's Ranged (Heavy) and Ranged (Light) checks cannot cause attacks to hit allies engaged with the target.",
+    "Description": "While benefiting from an Aim maneuver, :despair:1279760580332355607 from the character's Ranged (Heavy) and Ranged (Light) checks cannot cause attacks to hit allies engaged with the target.",
     "Source": "Keeping the Peace",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -3179,7 +3179,7 @@
   {
     "Key": "REINITEM",
     "Name": "Reinforce Item",
-    "Description": "Take the Reinforce Item maneuver: commit [LI][LI] to grant one weapon or piece of armor the Cortosis quality while [LI][LI] remains committed. Suffer 3 strain every round [LI][LI] remain committed.",
+    "Description": "Take the Reinforce Item maneuver: commit :forcelight:1279761067660279822:forcelight:1279761067660279822 to grant one weapon or piece of armor the Cortosis quality while :forcelight:1279761067660279822:forcelight:1279761067660279822 remains committed. Suffer 3 strain every round :forcelight:1279761067660279822:forcelight:1279761067660279822 remain committed.",
     "Source": "Keeping the Peace",
     "ActivationValue": "Active",
     "ForceTalent": "true",
@@ -3196,7 +3196,7 @@
   {
     "Key": "PRESSHOT",
     "Name": "Prescient Shot",
-    "Description": "Add [BO] to all Ranged (Light) checks unless the target is immune to Force powers.",
+    "Description": "Add :boost:1279760567694790707 to all Ranged (Light) checks unless the target is immune to Force powers.",
     "Source": "Keeping the Peace",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -3204,7 +3204,7 @@
   {
     "Key": "PRECSTR",
     "Name": "Precision Strike",
-    "Description": "When this character inflicts a Critical Injury with a Brawl, Melee, or Lightsaber weapon, may suffer 1 strain to change the result to any [B]Easy ([DI])[b] Critical Injury result.",
+    "Description": "When this character inflicts a Critical Injury with a Brawl, Melee, or Lightsaber weapon, may suffer 1 strain to change the result to any [B]Easy (:difficulty:1279760984621191210)[b] Critical Injury result.",
     "Custom": "CustomItem",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
@@ -3230,14 +3230,14 @@
   {
     "Key": "OVERBAL",
     "Name": "Overbalance",
-    "Description": "Whenever an enemy engaged with the character makes a combat check, after the attack is resolved, the character may spend [DE] or [TH][TH][TH] to stagger the attacker until the end of the attacker's next turn.",
+    "Description": "Whenever an enemy engaged with the character makes a combat check, after the attack is resolved, the character may spend :despair:1279760580332355607 or :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 to stagger the attacker until the end of the attacker's next turn.",
     "Source": "Keeping the Peace",
     "ActivationValue": "Passive"
   },
   {
     "Key": "NOESC",
     "Name": "No Escape",
-    "Description": "May spend [AD][AD] from a Coercion check or [TH][TH] from a foe's Discipline check; that target cannot perform a free maneuver during his next turn.",
+    "Description": "May spend :advantage:1279760566587490314:advantage:1279760566587490314 from a Coercion check or :threat:1279760886906490960:threat:1279760886906490960 from a foe's Discipline check; that target cannot perform a free maneuver during his next turn.",
     "Source": "Keeping the Peace",
     "ActivationValue": "Passive",
     "ForceTalent": "true"
@@ -3255,7 +3255,7 @@
   {
     "Key": "BLINDSPOT",
     "Name": "Blind Spot",
-    "Description": "The character and allies within short range add automatic [AD] to combat checks they make while benefitting from cover.",
+    "Description": "The character and allies within short range add automatic :advantage:1279760566587490314 to combat checks they make while benefitting from cover.",
     "Source": "Keeping the Peace",
     "ActivationValue": "Passive"
   },
@@ -3314,7 +3314,7 @@
   {
     "Key": "SPKBINIMP",
     "Name": "Improved Speaks Binary",
-    "Description": "When directing NPC droids, those droids grand additional [BO] in addition to other benefits.",
+    "Description": "When directing NPC droids, those droids grand additional :boost:1279760567694790707 in addition to other benefits.",
     "Source": {
       "_Page": "35",
       "__text": "Special Modifications"
@@ -3324,7 +3324,7 @@
   {
     "Key": "RESOURCEREFIT",
     "Name": "Resourceful Refit",
-    "Description": "May perform the Resourceful Refit action, make an [B]Average ([DI][DI]) Mechanics check[b] to scavenge an old attachment to construct a new one, reducing its price by that of the dismantled attachment.",
+    "Description": "May perform the Resourceful Refit action, make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b] to scavenge an old attachment to construct a new one, reducing its price by that of the dismantled attachment.",
     "Source": {
       "_Page": "35",
       "__text": "Special Modifications"
@@ -3335,7 +3335,7 @@
   {
     "Key": "REROUTEPROC",
     "Name": "Reroute Processors",
-    "Description": "Once per encounter, may take a Reroute Processors action, make an [B]Average ([DI][DI]) Computers check[b] to reduce one of a droid's characteristics by 1 and increase another of its characteristics by 1.",
+    "Description": "Once per encounter, may take a Reroute Processors action, make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b] to reduce one of a droid's characteristics by 1 and increase another of its characteristics by 1.",
     "Source": {
       "_Page": "35",
       "__text": "Special Modifications"
@@ -3346,7 +3346,7 @@
   {
     "Key": "OVERCHARGESUP",
     "Name": "Supreme Overcharge",
-    "Description": "May perform the Overcharge action on any number of installed cybernetics. On [DE], one overcharged cybernetic shorts out.",
+    "Description": "May perform the Overcharge action on any number of installed cybernetics. On :despair:1279760580332355607, one overcharged cybernetic shorts out.",
     "Source": {
       "_Page": "35",
       "__text": "Special Modifications"
@@ -3356,7 +3356,7 @@
   {
     "Key": "OVERCHARGEIMP",
     "Name": "Improved Overcharge",
-    "Description": "May spend [AD][AD] or [TR] from Overcharge action to immediately take another action.",
+    "Description": "May spend :advantage:1279760566587490314:advantage:1279760566587490314 or :triumph-1:1279760921266360471 from Overcharge action to immediately take another action.",
     "Source": {
       "_Page": "35",
       "__text": "Special Modifications"
@@ -3366,7 +3366,7 @@
   {
     "Key": "OVERCHARGE",
     "Name": "Overcharge",
-    "Description": "Once per encounter, may use the Overcharge action. Make a [B]Hard ([DI][DI][DI]) Mechanics check[b]. On success one installed cybernetic provides additional benefits. On [DE], overcharged cybernetic shorts out.",
+    "Description": "Once per encounter, may use the Overcharge action. Make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b]. On success one installed cybernetic provides additional benefits. On :despair:1279760580332355607, overcharged cybernetic shorts out.",
     "Source": {
       "_Page": "35",
       "__text": "Special Modifications"
@@ -3411,7 +3411,7 @@
   {
     "Key": "EYEDET",
     "Name": "Eye for Detail",
-    "Description": "After making a Mechanics or Computers check, may suffer strain up to ranks in Eye for Detail to convert that many [SU] to [AD].",
+    "Description": "After making a Mechanics or Computers check, may suffer strain up to ranks in Eye for Detail to convert that many :success:1279760614994087987 to :advantage:1279760566587490314.",
     "Source": {
       "_Page": "34",
       "__text": "Special Modifications"
@@ -3488,7 +3488,7 @@
   {
     "Key": "THATHOWDONE",
     "Name": "That's How It's Done",
-    "Description": "May suffer 1 strain on successful skill check to add [AD] to the same skill check made by a number of allies equally to Willpower within short range during the next round.",
+    "Description": "May suffer 1 strain on successful skill check to add :advantage:1279760566587490314 to the same skill check made by a number of allies equally to Willpower within short range during the next round.",
     "Source": {
       "_Page": "34",
       "__text": "Lead by Example"
@@ -3511,7 +3511,7 @@
   {
     "Key": "READANYIMP",
     "Name": "Ready for Anything (Improved)",
-    "Description": "When making Cool or Vigilance checks to determine Initiative order, may spend [TR] to add [SU] equal to rnaks in Ready for Anything.",
+    "Description": "When making Cool or Vigilance checks to determine Initiative order, may spend :triumph-1:1279760921266360471 to add :success:1279760614994087987 equal to rnaks in Ready for Anything.",
     "Source": {
       "_Page": "34",
       "__text": "Keeping the Peace"
@@ -3595,7 +3595,7 @@
   {
     "Key": "SEIZEINIT",
     "Name": "Seize the Initiative",
-    "Description": "Once per session, as a maneuver, may make a [B]Hard ([DI][DI][DI]) Athletics check[b]. On success, other PCs may take their turns immediately.",
+    "Description": "Once per session, as a maneuver, may make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Athletics check[b]. On success, other PCs may take their turns immediately.",
     "Source": {
       "_Page": "35",
       "__text": "Forged in Battle"
@@ -3649,7 +3649,7 @@
   {
     "Key": "SUPHUMAN",
     "Name": "Superhuman Reflexes",
-    "Description": "Once per session, after generatin [DE] on a Piloting check cancel the [DE] and add [SU] equal to ranks in Cool.",
+    "Description": "Once per session, after generatin :despair:1279760580332355607 on a Piloting check cancel the :despair:1279760580332355607 and add :success:1279760614994087987 equal to ranks in Cool.",
     "Source": {
       "_Page": "31",
       "__text": "Endless Vigil"
@@ -3661,7 +3661,7 @@
   {
     "Key": "STRSMARTIMP",
     "Name": "Street Smarts (Improved)",
-    "Description": "Once per session, amy take an Improved Street Smarts action; make a [B]Formidible ([DI][DI][DI][DI][DI]) Streetwise[b] or [B]Knowledge (Underworld) check[b] toe learn one vital clue from the GM. Reduce the difficulty oncer per rank of Street Smarts.",
+    "Description": "Once per session, amy take an Improved Street Smarts action; make a [B]Formidible (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Streetwise[b] or [B]Knowledge (Underworld) check[b] toe learn one vital clue from the GM. Reduce the difficulty oncer per rank of Street Smarts.",
     "Source": {
       "_Page": "31",
       "__text": "Endless Vigil"
@@ -3672,7 +3672,7 @@
   {
     "Key": "SENSESCENE",
     "Name": "Sense the Scene",
-    "Description": "Perform the Sense the Scene action; make a [B]Hard ([DI][DI][DI]) Perception check[b] and add [FO] no greater than Force rating. If successful, spend [FP] to identify the emotional characteristics of one person involved in the crime.",
+    "Description": "Perform the Sense the Scene action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception check[b] and add :force:1279761086429659146 no greater than Force rating. If successful, spend :force:1279761086429659146 to identify the emotional characteristics of one person involved in the crime.",
     "Source": {
       "_Page": "31",
       "__text": "Endless Vigil"
@@ -3684,7 +3684,7 @@
   {
     "Key": "SABERTHROWIMP",
     "Name": "Saber Throw (Improved)",
-    "Description": "When performing the Saber Throw action, may increase the range to long range. When attacking a target at long range, spend [FP][FP] to have weapon return to hand.",
+    "Description": "When performing the Saber Throw action, may increase the range to long range. When attacking a target at long range, spend :force:1279761086429659146:force:1279761086429659146 to have weapon return to hand.",
     "Source": {
       "_Page": "31",
       "__text": "Endless Vigil"
@@ -3696,7 +3696,7 @@
   {
     "Key": "RECSCENE",
     "Name": "Reconstruct the Scene",
-    "Description": "Perform the Reconstruct the Scene action; make a [B]Hard ([DI][DI][DI]) Perception check[b] to identify the physical characteristics of person present at the scene within 24 hours.",
+    "Description": "Perform the Reconstruct the Scene action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception check[b] to identify the physical characteristics of person present at the scene within 24 hours.",
     "Source": {
       "_Page": "31",
       "__text": "Endless Vigil"
@@ -3708,7 +3708,7 @@
   {
     "Key": "IMPOSFALL",
     "Name": "Impossible Fall",
-    "Description": "Once per session, perform Impossible Fall incidental when falling: make Force power check and spend [FP][FP] to decrese fall by one range band and land somewhere safe. Spend [FP] to decrease distance by one additional range band.",
+    "Description": "Once per session, perform Impossible Fall incidental when falling: make Force power check and spend :force:1279761086429659146:force:1279761086429659146 to decrese fall by one range band and land somewhere safe. Spend :force:1279761086429659146 to decrease distance by one additional range band.",
     "Source": {
       "_Page": "31",
       "__text": "Endless Vigil"
@@ -3743,7 +3743,7 @@
   {
     "Key": "FEARSHAD",
     "Name": "Fear the Shadows",
-    "Description": "Perform the Fear the Shadows action: make a [B]Hard ([DI][DI][DI]) Deception check[b] to force a single minion group or rival to flee the encounter.",
+    "Description": "Perform the Fear the Shadows action: make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Deception check[b] to force a single minion group or rival to flee the encounter.",
     "Source": {
       "_Page": "30",
       "__text": "Endless Vigil"
@@ -3767,7 +3767,7 @@
   {
     "Key": "BETTERLUCK",
     "Name": "Better Luck Next Time",
-    "Description": "Take a Better Luck Next Tiem action; make a [B]Hard([DI][DI][DI]) Cool check[b] to force a competitor to suffer a major misfortune.",
+    "Description": "Take a Better Luck Next Tiem action; make a [B]Hard(:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Cool check[b] to force a competitor to suffer a major misfortune.",
     "Source": {
       "_Page": "30",
       "__text": "Endless Vigil"
@@ -3778,7 +3778,7 @@
   {
     "Key": "TERRKILL",
     "Name": "Terrifying Kill",
-    "Description": "The character may spend 1 Destiny Point to take the Terrifying Kill maneuver after incapacitating or inflicting a critical injury. Roll [FO] no greater than Force rating, and spend [FP] to inflict 1 strain on each person within short range of the target.",
+    "Description": "The character may spend 1 Destiny Point to take the Terrifying Kill maneuver after incapacitating or inflicting a critical injury. Roll :force:1279761086429659146 no greater than Force rating, and spend :force:1279761086429659146 to inflict 1 strain on each person within short range of the target.",
     "Source": {
       "_Page": "31",
       "__text": "Savage Spirits"
@@ -3813,7 +3813,7 @@
   {
     "Key": "SHORTCUTIMP",
     "Name": "Shortcut (Improved)",
-    "Description": "When engaging in a chase or race, may suffer 2 strain to add [SU] equal to ranks in Shortcut to the check.",
+    "Description": "When engaging in a chase or race, may suffer 2 strain to add :success:1279760614994087987 equal to ranks in Shortcut to the check.",
     "ActivationValue": "Active",
     "Source": [
       {
@@ -3878,7 +3878,7 @@
   {
     "Key": "MARKDEATH",
     "Name": "Marked for Death",
-    "Description": "Take the Marked for Death maneuver; commiting [FO]. Add [AD][AD] to combat checks against target while [FO] remains committed but cannot use this talent again until the original target is incapacitated or the session ends.",
+    "Description": "Take the Marked for Death maneuver; commiting :force:1279761086429659146. Add :advantage:1279760566587490314:advantage:1279760566587490314 to combat checks against target while :force:1279761086429659146 remains committed but cannot use this talent again until the original target is incapacitated or the session ends.",
     "Source": {
       "_Page": "30",
       "__text": "Savage Spirits"
@@ -3890,7 +3890,7 @@
   {
     "Key": "ESSENKILL",
     "Name": "Essential Kill",
-    "Description": "When making a non-Gunnery combat check, the character may add [FO] no greater than his Force rating to the check. The character may spend [FP] to add [AD] or [FP][FP][FP] to add [TR] (character's choice) to the result.",
+    "Description": "When making a non-Gunnery combat check, the character may add :force:1279761086429659146 no greater than his Force rating to the check. The character may spend :force:1279761086429659146 to add :advantage:1279760566587490314 or :force:1279761086429659146:force:1279761086429659146:force:1279761086429659146 to add :triumph-1:1279760921266360471 (character's choice) to the result.",
     "Source": {
       "_Page": "30",
       "__text": "Savage Spirits"
@@ -3950,7 +3950,7 @@
   {
     "Key": "PRECSTRSUP",
     "Name": "Precision Strike (Supreme)",
-    "Description": "When this character inflicts a Critical Injury with a Brawl wepaon, may suffer 1 strain to chang the result to any [B]Hard([DI][DI][DI])[b] Critical Injury.",
+    "Description": "When this character inflicts a Critical Injury with a Brawl wepaon, may suffer 1 strain to chang the result to any [B]Hard(:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210)[b] Critical Injury.",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
     "Source": {
@@ -3961,7 +3961,7 @@
   {
     "Key": "PRECSTRIMP",
     "Name": "Precision Strike (Improved)",
-    "Description": "Once per round, when inflicting a Critical Injury with a Brawl or Melee weapon, may suffer 2 strain to change the result to any [B]Average ([DI][DI])[b] Critical injury.",
+    "Description": "Once per round, when inflicting a Critical Injury with a Brawl or Melee weapon, may suffer 2 strain to change the result to any [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210)[b] Critical injury.",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
     "Source": {
@@ -4005,7 +4005,7 @@
   {
     "Key": "HARDBOILED",
     "Name": "Hard-Boiled",
-    "Description": "When recovering strain after an encounter, may spend [AD] up to ranks in Hard-Boiled to recover 1 wound per [AD] spent.",
+    "Description": "When recovering strain after an encounter, may spend :advantage:1279760566587490314 up to ranks in Hard-Boiled to recover 1 wound per :advantage:1279760566587490314 spent.",
     "Source": {
       "_Page": "34",
       "__text": "No Disintegrations"
@@ -4016,7 +4016,7 @@
   {
     "Key": "ANIMALBONDIMP",
     "Name": "Animal Bond (Improved)",
-    "Description": "When spending a maneuver to direct a bonded animal, the character may suffer 1 strain to add [BO] to the animals next check.",
+    "Description": "When spending a maneuver to direct a bonded animal, the character may suffer 1 strain to add :boost:1279760567694790707 to the animals next check.",
     "Source": {
       "_Page": "30",
       "__text": "Savage Spirits"
@@ -4027,7 +4027,7 @@
   {
     "Key": "FORCECONN",
     "Name": "Force Connection",
-    "Description": "When the character performs a Survival or Knowledgen(Xenology) skill check, he may roll [FO] no greater than his Force rating. The character may spend [FP] to add [SU] or [AD] (character's choice) to the result.",
+    "Description": "When the character performs a Survival or Knowledgen(Xenology) skill check, he may roll :force:1279761086429659146 no greater than his Force rating. The character may spend :force:1279761086429659146 to add :success:1279760614994087987 or :advantage:1279760566587490314 (character's choice) to the result.",
     "Source": {
       "_Page": "30",
       "__text": "Savage Spirits"
@@ -4062,7 +4062,7 @@
   {
     "Key": "HOLNAV",
     "Name": "Holistic Navigation",
-    "Description": "When making an Astrogation skill check, the character may spend one Destiny Point to remove [DE], or to remove [TH] equal to his ranks in Perception.",
+    "Description": "When making an Astrogation skill check, the character may spend one Destiny Point to remove :despair:1279760580332355607, or to remove :threat:1279760886906490960 equal to his ranks in Perception.",
     "Source": {
       "_Page": "30",
       "__text": "Savage Spirits"
@@ -4074,7 +4074,7 @@
   {
     "Key": "INTUITNAV",
     "Name": "Intuitive Navigation",
-    "Description": "When performing an Astrogation or Knowledge (Outer Rim) skill check, the character may roll [FO] no greater than his Force rating. The character may spend [FP] to ass [SU] or [AD] (character's choice) to the result.",
+    "Description": "When performing an Astrogation or Knowledge (Outer Rim) skill check, the character may roll :force:1279761086429659146 no greater than his Force rating. The character may spend :force:1279761086429659146 to ass :success:1279760614994087987 or :advantage:1279760566587490314 (character's choice) to the result.",
     "Source": {
       "_Page": "30",
       "__text": "Savage Spirits"
@@ -4139,7 +4139,7 @@
   {
     "Key": "MOUNTTRAINED",
     "Name": "Trained Mount",
-    "Description": "Add [BO] per rank to a rider's Survival checks while mounted on this mount.",
+    "Description": "Add :boost:1279760567694790707 per rank to a rider's Survival checks while mounted on this mount.",
     "Source": {
       "_Page": "83",
       "__text": "Stay on Target"
@@ -4227,7 +4227,7 @@
   {
     "Key": "SUNDERIMP",
     "Name": "Sunder (Improved)",
-    "Description": "Each [AD] spent to activate a weapon's Sunder quality damages an item two steps, instead of one.",
+    "Description": "Each :advantage:1279760566587490314 spent to activate a weapon's Sunder quality damages an item two steps, instead of one.",
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "30",
@@ -4237,7 +4237,7 @@
   {
     "Key": "SKILLEDTEACH",
     "Name": "Skilled Teacher",
-    "Description": "If an ally at short range has lower ranks in a skill than the character, the character may perform a Skilled Teacher incidental to suffer a number of strain no greater than ranks of Skilled Teacher, then add an equal number of [SU] to ally's next check.",
+    "Description": "If an ally at short range has lower ranks in a skill than the character, the character may perform a Skilled Teacher incidental to suffer a number of strain no greater than ranks of Skilled Teacher, then add an equal number of :success:1279760614994087987 to ally's next check.",
     "Ranked": "true",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
@@ -4249,7 +4249,7 @@
   {
     "Key": "SAVVYNEGIMP",
     "Name": "Savvy Negotiator (Improved)",
-    "Description": "Make a [B]Hard ([DI] [DI] [DI]) Negotiation check[b] to convince one bystander per rank of Savvy Negotiator to see one of an opponent's points as maliciously unreasonable.",
+    "Description": "Make a [B]Hard (:difficulty:1279760984621191210 :difficulty:1279760984621191210 :difficulty:1279760984621191210) Negotiation check[b] to convince one bystander per rank of Savvy Negotiator to see one of an opponent's points as maliciously unreasonable.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4307,7 +4307,7 @@
   {
     "Key": "EMPTYSOUL",
     "Name": "Empty Soul",
-    "Description": "If the character is carrying items that total 2 encumbrance or less add [LI] [DA] to Force power checks.",
+    "Description": "If the character is carrying items that total 2 encumbrance or less add :forcelight:1279761067660279822 :forcedark:1279760590604341272 to Force power checks.",
     "ActivationValue": "Passive",
     "ForceTalent": "true",
     "Source": {
@@ -4339,7 +4339,7 @@
   {
     "Key": "AGGRNEG",
     "Name": "Aggressive Negotiations",
-    "Description": "Once per session perform a [B]Hard ([DI] [DI] [DI]) Lightsaber check[b] to decrease the difficulty of all Negotiation checks for the rest of the encounter by 2.",
+    "Description": "Once per session perform a [B]Hard (:difficulty:1279760984621191210 :difficulty:1279760984621191210 :difficulty:1279760984621191210) Lightsaber check[b] to decrease the difficulty of all Negotiation checks for the rest of the encounter by 2.",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Action",
@@ -4365,7 +4365,7 @@
   {
     "Key": "COMBATPROG",
     "Name": "Combat Programming",
-    "Description": "Once per encounter make a [B]Hard ([DI][DI][DI]) Computers check[b] while repairing or working on a droid. For the remainder of the encounter, the droid gains 1 rank in two different combat skills.",
+    "Description": "Once per encounter make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Computers check[b] while repairing or working on a droid. For the remainder of the encounter, the droid gains 1 rank in two different combat skills.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4387,7 +4387,7 @@
   {
     "Key": "CREATDES",
     "Name": "Creative Design",
-    "Description": "As part of resolving a successful crafting check, the character may also apply a result equivalent to spending a number of [AD] equal to his ranks in Creative Design. The GM may then apply a result equivalent to spending that same number of [TH].",
+    "Description": "As part of resolving a successful crafting check, the character may also apply a result equivalent to spending a number of :advantage:1279760566587490314 equal to his ranks in Creative Design. The GM may then apply a result equivalent to spending that same number of :threat:1279760886906490960.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "Source": {
@@ -4398,7 +4398,7 @@
   {
     "Key": "DESPREP",
     "Name": "Desperate Repairs",
-    "Description": "Once per session may make a [B]Hard ([DI][DI][DI]) Mechanics check[b] on one engaged allied droid. If successful, the droid becomes immobilized and staggered for 1 round, then heals all strain and one Critical Injury with a severity rating no greater than [B]Hard ([DI][DI][DI])[b].",
+    "Description": "Once per session may make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b] on one engaged allied droid. If successful, the droid becomes immobilized and staggered for 1 round, then heals all strain and one Critical Injury with a severity rating no greater than [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210)[b].",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4409,7 +4409,7 @@
   {
     "Key": "DESFLAW",
     "Name": "Design Flaw",
-    "Description": "When making a combat check with a personal scale weapon against a droid, may add [AD] equal to ranks of Design Flaw.",
+    "Description": "When making a combat check with a personal scale weapon against a droid, may add :advantage:1279760566587490314 equal to ranks of Design Flaw.",
     "Ranked": "true",
     "ActivationValue": "Active",
     "Activation": "Incidental",
@@ -4421,7 +4421,7 @@
   {
     "Key": "DOCKEXP",
     "Name": "Dockyard Expertise",
-    "Description": "May make an [B]Average ([DI][DI]) Knowledge (Education) check[b] when at a space dock, if successful, the cost and time for repairs is reduced by 25% per rank of Dockyard Expertise.",
+    "Description": "May make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Education) check[b] when at a space dock, if successful, the cost and time for repairs is reduced by 25% per rank of Dockyard Expertise.",
     "Ranked": "true",
     "ActivationValue": "Active",
     "Activation": "Action",
@@ -4433,7 +4433,7 @@
   {
     "Key": "IMPDEF",
     "Name": "Improvised Defenses",
-    "Description": "May make an [B]Average ([DI][DI]) Survival check[b] to fashion small defenses. It providing cover for up to 4 characters for the rest of encounter.",
+    "Description": "May make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Survival check[b] to fashion small defenses. It providing cover for up to 4 characters for the rest of encounter.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4444,7 +4444,7 @@
   {
     "Key": "IMPPOS",
     "Name": "Improvised Position",
-    "Description": "The character may make a [B]Hard ([DI][DI][DI]) Mechanics check[b] to construct a secure position. This provides cover for the group and its vehicles.",
+    "Description": "The character may make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Mechanics check[b] to construct a secure position. This provides cover for the group and its vehicles.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4455,7 +4455,7 @@
   {
     "Key": "MASTDEMO",
     "Name": "Master Demolitionist",
-    "Description": "When resolving an attack from a personal explosive or ordnance weapon, may spend [AD] or [TR] to have the weapon's Blast quality act at short range, or medium if it already acts at short.",
+    "Description": "When resolving an attack from a personal explosive or ordnance weapon, may spend :advantage:1279760566587490314 or :triumph-1:1279760921266360471 to have the weapon's Blast quality act at short range, or medium if it already acts at short.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4466,7 +4466,7 @@
   {
     "Key": "PUSHSPEC",
     "Name": "Push the Specs",
-    "Description": "Perform the Push the Specs action when in a starship or vehicle, making an [B]Average ([DI][DI]) Knowledge (Education) check[b]. With success, the ship's top speed increases by 1 for a number of rounds equal to the characters Intellect.",
+    "Description": "Perform the Push the Specs action when in a starship or vehicle, making an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Education) check[b]. With success, the ship's top speed increases by 1 for a number of rounds equal to the characters Intellect.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4488,7 +4488,7 @@
   {
     "Key": "SMARTHAND",
     "Name": "Smart Handling",
-    "Description": "Once per session, take the Smart Handling action; making a [B]Hard ([DI][DI][DI]) Knowledge (Education) check[b]. Until the start of the next round the ship's handling increases by 2 plus an amount equal to [AD] scored on the check to a maximum handling of +4.",
+    "Description": "Once per session, take the Smart Handling action; making a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Education) check[b]. Until the start of the next round the ship's handling increases by 2 plus an amount equal to :advantage:1279760566587490314 scored on the check to a maximum handling of +4.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4499,7 +4499,7 @@
   {
     "Key": "WEAKFOUND",
     "Name": "Weak Foundation",
-    "Description": "Once per session may take the Weak Foundation action; make a [B]Hard ([DI][DI][DI]) Knowledge (Warfare) check[b], if successful, for the remainder of the encounter the character and all allies add automatic [AD][AD] or [SU] to all combat checks made targeting the identified fixed structure.",
+    "Description": "Once per session may take the Weak Foundation action; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Warfare) check[b], if successful, for the remainder of the encounter the character and all allies add automatic :advantage:1279760566587490314:advantage:1279760566587490314 or :success:1279760614994087987 to all combat checks made targeting the identified fixed structure.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -4534,7 +4534,7 @@
   {
     "Key": "FARSTRIKE",
     "Name": "Far Strike",
-    "Description": "As an action, make a Brawl check as a ranged attack, adding [FO] up to Force rating, increase the range of the attack by one band for each [FP] spent, to a maximum of long.",
+    "Description": "As an action, make a Brawl check as a ranged attack, adding :force:1279761086429659146 up to Force rating, increase the range of the attack by one band for each :force:1279761086429659146 spent, to a maximum of long.",
     "Source": {
       "_Page": "30",
       "__text": "Knights of Fate"
@@ -4559,7 +4559,7 @@
   {
     "Key": "INDWILL",
     "Name": "Indomitable Will",
-    "Description": "Once per encounter as a maneuver, suffer 3 strain to commit [FO] up to Force rating and reduce all damage suffered by an equal amount, but suffer 1 strain per turn.",
+    "Description": "Once per encounter as a maneuver, suffer 3 strain to commit :force:1279761086429659146 up to Force rating and reduce all damage suffered by an equal amount, but suffer 1 strain per turn.",
     "Source": {
       "_Page": "30",
       "__text": "Knights of Fate"
@@ -4612,7 +4612,7 @@
   {
     "Key": "SAPITHSUND",
     "Name": "Sapith Sundering",
-    "Description": "May add [FO] up to Force rating to Brawl checks; the attack gains the Sunder quality, and character may spend [FP] generated one the check as [AD] to activate the Sunder quality.",
+    "Description": "May add :force:1279761086429659146 up to Force rating to Brawl checks; the attack gains the Sunder quality, and character may spend :force:1279761086429659146 generated one the check as :advantage:1279760566587490314 to activate the Sunder quality.",
     "Source": {
       "_Page": "31",
       "__text": "Knights of Fate"
@@ -4665,7 +4665,7 @@
   {
     "Key": "BLOIMP",
     "Name": "Blooded (Improved)",
-    "Description": "As an action, make a [B]Hard ([DI][DI][DI]) Resilience check[b] to immediately recover from all poisons and side-effects of drugs. Reduce difficulty once per rank of Blooded.",
+    "Description": "As an action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Resilience check[b] to immediately recover from all poisons and side-effects of drugs. Reduce difficulty once per rank of Blooded.",
     "Source": {
       "_Page": "32",
       "__text": "Unlimited Power"
@@ -4677,7 +4677,7 @@
   {
     "Key": "CHANAG",
     "Name": "Channel Agony",
-    "Description": "After rolling [FO], may suffer wounds up to twice ranks in Channel Agony to add automatic [DA] for every two wounds suffered to the results.",
+    "Description": "After rolling :force:1279761086429659146, may suffer wounds up to twice ranks in Channel Agony to add automatic :forcedark:1279760590604341272 for every two wounds suffered to the results.",
     "Source": {
       "_Page": "32",
       "__text": "Unlimited Power"
@@ -4692,7 +4692,7 @@
   {
     "Key": "FONTPOW",
     "Name": "Font of Power",
-    "Description": "Once per session, may take the Font of Power action. Until the end of the encounter, characters within medium range add automatic [LI] or [DA] to checks based on alignment.",
+    "Description": "Once per session, may take the Font of Power action. Until the end of the encounter, characters within medium range add automatic :forcelight:1279761067660279822 or :forcedark:1279760590604341272 to checks based on alignment.",
     "Source": {
       "_Page": "32",
       "__text": "Unlimited Power"
@@ -4705,7 +4705,7 @@
   {
     "Key": "IMPCONC",
     "Name": "Improvised Concoction",
-    "Description": "Once per session, as an action, make a [B]Hard ([DI][DI][DI]) Knowledge (Xenology) check[b], adding [FO] no greater than Force rating to create 1 dose of a poison or drug with rarity of Intellect + [SU] + [FP] spent or lower.",
+    "Description": "Once per session, as an action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Xenology) check[b], adding :force:1279761086429659146 no greater than Force rating to create 1 dose of a poison or drug with rarity of Intellect + :success:1279760614994087987 + :force:1279761086429659146 spent or lower.",
     "Source": {
       "_Page": "32",
       "__text": "Unlimited Power"
@@ -4732,7 +4732,7 @@
   {
     "Key": "TRANSMOG",
     "Name": "Transmogrify",
-    "Description": "When making a crafting check, may add [FO] no greater than Force rating. Spend [FP] to add [SU] and spend [FP][FP] to add [AD] to check.",
+    "Description": "When making a crafting check, may add :force:1279761086429659146 no greater than Force rating. Spend :force:1279761086429659146 to add :success:1279760614994087987 and spend :force:1279761086429659146:force:1279761086429659146 to add :advantage:1279760566587490314 to check.",
     "Source": {
       "_Page": "33",
       "__text": "Unlimited Power"
@@ -4745,7 +4745,7 @@
   {
     "Key": "ALTDEAL",
     "Name": "Altered Deal",
-    "Description": "Once per session may take the Altered Deal action and make [B]Hard ([DI][DI][DI]) Coercion check[b] to radically change a previously made deal or bargain to the character's advantage.",
+    "Description": "Once per session may take the Altered Deal action and make [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Coercion check[b] to radically change a previously made deal or bargain to the character's advantage.",
     "Source": {
       "_Page": "111",
       "__text": "Dawn of Rebellion"
@@ -4757,7 +4757,7 @@
   {
     "Key": "COMBATVET",
     "Name": "Combat Veteran",
-    "Description": "The character adds [BO] to his Brawl and Discipline checks equal to his ranks in Combat Veteran.",
+    "Description": "The character adds :boost:1279760567694790707 to his Brawl and Discipline checks equal to his ranks in Combat Veteran.",
     "Source": {
       "_Page": "111",
       "__text": "Dawn of Rebellion"
@@ -4781,7 +4781,7 @@
   {
     "Key": "COMARMS",
     "Name": "Comrades in Arms",
-    "Description": "Once per encounter, take Comrades in Arms action and make a [B]Hard ([DI][DI][DI]) Discipline check[b]. If successful, the character plus one ally per [SU] within medium range gains +1 defense for the remainder of the encounter.",
+    "Description": "Once per encounter, take Comrades in Arms action and make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Discipline check[b]. If successful, the character plus one ally per :success:1279760614994087987 within medium range gains +1 defense for the remainder of the encounter.",
     "Source": {
       "_Page": "111",
       "__text": "Dawn of Rebellion"
@@ -4793,7 +4793,7 @@
   {
     "Key": "IMPCOMARMS",
     "Name": "Comrades in Arms (Improved)",
-    "Description": "Spend [AD][AD][AD] or [TR] from Comrades in Arms check to also gain +1 soak or give one affected ally +1 soak.",
+    "Description": "Spend :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 or :triumph-1:1279760921266360471 from Comrades in Arms check to also gain +1 soak or give one affected ally +1 soak.",
     "Source": {
       "_Page": "111",
       "__text": "Dawn of Rebellion"
@@ -4817,7 +4817,7 @@
   {
     "Key": "DISCSOUL",
     "Name": "Disciplined Soul",
-    "Description": "Spend one Destiny Point after making a Discipline check to spend a number of [TH] not exceeding ranks in Knowledge (Lore) as [AD].",
+    "Description": "Spend one Destiny Point after making a Discipline check to spend a number of :threat:1279760886906490960 not exceeding ranks in Knowledge (Lore) as :advantage:1279760566587490314.",
     "Source": {
       "_Page": "112",
       "__text": "Dawn of Rebellion"
@@ -4829,7 +4829,7 @@
   {
     "Key": "DISSTRIKE",
     "Name": "Disorienting Strike",
-    "Description": "After failing a Lightsaber combat check, may spend [AD][AD] or [TR] to disorient opponents for three rounds.",
+    "Description": "After failing a Lightsaber combat check, may spend :advantage:1279760566587490314:advantage:1279760566587490314 or :triumph-1:1279760921266360471 to disorient opponents for three rounds.",
     "Source": {
       "_Page": "112",
       "__text": "Dawn of Rebellion"
@@ -4840,7 +4840,7 @@
   {
     "Key": "DOUBLETALK",
     "Name": "Double-Talk",
-    "Description": "The character may spend [AD][AD] or [TR] from a successful Charm or Deception check to disorient a number of opponents within short range equal to his Presence for remainder of round and next two rounds.",
+    "Description": "The character may spend :advantage:1279760566587490314:advantage:1279760566587490314 or :triumph-1:1279760921266360471 from a successful Charm or Deception check to disorient a number of opponents within short range equal to his Presence for remainder of round and next two rounds.",
     "Source": {
       "_Page": "112",
       "__text": "Dawn of Rebellion"
@@ -4863,7 +4863,7 @@
   {
     "Key": "FEARREP",
     "Name": "Fearsome Rep",
-    "Description": "Add automatic [AD] to the results of Coercion checks equal to ranks in Fearsome Rep.",
+    "Description": "Add automatic :advantage:1279760566587490314 to the results of Coercion checks equal to ranks in Fearsome Rep.",
     "Source": {
       "_Page": "112",
       "__text": "Dawn of Rebellion"
@@ -4881,7 +4881,7 @@
   {
     "Key": "FORMTAC",
     "Name": "Formation Tactics",
-    "Description": "May take the Formation Tactics action by making a [B]Hard ([DI][DI][DI]) Leadership check[b]. If successful, he may choose a number of allies within short range equal to [SU] generated. Upgrade the difficulty of attacks against these allies once until the end of his next turn.",
+    "Description": "May take the Formation Tactics action by making a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check[b]. If successful, he may choose a number of allies within short range equal to :success:1279760614994087987 generated. Upgrade the difficulty of attacks against these allies once until the end of his next turn.",
     "Source": {
       "_Page": "112",
       "__text": "Dawn of Rebellion"
@@ -4893,7 +4893,7 @@
   {
     "Key": "IMPFORMTAC",
     "Name": "Formation Tactics (Improved)",
-    "Description": "The difficulty of Formation Tactics is reduced to [B]Average ([DI][DI])[b]. May spend [TR] or [AD][AD][AD][AD][AD][AD] to have effect last until the end of encounter.",
+    "Description": "The difficulty of Formation Tactics is reduced to [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210)[b]. May spend :triumph-1:1279760921266360471 or :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 to have effect last until the end of encounter.",
     "Source": {
       "_Page": "113",
       "__text": "Dawn of Rebellion"
@@ -4905,7 +4905,7 @@
   {
     "Key": "INSPLEAD",
     "Name": "Inspiring Leadership",
-    "Description": "Take the Inspiring Leadership action by making an [B]Average ([DI][DI]) Leadership check[b]. If successful, a number of allies not exceeding his rating in Presence within short range add automatic [SU] to their next skill check.",
+    "Description": "Take the Inspiring Leadership action by making an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check[b]. If successful, a number of allies not exceeding his rating in Presence within short range add automatic :success:1279760614994087987 to their next skill check.",
     "Source": {
       "_Page": "113",
       "__text": "Dawn of Rebellion"
@@ -4917,7 +4917,7 @@
   {
     "Key": "MOSTIMP",
     "Name": "Most Impressive",
-    "Description": "Spend [TR] from any skill check to allow a number of alies not exceeding the character's rating in Presence within short range to add automatic [AD] to their next check.",
+    "Description": "Spend :triumph-1:1279760921266360471 from any skill check to allow a number of alies not exceeding the character's rating in Presence within short range to add automatic :advantage:1279760566587490314 to their next check.",
     "Source": {
       "_Page": "113",
       "__text": "Dawn of Rebellion"
@@ -4929,7 +4929,7 @@
   {
     "Key": "PERSTARGET",
     "Name": "Persistent Targeting",
-    "Description": "After making one or more successful combat checks against a target, add [BO] to combat checks against that same target for the remainder of the encounter.",
+    "Description": "After making one or more successful combat checks against a target, add :boost:1279760567694790707 to combat checks against that same target for the remainder of the encounter.",
     "Source": {
       "_Page": "114",
       "__text": "Dawn of Rebellion"
@@ -4951,7 +4951,7 @@
   {
     "Key": "IMPPRIDEJOY",
     "Name": "Pride and Joy (Improved)",
-    "Description": "While inside his Pride and Joy vessel, recover 1 additional strain whenever recovering strain and spend [AD] on checks made to recover strain to allow an ally also within the vessel to recover one strain.",
+    "Description": "While inside his Pride and Joy vessel, recover 1 additional strain whenever recovering strain and spend :advantage:1279760566587490314 on checks made to recover strain to allow an ally also within the vessel to recover one strain.",
     "Source": {
       "_Page": "115",
       "__text": "Dawn of Rebellion"
@@ -4974,7 +4974,7 @@
   {
     "Key": "PUSHASIDE",
     "Name": "Push Aside",
-    "Description": "After making a successful Melee, Brawl, or Lightsaber combat check against an engaged foe, may force the foe to move to short range in a direction of the opponent's choosing. Spend [TR] to cause the opponent to fall prone after moving.",
+    "Description": "After making a successful Melee, Brawl, or Lightsaber combat check against an engaged foe, may force the foe to move to short range in a direction of the opponent's choosing. Spend :triumph-1:1279760921266360471 to cause the opponent to fall prone after moving.",
     "Source": {
       "_Page": "115",
       "__text": "Dawn of Rebellion"
@@ -4986,7 +4986,7 @@
   {
     "Key": "SEENTHINGS",
     "Name": "Seen A Lot of Things",
-    "Description": "Whenever the character fails a Knowledge check, he may spend [AD][AD][AD] to roll the check again during his next turn.",
+    "Description": "Whenever the character fails a Knowledge check, he may spend :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 to roll the check again during his next turn.",
     "Source": {
       "_Page": "115",
       "__text": "Dawn of Rebellion"
@@ -5008,7 +5008,7 @@
   {
     "Key": "TARGFIRE",
     "Name": "Targeted Firepower",
-    "Description": "Once per session may take Targeted Firepower action; identify one enemy target and make a [B]Hard ([DI][DI][DI]) Knowledge (Warfare) check[b]. If successful, for the rest of the encounter allies within short range of character add [AD] to attacks against target equal to [SU] gained in the check.",
+    "Description": "Once per session may take Targeted Firepower action; identify one enemy target and make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Warfare) check[b]. If successful, for the rest of the encounter allies within short range of character add :advantage:1279760566587490314 to attacks against target equal to :success:1279760614994087987 gained in the check.",
     "Source": {
       "_Page": "116",
       "__text": "Dawn of Rebellion"
@@ -5020,7 +5020,7 @@
   {
     "Key": "TRUSTNO",
     "Name": "Trust No One",
-    "Description": "When targeted by a social check, may choose to suffer one strain to add automatic [FA] to the check. If the check fails with [DE], the character may immediately perform a maneuver as an out-of-turn incidental.",
+    "Description": "When targeted by a social check, may choose to suffer one strain to add automatic :failure:1279760586783326319 to the check. If the check fails with :despair:1279760580332355607, the character may immediately perform a maneuver as an out-of-turn incidental.",
     "Source": {
       "_Page": "116",
       "__text": "Dawn of Rebellion"
@@ -5032,7 +5032,7 @@
   {
     "Key": "BYBOOK",
     "Name": "By the Book",
-    "Description": "Once per encounter before making a combat check, the character may suffer two strain to add [AD] to the results equal to his ranks in By the Book.",
+    "Description": "Once per encounter before making a combat check, the character may suffer two strain to add :advantage:1279760566587490314 to the results equal to his ranks in By the Book.",
     "Source": {
       "_Page": "111",
       "__text": "Dawn of Rebellion"
@@ -5062,7 +5062,7 @@
   {
     "Key": "SECRETJEDI",
     "Name": "Secrets of the Jedi",
-    "Description": "Lightsaber becomes a career skill. He may also decrease to difficulty of checks made to construct or repair lightsaber hilts a number of times equal to half his ranks in Knowledge (Lore) (rounded up), to a minimum of [B]Easy ([DI])[b].",
+    "Description": "Lightsaber becomes a career skill. He may also decrease to difficulty of checks made to construct or repair lightsaber hilts a number of times equal to half his ranks in Knowledge (Lore) (rounded up), to a minimum of [B]Easy (:difficulty:1279760984621191210)[b].",
     "Source": {
       "_Page": "115",
       "__text": "Dawn of Rebellion"
@@ -5078,7 +5078,7 @@
   {
     "Key": "KNOWROPES",
     "Name": "Knows the Ropes",
-    "Description": "Add [BO] to checks made to escape from restraints equal to ranks in Knowledge (Underworld). Spend [TR] to free all other allies withing short range.",
+    "Description": "Add :boost:1279760567694790707 to checks made to escape from restraints equal to ranks in Knowledge (Underworld). Spend :triumph-1:1279760921266360471 to free all other allies withing short range.",
     "Source": {
       "_Page": "113",
       "__text": "Dawn of Rebellion"
@@ -5100,7 +5100,7 @@
   {
     "Key": "ASFORCEWILLS",
     "Name": "As the Force Wills It",
-    "Description": "May make an [B]Easy ([DI]) Knowledge (Lore) check[b] to heal strain at the end of an encounter. [TR] can be spent to heal all strain.",
+    "Description": "May make an [B]Easy (:difficulty:1279760984621191210) Knowledge (Lore) check[b] to heal strain at the end of an encounter. :triumph-1:1279760921266360471 can be spent to heal all strain.",
     "Source": {
       "_Page": "111",
       "__text": "Dawn of Rebellion"
@@ -5129,7 +5129,7 @@
   {
     "Key": "PREPBOARD",
     "Name": "Prepare to be Boarded!",
-    "Description": "Once per encounter may take Prepare to be Boarded! action and make [B]opposed Coercion vs. Discipline check[b] against enemy ship captain. If successful, the enemy suffers 1 strain per uncancelled [SU] and surrenders ship if he exceeds strain threshold. May also spend [TR] or [AD][AD][AD][AD] to inflict strain equal to ranks in Coercion.",
+    "Description": "Once per encounter may take Prepare to be Boarded! action and make [B]opposed Coercion vs. Discipline check[b] against enemy ship captain. If successful, the enemy suffers 1 strain per uncancelled :success:1279760614994087987 and surrenders ship if he exceeds strain threshold. May also spend :triumph-1:1279760921266360471 or :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 to inflict strain equal to ranks in Coercion.",
     "Source": {
       "_Page": "115",
       "__text": "Dawn of Rebellion"
@@ -5152,7 +5152,7 @@
   {
     "Key": "BADCOP",
     "Name": "Bad Cop",
-    "Description": "May spend [AD][AD] from a Deception or Coercion check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Bad Cop.",
+    "Description": "May spend :advantage:1279760566587490314:advantage:1279760566587490314 from a Deception or Coercion check to upgrade ability of a single ally's subsequent Social Interaction check against the target a number of times equal to ranks in Bad Cop.",
     "Source": {
       "_Page": "32",
       "__text": "Far Horizons"
@@ -5176,7 +5176,7 @@
   {
     "Key": "ANALYZEDATA",
     "Name": "Analyze Data",
-    "Description": "Once per session after capturing enemy data, the character may perfom the Analyze Data action to make an [B]Average ([DI][DI]) Knowledge (Warfare) check[b]. Once during the remainder of session he may then add [SU] equal to ranks in Knowledge (Warfare) to one check related to that data.",
+    "Description": "Once per session after capturing enemy data, the character may perfom the Analyze Data action to make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Warfare) check[b]. Once during the remainder of session he may then add :success:1279760614994087987 equal to ranks in Knowledge (Warfare) to one check related to that data.",
     "Source": {
       "_Page": "30",
       "__text": "Cyphers and Masks"
@@ -5200,7 +5200,7 @@
   {
     "Key": "EXHAUSTQUEST",
     "Name": "Exhaustive Questioning",
-    "Description": "Whenever a character makes a successful social skill check against a captured enemy within short range, may reduce that enemy’s strain threshold by 2 for the remainder of the session and can spend [AD] to inflict 1 strain.",
+    "Description": "Whenever a character makes a successful social skill check against a captured enemy within short range, may reduce that enemy’s strain threshold by 2 for the remainder of the session and can spend :advantage:1279760566587490314 to inflict 1 strain.",
     "Source": {
       "_Page": "30",
       "__text": "Cyphers and Masks"
@@ -5234,7 +5234,7 @@
   {
     "Key": "LOSETHEM",
     "Name": "Lose Them",
-    "Description": "When being followed or chased, the character may perform the Lose Them action and make a [B]Hard ([DI][DI][DI]) Stealth check[b]. If successful, add [SE][SE] to checks to follow him for the remainder of the encounter and may spend [TR] to indicate his pursuers have lost him completely.",
+    "Description": "When being followed or chased, the character may perform the Lose Them action and make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Stealth check[b]. If successful, add [SE][SE] to checks to follow him for the remainder of the encounter and may spend :triumph-1:1279760921266360471 to indicate his pursuers have lost him completely.",
     "Source": {
       "_Page": "31",
       "__text": "Cyphers and Masks"
@@ -5246,7 +5246,7 @@
   {
     "Key": "MADEYOUTALK",
     "Name": "Made You Talk",
-    "Description": "Once per session, may make an opposed social skill check against a captured enemy character within short range and add [BO] for every 2 strain inflicted on the target that encounter. If successful, the PCs gain a bonus based on the enemy NPC type.",
+    "Description": "Once per session, may make an opposed social skill check against a captured enemy character within short range and add :boost:1279760567694790707 for every 2 strain inflicted on the target that encounter. If successful, the PCs gain a bonus based on the enemy NPC type.",
     "Source": {
       "_Page": "31",
       "__text": "Cyphers and Masks"
@@ -5294,7 +5294,7 @@
   {
     "Key": "TRANSERR",
     "Name": "Translation Error",
-    "Description": "Once per encounter, the character may remove [DE] from the results of a social skill check they make.",
+    "Description": "Once per encounter, the character may remove :despair:1279760580332355607 from the results of a social skill check they make.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5303,7 +5303,7 @@
   {
     "Key": "RAVAGE",
     "Name": "Ravage",
-    "Description": "Once per encounter, the character may suffer 3 strain to add [FO] up to their Force rating to a combat check targeting an engaged opponent.  The character may spend [FP] to add [SU] or [AD] to the check results.",
+    "Description": "Once per encounter, the character may suffer 3 strain to add :force:1279761086429659146 up to their Force rating to a combat check targeting an engaged opponent.  The character may spend :force:1279761086429659146 to add :success:1279760614994087987 or :advantage:1279760566587490314 to the check results.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5314,7 +5314,7 @@
   {
     "Key": "BEGLUCK",
     "Name": "Beginner's Luck",
-    "Description": "Once per session when the character makes a check, may add [SU] equal to the number of light side Destiny Points in the Destiny pool to the results.",
+    "Description": "Once per session when the character makes a check, may add :success:1279760614994087987 equal to the number of light side Destiny Points in the Destiny pool to the results.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Passive",
@@ -5323,7 +5323,7 @@
   {
     "Key": "SIDEBYSIDE",
     "Name": "Side by Side",
-    "Description": "While the character and one or more engaged allies are wielding lightsabers, add [TH] to all combat checks that target the character or those allies.",
+    "Description": "While the character and one or more engaged allies are wielding lightsabers, add :threat:1279760886906490960 to all combat checks that target the character or those allies.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Passive",
@@ -5350,7 +5350,7 @@
   {
     "Key": "CLANKILL",
     "Name": "Clanker Killer",
-    "Description": "Before rolling a combat check that targets a droid, remove [BO] up to the character's ranks in Clanker Killer from the pool and add an equal number of [SU] or [AD] to the results.",
+    "Description": "Before rolling a combat check that targets a droid, remove :boost:1279760567694790707 up to the character's ranks in Clanker Killer from the pool and add an equal number of :success:1279760614994087987 or :advantage:1279760566587490314 to the results.",
     "Source": "User Data",
     "Custom": "AddedItem",
     "Ranked": "true",
@@ -5369,7 +5369,7 @@
   {
     "Key": "SCRAPEM",
     "Name": "Scrap -Em!",
-    "Description": "On a successful attack, may suffer 2 strain and select allies up to ranks in Leadership, who add [BO] to attacks against the target until the character's next turn.",
+    "Description": "On a successful attack, may suffer 2 strain and select allies up to ranks in Leadership, who add :boost:1279760567694790707 to attacks against the target until the character's next turn.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5504,7 +5504,7 @@
   {
     "Key": "GETDROPCOTR",
     "Name": "Get the Drop",
-    "Description": "Once per session, the character and any number of allies in the encounter may add [SU] equal to the character's ranks in Stealth to their checks to determine initiative order.",
+    "Description": "Once per session, the character and any number of allies in the encounter may add :success:1279760614994087987 equal to the character's ranks in Stealth to their checks to determine initiative order.",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5513,7 +5513,7 @@
   {
     "Key": "INGLOYALCOTR",
     "Name": "Ingrained Loyalty",
-    "Description": "When the character makes a leadership check targeting one or more clones, the may change the result of one [CH] to any non-blank face.",
+    "Description": "When the character makes a leadership check targeting one or more clones, the may change the result of one :challenge:1279760574699278406 to any non-blank face.",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5566,7 +5566,7 @@
   {
     "Key": "KNOWNPCOTR",
     "Name": "Known Programming",
-    "Description": "Once per session, make a [B]Hard ([DI][DI][DI]) Vigilance check[b] to upgrade the difficulty of a certain droid model's checks against the character, plus one ally per [SU] after the first, once for the rest of the encounter.",
+    "Description": "Once per session, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Vigilance check[b] to upgrade the difficulty of a certain droid model's checks against the character, plus one ally per :success:1279760614994087987 after the first, once for the rest of the encounter.",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5601,7 +5601,7 @@
   {
     "Key": "STANDFCOTR",
     "Name": "Stand Firm",
-    "Description": "As an action, make a [B]Hard ([DI][DI][DI]) Leadership check[b]. Choose one ally per [SU], who increase their wound threshold by the character's Presence until the end of the encounter.",
+    "Description": "As an action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check[b]. Choose one ally per :success:1279760614994087987, who increase their wound threshold by the character's Presence until the end of the encounter.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5627,7 +5627,7 @@
   {
     "Key": "USERTALENT1",
     "Name": "Inspiring Kill",
-    "Description": "The character may spend 1 Destiny Point to take the Inspiring Kill maneuver after incapacitating or inflicting a Critical Injury.  Roll [FO] no greater than Force rating, and spend [FP] to heal 2 strain from each ally within medium range.",
+    "Description": "The character may spend 1 Destiny Point to take the Inspiring Kill maneuver after incapacitating or inflicting a Critical Injury.  Roll :force:1279761086429659146 no greater than Force rating, and spend :force:1279761086429659146 to heal 2 strain from each ally within medium range.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5649,7 +5649,7 @@
   {
     "Key": "EXEMPLARCOTR",
     "Name": "Exemplar of the Republic",
-    "Description": "Add [FO] to mass combat check up to Force rating and spend [FP] to add [SU] or [AD] to the results.",
+    "Description": "Add :force:1279761086429659146 to mass combat check up to Force rating and spend :force:1279761086429659146 to add :success:1279760614994087987 or :advantage:1279760566587490314 to the results.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5688,7 +5688,7 @@
   {
     "Key": "NOTRYCOTR",
     "Name": "There Is No Try",
-    "Description": "Once per session before an ally rolls the dice for a check, the character may spend 1 Destiny Point to allow the ally to automatically succeed at the check with one [SU] and no other results.",
+    "Description": "Once per session before an ally rolls the dice for a check, the character may spend 1 Destiny Point to allow the ally to automatically succeed at the check with one :success:1279760614994087987 and no other results.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5728,7 +5728,7 @@
   {
     "Key": "NOBFOOLICOTR",
     "Name": "Nobody's Fool (Improved)",
-    "Description": "May spend [DE] or [TH][TH] from an incoming Charm, Coercion, or Deception check to inflict strain on the opponent equal to the character's ranks in Nobody's Fool.",
+    "Description": "May spend :despair:1279760580332355607 or :threat:1279760886906490960:threat:1279760886906490960 from an incoming Charm, Coercion, or Deception check to inflict strain on the opponent equal to the character's ranks in Nobody's Fool.",
     "Source": "Rise of the Separatists",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5737,7 +5737,7 @@
   {
     "Key": "JETPACKECOTR",
     "Name": "Jetpack Expertise",
-    "Description": "The character may spend [AD] from their checks to remove 1 system strain from their jetpack. (They may choose this effect multiple times when spending [AD])",
+    "Description": "The character may spend :advantage:1279760566587490314 from their checks to remove 1 system strain from their jetpack. (They may choose this effect multiple times when spending :advantage:1279760566587490314)",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5746,7 +5746,7 @@
   {
     "Key": "DFACOTR",
     "Name": "Death From Above",
-    "Description": "Once per encounter, inflict 1 system strain on jetpack and make a [B]Hard ([DI][DI][DI]) Piloting check.[b] For each [SU], one adversary in short range is knocked prone.  May spend [TR] to stagger one affected target.",
+    "Description": "Once per encounter, inflict 1 system strain on jetpack and make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Piloting check.[b] For each :success:1279760614994087987, one adversary in short range is knocked prone.  May spend :triumph-1:1279760921266360471 to stagger one affected target.",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5763,7 +5763,7 @@
   {
     "Key": "SIDESICOTR",
     "Name": "Side Step (Improved)",
-    "Description": "When the character performs a Side Step maneuver, until the start of their next turn, they may spend [TH][TH][TH] or [DE] from an attacker's check to inflict one hit with a ranged weapon they are wielding.",
+    "Description": "When the character performs a Side Step maneuver, until the start of their next turn, they may spend :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 or :despair:1279760580332355607 from an attacker's check to inflict one hit with a ranged weapon they are wielding.",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5790,7 +5790,7 @@
   {
     "Key": "COVENCOTR",
     "Name": "Coven",
-    "Description": "May take the Coven maneuver. On the character's next Force power check, they may reroll one [FO] for each ally with Coven within short range.",
+    "Description": "May take the Coven maneuver. On the character's next Force power check, they may reroll one :force:1279761086429659146 for each ally with Coven within short range.",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5855,7 +5855,7 @@
   {
     "Key": "BLATHERCOTR",
     "Name": "Blather",
-    "Description": "Take the Blather action, making a [B]Hard ([DI][DI][DI]) Charm or Deception check[b]. If successful, one adversary per [SU] is Disoriented for rounds equal to the character's Presence.  The character may spend [TR] to Stagger one affected target.",
+    "Description": "Take the Blather action, making a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Charm or Deception check[b]. If successful, one adversary per :success:1279760614994087987 is Disoriented for rounds equal to the character's Presence.  The character may spend :triumph-1:1279760921266360471 to Stagger one affected target.",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5873,7 +5873,7 @@
   {
     "Key": "RESALLOCOTR",
     "Name": "Resource Allocation",
-    "Description": "At the beginning of a Mass Combat, make a [B]Hard ([DI][DI][DI]) Charm or Negotiation check[b] to increase their force's strength by one step for the duration of the encounter.  May spend [TR] from the check to upgrade the ability of their force's first Mass Combat check.",
+    "Description": "At the beginning of a Mass Combat, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Charm or Negotiation check[b] to increase their force's strength by one step for the duration of the encounter.  May spend :triumph-1:1279760921266360471 from the check to upgrade the ability of their force's first Mass Combat check.",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "ActivationValue": "Active",
@@ -5882,7 +5882,7 @@
   {
     "Key": "SAVVYCOTR",
     "Name": "Savvy",
-    "Description": "The character adds [BO] to Charm and Negotiation checks per rank of Savvy.",
+    "Description": "The character adds :boost:1279760567694790707 to Charm and Negotiation checks per rank of Savvy.",
     "Source": "Collapse of the Republic",
     "Custom": "AddedItem",
     "Ranked": "true",
@@ -5938,7 +5938,7 @@
   {
     "Key": "TRUSTCAP",
     "Name": "Trust the Captain",
-    "Description": "May take the Trust the Captain action by making a [B]Hard ([DI][DI][DI]) Leadership check[b]. If successful, for the rest of the encounter allies within short range increase their ranks in Discipline by an amount equal to ranks in Trust the Captain.",
+    "Description": "May take the Trust the Captain action by making a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check[b]. If successful, for the rest of the encounter allies within short range increase their ranks in Discipline by an amount equal to ranks in Trust the Captain.",
     "Source": {
       "_Page": "116",
       "__text": "Dawn of Rebellion"
@@ -5951,7 +5951,7 @@
   {
     "Key": "ADAPT",
     "Name": "Adaptable",
-    "Description": "When resolving a check that uses a skill in which they have no ranks, the character may spend one Destiny Point to remove [DE] or to remove [TH] equal to their ranks of cool.",
+    "Description": "When resolving a check that uses a skill in which they have no ranks, the character may spend one Destiny Point to remove :despair:1279760580332355607 or to remove :threat:1279760886906490960 equal to their ranks of cool.",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "Incidental",
@@ -5963,7 +5963,7 @@
   {
     "Key": "ALCARTS",
     "Name": "Alchemical Arts",
-    "Description": "After making a check to craft a potion or talisman, may suffer strain up to twice ranks in Alchemical Arts. For every two strain, add [LI] or [DA] to results.",
+    "Description": "After making a check to craft a potion or talisman, may suffer strain up to twice ranks in Alchemical Arts. For every two strain, add :forcelight:1279761067660279822 or :forcedark:1279760590604341272 to results.",
     "Ranked": "true",
     "ActivationValue": "Active",
     "ForceTalent": "true",
@@ -5997,7 +5997,7 @@
   {
     "Key": "BACKROOM",
     "Name": "Backroom Deal",
-    "Description": "Once per encounter, make a [B]Hard ([DI][DI][DI]) Negotiation check.[b] to reveal how previously unknown dealings have a meaningful impact on the current scene.",
+    "Description": "Once per encounter, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Negotiation check.[b] to reveal how previously unknown dealings have a meaningful impact on the current scene.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -6029,7 +6029,7 @@
   {
     "Key": "BARRELSUP",
     "Name": "Barrel Roll (Supreme)",
-    "Description": "When using Barrel Roll against certain weapons, may spend [DE] or [TH][TH][TH] to inflict one hit on an enemy vehicle within close range, dealing base damage of the original attack.",
+    "Description": "When using Barrel Roll against certain weapons, may spend :despair:1279760580332355607 or :threat:1279760886906490960:threat:1279760886906490960:threat:1279760886906490960 to inflict one hit on an enemy vehicle within close range, dealing base damage of the original attack.",
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "37",
@@ -6059,7 +6059,7 @@
   {
     "Key": "CONCOPT",
     "Name": "Consider our Options",
-    "Description": "Take the Consider Our Options action. make a [B]Hard ([DI][DI][DI]) Negotiation check.[b] Until the character's next turn, a character who attacks them first suffers 2 strain, plus 1 strain per [SU][SU] on the character's check.",
+    "Description": "Take the Consider Our Options action. make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Negotiation check.[b] Until the character's next turn, a character who attacks them first suffers 2 strain, plus 1 strain per :success:1279760614994087987:success:1279760614994087987 on the character's check.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -6081,7 +6081,7 @@
   {
     "Key": "EXCEEDSPEC",
     "Name": "Exceed Specifications",
-    "Description": "When making a check using an item, may add [BO]. The GM may spend [TH][TH] on the check to damage the item one step, or [DE] to damage it beyond usability.",
+    "Description": "When making a check using an item, may add :boost:1279760567694790707. The GM may spend :threat:1279760886906490960:threat:1279760886906490960 on the check to damage the item one step, or :despair:1279760580332355607 to damage it beyond usability.",
     "ActivationValue": "Active",
     "Activation": "Incidental",
     "Source": {
@@ -6102,7 +6102,7 @@
   {
     "Key": "EXCEEDSPECSUP",
     "Name": "Exceed Specifications (Supreme)",
-    "Description": "If a check beneffitting from Exceed Specifications generates [TR], may damage the item to roll additional [PR] and add it to the check results.  If the check generates [DE], add [CH] to the check results.",
+    "Description": "If a check beneffitting from Exceed Specifications generates :triumph-1:1279760921266360471, may damage the item to roll additional :proficiency:1279760961695256718 and add it to the check results.  If the check generates :despair:1279760580332355607, add :challenge:1279760574699278406 to the check results.",
     "ActivationValue": "Active",
     "Activation": "Incidental",
     "Source": {
@@ -6113,7 +6113,7 @@
   {
     "Key": "FIRESUP",
     "Name": "Fire Support",
-    "Description": "After the character makes a successful combat check using a vehicle weapon, the next ally to make a check adds [BO] equal to ranks in Fire Support.",
+    "Description": "After the character makes a successful combat check using a vehicle weapon, the next ally to make a check adds :boost:1279760567694790707 equal to ranks in Fire Support.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "Source": {
@@ -6124,7 +6124,7 @@
   {
     "Key": "FIREREADY",
     "Name": "Fire When Ready",
-    "Description": "As an action, make a [B]Hard ([DI][DI][DI]) Leadership check.[b] Choose a number of crew equal to Presence who downgrade the difficulty of their next Gunnery check once, plus once per additional [SU][SU].",
+    "Description": "As an action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check.[b] Choose a number of crew equal to Presence who downgrade the difficulty of their next Gunnery check once, plus once per additional :success:1279760614994087987:success:1279760614994087987.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -6135,7 +6135,7 @@
   {
     "Key": "FORREP",
     "Name": "For the Republic!",
-    "Description": "When an ally is incapacitated or killed, the character can make a [B]Daunting ([DI][DI][DI]) Leadership check.[b] If successful, the ally is not defeated until the end of the following round.",
+    "Description": "When an ally is incapacitated or killed, the character can make a [B]Daunting (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check.[b] If successful, the ally is not defeated until the end of the following round.",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
     "Source": {
@@ -6146,7 +6146,7 @@
   {
     "Key": "FIRSTBRO",
     "Name": "First Among Brothers",
-    "Description": "When the character makes a check that does not generate any [TH], the check gains [AD] equal to ranks in First Among Brothers.  The character may only spend these additional [AD] to affect allied clones.",
+    "Description": "When the character makes a check that does not generate any :threat:1279760886906490960, the check gains :advantage:1279760566587490314 equal to ranks in First Among Brothers.  The character may only spend these additional :advantage:1279760566587490314 to affect allied clones.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "Source": {
@@ -6168,7 +6168,7 @@
   {
     "Key": "HYPASSAULT",
     "Name": "Hyperspace Assault",
-    "Description": "The character may use Astrogation or Knowledge (Warfare) to determine initiative during an encounter in which they are piloting or commanding a starship and may spend [TR] from the check to choose the starting location of allies.",
+    "Description": "The character may use Astrogation or Knowledge (Warfare) to determine initiative during an encounter in which they are piloting or commanding a starship and may spend :triumph-1:1279760921266360471 from the check to choose the starting location of allies.",
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "39",
@@ -6178,7 +6178,7 @@
   {
     "Key": "IDING",
     "Name": "Identify Ingredients",
-    "Description": "After being exposed to a substance, as an out-of-turn incidental, may roll [FO] no greater than Force rating. Spend [FP][FP] to immediately identify its composition and effects.",
+    "Description": "After being exposed to a substance, as an out-of-turn incidental, may roll :force:1279761086429659146 no greater than Force rating. Spend :force:1279761086429659146:force:1279761086429659146 to immediately identify its composition and effects.",
     "ActivationValue": "Active",
     "ForceTalent": "true",
     "Activation": "OOT Incidental",
@@ -6190,7 +6190,7 @@
   {
     "Key": "INCITEDIST",
     "Name": "Incite Distraction",
-    "Description": "While in a crowd, may perform the Incite Distraction action to make an [B]Average ([DI][DI]) Deception check[b]. If successful, enemies treat the area as difficult terrain. The character may spend [TR] to make the location impassable terrain to them instead.",
+    "Description": "While in a crowd, may perform the Incite Distraction action to make an [B]Average (:difficulty:1279760984621191210:difficulty:1279760984621191210) Deception check[b]. If successful, enemies treat the area as difficult terrain. The character may spend :triumph-1:1279760921266360471 to make the location impassable terrain to them instead.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -6201,7 +6201,7 @@
   {
     "Key": "INSIDEKNOW",
     "Name": "Inside Knowledge",
-    "Description": "Once per session while in an enemy facility or vessel, may perform the Inside Knowledge action, make a [B]Hard ([DI][DI][DI]) Skulduggery check[b]. Character may then find a single personal scale item with a rarity no greater than Cunning plus 2 previously stashed here, or gain a narrative benefit.",
+    "Description": "Once per session while in an enemy facility or vessel, may perform the Inside Knowledge action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Skulduggery check[b]. Character may then find a single personal scale item with a rarity no greater than Cunning plus 2 previously stashed here, or gain a narrative benefit.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -6212,7 +6212,7 @@
   {
     "Key": "INSIDEPERSON",
     "Name": "Inside Person",
-    "Description": "Once per session the character may spend a Destiny Point to establish he has been undercover in an identified enemy base or large vehicle. For the remainder of the session, add automatic [AD][AD] to checks he or his allies make that are associated with that location.",
+    "Description": "Once per session the character may spend a Destiny Point to establish he has been undercover in an identified enemy base or large vehicle. For the remainder of the session, add automatic :advantage:1279760566587490314:advantage:1279760566587490314 to checks he or his allies make that are associated with that location.",
     "ActivationValue": "Active",
     "Activation": "Incidental",
     "Source": {
@@ -6223,7 +6223,7 @@
   {
     "Key": "KNOWWEAK",
     "Name": "Know Their Weakness",
-    "Description": "Once per session, may perform the Know Their Weakness action and choose one target within close range; make a [B]Hard ([DI][DI][DI]) Perception check[b] to downgrade the difficulty of social skill checks against target once per rank of Know Their Weakness until the end of the session.",
+    "Description": "Once per session, may perform the Know Their Weakness action and choose one target within close range; make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Perception check[b] to downgrade the difficulty of social skill checks against target once per rank of Know Their Weakness until the end of the session.",
     "Ranked": "true",
     "ActivationValue": "Active",
     "Activation": "Action",
@@ -6246,7 +6246,7 @@
   {
     "Key": "LEARNOPP",
     "Name": "Learning Opportunity",
-    "Description": "Once per round, the character may spend [AD][AD][AD] on a check they fail to upgrade the ability of their next check once.",
+    "Description": "Once per round, the character may spend :advantage:1279760566587490314:advantage:1279760566587490314:advantage:1279760566587490314 on a check they fail to upgrade the ability of their next check once.",
     "ActivationValue": "Active",
     "Activation": "Incidental",
     "Source": {
@@ -6280,7 +6280,7 @@
   {
     "Key": "MISSCRIT",
     "Name": "Mission Critical",
-    "Description": "Once per session after rolling a Piloting check, but before resolving it, the character may spend a Destiny Point to add [SU] or [AD] to the results equal to their ranks in that skill.",
+    "Description": "Once per session after rolling a Piloting check, but before resolving it, the character may spend a Destiny Point to add :success:1279760614994087987 or :advantage:1279760566587490314 to the results equal to their ranks in that skill.",
     "ActivationValue": "Active",
     "Activation": "Incidental",
     "Source": {
@@ -6291,7 +6291,7 @@
   {
     "Key": "ONORDER",
     "Name": "On My Order",
-    "Description": "As an action, make a [B]Hard ([DI][DI][DI]) Leadership check[b]. Choose a number of crew equal to Presence, who upgrade the ability of their next Gunnery check once plus once per additional [SU][SU].",
+    "Description": "As an action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Leadership check[b]. Choose a number of crew equal to Presence, who upgrade the ability of their next Gunnery check once plus once per additional :success:1279760614994087987:success:1279760614994087987.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -6302,7 +6302,7 @@
   {
     "Key": "OUTMAN",
     "Name": "Outmaneuver",
-    "Description": "As an action, make a [B]Hard ([DI][DI][DI]) Knowledge (Warfare) check. [b] Choose one ship or vehicle per [SU]. Until the end of the character's next turn, the chosen ships must perform one extra maneuver to move.",
+    "Description": "As an action, make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Knowledge (Warfare) check. [b] Choose one ship or vehicle per :success:1279760614994087987. Until the end of the character's next turn, the chosen ships must perform one extra maneuver to move.",
     "ActivationValue": "Active",
     "Activation": "Action",
     "Source": {
@@ -6325,7 +6325,7 @@
   {
     "Key": "OVERWAURA",
     "Name": "Overwhelming Aura",
-    "Description": "Commit [FO]. Add [AD] to social checks equal to [FO] committed. Add [TH] to equal [FO] commited to enemy social checks in short range.",
+    "Description": "Commit :force:1279761086429659146. Add :advantage:1279760566587490314 to social checks equal to :force:1279761086429659146 committed. Add :threat:1279760886906490960 to equal :force:1279761086429659146 commited to enemy social checks in short range.",
     "Ranked": "true",
     "ActivationValue": "Active",
     "ForceTalent": "true",
@@ -6338,7 +6338,7 @@
   {
     "Key": "OVERWAURAIMP",
     "Name": "Overwhelming Aura (Improved)",
-    "Description": "Characters affected by Overwhelming Aura add automatic [FA] to fear checks the character causes and automatic [SU] to fear checks not caused by the character.",
+    "Description": "Characters affected by Overwhelming Aura add automatic :failure:1279760586783326319 to fear checks the character causes and automatic :success:1279760614994087987 to fear checks not caused by the character.",
     "ActivationValue": "Passive",
     "ForceTalent": "true",
     "Conflict": "1",
@@ -6374,7 +6374,7 @@
   {
     "Key": "RESISTQUESTIMP",
     "Name": "Resist Questioning (Improved)",
-    "Description": "When one ally within short range is targeted by an opposed social skill check, the character may perform Resist Questioning to affect this check instead. If the check fails, may spend [DE] to indicate the ally provided false information to foe.",
+    "Description": "When one ally within short range is targeted by an opposed social skill check, the character may perform Resist Questioning to affect this check instead. If the check fails, may spend :despair:1279760580332355607 to indicate the ally provided false information to foe.",
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "31",
@@ -6384,7 +6384,7 @@
   {
     "Key": "RESISTQUEST",
     "Name": "Resist Questioning",
-    "Description": "When targeted by an opposed social skill check, the character may suffer 2 strain to perform the Resist Questioning out-of-turn incidental, adding [SE] to the check. If the check fails, may spend [DE] to indicate he has provided false information to foe.",
+    "Description": "When targeted by an opposed social skill check, the character may suffer 2 strain to perform the Resist Questioning out-of-turn incidental, adding [SE] to the check. If the check fails, may spend :despair:1279760580332355607 to indicate he has provided false information to foe.",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
     "Source": {
@@ -6406,7 +6406,7 @@
   {
     "Key": "SCRAPEMIMP",
     "Name": "Scrap 'Em! (Improved)",
-    "Description": "Scrap 'em! affects twice the number of allies, and allies add [BO][BO] to combat checks against the target.",
+    "Description": "Scrap 'em! affects twice the number of allies, and allies add :boost:1279760567694790707:boost:1279760567694790707 to combat checks against the target.",
     "ActivationValue": "Passive",
     "Source": {
       "_Page": "42",
@@ -6459,7 +6459,7 @@
   {
     "Key": "SINFLAT",
     "Name": "Sincerest Flattery",
-    "Description": "Once per encounter when the character makes a check using a skill that another character has previously used during the encounter, they add [BO][BO]",
+    "Description": "Once per encounter when the character makes a check using a skill that another character has previously used during the encounter, they add :boost:1279760567694790707:boost:1279760567694790707",
     "ActivationValue": "Active",
     "Activation": "Incidental",
     "Source": {
@@ -6492,7 +6492,7 @@
   {
     "Key": "TACTADVIMP",
     "Name": "Tactical Advance (Improved)",
-    "Description": "The character may spend [AD][AD] from any check they make or [TH][TH] from a combat check targeting them to perform the tactical advance incidental without suffering strain.",
+    "Description": "The character may spend :advantage:1279760566587490314:advantage:1279760566587490314 from any check they make or :threat:1279760886906490960:threat:1279760886906490960 from a combat check targeting them to perform the tactical advance incidental without suffering strain.",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
     "Source": {
@@ -6523,3 +6523,4 @@
     }
   }
 ]
+
