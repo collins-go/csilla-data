@@ -128,12 +128,12 @@
     "Description": "Add :boost:1279760567694790707 per rank of Command when making Leadership checks. Affected targets add :boost:1279760567694790707 to Discipline checks for next 24 hours.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": {
+    "DieModifiers": [
+      {
         "SkillKey": "LEAD",
         "BoostCount": "1"
       }
-    }
+    ]
   },
   {
     "Key": "CONF",
@@ -158,8 +158,7 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Convincing Demeanor from any Deception or Skulduggery checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "DECEP",
           "SetbackCount": "1"
@@ -169,7 +168,6 @@
           "SetbackCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "CRIPV",
@@ -373,12 +371,12 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Galaxy Mapper from Astrogation checks. Astrogation checks take half normal time.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": {
+    "DieModifiers": [
+      {
         "SkillKey": "ASTRO",
         "SetbackCount": "1"
       }
-    }
+    ]
   },
   {
     "Key": "GEARHD",
@@ -386,12 +384,12 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Gearhead from Mechanics checks. Half the credit cost to add mods to attachments.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": {
+    "DieModifiers": [
+      {
         "SkillKey": "MECH",
         "SetbackCount": "1"
       }
-    }
+    ]
   },
   {
     "Key": "GRIT",
@@ -544,8 +542,7 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Kill with Kindness from all Charm and Leadership checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "CHARM",
           "SetbackCount": "1"
@@ -555,7 +552,6 @@
           "SetbackCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "KNOCK",
@@ -771,8 +767,7 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Plausible Deniability from all Coercion and Deception checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "COERC",
           "SetbackCount": "1"
@@ -782,7 +777,6 @@
           "SetbackCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "POINTBL",
@@ -898,8 +892,7 @@
     "Description": "Add :boost:1279760567694790707 per rank of Stalker to all Stealth and Coordination checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "COORD",
           "BoostCount": "1"
@@ -909,7 +902,6 @@
           "BoostCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "TARGBL",
@@ -1021,12 +1013,12 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Researcher from all Knowledge checks. Reserching a subject takes half the time.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": {
+    "DieModifiers": [
+      {
         "SkillType": "Knowledge",
         "SetbackCount": "1"
       }
-    }
+    ]
   },
   {
     "Key": "STRGEN",
@@ -1040,8 +1032,7 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "SW",
           "SetbackCount": "1"
@@ -1051,7 +1042,6 @@
           "SetbackCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "SKILLJOCK",
@@ -1059,8 +1049,7 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "PILOTPL",
           "SetbackCount": "1"
@@ -1070,7 +1059,6 @@
           "SetbackCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "SHORTCUT",
@@ -1186,12 +1174,12 @@
     "Description": "Add :boost:1279760567694790707 per rank of Uncanny Senses to all Perception checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": {
+    "DieModifiers": [
+      {
         "SkillKey": "PERC",
         "BoostCount": "1"
       }
-    },
+    ],
     "ForceTalent": "true"
   },
   {
@@ -1200,12 +1188,12 @@
     "Description": "Add :boost:1279760567694790707 per rank of Uncanny Reactions to all Vigilance checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": {
+    "DieModifiers": [
+      {
         "SkillKey": "VIGIL",
         "BoostCount": "1"
       }
-    },
+    ],
     "ForceTalent": "true"
   },
   {
@@ -1220,8 +1208,7 @@
     "Name": "Sense Emotions",
     "Description": "Add :boost:1279760567694790707 to all Charm, Coercion, and Deception checks unless the target is immune to Force powers.",
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "CHARM",
           "BoostCount": "1"
@@ -1234,8 +1221,7 @@
           "SkillKey": "DECEP",
           "BoostCount": "1"
         }
-      ]
-    },
+      ],
     "ForceTalent": "true"
   },
   {
@@ -1565,8 +1551,7 @@
     },
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "COOL",
           "SetbackCount": "1"
@@ -1576,7 +1561,6 @@
           "SetbackCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "TIME2GO",
@@ -1875,8 +1859,7 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Commanding Presence from Leadership and Cool checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "COOL",
           "SetbackCount": "1"
@@ -1885,8 +1868,7 @@
           "SkillKey": "LEAD",
           "SetbackCount": "1"
         }
-      ]
-    },
+      ],
     "Source": {
       "_Page": "144",
       "__text": "Age of Rebellion Core Rulebook"
@@ -1995,8 +1977,7 @@
     },
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "ATHL",
           "BoostCount": "1"
@@ -2006,7 +1987,6 @@
           "BoostCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "UNSTOP",
@@ -2501,12 +2481,12 @@
     "Description": "Add :boost:1279760567694790707 to all Stealth checks unless the opposition is immune to Force powers.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": {
+    "DieModifiers": [
+      {
         "SkillKey": "STEAL",
         "BoostCount": "1"
       }
-    },
+    ],
     "ForceTalent": "true",
     "Source": {
       "_Page": "156",
@@ -2896,12 +2876,12 @@
       "__text": "Force and Destiny Core Rulebook"
     },
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": {
+    "DieModifiers": [
+      {
         "SkillKey": "LEAD",
         "ForceCount": "1"
       }
-    },
+    ],
     "ForceTalent": "true"
   },
   {
@@ -3072,8 +3052,7 @@
     },
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "PERC",
           "SetbackCount": "1"
@@ -3082,8 +3061,7 @@
           "SkillKey": "VIGIL",
           "SetbackCount": "1"
         }
-      ]
-    }
+      ],
   },
   {
     "Key": "FOREWARN",
@@ -3114,8 +3092,7 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Conditioned from Athletics and Coordination check. Reduce the damage and strain suffered from falling by 1 per rank of Conditioned.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "ATHL",
           "SetbackCount": "1"
@@ -3124,8 +3101,7 @@
           "SkillKey": "COORD",
           "SetbackCount": "1"
         }
-      ]
-    },
+    ],
     "Source": {
       "_Page": "141",
       "__text": "Force and Destiny Core Rulebook"
@@ -3191,8 +3167,7 @@
       "__text": "Force and Destiny Core Rulebook"
     },
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "RANGHVY",
           "ForceCount": "1"
@@ -3201,8 +3176,7 @@
           "SkillKey": "RANGLT",
           "ForceCount": "1"
         }
-      ]
-    },
+      ].
     "ForceTalent": "true"
   },
   {
@@ -4330,8 +4304,7 @@
         "UnarmedOnly": "true"
       }
     },
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "COORD",
           "SetbackCount": "1"
@@ -4341,7 +4314,6 @@
           "SetbackCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "UNARMPARRY",
@@ -4439,8 +4411,7 @@
       "__text": "Savage Spirits"
     },
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "SURV",
           "ForceCount": "1"
@@ -4449,8 +4420,7 @@
           "SkillKey": "XEN",
           "ForceCount": "1"
         }
-      ]
-    },
+      ],
     "ForceTalent": "true"
   },
   {
@@ -4486,8 +4456,7 @@
       "__text": "Savage Spirits"
     },
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "ASTRO",
           "ForceCount": "1"
@@ -4496,8 +4465,7 @@
           "SkillKey": "OUT",
           "ForceCount": "1"
         }
-      ]
-    },
+      ],
     "ForceTalent": "true"
   },
   {
@@ -4593,8 +4561,7 @@
     "Description": "Remove :setback:1279761015474753570 per rank of Savvy Negotiator from all Negotiation and Streetwise checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "NEG",
           "SetbackCount": "1"
@@ -4603,8 +4570,7 @@
           "SkillKey": "SW",
           "SetbackCount": "1"
         }
-      ]
-    },
+      ],
     "Source": {
       "_Page": "30",
       "__text": "Disciples of Harmony"
@@ -5155,8 +5121,7 @@
     },
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "BRAWL",
           "BoostCount": "1"
@@ -5166,7 +5131,6 @@
           "BoostCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "COMARMS",
@@ -5253,12 +5217,12 @@
     },
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": {
+    "DieModifiers": [
+      {
         "SkillKey": "COERC",
         "AdvantageCount": "1"
       }
-    }
+    ]
   },
   {
     "Key": "FORMTAC",
@@ -6345,8 +6309,7 @@
     },
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "CHARM",
           "BoostCount": "1"
@@ -6356,7 +6319,6 @@
           "BoostCount": "1"
         }
       ]
-    }
   },
   {
     "Key": "LEADFFFCOTR",
@@ -6725,8 +6687,7 @@
     "Description": "The character removes :setback:1279761015474753570 per rank of Leverage from their Cool and Negotiation checks.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "COOL",
           "SetbackCount": "1"
@@ -6735,8 +6696,7 @@
           "SkillKey": "NEG",
           "SetbackCount": "1"
         }
-      ]
-    },
+      ],
     "Source": {
       "_Page": "40",
       "__text": "Rise of the Separatists"
@@ -6884,8 +6844,7 @@
     "Description": "Remove :setback:1279761015474753570 per rank or Secret Lore from all Knowledge (Lore) checks. Reduce the difficulty of all Knowledge (Lore) checks by 1.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "DieModifiers": {
-      "DieModifier": [
+    "DieModifiers": [
         {
           "SkillKey": "LORE",
           "SetbackCount": "1"
@@ -6895,8 +6854,7 @@
           "SkillKey": "LORE",
           "DecreaseDifficultyCount": "1"
         }
-      ]
-    },
+      ],
     "Source": {
       "_Page": "33",
       "__text": "Unlimited Power"
