@@ -96,7 +96,7 @@
   {
     "Key": "BRA",
     "Name": "Brace",
-    "Description": "Perform the Brace maneuver to remove [SE] per rank of Brace from next Action. This may only remove [SE] added by environmental circumstances.",
+    "Description": "Perform the Brace maneuver to remove :setback:1279761015474753570 per rank of Brace from next Action. This may only remove :setback:1279761015474753570 added by environmental circumstances.",
     "Ranked": "true",
     "ActivationValue": "Active"
   },
@@ -109,14 +109,14 @@
   {
     "Key": "BYP",
     "Name": "Bypass Security",
-    "Description": "Remove [SE] per rank of Bypass Security from checks made to disable a security device or open a locked door.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Bypass Security from checks made to disable a security device or open a locked door.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
   {
     "Key": "COD",
     "Name": "Codebreaker",
-    "Description": "Remove [SE] per rank in Codebreaker from checks to break codes or decrypt communications. Decrease difficulty of checks to break codes or decrypt communications by 1.",
+    "Description": "Remove :setback:1279761015474753570 per rank in Codebreaker from checks to break codes or decrypt communications. Decrease difficulty of checks to break codes or decrypt communications by 1.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -164,7 +164,7 @@
   {
     "Key": "CONV",
     "Name": "Convincing Demeanor",
-    "Description": "Remove [SE] per rank of Convincing Demeanor from any Deception or Skulduggery checks.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Convincing Demeanor from any Deception or Skulduggery checks.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -244,7 +244,7 @@
   {
     "Key": "DEFSLI",
     "Name": "Defensive Slicing",
-    "Description": "When defending computer systems, add [SE] per rank of Defensive Slicing to opponent's checks.",
+    "Description": "When defending computer systems, add :setback:1279761015474753570 per rank of Defensive Slicing to opponent's checks.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -295,7 +295,7 @@
   {
     "Key": "EXTRACK",
     "Name": "Expert Tracker",
-    "Description": "Remove [SE] per rank of Expert Tracker from checks to find tracks or track targets. Decrease time to track a target by half.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Expert Tracker from checks to find tracks or track targets. Decrease time to track a target by half.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -355,7 +355,7 @@
   {
     "Key": "FORAG",
     "Name": "Forager",
-    "Description": "Remove up to [SE][SE] from skill checks to find food, water, or shelter. Survival checks to forage take half the time.",
+    "Description": "Remove up to :setback:1279761015474753570:setback:1279761015474753570 from skill checks to find food, water, or shelter. Survival checks to forage take half the time.",
     "ActivationValue": "Passive"
   },
   {
@@ -397,7 +397,7 @@
   {
     "Key": "GALMAP",
     "Name": "Galaxy Mapper",
-    "Description": "Remove [SE] per rank of Galaxy Mapper from Astrogation checks. Astrogation checks take half normal time.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Galaxy Mapper from Astrogation checks. Astrogation checks take half normal time.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -410,7 +410,7 @@
   {
     "Key": "GEARHD",
     "Name": "Gearhead",
-    "Description": "Remove [SE] per rank of Gearhead from Mechanics checks. Half the credit cost to add mods to attachments.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Gearhead from Mechanics checks. Half the credit cost to add mods to attachments.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -561,7 +561,7 @@
   {
     "Key": "INVENT",
     "Name": "Inventor",
-    "Description": "When constructing new items or modifying existing attachments, add :boost:1279760567694790707 or remove [SE] per rank of Inventor.",
+    "Description": "When constructing new items or modifying existing attachments, add :boost:1279760567694790707 or remove :setback:1279761015474753570 per rank of Inventor.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -582,7 +582,7 @@
   {
     "Key": "KILL",
     "Name": "Kill With Kindness",
-    "Description": "Remove [SE] per rank of Kill with Kindness from all Charm and Leadership checks.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Kill with Kindness from all Charm and Leadership checks.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -823,7 +823,7 @@
   {
     "Key": "OUTDOOR",
     "Name": "Outdoorsman",
-    "Description": "Remove [SE] per rank of Outdoorsman from checks to move through terrain or manage environmental effects. Decrease overland travel times by half.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Outdoorsman from checks to move through terrain or manage environmental effects. Decrease overland travel times by half.",
     "Ranked": "true",
     "ActivationValue": "Passive"
   },
@@ -838,7 +838,7 @@
   {
     "Key": "PLAUSDEN",
     "Name": "Plausible Deniability",
-    "Description": "Remove [SE] per rank of Plausible Deniability from all Coercion and Deception checks.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Plausible Deniability from all Coercion and Deception checks.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -1053,7 +1053,7 @@
   {
     "Key": "SCATHIMP",
     "Name": "Scathing Tirade (Improved)",
-    "Description": "Each enemy affected by Scathing Tirade suffers [SE] on all skill checks for a number of rounds equal to ranks in Coercion.",
+    "Description": "Each enemy affected by Scathing Tirade suffers :setback:1279761015474753570 on all skill checks for a number of rounds equal to ranks in Coercion.",
     "ActivationValue": "Passive"
   },
   {
@@ -1096,7 +1096,7 @@
   {
     "Key": "RESEARCH",
     "Name": "Researcher",
-    "Description": "Remove [SE] per rank of Researcher from all Knowledge checks. Reserching a subject takes half the time.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Researcher from all Knowledge checks. Reserching a subject takes half the time.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -1115,7 +1115,7 @@
   {
     "Key": "STRSMART",
     "Name": "Street Smarts",
-    "Description": "Remove [SE] per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Street Smarts from Streetwise or Knowledge (Underworld) checks.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -1134,7 +1134,7 @@
   {
     "Key": "SKILLJOCK",
     "Name": "Skilled Jockey",
-    "Description": "Remove [SE] per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -1244,7 +1244,7 @@
   {
     "Key": "UTINNI",
     "Name": "Utinni!",
-    "Description": "Remove [SE] per rank of Utinni! from checks to find or scavenge items or gear. Such checks take half the time.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Utinni! from checks to find or scavenge items or gear. Such checks take half the time.",
     "Source": "Edge of the Empire Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Passive"
@@ -1293,7 +1293,7 @@
   {
     "Key": "SENSDANG",
     "Name": "Sense Danger",
-    "Description": "Once per session, remove [SE][SE] from any 1 check.",
+    "Description": "Once per session, remove :setback:1279761015474753570:setback:1279761015474753570 from any 1 check.",
     "ActivationValue": "Active",
     "ForceTalent": "true"
   },
@@ -1580,7 +1580,7 @@
   {
     "Key": "STEADYNERVES",
     "Name": "Steady Nerves",
-    "Description": "Remove [SE] per rank of Steady Nerves from Cool or Skulduggery checks.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Steady Nerves from Cool or Skulduggery checks.",
     "Source": "Dangerous Covenants",
     "Ranked": "true",
     "ActivationValue": "Passive",
@@ -1781,7 +1781,7 @@
   {
     "Key": "CALLEM",
     "Name": "Call 'Em",
-    "Description": "Do not add [SE] to combat checks due to the use of the Aim maneuver.",
+    "Description": "Do not add :setback:1279761015474753570 to combat checks due to the use of the Aim maneuver.",
     "Source": "Fly Casual",
     "ActivationValue": "Passive"
   },
@@ -1816,7 +1816,7 @@
   {
     "Key": "COMMPRES",
     "Name": "Commanding Presence",
-    "Description": "Remove [SE] per rank of Commanding Presence from Leadership and Cool checks.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Commanding Presence from Leadership and Cool checks.",
     "Custom": "CustomItem",
     "Ranked": "true",
     "ActivationValue": "Passive",
@@ -2048,7 +2048,7 @@
   {
     "Key": "EXHANDLER",
     "Name": "Expert Handler",
-    "Description": "Remove [SE] per rank of Expert Handler from Survival checks made to ride beasts.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Expert Handler from Survival checks made to ride beasts.",
     "Source": "Stay on Target",
     "Ranked": "true",
     "ActivationValue": "Passive"
@@ -2725,7 +2725,7 @@
   {
     "Key": "SENSEADV",
     "Name": "Sense Advantage",
-    "Description": "Once per session, may add [SE][SE] to 1 NPC's skill check.",
+    "Description": "Once per session, may add :setback:1279761015474753570:setback:1279761015474753570 to 1 NPC's skill check.",
     "Source": "Force and Destiny Core Rulebook",
     "ActivationValue": "Active",
     "ForceTalent": "true"
@@ -2785,7 +2785,7 @@
   {
     "Key": "KEENEYED",
     "Name": "Keen Eyed",
-    "Description": "Remove [SE] per rank of Keen Eyed from Perception and Vigilance checks. Decrease time to search a specific area by half.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Keen Eyed from Perception and Vigilance checks. Decrease time to search a specific area by half.",
     "Source": "Force and Destiny Core Rulebook",
     "Ranked": "true",
     "ActivationValue": "Passive",
@@ -2822,7 +2822,7 @@
   {
     "Key": "CONDITIONED",
     "Name": "Conditioned",
-    "Description": "Remove [SE] per rank of Conditioned from Athletics and Coordination check. Reduce the damage and strain suffered from falling by 1 per rank of Conditioned.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Conditioned from Athletics and Coordination check. Reduce the damage and strain suffered from falling by 1 per rank of Conditioned.",
     "Custom": "CustomItem",
     "Ranked": "true",
     "ActivationValue": "Passive",
@@ -3433,7 +3433,7 @@
   {
     "Key": "DEFTMAKER",
     "Name": "Deft Maker",
-    "Description": "Remove [SE] per rank of Deft Maker from checks to repair, modify, construct, or program droids. Reduce the material cost to craft droids by 50%.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Deft Maker from checks to repair, modify, construct, or program droids. Reduce the material cost to craft droids by 50%.",
     "Source": {
       "_Page": "34",
       "__text": "Special Modifications"
@@ -3444,7 +3444,7 @@
   {
     "Key": "CYBERNETICIST",
     "Name": "Cyberneticist",
-    "Description": "Remove [SE] per rank of Cyberneticist from checks to build, repair, and install cybernetic implants . Cybernetics cost 50% less.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Cyberneticist from checks to build, repair, and install cybernetic implants . Cybernetics cost 50% less.",
     "Source": {
       "_Page": "34",
       "__text": "Special Modifications"
@@ -3500,7 +3500,7 @@
   {
     "Key": "READANY",
     "Name": "Ready for Anything",
-    "Description": "Remove [SE] per rank of Ready for Anything on Mass Combat checks and Cool or Vigiliance checks to determine Initiateve order.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Ready for Anything on Mass Combat checks and Cool or Vigiliance checks to determine Initiateve order.",
     "Source": {
       "_Page": "34",
       "__text": "Lead by Example"
@@ -3829,7 +3829,7 @@
   {
     "Key": "PLANMAP",
     "Name": "Planet Mapper",
-    "Description": "Remove [SE] per rank of Planet Mapper from Streetwise or Survival checks used for navigation on a world. Such checks also take half normal time.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Planet Mapper from Streetwise or Survival checks used for navigation on a world. Such checks also take half normal time.",
     "Source": {
       "_Page": "31",
       "__text": "Savage Spirits"
@@ -3867,7 +3867,7 @@
   {
     "Key": "MENACE",
     "Name": "Menace",
-    "Description": "Enemy within short range of the character's bonded animal adds [SE] to next Combat check made against the character.",
+    "Description": "Enemy within short range of the character's bonded animal adds :setback:1279761015474753570 to next Combat check made against the character.",
     "Source": {
       "_Page": "31",
       "__text": "Savage Spirits"
@@ -3911,7 +3911,7 @@
   {
     "Key": "IRONBODY",
     "Name": "Iron Body",
-    "Description": "Remove [SE] per rank of Iron Body from Coordination and Resilience checks. Reduce the critical rating of unarmed attacks by 1 per rank of Iron Body (to a minimum of 1).",
+    "Description": "Remove :setback:1279761015474753570 per rank of Iron Body from Coordination and Resilience checks. Reduce the critical rating of unarmed attacks by 1 per rank of Iron Body (to a minimum of 1).",
     "Source": {
       "_Page": "34",
       "__text": "No Disintegrations"
@@ -4182,7 +4182,7 @@
   {
     "Key": "SAVVYNEG",
     "Name": "Savvy Negotiator",
-    "Description": "Remove [SE] per rank of Savvy Negotiator from all Negotiation and Streetwise checks.",
+    "Description": "Remove :setback:1279761015474753570 per rank of Savvy Negotiator from all Negotiation and Streetwise checks.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -4376,7 +4376,7 @@
   {
     "Key": "CONSTSPEC",
     "Name": "Construction Specialist",
-    "Description": "Remove [SE] equal to ranks in Construction Specialist from checks to construct defenses, positions, fortifications, and similar projects.",
+    "Description": "Remove :setback:1279761015474753570 equal to ranks in Construction Specialist from checks to construct defenses, positions, fortifications, and similar projects.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "Source": {
@@ -5234,7 +5234,7 @@
   {
     "Key": "LOSETHEM",
     "Name": "Lose Them",
-    "Description": "When being followed or chased, the character may perform the Lose Them action and make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Stealth check[b]. If successful, add [SE][SE] to checks to follow him for the remainder of the encounter and may spend :triumph-1:1279760921266360471 to indicate his pursuers have lost him completely.",
+    "Description": "When being followed or chased, the character may perform the Lose Them action and make a [B]Hard (:difficulty:1279760984621191210:difficulty:1279760984621191210:difficulty:1279760984621191210) Stealth check[b]. If successful, add :setback:1279761015474753570:setback:1279761015474753570 to checks to follow him for the remainder of the encounter and may spend :triumph-1:1279760921266360471 to indicate his pursuers have lost him completely.",
     "Source": {
       "_Page": "31",
       "__text": "Cyphers and Masks"
@@ -6235,7 +6235,7 @@
   {
     "Key": "INKNOW",
     "Name": "In The Know",
-    "Description": "Remove [SE] up to ranks of In the Know from checks to get information from people or dissemenate news. Minion NPCs do not realize this character's allegiance in interviews.",
+    "Description": "Remove :setback:1279761015474753570 up to ranks of In the Know from checks to get information from people or dissemenate news. Minion NPCs do not realize this character's allegiance in interviews.",
     "Source": {
       "_Page": "33",
       "__text": "Desperate Allies"
@@ -6257,7 +6257,7 @@
   {
     "Key": "LEVER",
     "Name": "Leverage",
-    "Description": "The character removes [SE] per rank of Leverage from their Cool and Negotiation checks.",
+    "Description": "The character removes :setback:1279761015474753570 per rank of Leverage from their Cool and Negotiation checks.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
@@ -6384,7 +6384,7 @@
   {
     "Key": "RESISTQUEST",
     "Name": "Resist Questioning",
-    "Description": "When targeted by an opposed social skill check, the character may suffer 2 strain to perform the Resist Questioning out-of-turn incidental, adding [SE] to the check. If the check fails, may spend :despair:1279760580332355607 to indicate he has provided false information to foe.",
+    "Description": "When targeted by an opposed social skill check, the character may suffer 2 strain to perform the Resist Questioning out-of-turn incidental, adding :setback:1279761015474753570 to the check. If the check fails, may spend :despair:1279760580332355607 to indicate he has provided false information to foe.",
     "ActivationValue": "Active",
     "Activation": "OOT Incidental",
     "Source": {
@@ -6416,7 +6416,7 @@
   {
     "Key": "SECRETLORE",
     "Name": "Secret Lore",
-    "Description": "Remove [SE] per rank or Secret Lore from all Knowledge (Lore) checks. Reduce the difficulty of all Knowledge (Lore) checks by 1.",
+    "Description": "Remove :setback:1279761015474753570 per rank or Secret Lore from all Knowledge (Lore) checks. Reduce the difficulty of all Knowledge (Lore) checks by 1.",
     "Ranked": "true",
     "ActivationValue": "Passive",
     "DieModifiers": {
