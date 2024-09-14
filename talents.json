@@ -208,11 +208,7 @@
     "Description": "Gain +1 to a single characteristic. This cannot bring a characteristic above 6.",
     "Ranked": true,
     "ActivationValue": "Passive",
-    "CharacteristicChoices": {
-      "CharacteristicChoice": {
-        "Bonus": "1"
-      }
-    }
+    "CharacteristicChoices": "1"
   },
   {
     "Key": "DEFDRI",
