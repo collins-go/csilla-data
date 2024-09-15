@@ -1094,12 +1094,10 @@
       "TypeValue": "stGeneral",
       "SkillCount": "1",
       "SkillList": {
-        "Key": [
-          "CHARM",
-          "COERC",
-          "NEG",
-          "DECEP"
-        ]
+        "CHARM",
+        "COERC",
+        "NEG",
+        "DECEP"
       },
       "Type": "General"
     }
