@@ -190,14 +190,16 @@
   {
     "Key": "DEADACC",
     "Name": "Deadly Accuracy",
-    "Description": "When acquired, choose 1 combat skill. Add damage equal to ranks in that skill to one hit of successful attack made using that skill.",
+    "Description": "When acquired, choose 1 combat skill...",
     "Ranked": true,
     "ActivationValue": "Passive",
     "SkillChoice": {
+      "Type": "Combat",
+      "TypeValue": "",
       "SkillCount": "1",
+      "SkillList": [],
       "AddDamagePerSkillRank": "true",
-      "AddSkillsPerRank": "true",
-      "Type": "Combat"
+      "AddSkillsPerRank": "true"
     }
   },
   {
@@ -569,12 +571,16 @@
   {
     "Key": "KNOWSPEC",
     "Name": "Knowledge Specialization",
-    "Description": "When acquired, choose 1 Knowledge skill. When making that skill check, may spend :triumph-1:1279760921266360471 result to gain additional successes equal to ranks in Knowledge Specialization.",
+    "Description": "When acquired, choose 1 Knowledge skill...",
     "Ranked": true,
     "ActivationValue": "Passive",
     "SkillChoice": {
+     "Type": "Knowledge",
+      "TypeValue": "",
       "SkillCount": "1",
-      "Type": "Knowledge"
+      "SkillList": [],
+      "AddDamagePerSkillRank": "false",
+      "AddSkillsPerRank": "false"
     }
   },
   {
@@ -1087,20 +1093,17 @@
   {
     "Key": "SMOOTHTALK",
     "Name": "Smooth Talker",
-    "Description": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation. When making checks with that skill spend :triumph-1:1279760921266360471 to gain additional :success:1279760614994087987 equal to ranks in Smooth Talker.",
+    "Description": "When first acquired choose 1 skill; Charm, Coercion, Deception, or Negotiation...",
     "Ranked": true,
     "ActivationValue": "Active",
     "SkillChoice": {
+      "Type": "General",
       "TypeValue": "stGeneral",
       "SkillCount": "1",
-      "Type": "General",
-      "SkillList": [
-        "CHARM",
-        "COERC",
-        "NEG",
-        "DECEP"
-      ]
-    }
+      "SkillList": ["CHARM", "COERC", "NEG", "DECEP"],
+      "AddDamagePerSkillRank": "false",
+      "AddSkillsPerRank": "false"
+    } 
   },
   {
     "Key": "SIDESTEP",
