@@ -1093,14 +1093,13 @@
     "SkillChoice": {
       "TypeValue": "stGeneral",
       "SkillCount": "1",
+      "Type": "General",
       "SkillList": {
         "CHARM",
         "COERC",
         "NEG",
         "DECEP"
       }
-    },
-      "Type": "General"
     }
   },
   {
